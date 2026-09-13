@@ -1,0 +1,1367 @@
+meta:
+  corpus: SW5e Player's Handbook
+  source_pdf: H:/RPG/Game Systems/Star Wars 5e/SW5e - Player's Handbook.pdf
+  publisher: sw5e.com (fan, 5e SRD-based)
+  extracted_by: research/tools/extract_sw5e.py (pdftotext)
+  canon: mixed - see per-record canon field; droid classes I-V are the Legends droid classification (Droids
+    sourcebook, WEG 1988) and survive in Disney canon
+  extracted: 30
+species:
+- name: Bith
+  pdf_page: 17
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Intelligence score increases by 2, and your Dexterity score increases by 1.
+  - name: Age
+    text: Bith reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Biths' benevolent nature causes them to tend toward the light side, though there are exceptions.
+  - name: Size
+    text: Bith typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your
+      position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Detail Oriented
+    text: You are practiced at scouring for details. You have advantage on Intelligence (Investigation)
+      checks within 5 feet.
+  - name: Keen Hearing and Smell
+    text: You have advantage on Wisdom (Perception) checks that involve hearing or smell.
+  - name: Musician
+    text: You are proficient in one musical instrument of your choice.
+  - name: Programmer
+    text: Whenever you make an Intelligence (Technology) check related to computers, you are considered
+      to have expertise in the Technology skill.
+  - name: Sonic Sensitivity
+    text: Your powerful sense of hearing makes you especially vulnerable to deafening sounds. You have
+      disadvantage on saving throws against effects that would deal sonic damage (explained in chapter
+      9).
+  - name: Trance
+    text: You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally,
+      if your long rest would be interrupted, you only need to complete the long rest instead of restarting
+      it to gain its benefits.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic, Bith, and one more language of your choice.
+- name: Bothan
+  pdf_page: 19
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Intelligence score increases by 2, and your Dexterity score increases by 1.
+  - name: Age
+    text: Bothans reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Bothans' duplicitous nature causes them to tend toward the dark side, though there are exceptions.
+  - name: Size
+    text: Bothans stand 4-5 feet tall and weigh under 100 pounds. Regardless of your position in that
+      range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Naturally Stealthy
+    text: You can attempt to hide even when you are obscured only by a creature that is your size or larger
+      than you.
+  - name: Nimble Escape
+    text: 'You can take the Disengage or Hide action as a bonus action on each of your turns. While bothans
+      are suitable for many classes, they most iconically fit as operatives. The Nimble Escape special
+      trait heavily overlaps with the operative''s Cunning Action feature, however, making this species/class
+      combination counterintuitive. If, during the character creation part of your game, a player decides
+      to make a bothan operative, consider letting them use the following feature instead:'
+  - name: Versatile Expertise
+    text: You gain proficiency in one skill of your choice. You gain expertise in one skill of your choice
+      in which you are proficient.
+  - name: Shrewd
+    text: You are proficient in the Insight and Deception skills.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Bothese. Bothese had a great influence on
+      the forming of Galactic Basic; the two languages share many cognates. CATHAR VISUAL CHARACTERISTICS
+      Skin Color Gold to yellow-brown with dark stripes Hair Color Brown, black, or grey Eye Color Yellow
+      or brown Distinctions Lion-like features PHYSICAL CHARACTERISTICS Height 4'9" Weight 130 lb. +2d12"
+      x(2d4) lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Cathar Language Catharese BIOLOGY AND APPEARANCE
+      The Cathar have fur-covered bodies with thick manes as well as prominent, retractable claws that
+      can deliver powerful killing attacks on foes and prey. Their bodies also possess rapid healing abilities.
+      These traits make them the perfect hand-to-hand specialists. The Cathar species also has two subspecies,
+      known as the Juhani and the Myr Rho. Both of these are notably less catlike than mainline Cathar.
+      Cathar are born into a litter. The Cathar species is biologically similar to the Bothan species.
+      SOCIETY AND CULTURE On their homeworld, Cathar live in cities built into giant trees, and are organized
+      into clans governed by elders. Stories of their great heroes were often carved into the trunks of
+      these tree-homes for following generations to see. The Cathar mate for life, to the extent that
+      when one mate dies, the survivor never has a relationship with another. Cathar clan society includes
+      great pageants and celebrations, especially for their heroes. Their religion includes a ritual known
+      as the "Blood Hunt," in which Cathar warriors individually engaged in combat against entire nests
+      of Kiltik in order to gain honor and purge themselves of inner darkness. The native language of
+      the Cathar is Catharese, which included the emphasis of some spoken words with a growl. NAMES Cathar
+      names can sound both melodic and fairly gutteral, but they almost always sound strong and fierce.
+      Female names are typically longer than male names. Surnames are usually one syllable.
+  - name: Male Names
+    text: Crurbirr, Isyrr, Nynorr, Suro, Tukarr Female Names. Cuwin, Jyvohr, Mulahr, Solyri Surnames.
+      Jin, Ki, Mak, Rhir, Ta
+- name: Cathar
+  pdf_page: 20
+  canon: legends
+  traits:
+  - name: Ability Score Increase
+    text: Your Dexterity score increases by 2, and your Charisma score increases by 1.
+  - name: Age
+    text: Cathar reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Cathar tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Cathar range from 5 to 7 feet tall, and can weigh up to 300 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Cat's Claws
+    text: Your unarmed strikes deal 1d6 kinetic damage and have the finesse property.
+  - name: Darkvision
+    text: Your vision can easily cut through darkness. You can see in dim light within 60 feet of you
+      as if it were bright light, and in darkness as if it were dim light. You can't discern color in
+      darkness, only shades of gray.
+  - name: Leonine Agility
+    text: Your reflexes and agility allow you to move with a burst of speed. When you move on your turn
+      in combat, you can double your speed until the end of the turn. Once you use this trait, you can't
+      use it again until you move 0 feet on one of your turns.
+  - name: Silent Step
+    text: You have proficiency in the Stealth skill.
+  - name: Treeclimber
+    text: You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength
+      (Athletics) checks that involve climbing.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Catharese.
+- name: Cerean
+  pdf_page: 21
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Intelligence score increases by 2, and your Wisdom score increases by 1.
+  - name: Age
+    text: Cereans reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Cereans' altruistic nature causes them to tend toward the light side, though there are exceptions.
+  - name: Size
+    text: Cereans typically stand between 6 and 7 feet tall and weigh about 150 lbs. Regardless of your
+      position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Intuitive Initiative
+    text: You can choose to reroll Initiative checks, but you must use the new roll.
+  - name: Natural Instinct
+    text: You have proficiency with Nature or Perception (your choice).
+  - name: Prediction
+    text: You can embrace the Force and use your advanced insight to predict likely outcomes, allowing
+      you to turn failures into successes. When you roll a 1 on an attack roll, ability check, or saving
+      throw, you can reroll the die and must use the new roll.
+  - name: Second Heart
+    text: When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead.
+      You can't use this feature again until you finish a long rest.
+  - name: Trance
+    text: You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally,
+      if your long rest would be interrupted, you only need to complete the long rest instead of restarting
+      it to gain its benefits.
+  - name: Languages
+    text: 'You can speak, read, and write Galactic Basic and Cerean. Cerean is characterized by its gravelly
+      sounds. CHISS VISUAL CHARACTERISTICS Skin Color Blue or silver Hair Color Black, blue, or silver
+      Eye Color Red Distinctions Glowing red eyes, above-average night vision PHYSICAL CHARACTERISTICS
+      Height 4''11" Weight 110 lb. +2d10" x(2d4) lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Csilla Language
+      Cheunh BIOLOGY AND APPEARANCE The chiss are a near-human species distinguished by their blue skin
+      and glowing red eyes. Genetic analysis indicate that they are an offshoot of humanity, and it is
+      believed that moving underground led to a divergence between them and baseline Humans. Their blue
+      skin, jet black hair and red eyes generally command attention; these features make them physically
+      striking and instantly recognizable. SOCIETY AND CULTURE Chiss society is highly structured and
+      ordered with the rule of law being enforced by a group of four affiliations known as the Ruling
+      Families: the Csapla, Nuruodo, Inrokini and Sabosen. These are not biological family groupings but
+      instead different branches of their government. Every chiss claims affiliation to one of the four
+      families, as determined by both tradition and place of birth. The family names are more of a cultural
+      holdover; the bloodlines had grown so co-meddled that any chiss could claim affiliation to any of
+      the ruling families. In spite of the outward impression of calm and order that the chiss like to
+      project to outsiders, there were evidently tensions within the Families; political assassinations
+      are a real part of chiss political life for the Ruling Families. NAMES A chiss true-name has 3 parts,
+      each separated by an apostrophe. The first part is their family name, the second part is their root
+      name, and the third part is their occupation. Chiss rarely share their true-name with non-chiss,
+      and usually go by their root name. Male and female names do not significantly deviate.'
+  - name: Names
+    text: Crorcu'ecuk'unist, Dash'esoru'ishur, Jerd'ecer'lonii, Kisk'egauw'eqhi, Marag'aliphil'eduo, Pommo'icuote'nlerme,
+      Vornu'wuzi'lerdim
+- name: Chiss
+  pdf_page: 22
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Intelligence score increases by 2, and your Charisma score increases by 1.
+  - name: Age
+    text: Chiss reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Chiss' tactical and selfish nature cause them to tend toward lawful dark side, though there
+      are exceptions.
+  - name: Size
+    text: Chiss typically stand between 5 and 6 feet tall and weigh about 160 lbs. Regardless of your
+      position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Martial Proficiency
+    text: You have proficiency with light and medium armor as well as the blaster pistol, heavy pistol,
+      and sniper rifle.
+  - name: Politically Minded
+    text: You have proficiency in the Insight skill.
+  - name: Tech Resistance
+    text: Growing up around technology leaves an impact on chiss. You have advantage on Dexterity and
+      Intelligence saving throws against tech powers.
+  - name: Superior Darkvision
+    text: Your vision can easily cut through darkness. You can see in dim light within 120 feet of you
+      as if it were bright light, and in darkness as if it were dim light. You can't discern color in
+      darkness, only shades of gray.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic, Cheunh, and your choice of Minnisiat or Sy Bisti.
+      Cheunh is a complex language that is difficult for nonchiss to learn. Chiss take pride in this difficulty.
+      Communications with outsiders are conducted through local trade-languages like Minnisiat or Sy Bisti.
+- name: Devaronian
+  pdf_page: 23
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Constitution score increases by 2, and your Charisma score increases by 1.
+  - name: Age
+    text: Devaronians reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Devaronians' greediness causes them to tend toward chaotic balanced, though there are exceptions.
+  - name: Size
+    text: Devaronians typically stand between 5 and 6 feet tall and weigh about 160 lbs. Regardless of
+      your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Curiosity
+    text: You have proficiency with Survival or Investigation (your choice).
+  - name: Heat Adaptation
+    text: You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.
+  - name: Jungle Dweller
+    text: Growing up in the jungles of Devaron has left an impact. You don't treat jungle terrain as difficult
+      terrain.
+  - name: Silver Tongue
+    text: You have proficiency with Deception or Persuasion (your choice).
+  - name: Tech Resistance
+    text: Growing up around technology leaves an impact on devaronians. You have advantage on Dexterity
+      and Intelligence saving throws against tech powers.
+  - name: Two Livered
+    text: Devaronians have two livers, which makes them adept at filtering toxins. You have advantage
+      on saving throws against poison, and you have resistance against poison damage (explained in chapter
+      9).
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Devaronese. Devaronese is characterized by
+      grunts and grumbles. It is rare to hear a Devaronian speak it anywhere other than their homeworld
+      of Devaron. DROID, CLASS I VISUAL CHARACTERISTICS Color Scheme Typically metallic Distinctions Human-like
+      size, slow speed, specialized knowledge PHYSICAL CHARACTERISTICS Height 4'5 Weight 115 lb. +2d10"
+      x(2d4) lb. CREATION CHARACTERISTICS Manufacturer Cybot Galactica, Industrial Automaton Primary Language
+      Varies based on location PLAYERS AS DROIDS Work with your GM to determine if playing as a droid
+      is appropriate for your campaign. Droids are impervious to many effects and vulnerable to others.
+      If your GM approves this choice of species, Work with them to determine your droids designation,
+      name, and appearance. If you want to play a different type of droid, work with your GM to find suitable
+      traits to realize your character. APPEARANCE Class I droids are typically vaguely human-like in
+      both shape and size, standing at around 6 feet, although some are smaller. They are usually a polished
+      metallic color, though this can vary based on tasks for which they are created, their affiliation,
+      or quirks of their owner. UTILITY Class I droids are programmed for the mathematical, medical, or
+      physical sciences. Subcategories of the first degree are medical droids, biological science droids,
+      physical science droids, and mathematics droids. Medical droids, also known as meddroids, med droids,
+      medical units or surgical droids are a type of droid designed to heal living beings, and are the
+      most commonly found Class I droids. NAMES Droids are typically called by their designation, given
+      to them when they are created, or some affectation given to them by their owner. Often this affectation
+      is a play on their designation. Occasionally, noteworthy droids will earn monikers based on their
+      accomplishments. Designations (Names). 2MED2 (Toomedtoo), GH-7 (Geeaych-Seven), TX-20 (Tee-Ex Twenty)
+      CLASS I
+- name: Droid, Class I
+  pdf_page: 24
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Intelligence score increases by 2, and your Wisdom or Charisma score increases by 1.
+  - name: Age
+    text: Droids don't age, though they require maintenance to retain functionality.
+  - name: Alignment
+    text: Droids tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Class I droids stand between 5 and 6 feet tall and weigh about 170 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 25 feet.
+  - name: Type
+    text: Your creature type is droid.
+  - name: Armor Integration
+    text: You can not wear armor, but you can have the armor professionally integrated into your chassis
+      over the course of a long rest. This work must be done by someone proficient with astrotech's implements.
+      You must be proficient in armor in order to have it integrated.
+  - name: Droid Resistances
+    text: You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
+  - name: Droid Systems
+    text: You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus
+      to cast tech powers.
+  - name: Droid Vulnerabilities
+    text: You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against
+      effects that would deal ion or lightning damage.
+  - name: Force-Insensitive
+    text: While droids can be manipulated by many force powers, they can not sense the Force. You can
+      not use force powers or take levels in forcecasting classes.
+  - name: Knowledge Protocol
+    text: You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice.
+  - name: Maintenance Mode
+    text: Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest
+      to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally,
+      if your long rest would be interrupted, you only need to complete the long rest instead of restarting
+      it.
+  - name: Rapid Reconstruction
+    text: You are built with internal repair mechanisms. As a bonus action, you can choose to spend one
+      of your Hit Dice to recover hit points.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and one language of your choice. You can understand
+      spoken and written Binary, but you can not speak it.
+- name: Droid, Class Ii
+  pdf_page: 25
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Intelligence score increases by 2, and your Dexterity or Wisdom score increases by 1.
+  - name: Age
+    text: Droids don't age, though they require maintenance to retain functionality.
+  - name: Alignment
+    text: Droids tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Class II droids stand 2 to 4 feet tall and weigh about 70 lbs. Regardless of your position in
+      that range, your size is Small.
+  - name: Speed
+    text: Your base walking speed is 25 feet.
+  - name: Type
+    text: Your creature type is droid.
+  - name: Armor Integration
+    text: You can not wear armor, but you can have the armor professionally integrated into your chassis
+      over the course of a long rest. This work must be done by someone proficient with astrotech's implements.
+      You must be proficient in armor in order to have it integrated.
+  - name: Droid Resistances
+    text: You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
+  - name: Droid Systems
+    text: You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus
+      to cast tech powers.
+  - name: Droid Vulnerabilities
+    text: You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against
+      effects that would deal ion or lightning damage.
+  - name: Force-Insensitive
+    text: While droids can be manipulated by many force powers, they can not sense the Force. You can
+      not use force powers or take levels in forcecasting classes.
+  - name: Integrated Engineering
+    text: You have proficiency in one specialist's kit of your choice. The chosen kit is integrated into
+      your chassis, and can not be removed while you are conscious.
+  - name: Maintenance Mode
+    text: Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest
+      to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally,
+      if your long rest would be interrupted, you only need to complete the long rest instead of restarting
+      it.
+  - name: Rapid Reconstruction
+    text: You are built with internal repair mechanisms. As a bonus action, you can choose to spend one
+      of your Hit Dice to recover hit points.
+  - name: Skill Protocol
+    text: You have proficiency in two skills of your choice.
+  - name: Undersized
+    text: Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields.
+      Additionally, you can't use martial weapons with the two-handed property unless it also has the
+      light property, and if a martial weapon has the versatile property, you can only wield it in two
+      hands.
+  - name: Languages
+    text: You can speak, read, and write Binary. You can understand spoken and written Galactic Basic
+      and one language of your choice, but you can not speak them. DROID, CLASS III VISUAL CHARACTERISTICS
+      Color Scheme Typically metallic Distinctions Human-like size, shuffling gait, typically talkative
+      PHYSICAL CHARACTERISTICS Height 5'6" Weight 120 lb. +2d4" x(2d6) lb. CREATION CHARACTERISTICS Manufacturer
+      Cybot Galactica, Industrial Automaton Primary Language Varies based on location PLAYERS AS DROIDS
+      Work with your GM to determine if playing as a droid is appropriate for your campaign. Droids are
+      impervious to many effects and vulnerable to others. If your GM approves this choice of species,
+      Work with them to determine your droids designation, name, and appearance. If you want to play a
+      different type of droid, work with your GM to find suitable traits to realize your character. APPEARANCE
+      Class III droids are typically human-like in both shape and size, standing at around 6 feet. They
+      are usually a polished metallic color, though this can vary based on tasks for which they are created,
+      their affiliation, or quirks of their owner. They are noteworthy for their slow, shuffling gait
+      and typically overly talkative nature. UTILITY Class III droids are programmed to interact with
+      humans. They are said to be the most advanced droids ever invented. Protocol, servant, tutor, and
+      child care droids are all class III droids. They are usually equipped with protocol chips which
+      give them the cognitive functionality to engage socially. NAMES Droids are typically called by their
+      designation, given to them when they are created, or some affectation given to them by their owner.
+      Often this affectation is a play on their designation. Occasionally, noteworthy droids will earn
+      monikers based on their accomplishments. Designations (Names). K-OHN (Kone), I-5YQ (I-Five), O-MR1
+      (Omri), TC-14 (Teesee Fourteen)
+- name: Droid, Class Iii
+  pdf_page: 26
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1.
+  - name: Age
+    text: Droids don't age, though they require maintenance to retain functionality.
+  - name: Alignment
+    text: Droids tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Class III droids stand around the height of humans and weigh about 150 lbs. Regardless of your
+      position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 25 feet.
+  - name: Type
+    text: Your creature type is droid.
+  - name: Armor Integration
+    text: You can not wear armor, but you can have the armor professionally integrated into your chassis
+      over the course of a long rest. This work must be done by someone proficient with astrotech's implements.
+      You must be proficient in armor in order to have it integrated.
+  - name: Droid Resistances
+    text: You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
+  - name: Droid Systems
+    text: You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus
+      to cast tech powers.
+  - name: Droid Vulnerabilities
+    text: You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against
+      effects that would deal ion or lightning damage.
+  - name: Force-Insensitive
+    text: While droids can be manipulated by many force powers, they can not sense the Force. You can
+      not use force powers or take levels in forcecasting classes.
+  - name: Knowledge Protocol
+    text: You have proficiency in the Lore skill.
+  - name: Maintenance Mode
+    text: Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest
+      to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally,
+      if your long rest would be interrupted, you only need to complete the long rest instead of restarting
+      it.
+  - name: Rapid Reconstruction
+    text: You are built with internal repair mechanisms. As a bonus action, you can choose to spend one
+      of your Hit Dice to recover hit points.
+  - name: Languages
+    text: You can speak, read, and write all registered languages.
+- name: Droid, Class Iv
+  pdf_page: 27
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Constitution score increases by 2, and your Strength or Dexterity score increases by 1.
+  - name: Age
+    text: Droids don't age, though they require maintenance to retain functionality.
+  - name: Alignment
+    text: Droids tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Class IV droids typically stand between 5 and 7 feet and weigh about 150 lbs. Regardless of
+      your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Type
+    text: Your creature type is droid.
+  - name: Armor Integration
+    text: You can not wear armor, but you can have the armor professionally integrated into your chassis
+      over the course of a long rest. This work must be done by someone proficient with astrotech's implements.
+      You must be proficient in armor in order to have it integrated.
+  - name: Droid Resistances
+    text: You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
+  - name: Droid Systems
+    text: You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus
+      to cast tech powers.
+  - name: Droid Vulnerabilities
+    text: You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against
+      effects that would deal ion or lightning damage.
+  - name: Force-Insensitive
+    text: While droids can be manipulated by many force powers, they can not sense the Force. You can
+      not use force powers or take levels in forcecasting classes.
+  - name: Maintenance Mode
+    text: Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest
+      to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally,
+      if your long rest would be interrupted, you only need to complete the long rest instead of restarting
+      it.
+  - name: Martial Protocol
+    text: You have proficiency with light and medium armor as well as two simple or martial blasters or
+      vibroweapons of your choice.
+  - name: Rapid Reconstruction
+    text: You are built with internal repair mechanisms. As a bonus action, you can choose to spend one
+      of your Hit Dice to recover hit points.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and one language of your choice. You can understand
+      spoken and written Binary, but you can not speak it. DROID, CLASS V VISUAL CHARACTERISTICS Color
+      Scheme Typically metallic Distinctions Vaguely human-like size and shape, typically quiet PHYSICAL
+      CHARACTERISTICS Height 5'2" Weight 140 lb. +2d12" x(2d8) lb. CREATION CHARACTERISTICS Manufacturer
+      Cybot Galactica, Industrial Automaton Primary Language Binary PLAYERS AS DROIDS Work with your GM
+      to determine if playing as a droid is appropriate for your campaign. Droids are impervious to many
+      effects and vulnerable to others. If your GM approves this choice of species, Work with them to
+      determine your droids designation, name, and appearance. If you want to play a different type of
+      droid, work with your GM to find suitable traits to realize your character. APPEARANCE Class V droids
+      are typically vaguely human-like in both shape and size, standing at around 6 feet, although many
+      can be larger. They are usually a polished metallic color, though this can vary based on tasks for
+      which they are created, their affiliation, or quirks of their owner. They are noteworthy for their
+      simple programming and quiet, focused work habits. UTILITY Class V droids are programmed for menial
+      and low-skill tasks. Such droids tend to perform basic tasks such as construction, lifting, maintenance,
+      mining, sanitation, and transportation. Labor droids are fifth-degree droids. NAMES Droids are typically
+      called by their designation, given to them when they are created, or some affectation given to them
+      by their owner. Often this affectation is a play on their designation. Occasionally, noteworthy
+      droids will earn monikers based on their accomplishments. Designations (Names). CO-34 (See-Oh Three
+      Four), FX-9 (Effex), PK-4 (Pook), SAE-B13 (Sable) CLASS V
+- name: Droid, Class V
+  pdf_page: 28
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Strength score increases by 2, and your Dexterity or Constitution score increases by 1.
+  - name: Age
+    text: Droids don't age, though they require maintenance to retain functionality.
+  - name: Alignment
+    text: Droids tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Class V droids typically stand between 5 and 7 feet and weigh around 260 lbs. Regardless of
+      your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Type
+    text: Your creature type is droid.
+  - name: Armor Integration
+    text: You can not wear armor, but you can have the armor professionally integrated into your chassis
+      over the course of a long rest. This work must be done by someone proficient with astrotech's implements.
+      You must be proficient in armor in order to have it integrated.
+  - name: Droid Resistances
+    text: You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.
+  - name: Droid Systems
+    text: You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus
+      to cast tech powers.
+  - name: Droid Vulnerabilities
+    text: You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against
+      effects that would deal ion or lightning damage.
+  - name: Force-Insensitive
+    text: While droids can be manipulated by many force powers, they can not sense the Force. You can
+      not use force powers or take levels in forcecasting classes.
+  - name: Maintenance Mode
+    text: Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest
+      to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally,
+      if your long rest would be interrupted, you only need to complete the long rest instead of restarting
+      it.
+  - name: Manual Laborer
+    text: You have proficiency in Athletics and one set of artisan's implements of your choice.
+  - name: Powerful Build
+    text: Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already
+      double, it instead triples.
+  - name: Rapid Reconstruction
+    text: You are built with internal repair mechanisms. As a bonus action, you can choose to spend one
+      of your Hit Dice to recover hit points.
+  - name: Languages
+    text: You can speak, read, and write Binary. You can understand spoken and written Galactic Basic
+      and one language of your choice, but you can not speak it.
+- name: Duros
+  pdf_page: 29
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Dexterity score increases by 2, and your Intelligence score increases by 1.
+  - name: Age
+    text: Duros reach adulthood in their 20s and live an average of 150 years.
+  - name: Alignment
+    text: Duros tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Duros stand around 6 feet tall and weigh around 160 lbs. Regardless of your position in that
+      range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Darkvision
+    text: You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of
+      you as if it were bright light, and in darkness as if it were dim light. You can't discern color
+      in darkness, only shades of gray.
+  - name: Galactic Traveler
+    text: You have proficiency in the Piloting and Lore skills.
+  - name: Navigators
+    text: You have proficiency in surveyor's implements.
+  - name: Superior Memory
+    text: You can double your proficiency bonus for it when you make an Intelligence (Lore) check to recall
+      information you have learned, or to recall the details of your experiences.
+  - name: Tech Resistance
+    text: Growing up around technology leaves an impact on duros. You have advantage on Dexterity and
+      Intelligence saving throws against tech powers.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Durese. Durese is a common interstellar tongue
+      used by prominent spacers and traders. EWOK VISUAL CHARACTERISTICS Skin Color Brown Hair Color Shades
+      of white, brown, red, and black Eye Color Black Distinctions Furry, short stature, acute sense of
+      smell PHYSICAL CHARACTERISTICS Height 2'9" Weight 40 lb. +2d6" x1 lb. SOCIOCULTURAL CHARACTERISTICS
+      Homeworld Forest Moon of Endor Language Ewokese BIOLOGY AND APPEARANCE Ewoks are sentient humanoid
+      mammals, averaging about one meter in height, which can provide an advantage when trying to hide.
+      They are covered in fur from head to toe, with brown and black the most common colors. Other Ewoks
+      have near-white or reddish fur, but red fur is supposedly the rarest shade an Ewok can get. Most
+      Ewoks have solid-colored fur, though a few sport stripes. Ewoks have large, bright eyes, small humanoid
+      noses, and hands that possess two fingers and an opposable thumb. Despite their small size, Ewoks
+      are physically strong enough to overpower combat-trained Humans. Their appearance has been likened
+      to "little bears," though they are sometimes referred to as "mini Wookiees." SOCIETY AND CULTURE
+      Most Ewoks live high among the trees of the forest moon, in villages built between the closely spaced
+      trees. The basic design of a tree village has a "Central Village" of thatched-roof huts on the primary
+      limbs. These huts are high enough above the ground to be out of reach of predators. Suspended bridges
+      connect the gaps between trees, adjoining distant huts. Knotted rope ladders allow access up or
+      down. Ewoks enjoy singing and playing music during celebrations and rituals. They are resourceful
+      and tend to make use of everything they get their hands on; they use a variety of crude drums, horns,
+      flutes, and other instruments in their music. NAMES Ewok names are comprised of growled consonants.
+      Female names always end in a vowel. Surnames are clan-based.
+  - name: Male Names
+    text: Coostick, Erphek, Grarphil, Moodoo Female Names. Booshi, Chela, Fesasha, Lipe, Ypezzi Surnames.
+      Fedrimra, Jellyng, Moomrack, Trantelaa
+- name: Ewok
+  pdf_page: 30
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Dexterity score increases by 2, and your Constitution score increases by 1.
+  - name: Age
+    text: Ewoks reach adulthood in their early teens and live about 50 years.
+  - name: Alignment
+    text: Ewoks are inherently accepting, albeit naive, and tend toward the light side, though there are
+      exceptions.
+  - name: Size
+    text: Ewoks stand between 3 and 4 feet tall and weigh about 50 lbs. Regardless of your position in
+      that range, your size is Small.
+  - name: Speed
+    text: Your base walking speed is 25 feet.
+  - name: Crude Weapon Specialists
+    text: Ewoks are used to making do with less. You can spend 1 hour, which you can do over the course
+      of a short rest, crafting a weapon out of loose materials. You can craft any simple kinetic weapon,
+      but the weapon's damage suffers a -1 penalty.
+  - name: Keen Smell
+    text: You have advantage on Wisdom (Perception) checks that rely on smell.
+  - name: Mask of the Wild
+    text: You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling
+      snow, mist, and other natural phenomena.
+  - name: Musical Culture
+    text: Ewoks incorporate music in their celebrations and rituals. You have proficiency in an instrument
+      of your choice.
+  - name: Natural Survivalist
+    text: You have proficiency in Nature and Survival.
+  - name: Treeclimber
+    text: You have a climbing speed of 25 feet. You have advantage on Strength saving throws and Strength
+      (Athletics) checks that involve climbing.
+  - name: Undersized
+    text: Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields.
+      Additionally, you can't use martial weapons with the two-handed property unless it also has the
+      light property, and if a martial weapon has the versatile property, you can only wield it in two
+      hands.
+  - name: Languages
+    text: You can speak, read, and write Ewokese. You can understand spoken and written Galactic Basic,
+      but your vocal cords do not allow you to speak it.
+- name: Gamorrean
+  pdf_page: 31
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Strength score increases by 2, and your Constitution score increases by 1.
+  - name: Age
+    text: Gamorreans reach adulthood in their early teens and live no more than 70 years.
+  - name: Alignment
+    text: Gamorrean culture causes them to tend toward chaos, though there are exceptions.
+  - name: Size
+    text: Gamorreans typically stand between 5 and 6 feet tall and weigh up to 200 lbs. Regardless of
+      your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Gamorrean Toughness
+    text: Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. Additionally,
+      you have advantage on Constitution saving throws.
+  - name: Gamorrean Weaponry
+    text: You have proficiency with the vibroaxe, vibromace, and vibrosword.
+  - name: Savage Attacks
+    text: When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage
+      dice one additional time and add it to the extra damage of the critical hit.
+  - name: Languages
+    text: You can speak, read, and write Gamorrese. You can understand spoken and written Galactic Basic,
+      but your vocal cords do not allow you to speak it. Gamorrese is characterized by its grunts and
+      squeals, and its writing is a crude, pictographic style. GUNGAN VISUAL CHARACTERISTICS Skin Color
+      Blue, brown, or green Hair Color None Eye Color Light colors Distinctions Extendable tongues, long
+      ears, eye stalks, three toes, aquatic species PHYSICAL CHARACTERISTICS Height 5'5" Weight 115 lb.
+      +2d10" x(2d4) lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Naboo Language Gungan BIOLOGY AND APPEARANCE
+      Starting life as tadpoles, Gungans develop into tall beings with extremely flexible cartilaginous
+      skeletons. Strong leg muscles allow for powerful and quick frogkick style swimming through water
+      as well as a remarkable jumping ability while on land. Fin-like ears (called haillu) also aid them
+      in swimming, as well as expressing emotions like aggression, friendship, and fear. They have partially
+      retractable eyestalks with nictitating membranes when underwater. Green eyes are unusual amongst
+      Gungans. SOCIETY AND CULTURE Gungans are generally a generous and peaceful species. They truly love
+      to have visitors and warmly welcome them; however, they would remain suspicious until the visitors
+      have earned their respect. Gungans are not tolerant of anyone who threatens their peaceful culture.
+      They have very strict laws, and will go to the extremes to punish anyone who has committed a minor
+      crime. Vandals, for example, can be given a sentence of exile, caning, or even stoning. If a Gungan
+      is cast out of society, it is very difficult for them to return. If they do manage to return legally,
+      they are often subjected to heavy discrimination. This can make life very difficult for them and
+      can go on for months or years, until their past offenses disappear from memory. Returning back to
+      the settlement they were exiled from illegally will sometimes result in the death penalty, especially
+      if they brought along outsiders. NAMES Gungan names are often repeated syllables hyphenated.
+  - name: Male Names
+    text: Crinn-Crinn, Gic, Noc-Noc, Wal Female Names. Hew, Khi, La-La, Phro-Phro, Yuss Surnames. Baud,
+      Gos, Jalles, Mag, Wub
+- name: Gungan
+  pdf_page: 32
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Dexterity score increases by 2, and your Strength score increases by 1.
+  - name: Age
+    text: Gungans reach adulthood in their early teens and live about 70 years.
+  - name: Alignment
+    text: Gungans tend toward the light side, though there are exceptions.
+  - name: Size
+    text: Gungans typically stand 6 to 7 feet tall and weigh about 170 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Amphibious
+    text: You can breathe air and water.
+  - name: Darkvision
+    text: Accustomed to life underwater, you have superior vision in low light conditions. You can see
+      in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim
+      light. You can't discern color in darkness, only shades of gray.
+  - name: Flexible
+    text: You have advantage on Dexterity (Acrobatics) checks that involve flexibility.
+  - name: Heat Sensitivity
+    text: You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme
+      heat.
+  - name: Martial Proficiency
+    text: You have proficiency with light and medium armor as well as the vibrospear and vibropike.
+  - name: Strong-Legged
+    text: When you make a long jump, you can cover a number of feet up to twice your Strength score. When
+      you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength
+      modifier.
+  - name: Swim
+    text: You have a swimming speed of 30 feet.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Gungan. When speaking Galactic Basic, you
+      often have trouble with word tenses and infinitives; this usually has a comical effect.
+- name: Human
+  pdf_page: 33
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: One ability score of your choice increases by 2, and two other ability scores of your choice
+      increase by 1. Alternatively, four ability scores of your choice each increase by 1.
+  - name: Age
+    text: Humans reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Humans tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless
+      of your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Defiant
+    text: Humans are known to be stubborn and often refuse to give up, even against the worst odds. When
+      you or a creature you can see that can see and understand you makes an ability check, attack roll,
+      or saving throw, you can roll a d4 and add it to their roll (no action required). Once you've used
+      this feature, you must complete a short or long rest before you can use it again.
+  - name: Human Versatility
+    text: You gain proficiency in one skill, one tool, and one weapon of your choice.
+  - name: Languages
+    text: 'You can speak, read, and write Galactic Basic and one extra language of your choice. Humans
+      typically learn the languages of other peoples they deal with, including obscure dialects. They
+      are fond of sprinkling their speech with words borrowed from other tongues: trandoshan curses, twi''lek
+      musical expressions, chiss military phrases, and so on. ITHORIAN VISUAL CHARACTERISTICS Skin Color
+      Brown, dark red or green Hair Color Brown, gray, or white Eye Color Black or blue Distinctions Curved
+      neck, two mouths, aural flaps, locomotion tubes, throat sack PHYSICAL CHARACTERISTICS Height 5''9"
+      Weight 135 lb. +2d12" x(2d4) lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Ithor Language Ithorese
+      BIOLOGY AND APPEARANCE Ithorians have two mouths and four throats, allowing them to speak in stereo.
+      Female Ithorians have two humps on the back of their head, while males have only one. They have
+      glossy, usually brown flesh. Their reflexes and coordination are somewhat slower than that of average
+      humanoids. In addition to allowing them to speak their unique stereophonic language, the Ithorians''
+      four throats also have the ability to violently expel air, resulting in a deafening and potentially
+      concussive scream. Despite this fact, most Ithorians go their entire lives without ever resorting
+      to violence, and so the ability remained relatively ambiguous. SOCIETY AND CULTURE Ithorians worship
+      the "Mother Jungle," a spiritual entity embodying the lush, tropical ecology of their world, Ithor.
+      They are generally devoted environmentalists, staunch herbivores, and complete pacifists, devoting
+      much time to contemplating their ecology, studying plants and their uses and the overall respecting
+      of all living things. Most Ithorians never set foot on their own planet, instead living in floating
+      cities above their world called herdships. Only three of their continents have been explored and
+      harvested, the other two never having been touched by Ithorian hands. They demonstrate extreme belief
+      in the protection and sustaining of their environment as dictated by their "Law of Life." NAMES
+      Ithorian names are quite varied in length but most names are soft and melodic. They are often difficult
+      to prounounce by other species, so many Ithorians adopt nicknames.'
+  - name: Male Names
+    text: Del, Gizorthej, Pexxocl, Steorthibs Female Names. Binshe, Dhu'sha, Mul, Slosh, Vlo Surnames.
+      Afleehl, Crukid, Tondand, Wamunn
+- name: Ithorian
+  pdf_page: 34
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Charisma score increases by 2, and your Wisdom score increases by 1.
+  - name: Age
+    text: Ithorians reach adulthood in their late teens and live an average of 85 years.
+  - name: Alignment
+    text: Ithorians tend toward the light side, though there are exceptions.
+  - name: Size
+    text: Shorter Ithorians stand around 6 feet while taller reach over 7 and a half. Regardless of your
+      position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet. Call for Peace. As an action on your turn, you can emphatically
+      demand that your foes embrace peace, thereby distracting them. Until the end of your next turn,
+      enemies within 10 feet of you that can see you gain disadvantage on attack rolls against your allies.
+      Once you use this trait, you can't use it again until you finish a short or long rest.
+  - name: Hold Breath
+    text: Ithorians have a great lung capacity and can hold their breath for up to 15 minutes at a time.
+  - name: Law of Life
+    text: Ithorians have a sacred respect for the natural world, taking great care to preserve and study
+      it. You have proficiency in the Nature skill and the bioanalysis kit.
+  - name: Sonic Scream
+    text: As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in
+      the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your
+      Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage
+      on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th
+      level. This ability has no effect on constructs. You can use this feature a number of times equal
+      to your proficiency bonus. You regain all expended uses when you complete a long rest.
+  - name: Languages
+    text: You can speak, read, and write Ithorese. You can understand spoken and written Galactic Basic,
+      but your vocal cords do not allow you to speak it.
+- name: Jawa
+  pdf_page: 35
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Dexterity score increases by 2, and your Intelligence score increases by 1.
+  - name: Age
+    text: Jawas are considered adults when they make their first sale and live less than a century.
+  - name: Alignment
+    text: Jawas tendency to steal and swindle causes them to tend towards the dark side, though there
+      are exceptions.
+  - name: Size
+    text: Jawas stand around 3 to 4 feet tall and weigh about 40 lbs. Regardless of your position in that
+      range, your size is Small.
+  - name: Speed
+    text: Your base walking speed is 25 feet.
+  - name: Darkvision
+    text: You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of
+      you as if it were bright light, and in darkness as if it were dim light. You can't discern color
+      in darkness, only shades of gray. Grovel, Cower, and Beg. As an action on your turn, you can cower
+      pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage
+      on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait,
+      you can't use it again until you finish a short or long rest.
+  - name: Heat Adaptation
+    text: You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.
+  - name: Tech Dabbler
+    text: You know the ion blast at-will tech power. When you reach 3rd level, you learn and can cast
+      the repair droid tech power once per long rest. When you reach 5th level, you learn and can cast
+      the hold droid tech power once per long rest. Your techcasting ability is Intelligence. You do not
+      require use of a wristpad for these powers.
+  - name: Thieving
+    text: You have proficiency in the Sleight of Hand skill.
+  - name: Tinker
+    text: 'You have proficiency with tinker''s implements. You can use these and spend 1 hour and 100
+      cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action
+      to have your device cause one of the following effects: create a small explosion, create a repeating
+      loud noise for 1 minute, create smoke for 1 minute, cause a small electrical fire. You can maintain
+      a number of these devices up to your proficiency bonus at once, and a device stops functioning after
+      24 hours away from you. You can dismantle the device to reclaim the materials used to create it.'
+  - name: Undersized
+    text: Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields.
+      Additionally, you can't use martial weapons with the two-handed property unless it also has the
+      light property, and if a martial weapon has the versatile property, you can only wield it in two
+      hands.
+  - name: Languages
+    text: You can speak, read, and write Jawaese (and the Jawa Trade Language). You can understand spoken
+      and written Galactic Basic, but your vocal cords do not allow you to speak it. Jawaese blends quickly
+      spoken, semi-meaningless syllables with scents to be understood. To more easily bargain and trade
+      with other species, they rely on a simplified variant called the Jawa Trade language which removes
+      the use of scent. KEL DOR VISUAL CHARACTERISTICS Skin Color Orange, red Hair Color None Eye Color
+      Black, silver Distinctions Rebreathers to survive in oxygen environments PHYSICAL CHARACTERISTICS
+      Height 4'6" Weight 80 lb. +2d12" x(2d4) lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Dorin Language
+      Kel Dor BIOLOGY AND APPEARENCE Due to Dorin having a unique atmosphere composed of helium and a
+      gas unique to their world, the kel dors are forced to wear an antiox breath mask and protective
+      goggles whenever in atmospheres of a different composition. Without their protective goggles, kel
+      dors were considered effectively blind when away from Dorin. They were also able to survive in the
+      vacuum of space for a short time, though it was unknown exactly how long they could withstand it.
+      The kel dors also have heightened reflexes, a result of the extrasensory organs in their heads.
+      They are typically quick and wise. SOCIETY AND CULTURE Kel dors are noted for their simple approach
+      to justice, and they typically see moral issues in black and white. On the one hand, the kel dor
+      are noted for their hospitality; they would never turn away a stranger in need. Yet, kel dors are
+      not averse to taking the law into their own hands, and have no compunctions about putting to death
+      a thief who was merely stealing to feed himself. Kel dor Force-sensitives are often trained as Baran
+      Do Sages, who have an honored place in kel dor culture. They often serve as advisers to rich and
+      powerful kel dor families. Wars and disasters have been averted simply by the insight of a Baran
+      Do Sage. NAMES Kel dor names are base on sound generated by Dorin's unique atmosphere. Surnames
+      are based on ancient family trades.
+  - name: Male Names
+    text: Bil, I'zers, Nullo, Taciss, Zaln Female Names. Arri'ku, Bhi're, Chu, So'ro, Thirza Surnames.
+      Andugai, Borak, Haimnech, Vitchess
+- name: Kel Dor
+  pdf_page: 36
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Wisdom score increases by 2, and your Dexterity score increases by 1.
+  - name: Age
+    text: Kel dor reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Kel dors' structured nature causes them to tend toward lawful balanced, though there are exceptions.
+  - name: Size
+    text: Kel dor typically stand around 6 feet tall and weigh about 160 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Darkvision
+    text: Your natural evolution allows you to see what others do not in dim and dark conditions. You
+      can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it
+      were dim light. You can't discern color in darkness, only shades of gray.
+  - name: Foreign Biology
+    text: You cannot breathe oxygen. The kel dors have created a breathing apparatus to negate the negative
+      effects of living in an oxygen rich environment, but if your mask is removed while you are in such
+      an environment, you lose consciousness.
+  - name: Life in the Void
+    text: You have resistance to necrotic damage, and while exposed to the vacuum of space, you can survive
+      for a number of hours equal to your Constitution modifier (minimum 1 hour), instead of a number
+      of rounds.
+  - name: Telepathy
+    text: You can communicate telepathically with creatures within 30 feet of you. You must share a language
+      with the target in order to communicate in this way.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Kel Dor.
+- name: Mon Calamari
+  pdf_page: 37
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1.
+  - name: Age
+    text: Mon calamari reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Mon calamaris' love of the arts cause them to tend toward the light side, though there are exceptions.
+  - name: Size
+    text: Mon calamari stand between 5 and 6 feet tall and rarely weigh more than 150 lbs. Regardless
+      of your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Amphibious
+    text: You can breathe air and water.
+  - name: Darkvision
+    text: Accustomed to life underwater, you have superior vision in low light conditions. You can see
+      in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim
+      light. You can't discern color in darkness, only shades of gray.
+  - name: Mon Calamari Resistance
+    text: You have advantage on saving throws against effects that grant the slowed condition and you
+      have resistance against cold damage (explained in chapter 9).
+  - name: Musical
+    text: You have proficiency in one musical instrument of your choice.
+  - name: Swim
+    text: You have a swimming speed of 30 feet.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic, Mon Cal, and one language of your choice. NAUTOLAN
+      VISUAL CHARACTERISTICS Skin Color Blue, brown, green, purple, or grey Hair Color None Eye Color
+      Black, brown, or red Distinctions Extrasensory head tentacles capable of detecting chemicals PHYSICAL
+      CHARACTERISTICS Height 5'1" Weight 120 lb. +2d8" x(2d4) lb. SOCIOCULTURAL CHARACTERISTICS Homeworld
+      Glee Anselm Language Nautila BIOLOGY AND APPEARANCE Nautolans possess physiology common to amphibious
+      species, including low light vision and excellent swimming skills. Their bony endoskeleton and dense
+      cartilage make them tough and resistant to glancing blows. An egg-laying species, Nautolans emerge
+      from their egg as a tadpole that develops arms, legs, and head-tails during their second year of
+      life. Roughly the same size as a Human infant during this time, their limbs are weak and unable
+      to support their weight, forcing youthful Nautolans to remain in aquatic environments for much of
+      their childhood. SOCIETY AND CULTURE The society developed by the Nautolans on Glee Anselm is centralized
+      around local families and governments. The centralized government of Glee Anselm is comprised of
+      representatives from the Council of Elders that govern each settlement. Elders are elected on merit,
+      and can be made up of youthful politicians as well as the most aged members of the society. A culture
+      that promotes life-long mates, Nautolan families are characterized by their loyalty between spouses
+      and the equality of the sexes in the household. Arranged marriages are not uncommon. No cultural
+      affinity for the Force ever developed on Glee Anselm, though members of the Nautolan species recognize
+      its importance and respected those among them that were Forceful. NAMES Nautolan names are generally
+      short and melodic. Female names usually end in a vowel. Surnames are familial.
+  - name: Male Names
+    text: Brod, Knirkoc, Peng, Tikuwik, Zesufreat Female Names. Doli, Hahi, Thamlymyo, Usha, Zezu Surnames.
+      Iarre, Rirrall, Sompanong, Uzumdall
+- name: Nautolan
+  pdf_page: 38
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Dexterity score increases by 2, and your Wisdom score increases by 1.
+  - name: Age
+    text: Nautolans reach adulthood in their early teens and live about 70 years on average.
+  - name: Alignment
+    text: Nautolans' benevolence cause them to tend toward the light side, though there are exceptions.
+  - name: Size
+    text: Nautolans typically stand 5 to 6 feet tall and rarely weigh more than 160 lbs. Regardless of
+      your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Acute Smell
+    text: Whenever you make a Wisdom (Perception) check involving smell, you are considered to have expertise
+      in the Perception skill.
+  - name: Amphibious
+    text: You can breathe air and water.
+  - name: Darkvision
+    text: Accustomed to life underwater, you have superior vision in low light conditions. You can see
+      in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim
+      light. You can't discern color in darkness, only shades of gray.
+  - name: Hide
+    text: You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your
+      Dexterity modifier.
+  - name: Natural Empathy
+    text: Nautolan head tentacles are adept at determining moods. You have advantage on Wisdom (Insight)
+      checks to determine emotions against humanoids and beasts within 10 feet of you.
+  - name: Swim
+    text: You have a swimming speed of 30 feet.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Nautila. Nautila is unique in that it can
+      only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds.
+      In any other environment, the language loses a great amount of detail; that nautolans find this
+      annoying.
+- name: Rodian
+  pdf_page: 39
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Dexterity score increases by 2, and your Constitution score increases by 1.
+  - name: Age
+    text: Rodians reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Rodian culture's violent focus causes them to tend toward the dark side, though there are exceptions.
+  - name: Size
+    text: Rodians typically stand 5 to 6 feet tall and weigh 160 lbs. Regardless of your position in that
+      range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Adept Climbers
+    text: You have a climbing speed of 30 feet.
+  - name: Darkvision
+    text: Your vision can easily cut through darkness. You can see in dim light within 60 feet of you
+      as if it were bright light, and in darkness as if it were dim light. You can't discern color in
+      darkness, only shades of gray.
+  - name: Keen Hearing and Smell
+    text: You have advantage on Wisdom (Perception) checks that involve hearing or smell.
+  - name: Stalking Hunter
+    text: You have proficiency in the Survival and Stealth skills.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Rodese. Rodians can communicate with each
+      other using pheromones. Force-sensitives can detect this communication, though they can't understand
+      it. SITH PUREBLOOD VISUAL CHARACTERISTICS Skin Color Black or red Hair Color Black, brown, gray,
+      red, or white Eye Color Orange, red, or yellow Distinctions Tentacle facial appendages, often wear
+      jewelry or have tattoos, bone spurs PHYSICAL CHARACTERISTICS Height 4'8" Weight 110 lb. +2d10" x(2d4)
+      lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Korriban Language Sith BIOLOGY AND APPEARANCE Sith are
+      a proud and violent species of humanoids that evolved on Korriban, a planet within the Horuset system
+      in an isolated Outer Rim region called the Stygian Caldera. Sith have a larger than average number
+      of individuals with potential to use the Force in their species, so high in fact that the entire
+      species was considered strongly Force-sensitive. Sith purebloods are characterized by their expressive
+      facial appendages, bone spurs, cranial horns, and predatory gaze. SOCIETY AND CULTURE Sith culture
+      is a rigid and stratified caste-based society. For the sith, war and violence are just as much a
+      part of the natural order of life as peace or serenity. Though they are in an almost constant state
+      of war, their civilization is quite sophisticated; they see these acts not as cruel or barbaric,
+      but simply basic aspects of existence. Their constant warring led to a dwindling of the population
+      on their original homeworld of Korriban as well as cultivated an intensely xenophobic society. NAMES
+      Sith pureblood names are not conventional. They are often named for virtues in the Sith tongue.
+      Sith rarely share surnames, since they do not value family ties. When a sith pureblood achieves
+      a success or victory, they often change their name to match their perceived newfound status. Since
+      Force-sensitivity is common in sith purebloods, and their culture is built around strength, most
+      sith are called simply "My Lord," or some other epithet, by their underlings.
+  - name: Male Names
+    text: Aqorzum, Khashai, Sihmot, Wirjol Female Names. Aqurwia, Cliriu, Nupax, Ubhesosiuth
+- name: Sith Pureblood
+  pdf_page: 40
+  canon: legends
+  traits:
+  - name: Ability Score Increase
+    text: Your Charisma score increases by 2, and your Strength or Dexterity score increases by 1.
+  - name: Age
+    text: Sith reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: The cruelty of the Sith causes them to tend toward chaotic dark side, though there are exceptions.
+  - name: Size
+    text: Sith generally stand between 5 and 6 feet tall and weigh less than 200 lbs. Regardless of your
+      position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Darkvision
+    text: Your vision can easily cut through darkness. You can see in dim light within 60 feet of you
+      as if it were bright light, and in darkness as if it were dim light. You can't discern color in
+      darkness, only shades of gray.
+  - name: Force-Sensitive
+    text: You know the denounce at-will force power. When you reach 3rd level, you learn and can cast
+      the curse force power once per long rest. When you reach 5th level, you learn and can cast the bestow
+      curse force power once per long rest. Your forcecasting ability is Charisma for these powers.
+  - name: Keen Senses
+    text: You have proficiency in the Perception skill.
+  - name: Menacing
+    text: You have proficiency in the Intimidation skill.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Sith. Sith is an agglutinative language, in
+      which words or even phrases were made up of linears sequences of distinct meaningful units.
+- name: Togruta
+  pdf_page: 41
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Wisdom score increases by 2, and your Strength or Dexterity score increases by 1.
+  - name: Age
+    text: Togruta reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Togruta culture focuses on unity which causes them to tend toward the light side, though there
+      are exceptions.
+  - name: Size
+    text: Togruta typically stand between 5 and 6 feet tall and weigh 150 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Mask of the Wild
+    text: You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling
+      snow, mist, and other natural phenomena.
+  - name: Montral Reception
+    text: You have tremorsense out to 30 feet. You can detect and pinpoint the origin of vibrations within
+      a specific radius, provided that you and the source of the vibrations are in contact with the same
+      ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures.
+  - name: Wild Hunters
+    text: You have proficiency in the Survival skill.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Togruti. Togruti is an ornate language characterized
+      by trills and long vowel sounds which are modified by subtle tremors in the togruta's head-tails.
+      This language is heavily influenced by Basic, but also incorporates some native idioms, which cause
+      Basicspeaking togruta to use seemingly strange expressions. TRANDOSHAN VISUAL CHARACTERISTICS Skin
+      Color Green, yellow, brown, orange, red Hair Color None Eye Color Yellow, orange Distinctions Reptilian,
+      scaly skin, regenerative properties PHYSICAL CHARACTERISTICS Height 5'5" Weight 130 lb. +2d12" x(2d6)
+      lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Trandosha Language Dosh BIOLOGY AND APPEARANCE Trandoshans
+      are a large, bipedal sentient species, with scaly skin which was shed roughly once every standard
+      year and was thought to be very durable. Cold-blooded reptiles, trandoshans had two super-sensitive
+      varied color eyes with horizontal black pupils, which could see far into the infrared range. Each
+      of their four limbs ends in three razor sharp claws. These are perfect for combat, but did not grant
+      them manual dexterity, making a trandoshan's finger movements somewhat clumsy and awkward. SOCIETY
+      AND CULTURE Trandoshans worship their goddess, the Scorekeeper, whom they would appease through
+      acts which increased their Jagannath points. This is done by living a lifestyle which was, by non-trandoshan
+      standards, overtly aggressive, leading many trandoshans to become bounty hunters, mercenaries, or
+      slavers. Trandoshans especially prize wookiee pelts, which consequently play a large part in earning
+      Jagannath points-capturing the pelts of particularly infamous wookiees would give the hunter a large
+      increase in Jagganath points. To be shamed or captured during a hunt would zero one's Jagganath
+      points-effectively making their life forfeit in the eyes of the Scorekeeper. They could, however,
+      win all those points back by killing the one who zeroed their score. NAMES Trandoshan names are
+      quite harsh and contain a lot of elongated sounds, as well as a lot of s's. Differences between
+      male and female names are often very subtle, but there is a higher chance for female names to contain
+      softer sounds.
+  - name: Male Names
+    text: Bossk, Tshyrrng, Varrsk, Wuikkekss Female Names. Aksa, Idwiks, Kluks, Mezuus, Shokss Surnames.
+      Dallosss, Druc, Groqisch, Hsac, Nausdot
+- name: Trandoshan
+  pdf_page: 42
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Strength score increases by 2, and your Wisdom score increases by 1.
+  - name: Age
+    text: Trandoshans reach adulthood in their early teens and rarely live to be older than 70.
+  - name: Alignment
+    text: Trandoshans tend toward the dark side, though there are exceptions.
+  - name: Size
+    text: Trandoshans stand as tall as 7 and a half feet and can weigh over 300 lbs. Regardless of your
+      position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Claws
+    text: Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your
+      unarmed strikes deal 1d4 kinetic damage.
+  - name: Darkvision
+    text: Your vision can easily cut through darkness. You can see in dim light within 60 feet of you
+      as if it were bright light, and in darkness as if it were dim light. You can't discern color in
+      darkness, only shades of gray.
+  - name: Hide
+    text: You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your
+      Dexterity modifier.
+  - name: Regenerative
+    text: When you take damage, you can use your reaction and expend a Hit Die to regain hit points as
+      long as the damage would not reduce your hit points to 0.
+  - name: Saving Face
+    text: Trandoshans are careful not to show weakness in front of their allies, for fear of losing status.
+      If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus
+      to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5).
+      Once you use this trait, you can't use it again until you finish a short or long rest.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Dosh. Dosh is characterized by its harsh grunts,
+      hisses and growls, and its written form that used alphabetic glyphs.
+- name: Tusken
+  pdf_page: 43
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Constitution score increases by 2, and your Strength or Charisma score increases by 1.
+  - name: Age
+    text: Tuskens are considered adults when they turn 15. Because of the harsh and unforgiving climate
+      of their home world, they rarely live longer than half a century.
+  - name: Alignment
+    text: Tusken culture's violent focus and disregard of those outside the tribe causes them to tend
+      towards chaotic dark side, though there are exceptions.
+  - name: Size
+    text: Tusken stand between 5 and 6 feet tall and weigh around 155 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Aggressive
+    text: As a bonus action, you can move up to your speed toward an enemy of your choice that you can
+      see or hear. You must end this move closer to the enemy than you started.
+  - name: Animal Handler
+    text: You have proficiency in the Animal Handling skill.
+  - name: Desert Protection
+    text: You have advantage on saving throws against being blinded.
+  - name: Fearsome Roar
+    text: Once per day, you can cast the fear force power. Charisma is your forcecasting ability for this
+      power.
+  - name: Survivors of the Sands
+    text: You have proficiency in the Survival skill. Additionally, you don't treat desert terrain as
+      difficult terrain. Lastly, you have advantage on Constitution saving throws made to avoid exhaustion
+      due to extreme heat.
+  - name: Tech-Impaired
+    text: While tuskens can figure out basic technology, they experience difficulty using more complex
+      equipment like wristpads. You can not use tech powers or take levels in techcasting classes.
+  - name: Tusken Weaponry
+    text: You have proficiency with the cycler rifle and vibroaxe.
+  - name: Languages
+    text: You can speak Tusken, and speak, read, and write Galactic Basic. Tusken is a guttural language
+      characterized by its barks, growls, and roars. While Tuskens typically understand Galactic Basic,
+      it is rare to hear them speak anything but Tusken. Tusken has no written form. Tuskens also know
+      a complex sign language used to communicate with other tuskens silently. TWI'LEK VISUAL CHARACTERISTICS
+      Skin Color Blue, brown, dark grey, green, orange, pink, purple, red, tan, teal, white, yellow, or
+      striped Hair Color None Eye Color Black, blue, brown, green, hazel, orange, pink, purple, or yellow
+      Distinctions Lekku, sharp claw-like nails, males often file their teeth to points PHYSICAL CHARACTERISTICS
+      Height 5'3" Weight 125 lb. +2d12" x(2d4) lb. SOCIOCULTURAL CHARACTERISTICS Homeworld Ryloth Language
+      Twi'leki BIOLOGY AND APPEARENCE Twi'leks are usually thin, although corpulent individuals were known
+      to exist. Twi'leks are omnivores; this diet is essential given that food is scarce on their homeworld,
+      Ryloth. Twi'leks possess multiple stomachs, an unusual trait that enables them to eat almost any
+      food. When traveling off their homeworld, twi'leks rarely refuse food, which frequently leads to
+      obesity among starfarers. Twi'lek society also considers obesity as a sign of influence and success.
+      SOCIETY AND CULTURE The natural grace and exotic beauty of the female twi'leks make them a popular
+      target among slave traders. Slavery is the main currency of Ryloth. Some see it as a chance to make
+      money by kidnapping or selling orphaned children, while others see slavery as a way of saving children
+      from growing up in Ryloth's harsh environment. A number of twi'leks believe that slavery is an efficient
+      way to proliferate their species and preserve their culture, as the twi'leks lack their own means
+      of inter-planetary travel. Regardless of how it came about, many twi'leks live as slaves or entertainers
+      and are considered status symbols, especially the females of rarer skin hues. Twi'leks that manage
+      to escape from captivity usually turned to a life of thievery or prostitution, with both genders
+      making use of their powers of seduction. NAMES Twi'lek names combine their first name and a clan
+      name into a single name, rather than having a separate surname.
+  - name: Male Names
+    text: Ecrizsati, Gaj'mogos, Ukelweko Female Names. Arag'mure, Oanicfuba, Unaecripi
+- name: Twi'Lek
+  pdf_page: 44
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Charisma score increases by 2, and your Dexterity score increases by 1.
+  - name: Age
+    text: Twi'leks reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Twi'leks harsh upbringing cause them to tend toward the dark side, though there are exceptions.
+  - name: Size
+    text: Twi'leks stand between 5 and 7 feet tall and weigh up to 200 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Charismatic
+    text: You have proficiency with Deception or Persuasion (your choice).
+  - name: Darkvision
+    text: Your vision can easily cut through darkness. You can see in dim light within 60 feet of you
+      as if it were bright light, and in darkness as if it were dim light. You can't discern color in
+      darkness, only shades of gray.
+  - name: Elegant Dancers
+    text: You have proficiency in the Performance skill.
+  - name: Natural Antitoxins
+    text: You have advantage on saving throws against poison and disease, and you have resistance against
+      poison damage (explained in Chapter 9).
+  - name: Unarmed Combatant
+    text: Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Twi'leki. You can communicate non-verbally
+      with other twi'leks through a complex language of subtle head-tail motions.
+- name: Weequay
+  pdf_page: 45
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Constitution score increases by 2, and your Wisdom or Charisma score increases by 1.
+  - name: Age
+    text: Weequay reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Weequay ruthlessness and greed cause them to tend toward chaotic dark side, though there are
+      exceptions.
+  - name: Size
+    text: Weequay typically stand about 6 feet tall and weigh 150 lbs. Regardless of your position in
+      that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Keen Smell
+    text: You have advantage on Wisdom (Perception) checks that rely on smell.
+  - name: Savage Attacks
+    text: When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage
+      dice one additional time and add it to the extra damage of the critical hit.
+  - name: Tanned
+    text: You have tough, leathery skin. While you are unarmored or wearing light armor, your AC is 13
+      + your Dexterity modifier. Additionally, You have advantage on Constitution saving throws made to
+      avoid exhaustion due to extreme heat.
+  - name: Weapon Training
+    text: You have proficiency in two vibroweapons or blasters of your choice.
+  - name: Languages
+    text: 'You can speak, read, and write Galactic Basic and Sriluurian. You can communicate with other
+      Weequay within 30 feet without speaking through use of pheromones. Force attuned individuals can
+      detect the communication but can''t understand it. WOOKIEE VISUAL CHARACTERISTICS Skin Color Gray
+      Hair Color Different shades of black, brown, and white in varying combinations Eye Color Blue, green,
+      yellow, golden, brown, or red Distinctions Tall, hair covered, retractable climbing claws, long
+      life spans PHYSICAL CHARACTERISTICS Height 6''3" Weight 190 lb. +2d12" x(2d6) lb. SOCIOCULTURAL
+      CHARACTERISTICS Homeworld Kashyyyk Language Shyriiwook BIOLOGY AND APPEARANCE Wookiees are a tall
+      species of furry giants from the planet Kashyyyk, who can grow to a height of over eight feet. They
+      are covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that
+      notably came in shades of brown, black, gray, and white. The species has two sexes, female and male.
+      The latter grows long beards in adult life. Wookiee eye colors are usually blue, green, yellow,
+      golden, brown, or red. SOCIETY AND CULTURE Wookiees greatly value honor and loyalty. Therefore,
+      their notion of "family" encompassed much more than just blood ties. A part of that most sacred
+      tradition was the social institution of life debt: when a wookiee''s life was saved by someone else,
+      regardless of the species, they would frequently devote themselves to a lifetime of service to their
+      savior and their family. Through the mechanism of the life debt, the People of the Trees used to
+      develop unbreakable bonds with their boon companions and true friends, forming a "honor family."
+      NAMES Wookiee names are diverse; some names are simple and short while others are long and complicated.
+      The majority of names often have softer big sounds and more melodic tones to them. Since offworlders
+      have trouble using wookiees'' real names, they often adopt simpler nicknames to go by.'
+  - name: Male Names
+    text: Fubbodrrl, Gurrfupayyc, Kioerrr, Lavgaeffoak, Snrowbishutchuh, Zufiaarkaykkk Female Names. Bulabba,
+      Bonbaegnh, Hopakleupo, Keumnebheu, Onninh, Osstatiemmyock
+- name: Wookiee
+  pdf_page: 46
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Strength score increases by 2, and your Constitution score increases by 1.
+  - name: Age
+    text: Wookiees reach adulthood at about 40 and can live to be 400.
+  - name: Alignment
+    text: Wookiees tend toward the light side, though there are exceptions.
+  - name: Size
+    text: Wookiees tend to tower over other species, reaching heights over 8 feet and weighing 300 pounds.
+      Regardless of your position in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Claws
+    text: Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your
+      unarmed strikes deal 1d4 kinetic damage.
+  - name: Darkvision
+    text: Your vision can easily cut through darkness. You can see in dim light within 60 feet of you
+      as if it were bright light, and in darkness as if it were dim light. You can't discern color in
+      darkness, only shades of gray.
+  - name: Hide
+    text: You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your
+      Dexterity modifier. Additionally, you have advantage on Constitution saving throws made to avoid
+      exhaustion due to extreme cold.
+  - name: Menacing
+    text: You have proficiency in the Intimidation skill.
+  - name: Powerful Build
+    text: Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already
+      double, it instead triples.
+  - name: Treeclimber
+    text: You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength
+      (Athletics) checks that involve climbing.
+  - name: Languages
+    text: You can speak, read, and write Shyriiwook. You can understand spoken and written Galactic Basic,
+      but your vocal cords do not allow you to speak it.
+- name: Zabrak
+  pdf_page: 47
+  canon: both
+  traits:
+  - name: Ability Score Increase
+    text: Your Constitution score increases by 2, and your Strength or Dexterity score increases by 1.
+  - name: Age
+    text: Zabraks reach adulthood in their late teens and live less than a century.
+  - name: Alignment
+    text: Zabraks tend toward no particular alignment. The best and worst are found among them.
+  - name: Size
+    text: Zabraks stand anywhere from 5 to 7 feet tall and weigh up to 300 lbs. Regardless of your position
+      in that range, your size is Medium.
+  - name: Speed
+    text: Your base walking speed is 30 feet.
+  - name: Coercive
+    text: You have proficiency with Persuasion or Intimidation (your choice).
+  - name: Crafters
+    text: You have proficiency with one set of artisan's implements of your choice.
+  - name: Second Heart
+    text: When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead.
+      You can't use this feature again until you finish a long rest.
+  - name: Toughness
+    text: Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+  - name: Unarmed Combatant
+    text: Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.
+  - name: Languages
+    text: You can speak, read, and write Galactic Basic and Zabraki.

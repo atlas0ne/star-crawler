@@ -1,0 +1,2838 @@
+meta:
+  corpus: SW5e Player's Handbook
+  source_pdf: H:/RPG/Game Systems/Star Wars 5e/SW5e - Player's Handbook.pdf
+  publisher: sw5e.com (fan, 5e SRD-based)
+  extracted_by: research/tools/extract_sw5e.py (pdftotext)
+  canon: mixed - see per-record canon field; droid classes I-V are the Legends droid classification (Droids
+    sourcebook, WEG 1988) and survive in Disney canon
+  extracted: 200
+powers:
+- name: Affect Mind
+  level: At-will
+  side: universal
+  text: Choose a target within range that isn't hostile toward you. The target must make a Wisdom saving
+    throw. On a failed save, you have advantage on all Charisma checks directed at that target. On a successful
+    save, the creature does not realize that you tried to use the Force to influence its mood, but it
+    becomes immune to this power for one day. This power has no effect on droids or constructs.
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Affliction
+  level: 2nd-level
+  side: dark side
+  text: Choose a creature that you can see within range. That creature must make a Constitution saving
+    throw. On a failed save, the target gains 1 slowed level, it takes a -2 penalty to AC and Dexterity
+    saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action,
+    not both. Regardless of the creature's abilities or items, it can't make more than one melee or ranged
+    attack during its turn. If the creature attempts to cast a power with a casting time of 1 action,
+    roll a d20. On an 11 or higher, the power doesn't take effect until the creature's next turn, and
+    the creature must use its action on that turn to complete the power. If it can't, the power is wasted.
+    The creatures makes another Constitution saving throw at the end of its turn. On a successful save,
+    the effect ends.
+  prerequisite: Slow
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Animate Weapon
+  level: 2nd-level
+  side: universal
+  text: You select a light- or vibro-weapon within this power's range that is not worn or carried by a
+    conscious creature other than you, and use the Force to cause it to levitate, acting as an extension
+    of your will for the duration or until you cast this power again. When you use this power, you can
+    cause the weapon to move up to 20 feet and make a melee force attack against a creature within 5 feet
+    of it. On a hit, the target takes 1d8 + your forcecasting ability modifier damage. The type is of
+    the normal damage dealt by the weapon. While the weapon is animated, on each of your turns you can
+    use a bonus action to move the weapon up to 20 feet and repeat the attack against a creature within
+    5 feet of it. At any time, you can end this force power to return the animated weapon to your hand.
+    An enemy can attempt to gain control of the weapon by using its action to make a Strength (Athletics)
+    check against your force save DC. On a success, the creature gains control of the weapon and the power
+    ends.
+  prerequisite: Force Disarm
+  casting_time: 1 bonus action
+  range: 60 feet
+  duration: 1 minute
+  force_potency: When you cast this power using a force slot of 3rd level or higher, the weapon's damage
+    increases by 1d8 for every two slot levels above 2nd.
+  canon: n/a
+- name: Armor Of Abeloth
+  level: 1st-level
+  side: dark side
+  text: A protective force surrounds you, manifesting as shimmering light that covers you and your gear.
+    You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while
+    you have these hit points, the creature takes 5 psychic damage.
+  casting_time: 1 action
+  range: Self
+  duration: 1 hour
+  force_potency: When you cast this power using a force slot of 2nd level or higher, both the temporary
+    hit points and the psychic damage increase by 5 for each slot.
+  canon: n/a
+- name: Aura Of Purity
+  level: 4th-level
+  side: light side
+  text: 'Purifying energy radiates from you in a 30-foot radius. Until the power ends, the aura moves
+    with you, centered on you. Each nonhostile creature in the aura (including you) can''t become diseased,
+    has resistance to poison damage, and has advantage on saving throws against effects that cause any
+    of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.'
+  prerequisite: Restoration
+  casting_time: 1 action
+  range: Self (30-foot radius)
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Aura Of Vigor
+  level: 3rd-level
+  side: light side
+  text: Envigorating energy radiates from you in a 30-foot radius. Until the power ends, the aura moves
+    with you, centered on you. Each nonhostile creature in the aura (including you) deals an extra 1d4
+    damage with weapon attacks.
+  prerequisite: Valor
+  casting_time: 1 action
+  range: Self (30-foot radius)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Battle Insight
+  level: At-will
+  side: universal
+  text: 'You center your focus on a target within range. Through the Force, you gain a brief insight into
+    the target''s defenses. On your next turn, you gain advantage on your first attack roll against the
+    target, provided that this power hasn''t ended. This power benefits additional attacks at higher levels:
+    two attacks at 5th level, three attacks at 11th level, and four attacks at 17th level.'
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 round
+  canon: n/a
+- name: Battle Meditation
+  level: 2nd-level
+  side: universal
+  text: You exude an aura out to 5 feet that boosts the morale and overall battle prowess of you and your
+    allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to
+    fight. Whenever you or a friendly creature within your meditation makes an attack roll or a saving
+    throw, they can roll a d4 and add the number rolled to the attack roll or saving throw. Whenever a
+    hostile creature enters your meditation or starts its turn there, it must make a Charisma saving throw.
+    On a failed save, it must roll a d4 and subtract the number rolled from each attack roll or saving
+    throw it makes before the end of your next turn. On a successful save, it is immune to this power
+    for 1 day.
+  casting_time: 1 action
+  range: Self (5-foot radius)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Battle Precognition
+  level: 1st-level
+  side: universal
+  text: Your attunement to the Force warns you when you are about to enter danger. Until the power ends,
+    your base AC becomes 13 + your Dexterity modifier. This power has no effect if you are wearing armor.
+  casting_time: 1 action
+  range: Self
+  duration: 8 hours
+  canon: n/a
+- name: Beacon Of Hope
+  level: 3rd-level
+  side: light side
+  text: This power bestows hope and vitality. Choose any number of creatures within range. For the duration,
+    each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum
+    number of hit points possible from any healing.
+  prerequisite: Heroism
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Beast Trick
+  level: 1st-level
+  side: light side
+  text: This power lets you distract a beast. Choose a beast that you can see within range. If the beast's
+    Intelligence is 4 or higher, the power fails. Otherwise, the beast must succeed on a Wisdom saving
+    throw or be charmed by you for the power's duration. If you or one of your companions harms the target,
+    the power ends.
+  casting_time: 1 action
+  range: 30 feet
+  duration: 24 hours
+  force_potency: When you cast this power using a force slot of 2nd level or higher, you can affect one
+    additional beast for each slot level above 1st.
+  canon: n/a
+- name: Bestow Curse
+  level: 3rd-level
+  side: dark side
+  text: 'You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed
+    for the duration of the power. When you cast this power, choose the nature of the curse from the following
+    options: Choose one ability score. While cursed, the target has disadvantage on ability checks and
+    saving throws made with that ability score. While cursed, the target has disadvantage on attack rolls
+    against you. While cursed, the target must make a Wisdom saving throw at the start of each of its
+    turns. lf it fails, it wastes its action that turn doing nothing. While the target is cursed, your
+    attacks and powers deal an extra 1d8 necrotic damage to the target. A remove curse power ends this
+    effect. At the GM''s discretion, you may choose an alternative curse effect, but it should be no more
+    powerful than those described above. The GM has final say on such a curse''s effect. This power has
+    no effect on droids or constructs.'
+  prerequisite: Curse
+  casting_time: 1 action
+  range: Touch
+  duration: Concentration, up to 1 minute
+  force_potency: If you cast this power using a force slot of 4th level or higher, the duration is concentration,
+    up to 10 minutes. If you use a force slot of 5th Level or higher, the duration is 8 hours. If you
+    use a force slot of 7th level or higher, the duration is 24 hours. If you use a 9th level force slot,
+    the power lasts until it is dispelled. Using a force slot of 5th Level or higher grants a duration
+    that doesn't require concentration.
+  canon: n/a
+- name: Breath Control
+  level: 1st-level
+  side: universal
+  text: You are able to slow your metabolism in such a way that you can stop breathing and resist the
+    effect of toxins in your body. If you are poisoned, you neutralize the poison. If more than one poison
+    afflicts you, you neutralize one poison that you know is present, or you neutralize one at random.
+    For the duration, you have advantage on saving throws against being poisoned, resistance to poison
+    damage, and you no longer need to breathe.
+  casting_time: 1 action
+  range: Self
+  duration: 10 minutes
+  canon: n/a
+- name: Burst
+  level: At-will
+  side: universal
+  text: You cause the earth to burst from beneath your feet. Each creature within range, other than you,
+    must succeed on a Dexterity saving throw or take 1d8 kinetic damage. This power's damage increases
+    by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+  casting_time: 1 action
+  range: Self (5-foot sphere)
+  duration: Instantaneous
+  canon: n/a
+- name: Burst Of Speed
+  level: 1st-level
+  side: universal
+  text: You touch a creature. The target's speed increases by 10 feet until the power ends.
+  casting_time: 1 action
+  range: Touch
+  duration: 1 hour
+  force_potency: When you cast this power using a force slot of 2nd level or higher, you can target one
+    additional creature for each slot level above 1st.
+  canon: n/a
+- name: Call Lightning
+  level: 3rd-level
+  side: light side
+  text: As you align yourself with nature through the Force, a 10-foot tall, 60-foot radius storm cloud
+    cylinder appears, centered on a point you can see within range above you, with you as the center point.
+    The power fails if your location can't accommodate the cloud's size or height. When you cast the power,
+    choose a point under the cloud for lightning to strike. Each creature within 5 feet must make a Dexterity
+    save, taking 3d10 lightning damage on a fail and half on a success. While the power persists, you
+    can use your action to call lightning to a point in range again. If you're outdoors and in a storm,
+    the power gives you control of the storm rather than creating a new one. The lightning damage also
+    increases by 1d10.
+  casting_time: 1 action
+  range: 120 feet
+  duration: Concentration, up to 10 minutes
+  force_potency: When you cast this power using a force slot of 4th level or higher, the damage increases
+    by 1d10 for each slot level above 3rd.
+  canon: n/a
+- name: Calm Emotions
+  level: 2nd-level
+  side: light side
+  text: You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius
+    sphere centered on a point you choose within range must make a Charisma saving throw a creature can
+    choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of
+    the following two effects. You can suppress any effect causing a target to be charmed or frightened.
+    When this power ends, any suppressed effect resumes, provided that its duration has not expired in
+    the meantime. You can make a target indifferent about creatures of your choice that it is hostile
+    toward. This indifference ends if the target is attacked or harmed by a power or if it witnesses any
+    of its friends being harmed. When the power ends, the creature becomes hostile again, unless the GM
+    rules otherwise.
+  prerequisite: Sense Emotion
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Choke
+  level: 3rd-level
+  side: dark side
+  text: You make a constricting gesture at a creature within range. The target must make a Constitution
+    saving throw. On a failed save target takes 5d8 force damage and is restrained until the end of your
+    next turn. On a successful save, the target takes half as much damage and is not restrained. You can
+    use a bonus action while the target is restrained to move the target up to 5 feet in any direction.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 4th level or higher, the damage increases
+    by 1d8 for each slot level above 3rd.
+  canon: n/a
+- name: Cloud Mind
+  level: 1st-level
+  side: light side
+  text: Roll 5d8; the total is how many hit points of creatures this power can affect. Creatures within
+    20 feet of a point you choose are affected in order of their current hit points. Starting with the
+    creature that has the lowest current hit points, each creature affected by this power falls unconscious.
+    If the power ends, the sleeper takes damage, or someone uses an action wake the sleeper, they will
+    be awoken. Subtract each creature's hit points from the total before moving on to the creature with
+    the next lowest hit points. A creature's hit points must be equal to or less than the remaining total
+    for that creature to be affected. This power has no effect on droids or constructs. Force Potency.
+    When you cast this power using a force slot of 2nd level or higher, you can roll an additional 2d8
+    for each slot level above 1st.
+  casting_time: 1 action
+  range: 90 feet
+  duration: 1 minute
+  canon: n/a
+- name: Coerce Mind
+  level: 2nd-level
+  side: universal
+  text: You suggest a course of activity (limited to a sentence or two) and influence with the Force a
+    creature you can see within range that can hear and understand you. Creatures that can't be charmed
+    are immune to this effect. The suggestion must be worded in such a manner as to make the course of
+    action sound reasonable. Asking the creature to harm itself automatically negates the effect of the
+    power. The target must make a Wisdom saving throw. On a failed save, it pursues the course of action
+    you described to the best of its ability. The suggested course of action can continue for the entire
+    duration. If the suggested activity can be completed in a shorter time, the power ends when the subject
+    finishes what it was asked to do. You can also specify conditions that will trigger a special activity
+    during the duration. For example, you might suggest that a soldier give her speeder to the first vagrant
+    she meets. If the condition isn't met before the power expires, the activity isn't performed. If you
+    or any of your companions damage the target, the power ends. This power has no effect on droids or
+    constructs.
+  prerequisite: Affect Mind
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 8 hours
+  canon: n/a
+- name: Comprehend Speech
+  level: 1st-level
+  side: universal
+  text: For the duration, you understand the literal meaning of any spoken language that you hear.
+  casting_time: 1 action
+  range: Self
+  duration: 1 hour
+  canon: n/a
+- name: Control Pain
+  level: 5th-level
+  side: universal
+  text: You use the Force to push your body beyond its normal limits. You can't die from damage or from
+    failed death saving throws while this power is in effect, but the effort taxes you. If you have 0
+    hit points while you are under the effect of this power, you do not fall unconscious, and continue
+    acting and fighting normally. While you remain at 0 hit points, you must make a death saving throw
+    at the start of each of your turns. Each time you fail a death saving throw, you suffer a cumulative
+    -1 penalty to attack rolls, ability checks, and saving throws (including death saving throws). This
+    penalty lasts until you regain hit points. Successful death saving throws have no effect, but a natural
+    20 restores 1 hit point as usual. If you have 0 hit points when this power ends, you die instantly.
+  prerequisite: Force Body
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Convulsion
+  level: 3rd-level
+  side: universal
+  text: Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts
+    in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving
+    throw. A creature takes 3d12 kinetic damage on a failed save, or half as much damage on a successful
+    one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square
+    portion of the area requires at least 1 minute to clear by hand.
+  prerequisite: Tremor
+  casting_time: 1 action
+  range: 120 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 4th level or higher, the damage increases
+    by 1d12 for each slot level above 3rd.
+  canon: n/a
+- name: Crush
+  level: 6th-level
+  side: dark side
+  text: You make a crushing gesture at a creature within range. The target must make a Constitution saving
+    throw. On a failed save target takes 10d8 force damage and is paralyzed until the end of your next
+    turn. On a successful save, the target takes half as much damage and is not paralyzed. You can use
+    a bonus action while the target is paralyzed to move the target up to 10 feet in any direction.
+  prerequisite: Choke
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 7th level or higher, the damage increases
+    by 1d8 for each slot level above 6th.
+  canon: n/a
+- name: Curse
+  level: 1st-level
+  side: dark side
+  text: Up to three creatures of your choice that you can see within range must make Charisma saving throws.
+    The first time each turn a target that fails this saving throw makes an attack roll or a saving throw
+    before the power ends, the target must roll a d4 and subtract the number rolled from the attack roll
+    or saving throw.
+  prerequisite: Denounce
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power with a force slot of 3rd level or higher, you can target one
+    additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or
+    9th level, the die increases to d6, d8, and d10, respectively.
+  canon: n/a
+- name: Danger Sense
+  level: 2nd-level
+  side: universal
+  text: 'You put your faith in the Force, feeling out the future and seeing whether your actions will
+    lead to fortune or ruin. The GM chooses from the following possible omens: Peace, for results which
+    are not dangerous Danger, for results which are dangerous but perhaps still worth the danger Ruin,
+    for results which are certain to end in death or tragedy The power doesn''t take into account any
+    possible circumstances that might change the outcome, such as the use of additional powers or the
+    loss or gain of a companion. If you use this power two or more times before completing your next long
+    rest, there is a cumulative 25 percent chance for each casting after the first that you get a neutral
+    result regardless of the actual outcome.'
+  casting_time: 1 bonus action
+  range: Self
+  duration: Instantaneous
+  canon: n/a
+- name: Dark Aura
+  level: 3rd-level
+  side: dark side
+  text: You manifest a mantle of malevolent dark side energy for the duration. Until the power ends, any
+    attack you make deals an extra 1d8 necrotic damage when you hit a creature within 10 feet of you.
+    Any creature that takes this damage can't regain hit points until the start of your next turn. Additionally,
+    any creature of your choice that you can see that starts its turn within 10 feet of you gains 1 slowed
+    level until the start of your next turn.
+  prerequisite: Hex
+  casting_time: 1 bonus action
+  range: Self
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 5th level or higher, the extra damage
+    increases by 1d8 for for every two slot levels above 3rd.
+  canon: n/a
+- name: Dark Shear
+  level: 2nd-level
+  side: dark side
+  text: You create a weapon of imperceptible Force energy that lasts until the power ends. It counts as
+    a simple lightweapon with which you are proficient. It deals 2d6 psychic damage, and has the finesse,
+    light, and thrown properties (range 20/60). When you attack while within dim light or darkness, you
+    have advantage. If you drop the weapon or throw it, it disappears at the end of the turn. While the
+    power lasts, you can use a bonus action to make the weapon reappear in your hand.
+  casting_time: 1 bonus action
+  range: Self
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a 3rd or 4th level force slot, the damage increases by
+    1d6 (3d6). At 5th or 6th level, the damage increases by 2d6 (4d6). At 7th level or higher, the damage
+    increases by 3d6 (5d6).
+  canon: n/a
+- name: Dark Side Tendrils
+  level: 1st-level
+  side: dark side
+  text: Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature
+    in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage
+    and can't take reactions until its next turn. On a successful save, the creature takes half damage,
+    but suffers no other effect.
+  casting_time: 1 action
+  range: Self (10-foot radius)
+  duration: Instantaneous
+  force_potency: When you cast this power using a power slot of 2nd level or higher, the damage increases
+    by 1d6 for each slot level above 1st.
+  canon: n/a
+- name: Darkness
+  level: 2nd-level
+  side: dark side
+  text: Darkness spreads from a point you choose within range to fill a 15-foot-radius sphere until the
+    power ends. The darkness spreads around corners. A creature with darkvision can't see through this
+    darkness, and unenhanced light can't illuminate it. If the point you choose is on an object you are
+    holding or one that isn't being worn or carried, the darkness comes from the object and moves with
+    it. Completely covering the source of the darkness with an opaque object blocks the darkness. If this
+    power's area overlaps with light created by a 2nd-level power or lower, the light is dispelled.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Death Field
+  level: 8th-level
+  side: dark side
+  text: You draw the life force from every creature in a 30foot cube centered on a point you choose within
+    range. Each creature in that area must make a Constitution saving throw. A creature takes 10d8 necrotic
+    damage on a failed save, or half as much damage on a successful one. If you reduce a hostile creature
+    to 0 hit points, you gain temporary hit points equal to half the damage dealt. This power has no effect
+    on droids or constructs.
+  prerequisite: Siphon Life
+  casting_time: 1 action
+  range: 90 feet (30-foot cube)
+  duration: Instantaneous
+  canon: n/a
+- name: Denounce
+  level: At-will
+  side: dark side
+  text: 'A target of your choice within range must make a Charisma saving throw. On a failed save, when
+    the target makes their next attack roll or saving throw they must roll a d4 and subtract the number
+    from it. The power then ends. This power''s die increases at higher levels: to a d6 at 5th level,
+    a d8 at 11th level, and a d10 at 17th level.'
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Destroy Droid
+  level: 7th-level
+  side: light side
+  text: Choose a point that you can see within range. Each droid or construct must succeed on a Constitution
+    saving throw or be paralyzed for the duration. At the beginning of each of its turns, an affected
+    target takes energy damage equal to twice your forcecasting ability modifier and then repeats this
+    saving throw. On a success, the power ends on the target.
+  prerequisite: Disable Droid
+  casting_time: 1 action
+  range: 120 feet (30-foot cube)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Disable Droid
+  level: 4th-level
+  side: light side
+  text: Choose a point that you can see within range. Each droid or construct must succeed on a Constitution
+    saving throw or be paralyzed for the duration. At the beginning of each of its turns, an affected
+    creature takes energy damage equal to your forcecasting ability modifier and then repeats this saving
+    throw. On a success, the power ends on the target.
+  prerequisite: Stun Droid
+  casting_time: 1 action
+  range: 90 feet (15-foot cube)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Disperse Force
+  level: 1st-level
+  side: universal
+  text: 'cold, energy, fire, ion, lightning, or sonic damage Range: Self Duration: 1 round This power
+    absorbs damage from certain incoming attacks, lessening its effect on you and distributing it throughout
+    your body. You have resistance to the triggering damage type until the start of your next turn. Also,
+    you gain 5 temporary hit points to potentially absorb the attack. These temporary hit points last
+    until the start of your next turn.'
+  prerequisite: Saber Ward
+  casting_time: 1 reaction, which you take when you take
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the temporary hit
+    points increases by 5 for each slot level above 1st.
+  canon: n/a
+- name: Dominate Beast
+  level: 4th-level
+  side: dark side
+  text: A beast you can see must succeed on a Wisdom save or be charmed. If you or your companions are
+    fighting it, it has advantage on this saving throw. While it's charmed, you have a telepathic link
+    to it if you're on the same planet. You can use this link to issue commands while you are conscious,
+    no action required, which it does its best to obey. You can specify a simple and general course of
+    action. If it completes the order and doesn't receive further orders, it focuses on defending itself.
+    You can use your action to take total control of the target. Until the end of your next turn, the
+    beast takes only the actions you decide and nothing you don't allow it to. You can also have the beast
+    use a reaction, but this takes your reaction as well. If the beast takes damage, it makes another
+    Wisdom save. On a success, the power ends.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a 5th-level force slot, the duration is up to 10 minutes.
+    At a 6th-level slot, the duration is up to 1 hour. At a slot of 7th or higher, the duration is up
+    to 8 hours.
+  canon: n/a
+- name: Dominate Mind
+  level: 5th-level
+  side: dark side
+  text: You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving
+    throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting
+    it, it has advantage on the saving throw. While the target is charmed, you have a telepathic link
+    with it as long as you are within 1 mile of it. You can use this telepathic link to issue commands
+    to the creature while you are conscious (no action required), which it does its best to obey. You
+    can specify a simple and general course of action, such as "Attack that creature," "Run over there,"
+    or "Fetch that object." If the creature completes the order and doesn't receive further direction
+    from you, it defends and preserves itself to the best of its ability. You can use your action to take
+    total and precise control of the target. Until the end of your next turn, the creature takes only
+    the actions you choose, and doesn't do anything that you don't allow it to do. During this time you
+    can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving
+    throw succeeds, the power ends.
+  prerequisite: Dominate Beast
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a 6th-level force slot, the duration is 10 minutes. When
+    you use a 7th-level force slot, the duration is 1 hour. When you use a force slot of 8th level or
+    higher, the duration is 8 hours.
+  canon: n/a
+- name: Dominate Monster
+  level: 8th-level
+  side: dark side
+  text: You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving
+    throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting
+    it, it has advantage on the saving throw. While the creature is charmed, you have a telepathic link
+    with it as long as you are within 1 mile of it. You can use this telepathic link to issue commands
+    to the creature while you are conscious (no action required), which it does its best to obey. You
+    can specify a simple and general course of action, such as "Attack that creature," "Run over there,"
+    or "Fetch that object." If the creature completes the order and doesn't receive further direction
+    from you, it defends and preserves itself to the best of its ability. You can use your action to take
+    total and precise control of the target. Until the end of your next turn, the creature takes only
+    the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you
+    can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving
+    throw succeeds, the power ends. This power has no effect on droids or constructs.
+  prerequisite: Dominate Mind
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 hour
+  force_potency: When you cast this power with a 9thlevel force slot, the duration is concentration, up
+    to 8 hours.
+  canon: n/a
+- name: Drain Life
+  level: 4th-level
+  side: dark side
+  text: You draw the life force from a creature you can see within range. The target must make a Constitution
+    saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful
+    one. If you reduce a hostile creature to 0, you gain temporary hit points equal to half the damage
+    dealt. This power has no effect on droids or constructs.
+  prerequisite: Drain Vitality
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 5th level or higher, the damage increases
+    by 1d8 for each slot level above 4th.
+  canon: n/a
+- name: Drain Vitality
+  level: 2nd-level
+  side: dark side
+  text: You draw the willpower from a creature you can see within range. Make a ranged force attack against
+    the target. On a hit, the target takes 2d6 necrotic damage and it deals only half damage with weapon
+    attacks that use Strength until the power ends. At the end of each of the target's turns, it can make
+    a Constitution saving throw against the power. On a success, the power ends.
+  prerequisite: Sap Vitality
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 3rd level or higher, the damage increases
+    by 1d6 for each slot level above 2nd.
+  canon: n/a
+- name: Dun Moch
+  level: 1st-level
+  side: dark side
+  text: You attempt to manipulate a creature into fighting you. One creature that you can see within range
+    must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your
+    demands. For the duration, it has disadvantage on attack rolls against creatures other than you, and
+    must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet
+    away from you; if it succeeds on this saving throw, this power doesn't restrict the target's movement
+    for that turn. The power ends if you attack any other creature, if you cast a power that targets a
+    hostile creature other than the target, if a creature friendly to you damages the target or casts
+    a harmful power on it, or if you end your turn more than 30 feet away from the target. This power
+    has no effect on droids or constructs.
+  casting_time: 1 bonus action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Earthquake
+  level: 8th-level
+  side: universal
+  text: You create a seismic disturbance at a point on the ground that you can see within range. For the
+    duration, an intense tremor rips through the ground in a 100foot-radius circle centered on that point
+    and shakes creatures and structures in contact with the ground in that area. The ground in the area
+    becomes difficult terrain. Each creature on the ground that is concentrating must make a Constitution
+    saving throw. On a failed save, the creature's concentration is broken. When you cast this power and
+    at the end of each turn you spend concentrating on it, each creature on the ground in the area must
+    make a Dexterity saving throw. On a failed save, the creature is knocked prone. This power can have
+    additional effects depending on the terrain in the area, as determined by the GM. Fissures. Fissures
+    open throughout the power's area at the start of your next turn after you cast the power. A total
+    of 1d6 such fissures open in locations chosen by the GM. Each is 1d10 x 10 feet deep, 10 feet wide,
+    and extends from one edge of the power's area to the opposite side. A creature standing on a spot
+    where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully
+    saves moves with the fissure's edge as it opens. A fissure that opens beneath a structure causes it
+    to automatically collapse (see below). Structures. The tremor deals 50 kinetic damage to any structure
+    in contact with the ground in the area when you cast the power and at the start of each of your turns
+    until the power ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby
+    creatures. A creature within half the distance of a structure's height must make a Dexterity saving
+    throw. On a failed save, the creature takes 5d6 kinetic damage, is knocked prone, and is buried in
+    the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The GM can adjust
+    the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature
+    takes half as much damage and doesn't fall prone or become buried.
+  prerequisite: Eruption
+  casting_time: 1 action
+  range: 500 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Enfeeble
+  level: At-will
+  side: dark side
+  text: Dark energy courses from your hand at a creature within range. The target must succeed on a Wisdom
+    saving throw. If it is missing any hit points, it takes 1d12 necrotic damage. Otherwise, it takes
+    1d8. The power's damage increases by one die when you reach 5th, 11th, and 17th level.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Eruption
+  level: 6th-level
+  side: universal
+  text: You cause up to six pillars of stone to burst from places on the ground that you can see within
+    range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The
+    ground where a pillar appears must be wide enough for its diameter, and you can target the ground
+    under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When
+    reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of difficult terrain
+    with a 10 - foot radius that lasts until the rubble is cleared. Each 5-foot-diameter portion of the
+    area requires at least 1 minute to clear by hand. If a pillar is created under a creature, that creature
+    must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail
+    the save. If a pillar is prevented from reaching its full height because of a ceiling or other obstacle,
+    a creature on the pillar takes 6d6 kinetic damage and is restrained, pinched between the pillar and
+    the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (the
+    creature's choice) against the power's save DC. On a success, the creature is no longer restrained
+    and must either move off the pillar or fall off it.
+  prerequisite: Convulsion
+  casting_time: 1 action
+  range: 120 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 7th level or higher, you can create two
+    additional pillars for each slot level above 6th.
+  canon: n/a
+- name: Fear
+  level: 1st-level
+  side: dark side
+  text: You awaken the sense of mortality in one creature you can see within range. The target must succeed
+    on a Wisdom saving throw or become frightened for the duration. A target with 25 hit points or fewer
+    makes the saving throw with disadvantage. A frightened creature can repeat this save at the end of
+    each of its turns, ending this effect on a success. This power has no effect on constructs or droids.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Feedback
+  level: At-will
+  side: dark side
+  text: You unleash a burst of psychic energy at a target within range. If the target can hear you (though
+    it need not understand you), it must succeed on an Intelligence saving throw or take 1d4 psychic damage
+    and have disadvantage on the next attack roll it makes before the end of its next turn. This power's
+    damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Force Barrier
+  level: 2nd-level
+  side: light side
+  text: This power bolsters your allies with toughness and resolve. Choose up to three creatures within
+    range. Each target's hit point maximum and current hit points increase by 5 for the duration.
+  casting_time: 1 action
+  range: 30 feet
+  duration: 8 hours
+  force_potency: When you cast this power using a force slot of 3rd level or higher, a target's hit points
+    increase by an additional 5 for each slot level above 2nd.
+  canon: n/a
+- name: Force Blind/Deafen
+  level: 2nd-level
+  side: light side
+  text: You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution
+    saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration.
+    At the end of each of its turns, the target can make a Constitution saving throw. On a success, the
+    power ends.
+  casting_time: 1 action
+  range: 30 feet
+  duration: 1 minute
+  force_potency: When you cast this power using a force slot of 3rd level or higher, you can target one
+    additional creature for each slot level above 2nd.
+  canon: n/a
+- name: Force Blinding
+  level: 1st-level
+  side: light side
+  text: You use the Force to emit a blinding flash of light from your hand. Roll 6d10, the total is how
+    many hit points of creatures this power can effect. Creatures in a 15-foot cone originating from you
+    are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures
+    that can't see). Starting with the creature that has the lowest current hit points, each creature
+    affected by this power is blinded until the power ends. Subtract each creature's hit points from the
+    total before moving on to the creature with the next lowest hit points. A creature's hit points must
+    be equal to or less than the remaining total for the creature to be affected.
+  casting_time: 1 action
+  range: Self (15-foot cone)
+  duration: 1 round
+  force_potency: When you cast this power using a force slot of 2nd level or higher, roll an additional
+    2d10 for each slot level above 1st.
+  canon: n/a
+- name: Force Blur
+  level: 2nd-level
+  side: universal
+  text: You use the Force to weave an illusion that blurs your form, shifting and wavering to all who
+    can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker
+    is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions,
+    as with truesight.
+  prerequisite: Force Mask
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Force Body
+  level: 1st-level
+  side: universal
+  text: This power enables you to use your health to fuel your force powers. For the duration, when you
+    cast a force power, you can choose to pay up to half the cost of the force power using your hit points
+    instead of your force points. When you do so, your maximum hit points are reduced by the same amount
+    until you complete a long rest. You may end this effect at any time. If you cast a force power that
+    would reduce your hit points to 0, the power automatically fails and this effect ends.
+  casting_time: 1 action
+  range: Self
+  duration: 1 hour
+  canon: n/a
+- name: Force Breach
+  level: 5th-level
+  side: universal
+  text: Choose a spot within range. All force powers of 5th level or lower in the area end. For each force
+    power of 6th level or higher in the area, make an ability check using your forcecasting ability. The
+    DC equals 10 + the power's level. On a successful check, the force power ends.
+  casting_time: 1 action
+  range: 120 feet (20-foot cube)
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 6th level or higher, you automatically
+    end the effects of a force power on the target if the power's level is equal to or less than the level
+    of the force slot you used.
+  canon: n/a
+- name: Force Camouflage
+  level: 2nd-level
+  side: universal
+  text: You become invisible until the power ends. Anything you are wearing or carrying is invisible as
+    long as it is on your person. The power ends if you attack, cast a power, or otherwise take a hostile
+    action.
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 hour
+  canon: n/a
+- name: Force Chain Lightning
+  level: 6th-level
+  side: dark side
+  text: You create a bolt of lightning that arcs toward a target of your choice that you can see within
+    range. Three bolts then leap from that target to as many as three other targets, each of which must
+    be within 30 feet of the first target. A target can be a creature or an object and can be targeted
+    by only one of the bolts. A target must make a Dexterity saving throw. The target takes 10d8 lightning
+    damage on a failed save, or half as much damage on a successful one.
+  prerequisite: Force Lightning
+  casting_time: 1 action
+  range: 150 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 7th level or higher, one additional bolt
+    leaps from the first target to another target for each slot level above 6th.
+  canon: n/a
+- name: Force Concealment
+  level: 2nd-level
+  side: universal
+  text: You shroud or alter the aura of a creature or object you touch so that Force powers reveal false
+    information about it. The target can be a willing creature or an object that isn't being carried or
+    worn by another creature. When you cast the power, choose one or both of the following effects. The
+    effect lasts for the duration. If you cast this power on the same creature or object every day for
+    30 days, placing the same effect on it each time, the effect lasts until it is dispelled. False Aura.
+    You change the way the target appears to powers and Force-based enhanced effects, such as sense force,
+    that detects the presence of the Force. You can make a Force-based unenhanced object or creature appear
+    enhanced and to radiate a Force aura, or a Force-based enhanced object or creature appear unenhanced
+    and to radiate no Force aura. When you use this effect on an object, you can make the false aura apparent
+    to any creature that handles the item. Cloak. You can change the way the target's affinity in the
+    Force appears to the force sight power. For example, a Sith Lord with great power in the dark side
+    of the Force can appear instead to have very little strength in the Force, with an affinity towards
+    the light side.
+  casting_time: 1 action
+  range: Touch
+  duration: 24 hours
+  canon: n/a
+- name: Force Confusion
+  level: 2nd-level
+  side: universal
+  text: 'Preqrequisite: Mind Trick Casting Time: 1 action Range: 120 feet Duration: Concentration, up
+    to 1 minute One humanoid of your choice that you can see within range must succeed on a Wisdom saving
+    throw or become charmed by you for the duration. The charmed target must use its action before moving
+    on each of its turns to make a melee attack against a creature other than itself that you mentally
+    choose. The target can act normally on its turn if you choose no creature or if none are within its
+    reach. On your subsequent turns, you must use your action to maintain control over the target, or
+    the power ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On
+    a success, the power ends.'
+  canon: n/a
+- name: Force Disarm
+  level: At-will
+  side: universal
+  text: You select a weapon or object being worn or carried by a Large or smaller creature within range.
+    The creature must make a Strength or Dexterity saving throw (the creature chooses the ability to use).
+    If the item is being carried, this save is made with advantage. On a failed save, the item is pulled
+    directly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.
+  casting_time: 1 action
+  range: 30 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Force Enlightenment
+  level: 2nd-level
+  side: light side
+  text: You touch a creature and enhance it with the Force. Choose one of the following effects; the target
+    gains that effect until the power ends. Strength. The target has advantage on Strength checks, and
+    his or her carrying capacity doubles. Dexterity. The target has advantage on Dexterity checks. It
+    also doesn't take damage from falling 20 feet or less if it isn't incapacitated. Endurance. The target
+    has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when
+    the power ends. Cunning. The target has advantage on Intelligence checks. Wisdom. The target has advantage
+    on Wisdom checks. Splendor. The target has advantage on Charisma checks. This power has no effect
+    on droids or constructs. Force Potency. When you cast this power using a force slot of 3rd level or
+    higher, you can target one additional creature for each slot level above 2nd.
+  prerequisite: Guidance
+  casting_time: 1 action
+  range: Touch
+  duration: Concentration, up to 1 hour
+  canon: n/a
+- name: Force Focus
+  level: 1st-level
+  side: light side
+  text: You let the Force guide you, empowering your strikes. Until the power ends, your weapon attacks
+    deal an extra 1d4 force damage on a hit.
+  prerequisite: Force Technique
+  casting_time: 1 bonus action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Force Imbuement
+  level: At-will
+  side: universal
+  text: The crystal inside of a simple lightweapon or the material of a simple vibroweapon or an improvised
+    weapon you are holding is imbued with the power of the Force. For the duration, you can use your forcecasting
+    ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and
+    the weapon's damage die becomes 1d8. The weapon also becomes enhanced, if it isn't already, and you
+    become proficient with it, if you aren't already. The power ends if you cast it again or if you let
+    go of the weapon.
+  casting_time: 1 bonus action
+  range: Touch
+  duration: 1 minute
+  canon: n/a
+- name: Force Immunity
+  level: 4th-level
+  side: universal
+  text: An immobile, faintly shimmering barrier springs into existence around you and remains for the
+    duration. The barrier moves with you. Any force power of 3rd level or lower cast from outside the
+    barrier can't affect you, even if the power is cast using a higher level force slot. Such a power
+    can target you, but the power has no effect on you. Similarly, the area within the barrier is excluded
+    from the areas affected by such powers.
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 5th level or higher, the barrier blocks
+    powers of one level higher for each slot level above 4th.
+  canon: n/a
+- name: Force Jump
+  level: 1st-level
+  side: universal
+  text: Using the Force to augment the strength in your legs, you leap up to 30 feet to an unoccupied
+    space you can see, provided you have a direct path to the space.
+  prerequisite: Force Leap
+  casting_time: 1 action
+  range: Self
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, your jump distance
+    increases by 5 feet for each slot level above 1st.
+  canon: n/a
+- name: Force Leap
+  level: At-will
+  side: universal
+  text: Until the end of your next turn, you can use your forcecasting ability score instead of your Strength
+    score when you jump, and always count as having made a running start before jumping.
+  casting_time: 1 bonus action
+  range: Self
+  duration: 1 round
+  canon: n/a
+- name: Force Lightning
+  level: 3rd-level
+  side: dark side
+  text: A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction
+    you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning
+    damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable
+    objects in the area that aren't being worn or carried.
+  prerequisite: Shock
+  casting_time: 1 action
+  range: Self (100-foot line)
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 4th level or higher, the damage increases
+    by 1d6 for each slot level above 3rd.
+  canon: n/a
+- name: Force Lightning Cone
+  level: 7th-level
+  side: dark side
+  text: Lightning arcs from your hands. Each creature in a 60-foot cone must make a Dexterity saving throw.
+    A creature takes 12d6 lightning damage on a failed save, or half as much on a successful one.
+  prerequisite: Force Chain Lightning
+  casting_time: 1 action
+  range: Self (60-foot cone)
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 8th level or higher, the damage increases
+    by 2d6 for each slot level above 7th.
+  canon: n/a
+- name: Force Link
+  level: 8th-level
+  side: universal
+  text: You create a telepathic link between yourself and a willing creature with which you are familiar.
+    Until the power ends, you and the target can instantaneously share words, images, sounds, and other
+    sensory messages with one another through the link, and the target recognizes you as the creature
+    it is communicating with. The power enables a creature with an Intelligence score of at least 1 to
+    understand the meaning of your words and take in the scope of any sensory messages you send to it.
+    This power has no effect on droids or constructs.
+  prerequisite: Force Meld
+  casting_time: 1 action
+  range: Unlimited
+  duration: 24 hours
+  canon: n/a
+- name: Force Mask
+  level: 1st-level
+  side: universal
+  text: Until the power ends or you use an action to dismiss it, you can disguise yourself through use
+    of the Force in many ways. You can appear to be shorter or taller by about a foot and change the appearance
+    of your body and weight, but you cannot change the basic structure of your body. This effect can include
+    your clothes, weapons, and other belongings on your person. This effect is only visual, so any sort
+    of physical contact will only interact with the real size and shape of you. A creature that uses its
+    action to examine you can identify this effect with a successful Intelligence (Investigation) check
+    against your force save DC.
+  prerequisite: Mind Trick
+  casting_time: 1 action
+  range: Self
+  duration: 1 hour
+  canon: n/a
+- name: Force Meld
+  level: 5th-level
+  side: universal
+  text: You forge a telepathic link among up to eight willing creatures of your choice within range, psychically
+    linking each creature to all the others for the duration. Droids, constructs, and creatures with Intelligence
+    scores of 2 or less aren't affected by this power. Until the power ends, the targets can communicate
+    telepathically through the bond whether or not they have a common language. The communication is possible
+    over any distance, though it can't extend beyond a single planet.
+  prerequisite: Force Whisper
+  casting_time: 1 action
+  range: 30 feet
+  duration: 1 hour
+  canon: n/a
+- name: Force Mend
+  level: 7th-level
+  side: light side
+  text: 'Casting time: 1 minute Range: Touch Duration: 1 hour You touch a creature and stimulate its natural
+    healing ability. The target regains 4d8+15 hit points. For the duration of the power, the target regains
+    1 hit point at the start of each of its turns (10 hit points each minute). If the creature has a severed
+    part you hold it to the stump, the power instantaneously causes the limb to knit to the stump. This
+    power has no effect on droids or constructs.'
+  canon: n/a
+- name: Force Project
+  level: 7th-level
+  side: universal
+  text: You create an illusory copy of yourself that lasts for the duration. The copy can appear at any
+    location that you have seen before, regardless of intervening obstacles. The illusion looks and sounds
+    like you but is intangible. If the illusion takes any damage, it disappears, and the power ends. You
+    can use your action to move this illusion up to twice your speed, and make it gesture, speak, and
+    behave in whatever way you choose. It mimics your mannerisms perfectly. You can see through its eyes
+    and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch
+    from using its senses to using your own, or back again. While you are using its senses, you are blinded
+    and deafened in regard to your own surroundings. Physical interaction with the image reveals it to
+    be an illusion, because things can pass through it. A creature that uses its action to examine the
+    image can determine that it is an illusion with a successful Intelligence (Investigation) check against
+    your force save DC. If a creature discerns the illusion for what it is, the creature can see through
+    the image, and any noise it makes sounds hollow to the creature.
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 day
+  canon: n/a
+- name: Force Propel
+  level: 1st-level
+  side: universal
+  text: Choose one or more creatures or objects not being worn or carried within 60 feet that weigh up
+    to a combined total of 15 pounds. The creatures or objects immediately move 60 feet in a direction
+    of your choice. If the creatures or objects end this movement in the air, they immediately fall to
+    the ground. If the creatures or objects collide with any one target during its travel, both the creatures
+    or objects and the target take 3d8 kinetic damage. If the target is a creature, it must make a Dexterity
+    saving throw. On a failed save, it takes the kinetic damage, or half as much on a successful one.
+  prerequisite: Force Push/Pull
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the maximum weight
+    increases by 15 pounds and the damage increases by 1d8 for each slot level above 1st.
+  canon: n/a
+- name: Force Push/Pull
+  level: At-will
+  side: universal
+  text: You gain the minor ability to move or manipulate creatures and objects with the Force. You can
+    exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening
+    a door or a container, stowing or retrieving an item from an open container, or pouring the contents
+    from a vial. Alternatively, you can push or pull a creature or object you can see. You use the Force
+    to move a Medium or smaller creature or object not being worn or carried within range. The target
+    must make a Strength saving throw. An object automatically fails this saving throw. On a failed save,
+    the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny
+    creature or object can be moved up to 20 feet, a Small creature or object can be moved up to 10 feet,
+    and a Medium creature or object can be moved up to 5 feet. If at the end of this movement the creature
+    or object strikes another creature or object, it must make a Dexterity saving throw. An object automatically
+    fails this saving throw. On a failed save, they both take 1d4 kinetic damage. This power improves
+    when you reach higher levels. At 5th level, you can move a Tiny creature or object up to 30 feet,
+    a Small creature or object up to 20 feet, a Medium creature or object up to 10 feet, and the power's
+    damage increases to 2d4 kinetic damage. At 11th level, you can move a Small creature or object up
+    to 30 feet, a Medium creature up to 20 feet, and the power's damage increases to 3d4 kinetic damage.
+    At 17th level, you can move a Medium creature to up 30 feet, and the power's damage increases to 4d4
+    kinetic damage.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Force Reflect
+  level: 1st-level
+  side: universal
+  text: 'being hit by a ranged attack Range: Self Duration: Instantaneous In response to being attacked,
+    you attempt to deflect the attack with the Force. When you use this power, the damage you take from
+    the attack is reduced by 1d10. If you reduce the damage to 0 and the damage is energy, force, ion,
+    kinetic, lightning, necrotic, or sonic, you can reflect the attack at a target within range as part
+    of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal
+    range of 30 feet and a long range of 90 feet. On a hit, the target takes the triggering attack''s
+    normal damage.'
+  prerequisite: Saber Reflect
+  casting_time: 1 reaction, which you take in response to
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the damage reduction
+    increases by 1d10 for each slot level above 1st.
+  canon: n/a
+- name: Force Repulse
+  level: 3rd-level
+  side: universal
+  text: You release an omnidirectional telekinetic burst. Each creature within 20 feet must make a Dexterity
+    saving throw. On a failed save, a creature takes 8d6 force damage and is pushed back 5 feet. On a
+    successful save, a creature takes half damage and isn't pushed. All small objects that are not worn
+    or carried are also pushed 5 feet back.
+  casting_time: 1 action
+  range: Self (20-foot radius)
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 4th level or higher, the damage increases
+    by 1d6 for each slot level above 3rd.
+  canon: n/a
+- name: Force Scream
+  level: 3rd-level
+  side: dark side
+  text: You emit a scream imbued with the power of the Force. Each creature you choose within 15 feet
+    of you must succeed on a Constitution saving throw. On a failed save, a creature take 4d6 psychic
+    damage, 4d6 sonic damage, and is deafened until the end of its next turn. On a successful save, it
+    takes half as much damage and isn't deafened.
+  casting_time: 1 action
+  range: Self (15-foot radius)
+  duration: Instantaneous
+  canon: n/a
+- name: Force Shunt
+  level: At-will
+  side: universal
+  text: You use the Force to thrust a creature you can see to the ground. The target must make a Strength
+    saving throw. On a failed save, a creature takes 1d4 kinetic damage and falls prone. This power's
+    damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+  casting_time: 1 action
+  range: 30 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Force Sight
+  level: 2nd-level
+  side: universal
+  text: You shift your vision to see through use of the Force; colors fade and inanimate objects appear
+    as shades of gray. For the duration, you gain the following benefits. Living things glow with the
+    power of the Force. Those with an affinity for the light side glow blue, those with an affinity for
+    the dark side glow red, and those with no attunement to either side of the Force glow yellow. How
+    bright they glow is determined by how strong their connection to the Force is. You gain blindsight
+    to 30 feet. You have advantage on Wisdom (Perception) checks that rely on sight against living targets
+    within 30 feet.
+  prerequisite: Sense Force
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Force Storm
+  level: 9th-level
+  side: dark side
+  text: A crackling storm of lightning with a diameter of 60 feet and a height of 120 feet appears in
+    a location you choose within range. Whenever a creature enters the storm or starts its turn there,
+    it must make a Dexterity saving throw. On a failed save, it takes 30d6 lightning damage or half as
+    much as a successful one. The power damages objects in the area and ignites flammable objects that
+    aren't being worn or carried.
+  prerequisite: Force Lightning Cone
+  casting_time: 1 action
+  range: 150 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Force Suppression
+  level: 3rd-level
+  side: universal
+  text: Choose one creature, object, or force effect within range. Any force power of 3rd level or lower
+    on the target ends. For each force power of 4th level or higher on the target, make an ability check
+    using your forcecasting ability. The DC equals 10 + the power's level. On a success, the power ends.
+  casting_time: 1 action
+  range: 120 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 4th level or higher, you automatically
+    end the effects of a force power on the target if the power's level is equal to or less than the level
+    of the force slot you used.
+  canon: n/a
+- name: Force Technique
+  level: At-will
+  side: light side
+  text: You imbue your weapon with the purifying light of the Force. As part of the action used to cast
+    this power, you must make a melee weapon attack against one creature within your reach, otherwise
+    the power fails. On a hit, the target suffers the attack's normal effects, and it becomes wreathed
+    in a glowing barrier of force energy until the start of your next turn. If the target willingly moves
+    before then, it immediately takes 1d8 force damage, and the power ends. This power's damage increases
+    when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 force damage to the
+    target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by
+    1d8 at 11th level and 17th level.
+  casting_time: 1 action
+  range: Varies
+  duration: 1 round
+  canon: n/a
+- name: Force Throw
+  level: 2nd-level
+  side: universal
+  text: You use the Force to move a Large or smaller creature or object not being worn or carried within
+    range. The target must make a Strength saving throw. An object automatically fails this saving throw.
+    On a failed save, the creature or object moves a number of feet in a direction of your choice based
+    on its size. A Tiny creature or object can be moved up to 90 feet, a Small creature or object can
+    be moved up to 60 feet, a Medium creature or object can be moved up to 30 feet, and a Large creature
+    or object can be moved up to 10 feet. If at the end of this movement the creature or object strikes
+    another creature or object, they both take 2d8 force damage.
+  prerequisite: Force Push/Pull
+  casting_time: 1 action
+  range: 90 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 3rd level or higher, the range you can
+    throw a creature or object increases by 10 feet, to a maximum of 90 feet, and the power's damage increases
+    by 1d8.
+  canon: n/a
+- name: Force Trance
+  level: 3rd-level
+  side: light side
+  text: You make a calming gesture, and up to three willing creatures of your choice that you can see
+    within range fall unconscious for the power's duration. The power ends on a target early if it takes
+    damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the
+    full duration, that target gains the benefit of a short rest, and it can't be affected by this power
+    again until it finishes a long rest. This power has no effect on droids or constructs.
+  casting_time: 1 action
+  range: 30 feet
+  duration: 10 minutes
+  force_potency: When you cast this power using a force slot of 4th level or higher, you can target one
+    additional willing creature for each slot level above 3rd.
+  canon: n/a
+- name: Force Vision
+  level: 2nd-level
+  side: universal
+  text: You receive a vision of the future through the Force, giving you or one willing creature you can
+    see within range a chance to change fate. When the chosen creature makes an ability check, an attack
+    roll, or a saving throw before the power ends, it can dismiss this power on itself to roll an additional
+    d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the chosen
+    creature, it can dismiss this power on itself to roll a d20 and choose which of the d20s to use, the
+    one it rolled or the one the attacker rolled. If the original d20 roll has advantage or disadvantage,
+    the creature rolls the additional d20 after advantage or disadvantage has been applied to the original
+    roll.
+  casting_time: 1 minute
+  range: 60 feet
+  duration: 1 hour
+  force_potency: When you cast this power using a force slot of 3rd level or higher, you can target one
+    additional creature for each slot level above 2nd.
+  canon: n/a
+- name: Force Weapon
+  level: 3rd-level
+  side: universal
+  text: You touch an unenhanced weapon with which you are proficient. While you wield it for the duration,
+    that weapon becomes an enhanced weapon with a +1 bonus to attack rolls and damage rolls. Additionally,
+    you can use your forcecasting ability modifier instead of your Strength or Dexterity modifier for
+    attacks and damage rolls when attacking with that weapon.
+  prerequisite: Force Imbuement
+  casting_time: 1 bonus action
+  range: Touch
+  duration: Concentration, up to 1 hour
+  force_potency: When you cast this power using a force slot of 5th level or higher, the bonus increases
+    to +2. When you use a force slot of 7th level or higher, the bonus increases to +3.
+  canon: n/a
+- name: Force Whisper
+  level: At-will
+  side: universal
+  text: You use the Force to carry a message in your voice to another creature within range. The target
+    (and only the target) hears the message and can reply in a whisper that only you can hear. You can
+    cast this power through solid objects if you are familiar with the target and know it is beyond the
+    barrier. An enhanced silence effect, 1 foot of stone, 1 inch of common metal, a thin sheet of lead,
+    or 3 feet of wood blocks the power. The power doesn't have to follow a straight line and can travel
+    freely around corners or through openings.
+  casting_time: 1 action
+  range: 120 feet
+  duration: 1 round
+  canon: n/a
+- name: Freedom Of Movement
+  level: 4th-level
+  side: universal
+  text: You touch a willing creature. Its movement is unaffected by difficult terrain, and powers and
+    enhanced effects can't reduce its speed or cause it to be paralyzed or restrained. The target can
+    spend 5 feet of movement to automatically escape from unenhanced restraints. Additionally, being underwater
+    imposes no penalties on its movement or attacks.
+  casting_time: 1 action
+  range: Touch
+  duration: 1 hour
+  canon: n/a
+- name: Give Life
+  level: At-will
+  side: light side
+  text: Placing your hand on another creature you can transfer your own life force to them. You spend
+    and roll one of your hit dice and the creature regains that many hit points. This power has no effect
+    on droids or constructs.
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Grasping Vine
+  level: 4th-level
+  side: light side
+  text: You make a vine sprout from the ground in an unoccupied space you can see. When you cast this
+    power, you can make the vine whip a creature up to 30 feet from it, if you can see the target. The
+    creature must pass a Dexterity save or be pulled 20 feet directly toward the vine. Until the power
+    ends, you can use your bonus action to have the vine lash out again.
+  prerequisite: Plant Surge
+  casting_time: 1 bonus action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Greater Feedback
+  level: 5th-level
+  side: dark side
+  text: You choose a point within range and cause psychic energy to explode there. Each creature in a
+    20-footradius sphere centered on that point must make an Intelligence saving throw. A creature with
+    an Intelligence score of 2 or lower can't be affected by this power. A target takes 8d6 psychic damage
+    on a failed save, or half as much damage on a successful one. After a failed save, a target has muddled
+    thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its
+    attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration.
+    The target can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself
+    on a success.
+  prerequisite: Improved Feedback
+  casting_time: 1 action
+  range: 120 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Greater Heal
+  level: 6th-level
+  side: light side
+  text: Choose a creature that you can see within range. A surge of positive energy washes through the
+    creature, causing it to regain 70 hit points. This power also ends blindness, deafness, and any diseases
+    affecting the target. This power has no effect on droids or constructs.
+  prerequisite: Improved Heal
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 7th level or higher, the healing increases
+    by 10 for each slot level above 6th.
+  canon: n/a
+- name: Greater Saber Throw
+  level: 5th-level
+  side: universal
+  text: 'As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon
+    or vibroweapon against one target within the power''s range, otherwise the power fails. On a hit,
+    the target takes 6d8 damage of the same type as the weapon''s damage and must make a Constitution
+    saving throw against an additional effect depending on your choice of casting ability: Wisdom. The
+    target takes an additional 4d6 force damage and it gains four levels of slowed until the end of its
+    next turn. On a success, the target takes half as much damage and its speed isn''t reduced. Charisma.
+    The target takes an additional 4d6 necrotic damage and cannot regain hit points until the end of its
+    next turn. On a success, the target takes half as much damage and its healing capability is unaffected.
+    The weapon then immediately returns to your hand. Force Potency. When you cast this power using a
+    force slot of 6th level or higher, the force or necrotic damage increases by 1d6 for each slot above
+    5th.'
+  prerequisite: Improved Saber Throw
+  casting_time: 1 action
+  range: 30 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Guidance
+  level: At-will
+  side: light side
+  text: 'You touch one willing creature. Once before the power ends, the target can roll a d4 and add
+    the number rolled to one ability check of its choice. The power then ends. This power''s die increases
+    at higher levels: to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.'
+  casting_time: 1 action
+  range: Touch
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Hallucination
+  level: 2nd-level
+  side: dark side
+  text: You craft a dangerous illusion in the mind of a creature that you can see within range. The target
+    must make a Wisdom saving throw. On a failed save, you create a phantasmal object, creature, or other
+    visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only
+    to the target for the duration. This power has no effect on droids or constructs. The hallucination
+    includes sound, temperature, and other stimuli, also evident only to the creature. The target can
+    use its action to examine the hallucination with an Intelligence (Investigation) check against your
+    force power save DC. If the check succeeds, the target realizes that the hallucination is an illusion,
+    and the power ends. While a target is affected by the power, the target treats the hallucination as
+    if it were real. The target rationalizes any illogical outcomes from interacting with the hallucination.
+    For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once
+    it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists
+    and comes up with some other explanation for its fall - it was pushed, it slipped, or a strong wind
+    might have knocked it off. An affected target is so convinced of the hallucination's reality that
+    it can even take damage from the illusion. A hallucination created to appear as a creature can attack
+    the target. Similarly, a hallucination created to appear as fire, a pool of acid, or lava can burn
+    the target. Each round on your turn, the hallucination can deal 1d6 psychic damage to the target if
+    it is in the hallucination's area or within 5 feet of the hallucination, provided that the illusion
+    is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives
+    the damage as a type appropriate to the illusion.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force power slot of 3rd level or higher, the range increases
+    by 20 feet, the image dimensions increase by 5 feet, and you can target one additional creature for
+    every two slot levels above 2nd.
+  canon: n/a
+- name: Heal
+  level: 1st-level
+  side: light side
+  text: A creature you touch regains a number of hit points equal to 1d8 + your forcecasting ability modifier.
+    This power has no effect on droids or constructs.
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the healing increases
+    by 1d8 for each slot level above 1st.
+  canon: n/a
+- name: Heroism
+  level: 1st-level
+  side: light side
+  text: A willing creature you touch is imbued with bravery. Until the power ends, the creature is immune
+    to being frightened and gains temporary hit points equal to your forcecasting ability modifier at
+    the start of each of its turns. When the power ends, the target loses any remaining temporary hit
+    points from this power. This power has no effect on droids or constructs.
+  casting_time: 1 action
+  range: Touch
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 2nd level or higher, you can target one
+    additional creature for each slot level above 1st.
+  canon: n/a
+- name: Hex
+  level: 1st-level
+  side: dark side
+  text: You curse an opponent within range. Until the power ends, you deal an extra 1d6 necrotic damage
+    to the target whenever you hit it with an attack. Also, choose one ability when you cast the power.
+    The target has disadvantage on ability checks made with the chosen ability. If the target drops to
+    0 hit points before this power ends, you can use a bonus action on a subsequent turn of yours to curse
+    a new creature.
+  casting_time: 1 bonus action
+  range: 90 feet
+  duration: Concentration, up to 1 hour
+  force_potency: When you cast this power using a force slot of 3rd or 4th level, you can maintain your
+    concentration on the power for up to 8 hours. When you use a force slot of 5th level or higher, you
+    can maintain your concentration on the power for up to 24 hours.
+  canon: n/a
+- name: Horror
+  level: 3rd-level
+  side: dark side
+  text: You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must
+    succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration.
+    This power has no effect on constructs or droids. While frightened by this power, a creature must
+    take the Dash action and move away from you by the safest available route on each of its turns, unless
+    there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of
+    sight to you, the creature can make a Wisdom saving throw. On a successful save, the power ends for
+    that creature.
+  prerequisite: Fear
+  casting_time: 1 action
+  range: Self (30-foot cone)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Hysteria
+  level: 4th-level
+  side: dark side
+  text: You tap into the nightmares of a creature you can see within range and create an illusory manifestation
+    of its deepest fears, visible only to that creature. The target must succeed on a Wisdom saving throw
+    or become frightened for the duration. At the end of each of the target's turns before the power ends,
+    the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save,
+    the power ends. This power has no effect on droids or constructs.
+  prerequisite: Hallucination
+  casting_time: 1 action
+  range: 120 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force power slot of 5th level or higher, the damage
+    increases by 1d10 for each slot level above 4th.
+  canon: n/a
+- name: Improved Battle Meditation
+  level: 5th-level
+  side: universal
+  text: You exude an aura out to 15 feet that boosts the morale and overall battle prowess you and your
+    allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to
+    fight. Whenever you or a friendly creature within your meditation makes an attack roll or a saving
+    throw, they can roll a d6 and add the number rolled to the attack roll or saving throw. Whenever a
+    hostile creature enters your meditation or starts its turn there, it must make a Charisma saving throw.
+    On a failed save, it must roll a d6 and subtract the number rolled from each attack roll or saving
+    throw it makes before the end of your next turn. On a successful save, it is immune to this power
+    for 1 day.
+  prerequisite: Battle Meditation
+  casting_time: 1 action
+  range: Self (15-foot radius)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Improved Dark Side Tendrils
+  level: 3rd-level
+  side: dark side
+  text: You summon a 20-foot-radius sphere of inky blackness at a point within range. No light, enhanced
+    or otherwise, can illuminate the area, creatures fully within the area are blinded, and the area is
+    difficult terrain. Any creature that starts its turn in the area takes 2d6 necrotic damage. Any creature
+    that ends its turn in the area must succeed on a Strength saving throw or take 2d6 poison damage as
+    tendrils of dark energy caress it.
+  prerequisite: 'Dark Side Tendrils Casting time: 1 action'
+  range: 150 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Improved Feedback
+  level: 1st-level
+  side: dark side
+  text: You unleash a blast of psychic energy at a target within range. If the target can hear you (though
+    it need not understand you), it must succeed on an Intelligence saving throw. On a failed save, it
+    takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its
+    speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire
+    or a pit. On a successful save, the target takes half as much damage and doesn't have to move away.
+    A deafened creature automatically succeeds on the save.
+  prerequisite: Feedback
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the damage increases
+    by 1d6 for each slot level above 1st.
+  canon: n/a
+- name: Improved Force Barrier
+  level: 5th-level
+  side: light side
+  text: 'This power further bolsters your allies with toughness and resolve. Choose up to twelve creatures
+    within range. Each target gains the following benefits: The becomes immune to poison and disease.
+    Any currently existing poison or diseases still exist. The creature becomes immune to being frightened
+    by powers. The creature''s hit point maximum and current hit points increase by 2d10 for the duration.
+    These benefits last for 24 hours or until the end of your next long rest, whichever happens first.'
+  prerequisite: Force Barrier
+  casting_time: 10 minutes
+  range: 30 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Improved Force Camouflage
+  level: 4th-level
+  side: universal
+  text: A willing creature you touch becomes invisible until the power ends. Anything the target is wearing
+    or carrying is invisible as long as it is on the target's person.
+  prerequisite: Force Camouflage
+  casting_time: 1 action
+  range: Touch
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Improved Force Immunity
+  level: 6th-level
+  side: universal
+  text: An immobile, faintly shimmering barrier springs into existence in a 15-foot radius around you
+    and remains for the duration. The barrier moves with you. Any force power of 5th level or lower cast
+    from outside the barrier can't affect creatures or objects within it, even if the power is cast using
+    a higher level force slot. Such a power can target creatures and objects within the barrier, but the
+    power has no effect on them. Similarly, the area within the barrier is excluded from the areas affected
+    by such powers.
+  prerequisite: Force Immunity
+  casting_time: 1 action
+  range: Self (15-foot radius)
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 7th level or higher, the barrier blocks
+    powers of one level higher for each slot level above 6th.
+  canon: n/a
+- name: Improved Force Scream
+  level: 5th-level
+  side: dark side
+  text: You emit a violent scream imbued with the power of the Force. Each creature you choose within
+    30 feet of you must succeed on a Constitution saving throw. On a failed save, a creature take 5d6
+    psychic damage, 5d6 sonic damage, is deafened until the end of its next turn, and is knocked prone.
+    On a successful save, it takes half as much damage and isn't deafened or knocked prone.
+  prerequisite: Force Scream
+  casting_time: 1 action
+  range: Self (30-foot radius)
+  duration: Instantaneous
+  canon: n/a
+- name: Improved Heal
+  level: 5th-level
+  side: light side
+  text: A wave of healing energy washes out from a point of your choice within range. Choose up to six
+    creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal
+    to 3d8 + your forcecasting ability modifier. This power has no effect on droids or constructs.
+  prerequisite: Heal
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 6th level or higher, the healing increases
+    by 1d8 for each slot level above 5th.
+  canon: n/a
+- name: Improved Phasestrike
+  level: 5th-level
+  side: universal
+  text: Choose up to five creatures you can see within range. Make a melee force attack against each one.
+    On hit, a target takes 6d10 force damage. You can then teleport to an unoccupied space you can see
+    within 5 feet of one of the creatures you chose.
+  prerequisite: Phasestrike
+  casting_time: 1 action
+  range: 30 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Improved Phasewalk
+  level: 5th-level
+  side: universal
+  text: You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the
+    power ends, you can use a bonus action to teleport in this way again.
+  prerequisite: Phasewalk
+  casting_time: 1 bonus action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Improved Restoration
+  level: 5th-level
+  side: light side
+  text: 'You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce
+    the target''s exhaustion level by one, or end one of the following effects on the target: One effect
+    that charmed the target. One curse, including the target''s attunement to a cursed item. Any reduction
+    to one of the target''s ability scores. One effect reducing the target''s hit point maximum.'
+  prerequisite: Restoration
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Improved Revitalize
+  level: 7th-level
+  side: light side
+  text: You return a dead creature you touch to life, provided that it has been dead no longer than 1
+    hour. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns
+    to life with all its hit points. This power has no effect on droids or constructs. This power also
+    neutralizes any poisons and cures diseases that affected the creature at the time it died. This power
+    closes all mortal wounds and restores any missing body parts. Coming back from the dead is an ordeal.
+    The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the
+    target finishes a long rest, the penalty is reduced by 1 until it disappears.
+  prerequisite: Revitalize
+  casting_time: 10 minutes
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Improved Saber Throw
+  level: 2nd-level
+  side: universal
+  text: As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon
+    or vibroweapon against one target within the power's range, otherwise the power fails. On a hit, the
+    target takes 2d8 damage of the same type as the weapon's damage and must make a Constitution saving
+    throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon
+    then immediately returns to your hand. The next attack made against the target that hits it before
+    the end of the target's next turn deals an additional 1d10 force damage. On a successful save, the
+    target takes half as much additional force damage on the next attack that hits it, and suffers no
+    additional effect. The weapon then immediately returns to your hand.
+  prerequisite: Saber Throw
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 3rd level or higher, the force damage
+    increases by 1d10 for each slot level above 2nd.
+  canon: n/a
+- name: Insanity
+  level: 5th-level
+  side: dark side
+  text: This power assaults and twists creatures' minds, spawning delusions and provoking uncontrolled
+    action. Each creature in a 30-foot-radius sphere centered on you must succeed on a Wisdom saving throw
+    when you cast this power or be affected by it. An affected target can't take reactions and must roll
+    a d8 at the start of each of its turns to determine its behavior for that turn. This power has no
+    effect on constructs or droids. d8 Behavior The creature uses all its movement to move in a random
+    direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature
+    doesn't take an action this turn. 2-6 The creature doesn't move or take actions this turn. The creature
+    uses its action to make a melee attack 7-8 against a randomly determined creature within its reach.
+    If there is no creature within its reach, the creature does nothing this turn. At the end of each
+    of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends
+    for that target.
+  prerequisite: Horror
+  casting_time: 1 action
+  range: Self (30-foot sphere)
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a power slot of 6th level or higher, the radius of the
+    sphere increases by 5 feet for each force slot level above 5th.
+  canon: n/a
+- name: Kill
+  level: 9th-level
+  side: dark side
+  text: You compel one creature you can see within range to die instantly. If the creature you choose
+    has 100 hit points or fewer, it dies. Otherwise, the power has no effect.
+  prerequisite: Ruin
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Knight Speed
+  level: 3rd-level
+  side: universal
+  text: Choose a willing creature that you can see within range. Until the power ends, the target's speed
+    is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an
+    additional action on each of its turns. That action can be used only to take the Attack (one weapon
+    attack only), Dash, Disengage, Hide, or Use an Object action. When the power ends, the target can't
+    move or take actions until after its next turn, as a wave of lethargy sweeps over it.
+  prerequisite: Burst of Speed
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Lightning Charge
+  level: At-will
+  side: dark side
+  text: You imbue your weapon with debilitating force lightning. As part of the action used to cast this
+    power, you must make a melee weapon attack against one creature within your reach, otherwise the power
+    fails. On a hit, the target suffers the attack's normal effects, and the lightning leaps from the
+    target to a different creature of your choice that you can see within 5 feet of it. The second creature
+    takes lightning damage equal to your forcecasting ability modifier. This power's damage increases
+    when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 lightning damage to
+    the target, and the lightning damage to the second creature increases to 1d8 + your forcecasting ability
+    modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.
+  casting_time: 1 action
+  range: Varies
+  duration: Instantaneous
+  canon: n/a
+- name: Locate Creature
+  level: 4nd-level
+  side: universal
+  text: Describe or name a creature familiar to you. You sense the direction to the creature's location,
+    as long as its within 1000 feet of you. If the creature is in motion, you know the direction of its
+    movement. The power can locate a specific creature known to you or the nearest of a specific kind,
+    as long as you have seen it while within 30 feet of it. If the creature is in a different form, the
+    power doesn't work. This power can't locate a creature if running water at least 10 feet wide blocks
+    a direct path between you and the creature.
+  prerequisite: Locate Object
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Locate Object
+  level: 2nd-level
+  side: universal
+  text: Describe or name an object. You sense the direction to the object's location, as long as its within
+    1000 feet of you. If the object is in motion, you know the direction of its movement. The power can
+    locate a specific object known to you, as long as you have seen it while within 30 feet of it. Alternatively,
+    the power can locate the nearest object of a particular kind. This power can't locate an object if
+    any thickness of lead blocks a direct path between you and the object.
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Maddening Darkness
+  level: 8th-level
+  side: dark side
+  text: Terrifying darkness spreads from a point you choose within range to fill a 60-foot-radius sphere
+    until the power ends. The darkness spreads around corners. A creature with darkvision can't see through
+    this darkness. Unenhanced light, as well as light created by powers of 8th level or lower, can't illuminate
+    the area. Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature
+    starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a
+    failed save, or half as much damage on a successful one.
+  prerequisite: Shroud of Darkness
+  casting_time: 1 action
+  range: 150 feet
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Malacia
+  level: 1st-level
+  side: universal
+  text: A creature of your choice that you can see within range is overcome with a sense of dizziness
+    and nausea, as you disturb its equilibrium with the Force. The creature must succeed on a Wisdom saving
+    throw or fall prone, becoming incapacitated and unable to stand up for the duration. At the end of
+    each of its turns, and each time it takes damage, the target can make another Wisdom saving throw.
+    The target has advantage on the saving throw if it's triggered by damage. On a success, the power
+    ends. This power has no effect on droids or constructs.
+  prerequisite: Mind Trick
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Mass Animation
+  level: 5th-level
+  side: universal
+  text: You snag several objects using the Force and whip them into the air around you, controlling them
+    to attack at your command. Choose up to ten unenhanced objects within range that are not being worn
+    or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets
+    count as eight objects. You can't control any object larger than Huge. Each object animates and hovers
+    near you, remaining within 100 feet of you for the duration. An animated object behaves as though
+    it is a construct, with AC, hit points, and attacks determined by its size, and a flying speed of
+    30 feet. As a bonus action, you can mentally direct any object controlled by this power. If you control
+    multiple objects, you can command any or all of them at the same time. You decide what action the
+    object will take and where it will move. The objects act at the end of your turn. If you command an
+    object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes
+    a slam attack with an attack bonus and kinetic damage determined by its size. Size Tiny Small Medium
+    Large Huge Attack +6 to hit, 1d4 + 3 damage +6 to hit, 1d8 + 2 damage +5 to hit, 2d6 + 1 damage +6
+    to hit, 2d10 + 2 damage +8 to hit, 2d12 + 4 damage
+  prerequisite: Animate Weapon
+  casting_time: 1 action
+  range: 120 feet
+  duration: Concentration, up to 1 minute
+  force_potency: If you cast this power using a force slot of 6th level or higher, you can animate two
+    additional objects for each slot level above 5th.
+  canon: n/a
+- name: Mass Coerce Mind
+  level: 6th-level
+  side: universal
+  text: You suggest a course of activity (limited to a sentence or two) and influence with the Force up
+    to twelve creatures of your choice that you can see within range and that can hear and understand
+    you. Creatures that can't be charmed are immune to this effect. The suggestion must be worded in such
+    a manner as to make the course of action sound reasonable. Asking the creature to harm itself automatically
+    negates the effect of the power. Each target must make a Wisdom saving throw. On a failed save, it
+    pursues the course of action you described to the best of its ability. The suggested course of action
+    can continue for the entire duration. If the suggested activity can be completed in a shorter time,
+    the power ends when the subject finishes what it was asked to do. You can also specify conditions
+    that will trigger a special activity during the duration. For example, you might suggest that a group
+    of soldiers give all their money to the first beggar they meet. If the condition isn't met before
+    the power ends, the activity isn't performed. If you or any of your companions damage a creature affected
+    by this power, the power ends for that creature. This power has no effect on droids or constructs.
+  prerequisite: Coerce Mind
+  casting_time: 1 action
+  range: 60 feet
+  duration: 24 hours
+  force_potency: When you cast this power using a 7th-level force slot, the duration is 10 days. When
+    you use an 8th-level force slot, the duration is 30 days. When you use a 9th-level force slot, the
+    duration is a year and a day.
+  canon: n/a
+- name: Mass Hysteria
+  level: 9th-level
+  side: dark side
+  text: Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds,
+    manifesting their worst nightmares as an implacable threat visible only to them. Each creature in
+    a 30-footradius sphere is frightened for the duration of the power. At the end of each of the frightened
+    creature's turns, it must succeed on a Wisdom saving throw or take 5d10 psychic damage. On a successful
+    save, the power ends for that creature. This power has no effect on droids or constructs.
+  prerequisite: Hysteria
+  casting_time: 1 action
+  range: 120 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Mass Malacia
+  level: 3rd-level
+  side: universal
+  text: Each creature in a 30-foot cube within range must make a Wisdom saving throw. On a failed save,
+    the creature becomes charmed for the duration. While charmed by this power, the creature is incapacitated
+    and has a speed of 0. The power ends for an affected creature if it takes any damage or if someone
+    else uses an action to shake the creature out of its stupor. This power has no effect on droids or
+    constructs.
+  prerequisite: Malacia
+  casting_time: 1 action
+  range: 120 feet (30-foot cube)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Master Battle Meditation
+  level: 9th-level
+  side: universal
+  text: You exude an aura out to 30 feet that boosts the morale and overall battle prowess you and your
+    allies while simultaneously reducing the opposition's combat-effectiveness by eroding their will to
+    fight. Whenever you or a friendly creature within your meditation makes an attack roll or a saving
+    throw, they can roll a d8 and add the number rolled to the attack roll or saving throw. Whenever a
+    hostile creature enters your meditation or starts its turn there, it must make a Charisma saving throw.
+    On a failed save, it must roll a d8 and subtract the number rolled from each attack roll or saving
+    throw it makes before the end of your next turn. On a successful save, it is immune to this power
+    for 1 day.
+  prerequisite: Improved Battle Meditation
+  casting_time: 1 action
+  range: Self (30-foot radius)
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Master Feedback
+  level: 9th-level
+  side: dark side
+  text: You unleash the power of your mind to blast the intellect of up to ten creatures of your choice
+    that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.
+    Each target must make an Intelligence saving throw. On a failed save, a target takes 14d6 psychic
+    damage and is stunned. On a successful save, a target takes half as much damage and isn't stunned.
+    A stunned target can make a Wisdom saving throw at the end of each of its turns. On a successful save,
+    the stunning effect ends.
+  prerequisite: Greater Feedback
+  casting_time: 1 action
+  range: 90 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Master Force Barrier
+  level: 8th-level
+  side: light side
+  text: 'This power massively bolsters your allies with toughness and resolve. Creatures of your choice
+    in a 30-foot radius around you when you cast this power gain the following benefits: The creature
+    sheds dim light in a 5-foot radius. The creature has advantage on all saving throws Other creatures
+    have disadvantage on attack rolls against them. When a dark side creature hits them with a melee attack,
+    that creature must make a Constitution saving throw or be blinded until the power ends.'
+  prerequisite: Improved Force Barrier
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Master Force Immunity
+  level: 8th-level
+  side: universal
+  text: A 10-foot-radius faintly shimmering barrier surrounds you. Within the sphere, powers can't be
+    cast and enhanced items become mundane. Until the power ends, the sphere moves with you, centered
+    on you. Powers and other enhanced effects are suppressed in the sphere and can't protrude into it.
+    A slot expended to cast a suppressed power is consumed. While an effect is suppressed, it doesn't
+    function, but the time it spends suppressed counts against its duration. Targeted Effects. Powers
+    and other enhanced effects that target a creature or an object in the sphere have no effect on that
+    target. Enhanced Areas. The area of another power or enhanced effect, such as force storm, can't extend
+    into the sphere. If the sphere overlaps an enhanced area, the part of the area that is covered by
+    the sphere is suppressed. Powers. Any active power or other enhanced effect on a creature or an object
+    in the sphere is suppressed while the creature or object is in it. Enhanced Items. The properties
+    and powers of enhanced items are suppressed in the sphere. For example, a +1 vibrosword in the sphere
+    functions as an unenhanced vibrosword. An enhanced weapon's properties and powers are suppressed if
+    it is used against a target in the sphere or wielded by an attacker in the sphere. If an enhanced
+    weapon or a piece of enhanced ammunition fully leaves the sphere (for example, if you fire an enhanced
+    shot or throw an enhanced saberspear at a target outside the sphere), the enhancement of the item
+    ceases to be suppressed as soon as it exits. Enhanced Travel. Teleportation fails to work in the sphere,
+    whether the sphere is the destination or the departure point for such enhanced travel. A portal to
+    another location temporarily closes while in the sphere. Creatures and Objects. A creature or object
+    summoned or created by powers temporarily winks out of existence in the sphere. Such a creature instantly
+    reappears once the space the creature occupied is no longer within the sphere. Tech Override/Sever
+    Force. Powers and enhanced effects such as sever force have no effect on the sphere. Likewise, the
+    spheres created by different scrambling field powers don't nullify each other.
+  prerequisite: Improved Force Immunity
+  casting_time: 1 action
+  range: Self (10-foot-radius sphere)
+  duration: Concentration, up to 1 hour
+  canon: n/a
+- name: Master Force Scream
+  level: 8th-level
+  side: dark side
+  text: You emit a cacophonous scream imbued with the power of the Force. Each creature you choose within
+    60 feet of you must succeed on a Constitution saving throw. On a failed save, a creature takes 6d6
+    psychic damage, 6d6 sonic damage, is deafened and blinded for 1 minute, and knocked prone. On a successful
+    save, it takes half as much damage and isn't deafened, blinded, or knocked prone. A creature blinded
+    by this power makes another Constitution saving throw at the end of each of its turns. On a successful
+    save, it is no longer blinded.
+  prerequisite: Improved Force Scream
+  casting_time: 1 action
+  range: Self (60-foot radius)
+  duration: Instantaneous
+  canon: n/a
+- name: Master Heal
+  level: 9th-level
+  side: light side
+  text: A wave of healing energy washes over the creature you touch. The target regains all its hit points.
+    If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature
+    is prone, it can use its reaction to stand up. This power has no effect on droids or constructs.
+  prerequisite: Greater Heal
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Master Malacia
+  level: 6th-level
+  side: universal
+  text: Choose one creature that you can see within range. The creature reels with extreme dizziness and
+    nausea for the duration. Creatures that can't be charmed are immune to this power. The affected creature
+    must use all of its movement to writhe in discomfort without leaving its space and has disadvantage
+    on Dexterity saving throws and attack rolls. While the target is affected by this power, other creatures
+    have advantage on attack rolls against it. As an action, an affected creature makes a Wisdom saving
+    throw to regain control of itself. On a successful save, the power ends. This power has no effect
+    on droids or constructs.
+  prerequisite: Mass Malacia
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Master Revitalize
+  level: 9th-level
+  side: light side
+  text: You return a dead creature you touch to life, provided that it has been dead no longer than 1
+    day. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns
+    to life with all its hit points. This power has no effect on droids or constructs. This power closes
+    all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature
+    when it died. The power replaces damaged or missing organs and limbs.
+  prerequisite: Improved Revitalize
+  casting_time: 1 hour
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Master Saber Throw
+  level: 7th-level
+  side: universal
+  text: When you cast this power, you must be wielding at least one lightweapon or vibroweapon, otherwise
+    the power fails. When you cast this power, you can throw two weapons, striking creatures in two lines
+    originating from yourself, both 90 feet long and 5 feet wide, or you can throw one weapon in a 90-foot
+    long, 5-foot wide line of your choice originating from yourself and change its direction to move in
+    a second identical line of your choice within range. Each creature in a line must make a Dexterity
+    saving throw. A creature takes 5d8 damage of the same type as the weapon's damage and 5d8 force damage
+    on a failed save, or half as much damage on a successful one. A creature in the area of more than
+    one line is affected only once. The weapons then immediately return to your hand. \columnbreak
+  prerequisite: Greater Saber Throw
+  casting_time: 1 action
+  range: Self (90-foot line)
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 8th level or higher, the weapon damage
+    and force damage each increase by 1d8 for each slot level above 7th.
+  canon: n/a
+- name: Master Speed
+  level: 7th-level
+  side: universal
+  text: Choose up to two willing creatures that you can see within range. Until the power ends, each targets'
+    speed is doubled, they gain a +2 bonus to AC, they have advantage on Dexterity saving throws, and
+    they gain an additional action on each of their turns. That action can be used only to take the Attack
+    (one weapon attack only), Dash, Disengage, Hide, or the Use an Object Action. When the power ends,
+    each target can't move or take actions until after its next turn, as a wave of lethargy sweeps over
+    it.
+  prerequisite: Knight Speed
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 8th-level or higher, you can target one
+    additional creature for each slot level above 7th.
+  canon: n/a
+- name: Mind Blank
+  level: 8th-level
+  side: universal
+  text: Until the power ends, one willing creature you touch is immune to psychic and sonic damage, any
+    effect that would sense its emotions or read its thoughts, and the charmed condition. The power foils
+    powers or effects of similar power used to affect the target's mind or to gain information about the
+    target.
+  prerequisite: Mind Trap
+  casting_time: 1 action
+  range: Touch
+  duration: 24 hours
+  canon: n/a
+- name: Mind Prison
+  level: 6th-level
+  side: dark side
+  text: You attempt to bind a creature within an illusory cell that only it perceives. One creature you
+    can see within range must make an Intelligence saving throw. The target succeeds automatically if
+    it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the
+    power ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately
+    around the target's space appear dangerous to it in some way. You might cause the target to perceive
+    itself as being surrounded by fire, a storm of blaster-fire, or deadly toxic gas, for example. Whatever
+    form the illusion takes, the target can't see or hear anything beyond it and is restrained for the
+    power's duration. If the target is moved out of the illusion, makes a melee attack through it, or
+    reaches any part of its body through it, the target takes 10d10 psychic damage, and the power ends.
+    This power has no effect on droids or constructs.
+  prerequisite: Mind Trap
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Mind Spike
+  level: 2nd-level
+  side: dark side
+  text: Choose one creature you can see. The target must make a Wisdom saving throw. A creature takes
+    3d8 psychic damage on a failed save, or half as much damage on a successful one. Additionally, on
+    a failed save, you always know the target's location, but only while the two of you are on the same
+    planet. The target can't become hidden from you, and if it's invisible, it gains no benefits from
+    this condition against you. This power has no effect on droids or constructs.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 hour
+  canon: n/a
+- name: Mind Trap
+  level: 4th-level
+  side: universal
+  text: You attempt to trap the mind of your target in a psychic cage. The target must make a Charisma
+    saving throw. On a failed save, the creature is incapacitated for the duration as its mind is trapped.
+    It can think, but it can't have any contact with or perceive the outside world. If the creature takes
+    damage, it makes another Charisma save. On a success, the power ends. This power has no effect on
+    droids or constructs.
+  prerequisite: Force Confusion
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 6th level or higher, after 1 minute of
+    concentration the power's duration becomes 24 hours and it no longer requires your concentration.
+  canon: n/a
+- name: Mind Trick
+  level: At-will
+  side: universal
+  text: Choose a target within range that isn't hostile toward you. The target must make a Wisdom saving
+    throw. On a failed save, the target has disadvantage on Wisdom (Perception) and Intelligence (Investigation)
+    checks. On a successful save, the creature realizes that you tried to use the Force to influence its
+    awareness and becomes hostile toward you. A creature prone to violence might attack you. Another creature
+    might seek retribution in other ways (at the GM's discretion), depending on the nature of your interaction
+    with it. This power has no effect on droids or constructs.
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Morichro
+  level: 3rd-level
+  side: light side
+  text: You touch a willing creature and put it into a cataleptic state that is indistinguishable from
+    death. For the power's duration, or until you use an action to touch the target and dismiss the power,
+    the target appears dead to all outward inspection and to powers used to determine the target's status.
+    The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all
+    damage except psychic damage. If the target is diseased or poisoned when you cast the power, or becomes
+    diseased or poisoned while under the power's effect, the disease and poison have no effect until the
+    power ends. This power has no effect on droids or constructs.
+  prerequisite: Cloud Mind
+  casting_time: 1 action
+  range: Touch
+  duration: 1 hour
+  canon: n/a
+- name: Necrotic Charge
+  level: At-will
+  side: dark side
+  text: As part of the action used to cast this power, you must make a melee weapon attack against one
+    creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal
+    effects, and you can choose to deal up to 1d8 of necrotic damage, which you suffer as well. This damage
+    can't be reduced or negated in any way. This power's damage increases when you reach higher levels.
+    At 5th level, the melee attack deals an extra 1d8 necrotic damage to the target, and you can increase
+    the secondary damage to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.
+  casting_time: 1 action
+  range: Varies
+  duration: 1 round
+  canon: n/a
+- name: Necrotic Touch
+  level: At-will
+  side: dark side
+  text: You attempt to drain the essence from a creature. Make a melee force attack against the target.
+    If the attack hits, the creature takes 1d6 necrotic damage, and you gain temporary hit points equal
+    to the damage dealt until the end of your next turn. This power's damage increases by 1d6 when you
+    reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+  casting_time: 1 action
+  range: Touch
+  duration: 1 round
+  canon: n/a
+- name: Phasestrike
+  level: 1st-level
+  side: universal
+  text: Until the power ends, your movement doesn't provoke opportunity attacks. Once before the power
+    ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an
+    extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet
+    until the end of that turn.
+  casting_time: 1 bonus action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Phasewalk
+  level: 2nd-level
+  side: universal
+  text: You teleport up to 30 feet to an unoccupied space that you can see.
+  casting_time: 1 bonus action
+  range: Self
+  duration: Instantaneous
+  canon: n/a
+- name: Plague
+  level: 3rd-level
+  side: dark side
+  text: Choose up to six creatures of your choice in a 40-foot cube within range. Each target must succeed
+    on a Constitution saving throw or be affected by this power for the duration. An affected target gains
+    1 slowed level, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions.
+    On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's
+    abilities or items, it can't make more than one melee or ranged attack during its turn. If the creature
+    attempts to cast a power with a casting time of 1 action, roll a d20. On an 11 or higher, the power
+    doesn't take effect until the creature's next turn, and the creature must use its action on that turn
+    to complete the power. If it can't, the power is wasted. A creature affected by this power makes another
+    Constitution saving throw at the end of its turn. On a successful save, the effect ends for it.
+  prerequisite: Affliction
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Plant Surge
+  level: 3rd-level
+  side: light side
+  text: If you cast this power using 1 action, all normal plants in a 100-foot radius centered on a point
+    become overgrown. Moving through the area spends 4 feet of movement for every 1 foot moved. You can
+    exclude areas of any size within the power's area from being affected. If you cast this power over
+    8 hours, all plants in a half-mile radius centered on a point yield twice the normal amount of food
+    when harvested for 1 year.
+  casting_time: 1 action or 8 hours
+  range: 150 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Precognition
+  level: 9th-level
+  side: universal
+  text: Your mastery of the Force gives you a limited ability to see into the immediate future. For the
+    duration, you can't be surprised and you have advantage on attack rolls, ability checks, and saving
+    throws. Additionally, other creatures have disadvantage on attack rolls against you for the duration.
+  prerequisite: Danger Sense
+  casting_time: 1 minute
+  range: Self
+  duration: 8 hours
+  canon: n/a
+- name: Project
+  level: 1st-level
+  side: light side
+  text: You lift three piles of debris or small objects from the ground and hurl them. Each pile hits
+    a creature of your choice that you can see within range. The pile deals 1d4+1 force damage to its
+    target. The piles all strike simultaneously and you can direct them to hit one creature or several.
+  casting_time: 1 action
+  range: 120 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, you lift and throw
+    an additional pile of debris for each slot level above 1st.
+  canon: n/a
+- name: Psychic Charge
+  level: At-will
+  side: dark side
+  text: As part of the action used to cast this power, you must make a melee weapon attack against one
+    creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal
+    effects, and its mouth is covered by a violet veil until the start of your next turn. If the target
+    willingly speaks before then, it immediately takes 1d8 psychic damage, and the power ends. This power's
+    damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 psychic
+    damage to the target, and the damage the target takes for speaking increases to 2d8. Both damage rolls
+    increase by 1d8 at 11th level and 17th level.
+  casting_time: 1 action
+  range: Varies
+  duration: 1 round
+  canon: n/a
+- name: Psychometry
+  level: 3rd-level
+  side: universal
+  text: For the duration, you gain the ability to "communicate" telepathically with inanimate objects
+    you touch. You can ask up to five questions and receive answers from objects, usually in the form
+    of an auditory or visual hallucination. For example, touching the rusted, broken remains of a lightsaber
+    and asking how it got there may result in a brief vision of a disgruntled Jedi Knight casting it to
+    the ground on that spot. An object "questioned" in this way can only provide information relating
+    to its past. The DM has the final say on what objects can be questioned, and to what extent.
+  prerequisite: Telemetry
+  casting_time: 1 minute
+  range: Self
+  duration: 10 minutes
+  canon: n/a
+- name: Rage
+  level: 6th-level
+  side: dark side
+  text: 'You endow yourself with endurance and martial prowess fueled by the Force. Until the power ends,
+    you can''t cast powers, and you gain the following benefits: You gain 50 temporary hit points. If
+    any of these remain when the power ends, they are lost. You have advantage on attack rolls that you
+    make with lightweapons and vibroweapons. When you hit a target with a weapon attack, that target takes
+    an extra 2d12 force damage. You have proficiency with all armor, lightweapons, and vibroweapons. You
+    have proficiency in Strength and Constitution saving throws. You can attack twice, instead of once,
+    when you take the Attack action on your turn. You ignore this benefit if you already have a feature,
+    like Extra Attack, that gives you extra attacks. Immediately after the power ends, you must succeed
+    on a DC 15 Constitution saving throw or suffer one level of exhaustion.'
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Rebuke
+  level: At-will
+  side: light side
+  text: 'You strike a creature with the righteous fury of the Force. Make a melee force attack against
+    the target, if the attack hits, the target takes force damage depending on its alignment: a dark-aligned
+    creature takes 1d12 force damage, a balanced or unaligned creature takes 1d10 force damage, and a
+    light-aligned creature takes 1d8 force damage. The power''s damage increases by one die when you reach
+    5th, 11th, and 17th level.'
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Remove Curse
+  level: 3rd-level
+  side: light side
+  text: At your touch, all curses affecting one creature or object end. If the object is a cursed enhanced
+    item, its curse remains, but the power breaks its owner's attunement to the object so it can be removed
+    or discarded.
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Rescue
+  level: 2nd-level
+  side: universal
+  text: You pull one willing ally you can see within 30 feet of you to an unoccupied space within 5 feet
+    of you. The target must use their reaction to accept the pull.
+  casting_time: 1 bonus action
+  range: 30 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Resistance
+  level: At-will
+  side: universal
+  text: 'You touch one willing creature. Once before the power ends, the target can roll a d4 and add
+    the number rolled to one saving throw of its choice. The power then ends. This power''s die increases
+    at higher levels: to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.'
+  casting_time: 1 action
+  range: Touch
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Restoration
+  level: 2nd-level
+  side: light side
+  text: You touch a creature and end either one disease or one condition afflicting it. The condition
+    can be blinded, deafened, paralyzed, or poisoned. This power has no effect on droids or constructs.
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Revitalize
+  level: 5th-level
+  side: light side
+  text: You return a dead creature you touch to life, provided that it has been dead no longer than 10
+    minutes. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns
+    to life with 1 hit point. This power has no effect on droids or constructs. This power also neutralizes
+    any poisons and cures diseases that affected the creature at the time it died. This power closes all
+    mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or
+    organs integral for its survival--its head, for instance--the power automatically fails. Coming back
+    from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and
+    ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
+  prerequisite: Spare the Dying
+  casting_time: 1 minute
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Ruin
+  level: 7th-level
+  side: dark side
+  text: You channel the dark side of the Force to desecrate a creature you can see within range, causing
+    waves of intense pain to assail it. If the target has 100 hit points or fewer, it is subject to crippling
+    pain. Otherwise, the power has no effect on it. While the target is affected by crippling pain, any
+    speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability
+    checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to
+    cast a power, it must first succeed on a Constitution saving throw, or the casting fails and the power
+    is wasted. A target suffering this pain can make a Constitution saving throw at the end of each of
+    its turns. On a successful save, the pain ends.
+  prerequisite: Wound
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Saber Reflect
+  level: At-will
+  side: universal
+  text: In response to being attacked, you raise your weapon to attempt to deflect. When you use this
+    power, the damage you take from the attack is reduced by 1d6. If you reduce the damage to 0, you're
+    wielding a lightweapon or vibroweapon, and the damage is energy or ion, you can reflect the attack
+    at a target within range as part of the same reaction. Make a ranged force attack at a target you
+    can see. The attack has a normal range of 20 feet and a long range of 60 feet. On a hit, the target
+    takes the triggering attack's normal damage. The power's damage reduction increases by 1d6 when you
+    reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+  casting_time: 1 reaction, which you take in response to being dealt damage by a ranged attack
+  range: Self
+  duration: Instantaneous
+  canon: n/a
+- name: Saber Throw
+  level: At-will
+  side: universal
+  text: 'As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon
+    or vibroweapon against one target within the power''s range, otherwise the power fails. On a hit,
+    the target takes 1d8 damage of the same type as the weapon''s damage. The weapon then immediately
+    returns to your hand. This power can hit multiple targets when you reach higher levels: two targets
+    at 5th level, three targets at 11th level, and four targets at 17th level. Each target must be within
+    30 feet of the previous target, you must make a separate attack roll for each target, and the last
+    target must be no further than 30 feet away from you. You can not hit the same target twice in succession.'
+  casting_time: 1 action
+  range: 30 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Saber Ward
+  level: At-will
+  side: universal
+  text: You take a defensive stance. Until the end of your next turn, you have resistance against kinetic,
+    energy, and ion damage dealt by weapons.
+  casting_time: 1 action
+  range: Self
+  duration: 1 round
+  canon: n/a
+- name: Sanctuary
+  level: 1st-level
+  side: light side
+  text: Until the power ends, any creature who targets the warded creature with an attack, a harmful power,
+    or a hostile action must first make a Wisdom saving throw. On a failed save, the creature must choose
+    a new target or lose the attack or power. This power doesn't protect the warded creature from area
+    effects. If the warded creature makes an attack, casts a power that affects an enemy creature, or
+    takes a hostile action this power ends.
+  casting_time: 1 bonus action
+  range: 30 feet
+  duration: 1 minute
+  canon: n/a
+- name: Sap Vitality
+  level: 1st-level
+  side: dark side
+  text: Make a melee force attack against a creature you can reach. On a hit, the target takes 3d10 necrotic
+    damage.
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the damage increases
+    by 1d10 for each slot level above 1st.
+  canon: n/a
+- name: Scourge
+  level: 6th-level
+  side: dark side
+  text: For the power's duration, your eyes become an inky void imbued with dread power. One creature
+    of your choice within 60 feet of you that you can see must succeed on a Constitution saving throw
+    or be affected by one of the following effects of your choice for the duration. On each of your turns
+    until the power ends, you can use your action to target another creature but can't target a creature
+    again if it has succeeded on a saving throw against this casting of scourge. Asleep. The target falls
+    unconscious. It wakes up if it takes any damage or if another creature uses its action to shake the
+    sleeper awake. Panicked. The target is frightened of you. On each of its turns, the frightened creature
+    must take the Dash action and move away from you by the safest and shortest available route, unless
+    there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can
+    no longer see you, this effect ends. Sickened. The target has disadvantage on attack rolls and ability
+    checks. At the end of each of its turns, it can make another Constitution saving throw. If it succeeds,
+    the effect ends.
+  prerequisite: Plague
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Seethe
+  level: At-will
+  side: dark side
+  text: You seethe with anger, letting the dark side of the Force flow through and empower you. As part
+    of the action to cast this power, you spend one of your Hit Dice to recover hit points.
+  casting_time: 1 action
+  range: Self
+  duration: Instantaneous
+  canon: n/a
+- name: Sense Emotion
+  level: 1st-level
+  side: universal
+  text: You attune your senses to pick up the emotions of others for the duration. When you cast the power,
+    and as your action on each turn until the power ends, you can focus your senses on one humanoid you
+    can see within 30 feet of you. You instantly learn the target's prevailing emotion, whether it's love,
+    anger, pain, fear, calm, or something else, and you have advantage on Wisdom (Insight) checks against
+    the target. If the target isn't actually humanoid or it is immune to being charmed, you sense that
+    it is calm.
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Sense Force
+  level: 1st-level
+  side: universal
+  text: For the duration, you sense the use of the Force, or its presence in an inanimate object within
+    30 feet of you. If you sense the Force in this way, you can use your action to determine the direction
+    from which it originates and, if it's in line of sight, you see a faint aura around the person or
+    object from which the Force emanates.
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 10 minutes
+  force_potency: When you cast this power using a 3rd-level force slot, the range increases to 60 feet.
+    When you use a 5th-level force slot, the range increases to 500 feet. When you use a 7th-level force
+    slot, the range increases to 1 mile. When you use a 9thlevel force slot, the range increases to 10
+    miles.
+  canon: n/a
+- name: Sever Force
+  level: 3rd-level
+  side: universal
+  text: You attempt to interrupt a creature in the process of casting a force power. If the creature is
+    casting a power of 3rd level or lower, its power fails and has no effect. If it is casting a power
+    of 4th level or higher, make an ability check using your forcecasting ability. The DC equals 10 +
+    the power's level. On a success, the creature's power fails and has no effect.
+  casting_time: 1 reaction, which you take when you see a creature within 60 feet of you casting a force
+    power
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 4th level or higher, the interrupted power
+    has no effect if its level is less than or equal to the level of the force slot you used.
+  canon: n/a
+- name: Shadow Sight
+  level: 1st-level
+  side: universal
+  text: You enhance your eyesight with the Force, allowing you to better see in the dark. For the duration,
+    you have darkvision out to 60 feet.
+  casting_time: 1 action
+  range: Self
+  duration: 1 hour
+  canon: n/a
+- name: Share Life
+  level: 3rd-level
+  side: light side
+  text: You sacrifice some of your health to mend another creature's injuries. You take 4d8 necrotic damage,
+    and one creature of your choice that you can see within range regains a number of hit points equal
+    to twice the necrotic damage you take. This power has no effect on droids or constructs.
+  prerequisite: Give Life
+  casting_time: 1 action
+  range: 30 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 4th level or higher, the damage increases
+    by 1d8 for each slot level above 3rd.
+  canon: n/a
+- name: Shock
+  level: At-will
+  side: dark side
+  text: You hurl a bolt of lightning at a target within range, making a ranged force attack. On a hit,
+    the target takes 1d10 lightning damage. The lightning ignites flammable objects in the area that aren't
+    being worn or carried. This power's damage increases by 1d10 when you reach 5th level (2d10), 11th
+    level (3d10), and 17th level (4d10).
+  casting_time: 1 action
+  range: 120 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Shocking Shield
+  level: 4th-level
+  side: dark side
+  text: Lightning courses in a sphere surrounding your body, shedding bright light in a 10-foot radius
+    and dim light for an additional 10 feet. You can use your action to end the power early. Whenever
+    a creature within 5 feet of you hits you with a melee attack, it takes 2d8 lightning damage.
+  prerequisite: Shock
+  casting_time: 1 action
+  range: Self
+  duration: 10 minutes
+  canon: n/a
+- name: Shroud Of Darkness
+  level: 4th-level
+  side: dark side
+  text: You become heavily obscured to others. Dim light within 10 feet of you becomes darkness, and bright
+    light becomes dim light. Until the power ends, you have resistance to force damage. Additionally,
+    whenever a creature within 10 feet of you hits you with an attack, it takes 2d8 necrotic damage.
+  prerequisite: Darkness
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Siphon Life
+  level: 5th-level
+  side: dark side
+  text: A tendril of inky darkness reaches out from you, touching a creature you can see within range
+    to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target
+    takes 2d8 necrotic damage, and the power ends. On a failed save, the target takes 4d8 necrotic damage,
+    and until the power ends, you can use your action on each of your turns to automatically deal 4d8
+    necrotic damage to the target. The power ends if you use your action to do anything else, if the target
+    is ever outside the power's range, or if the target has total cover from you. Whenever the power deals
+    damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.
+  prerequisite: Drain Life
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 6th level or higher, the damage increases
+    by 1d8 for each slot level above 5th.
+  canon: n/a
+- name: Skill Empowerment
+  level: 5th-level
+  side: light side
+  text: Your power with the Force deepens a creature's understanding of its own talent. You touch one
+    willing creature and give it expertise in one skill of your choice; until the power ends, the creature
+    doubles its proficiency bonus for ability checks it makes that use the chosen skill. You must choose
+    a skill in which the target is proficient and that isn't already benefiting from an effect, such as
+    Expertise, that doubles its proficiency bonus.
+  casting_time: 1 action
+  range: Touch
+  duration: Concentration, up to 1 hour
+  canon: n/a
+- name: Slow
+  level: At-will
+  side: dark side
+  text: 'A hostile creature of your choice must make a Constitution saving throw. On a failed save, the
+    target gains 1 slowed level until the power ends. At the end of each of the creature''s turns, it
+    repeats this saving throw, ending the effect on a success. This power can affect multiple targets
+    when you reach higher levels: two targets at 5th level, three targets at 11th level, and four targets
+    at 17th level.'
+  casting_time: 1 action
+  range: 15 feet
+  duration: 1 hour
+  canon: n/a
+- name: Slow Descent
+  level: 1st-level
+  side: universal
+  text: Choose up to five falling creatures within range. A falling creature's rate of descent slows to
+    60 feet per round until the power ends. If the creature lands before the power ends, it takes no falling
+    damage and can land on its feet, and the power ends for that creature.
+  casting_time: 1 reaction, which you take when you or a creature within 60 feet of you falls
+  range: 60 feet
+  duration: 1 minute
+  canon: n/a
+- name: Sonic Charge
+  level: At-will
+  side: universal
+  text: As part of the action used to cast this power, you must make a melee weapon attack against one
+    creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal
+    effects, and you begin to emanate a disturbing hum until the start of your next turn. If a hostile
+    creature ends its turn within 5 feet of you, it takes 1d4 sonic damage. This power's damage increases
+    when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 sonic damage to the
+    target, and the secondary damage increases by 1d4. Both damage rolls increase by 1d8 and 1d4, respectively,
+    at 11th level and 17th level.
+  casting_time: 1 action
+  range: Varies
+  duration: 1 round
+  canon: n/a
+- name: Sound Trick
+  level: At-will
+  side: universal
+  text: 'You use the Force to produce an effect within range. You create one of the following special
+    effects within range: Your voice booms up to three times as loud as normal, and you can alter its
+    tone, for 1 minute. You cause harmless tremors in the ground for 1 minute. You create an instantaneous
+    sound that originates from a point of your choice within range, such as a rumble of thunder, the cry
+    of a bird, or ominous whispers. You gain the ability to speak like another species for 1 minute, allowing
+    you to speak in a language you know but otherwise lack the physical ability to speak, such as a Wookiee
+    speaking Basic. You create an instantaneous, harmless sensory effect, such as falling leaves, a puff
+    of wind, a billowing of someone''s clothes, or a flickering of unenhanced light fixtures within range.
+    A wary creature can use its action to make an Intelligence (Investigation) check against your force
+    save DC, discerning that the effects are illusory on a success. If you cast this power multiple times,
+    you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect
+    as an action.'
+  casting_time: 1 action
+  range: 30 feet
+  duration: 1 minute
+  canon: n/a
+- name: Spare The Dying
+  level: At-will
+  side: light side
+  text: You touch a living creature that has 0 hit points. The creature becomes stable. This power has
+    no effect on droids or constructs.
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Spirit Blade
+  level: At-will
+  side: universal
+  text: 'You conjure a blade of spirit energy and attempt to strike one creature. Make a melee force attack
+    against the target. If the attack hits, the creature takes 1d10 necrotic damage. This power can make
+    multiple attacks at higher levels: two attacks at 5th level, three attacks at 11th level, and four
+    attacks at 17th level. Each attack can target the same creature or different ones. Make a separate
+    attack roll for each target.'
+  casting_time: 1 action
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Stasis
+  level: 5th-level
+  side: light side
+  text: Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw
+    or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom
+    saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs.
+  prerequisite: Stun
+  casting_time: 1 action
+  range: 90 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 6th level or higher, you can target an
+    additional creature for each slot level above 5th. The creatures must be within 30 feet of each other
+    when you target them.
+  canon: n/a
+- name: Stasis Field
+  level: 8th-level
+  side: light side
+  text: Choose a point that you can see within range. Each creature within range of that point must succeed
+    on a Wisdom saving throw or be paralyzed for the duration. At the end of each of a target's turns,
+    it can make another Wisdom saving throw. On a success, the power ends on the target. This power has
+    no effect on droids or constructs.
+  prerequisite: Stasis
+  casting_time: 1 action
+  range: 120 feet (30-foot cube)
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 9th level, the size of the cube increases
+    to 40 feet.
+  canon: n/a
+- name: Stun
+  level: 2nd-level
+  side: light side
+  text: Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw
+    or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom
+    saving throw. On a success, the power ends on the target.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Stun Droid
+  level: 2nd-level
+  side: light side
+  text: Choose a droid or construct that you can see within range. The target must succeed on a Constitution
+    saving throw or be paralyzed for the duration. At the beginning of each of its turns, the target takes
+    energy damage equal to your forcecasting ability modifier. At the end of each of its turns, the target
+    can make another Constitution saving throw. On a success, the power ends on the target.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Sustained Lightning
+  level: 1st-level
+  side: dark side
+  text: You lash out against a creature within range with continual jolts of Force lightning. Make a ranged
+    force attack against that creature. On a hit, the target takes 1d12 lightning damage, and on each
+    of your turns for the duration, you can use your action to deal 1d12 lightning damage to the target
+    automatically. The power ends if you use your action to do anything else. The power also ends if the
+    target is ever outside the power's range or if it has total cover from you.
+  prerequisite: Shock
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the initial damage
+    increases by 1d12 for each slot level above 1st.
+  canon: n/a
+- name: Telekinesis
+  level: 5th-level
+  side: universal
+  text: You gain the ability to move or manipulate creatures and objects with the Force. When you cast
+    this power, and as your action each round for the duration, you can exert your will on one creature
+    or object that you can see within range, causing the appropriate effect below. You can affect the
+    same target round after round, or choose a new one at any time. If you switch targets, the prior target
+    is no longer affected by the power. Creature. You can try to move a Huge or smaller creature. The
+    target must make a Strength saving throw. On a failed save, you move the creature up to 30 feet in
+    any direction, including upward but not beyond the range of this power. Until the end of your next
+    turn, the creature is restrained in your telekinetic grip. A creature lifted upward is suspended in
+    mid-air. On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip
+    on the creature by repeating the contest. Object. You move an object that isn't being worn or carried
+    and weighs up to 2,500 lbs up to 30 feet in any direction, but not beyond the range of this power.
+    You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool,
+    opening a door or a container, stowing or retrieving an item from an open container, or pouring the
+    contents from a vial.
+  prerequisite: Force Throw
+  casting_time: 1 action
+  range: 90 feet
+  duration: Concentration, up to 10 minutes
+  force_potency: When you cast this power using a force slot of 6th level or higher, the maximum object
+    weight increases by 2,500 lbs for every slot level above 5th.
+  canon: n/a
+- name: Telekinetic Burst
+  level: 6th-level
+  side: light side
+  text: A beam of Force energy flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature
+    in the line must make a Constitution saving throw. On a failed save, a creature takes 8d6 force damage
+    and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone.
+    You can create a new telekinetic gust as your action on your turn until the power ends.
+  prerequisite: Telekinetic Storm
+  casting_time: 1 action
+  range: Self (60-foot line)
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force slot of 7th level or higher, the damage increases
+    by 2d6 for each slot level above 6th.
+  canon: n/a
+- name: Telekinetic Shield
+  level: 3rd-level
+  side: universal
+  text: You lift three piles of debris or small objects from the ground and interpose them between you
+    and your opponents for the duration. While at least three piles remain, you have threequarters cover.
+    While two piles remain, you have half cover. While only one pile remains, you have onequarter cover.
+    The piles don't hinder your attacks. When you cast the power, or as an action on a subsequent turn,
+    you can direct up to two piles to attack up to two creatures you can see within 30 feet. Make a ranged
+    force attack roll for each pile. On a hit, a creature takes 2d6 kinetic plus 1d10 force damage. The
+    pile is destroyed whether it hits or misses.
+  prerequisite: Animate Weapon
+  casting_time: 1 action
+  range: Self
+  duration: Concentration, up to 1 minute
+  force_potency: If you cast this power with a force slot of 4th level or higher, the power creates one
+    additional pile for each level above 3rd.
+  canon: n/a
+- name: Telekinetic Storm
+  level: 3rd-level
+  side: light side
+  text: You stir the Force around you, creating a turbulent field of telekinetic energy that buffets enemies
+    around you. The field extends out to a distance of 15 feet around you for the duration. When you cast
+    this power, you can designate any number of creatures you can see to be unaffected by it. An affected
+    creature gains 1 slowed level while in the area, and when the creature enters the area for the first
+    time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save,
+    the creature takes 3d8 force damage. On a successful save, the creature takes half as much damage.
+  prerequisite: Turbulence
+  casting_time: 1 action
+  range: Self (15-foot radius)
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power using a force power slot of 4th level or higher, the damage
+    increases by 1d8 for each slot level above 3rd.
+  canon: n/a
+- name: Telekinetic Wave
+  level: 8th-level
+  side: light side
+  text: You manipulate the Force in a 60-foot radius centered on a point you choose within range. Each
+    creature in that area must make a Constitution saving throw. On a failed save, a creature takes 12d6
+    force damage, is knocked prone, and moved 5 feet in a direction of your choice. On a successful save,
+    it takes half as much damage and isn't knocked prone or moved.
+  prerequisite: Telekinetic Burst
+  casting_time: 1 action
+  range: 150 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 9th level, the damage increases by 2d6.
+  canon: n/a
+- name: Telemetry
+  level: 1st-level
+  side: universal
+  text: You choose one object that you must touch throughout the casting of the power. If it is an enhanced
+    or modified item, you learn its properties and how to use them, whether it requires attunement to
+    use, and how many charges it has, if any. You learn whether any powers are affecting the item and
+    what they are. If the item was created by a power, you learn which power created it. If you instead
+    touch a creature throughout the casting, you learn what force powers, if any, are currently affecting
+    it.
+  casting_time: 1 minute
+  range: Touch
+  duration: Instantaneous
+  canon: n/a
+- name: Tremor
+  level: 1st-level
+  side: universal
+  text: You cause a tremor in the ground within range. Each creature other than you in a 5-foot-radius
+    sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes
+    1d8 kinetic damage and is knocked prone. On a successful save, the creature takes half as much damage
+    and isn't knocked prone. If the ground in that area is loose earth or stone, it becomes difficult
+    terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.
+  prerequisite: Burst
+  casting_time: 1 action
+  range: 10 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the damage increases
+    by 1d8 for each slot level above 1st.
+  canon: n/a
+- name: True Sight
+  level: 6th-level
+  side: universal
+  text: You shift your vision to see through use of the Force, giving you the ability to see things as
+    they actually are. For the duration, you have truesight and notice secret doors hidden by powers,
+    all out to a range of 120 feet.
+  prerequisite: Force Sight
+  casting_time: 1 action
+  range: Self
+  duration: 1 hour
+  canon: n/a
+- name: Turbulence
+  level: At-will
+  side: light side
+  text: Choose one creature, or choose two creatures that are within 5 feet of each other, within range.
+    A target must succeed on a Dexterity saving throw or take 1d6 force damage. This power's damage increases
+    by 1d6 when you reach 5th, 11th, and 17th level.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  canon: n/a
+- name: Valor
+  level: 1st-level
+  side: light side
+  text: You bless up to three creatures of your choice within range. Whenever a target makes an attack
+    roll or a saving throw before the power ends, the target can roll a d4 and add the number rolled to
+    the attack roll or saving throw.
+  prerequisite: Resistance
+  casting_time: 1 action
+  range: 30 feet
+  duration: Concentration, up to 1 minute
+  force_potency: When you cast this power with a force slot of 3rd level or higher, you can target one
+    additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or
+    9th level, the die increases to d6, d8, and d10, respectively.
+  canon: n/a
+- name: Wall Of Light
+  level: 6th-level
+  side: light side
+  text: You conjure an immense manifestation of destructive light side Force energy. The wall appears
+    within range and lasts for the duration. You can make a straight wall up to 100 feet long, 20 feet
+    high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick.
+    The wall provides threequarters cover and its space is difficult terrain. When a creature enters the
+    wall's area for the first time on a turn or starts its turn there, it must make a Dexterity saving
+    throw. On a failed save, the creature takes 6d10 force damage, or half as much on a success.
+  casting_time: 1 action
+  range: 90 feet
+  duration: Concentration, up to 10 minutes
+  canon: n/a
+- name: Whirlwind
+  level: 7th-level
+  side: universal
+  text: A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is
+    a 10-footradius, 30-foot-high cylinder centered on that point. Until the power ends, you can use your
+    action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks
+    up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by
+    anyone. A creature must make a Dexterity saving throw the first time on a turn that it enters the
+    whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature
+    takes 10d6 kinetic damage on a failed save, or half as much damage on a successful one. Additionally,
+    a Large or smaller creature that fails the save must succeed on a Strength saving throw or become
+    restrained in the whirlwind until the power ends. When a creature starts its turn restrained by the
+    whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A restrained
+    creature moves with the whirlwind and falls when the power ends, unless the creature has some means
+    to stay aloft. A restrained creature can use an action to make a Strength or Dexterity check against
+    your force save DC. If successful, the creature is no longer restrained by the whirlwind and is hurled
+    3d6x10 feet away from it in a random direction.
+  casting_time: 1 action
+  range: 300 feet
+  duration: Concentration, up to 1 minute
+  canon: n/a
+- name: Will Of The Force
+  level: 9th-level
+  side: light side
+  text: 'You sublimate yourself before the will of the Force, attempting to use it to affect change in
+    the galaxy around you. The basic use of this power is to duplicate any other light side or universal
+    force power of 8th level or lower. You don''t need to meet any requirements in that power; it simply
+    takes effect. Alternatively, you can create one of the following effects of your choice: You summon
+    one object to you of up to 250,000 cr in value that isn''t an enhanced item. The object can be no
+    more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.
+    You allow up to twenty creatures that you can see to regain all hit points, and you end all effects
+    on them described in the improved restoration power. You grant up to ten creatures that you can see
+    resistance to a damage type you choose. You grant up to ten creatures you can see immunity to a single
+    power or other specific enhanced effect for 8 hours. For instance, you could make yourself and all
+    your companions immune to the Manifestation of Abeloth''s Will ability. You undo a single recent event
+    by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes
+    itself to accommodate the new result. For example, will of the force could undo an opponent''s successful
+    save, a foe''s critical hit, or a friend''s failed save. You can force the reroll to be made with
+    advantage or disadvantage, and you can choose whether to use the reroll or the original roll. You
+    might be able to achieve something beyond the scope of the above examples. State your wish to the
+    DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance;
+    the greater the wish, the greater the likelihood that something goes wrong. This power might simply
+    fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence
+    as a result of how you worded the wish. For example, wishing that a villain were dead might propel
+    you forward in time to a period when that villain is no longer alive, effectively removing you from
+    the game. Similarly, wishing for a legendary enhanced item or artifact might instantly transport you
+    to the presence of the item''s current owner. The stress of casting this power to produce any effect
+    other than duplicating another power weakens you. After enduring that stress, each time you cast a
+    power until you finish a long rest, you take 1d10 necrotic damage per level of that power, which can''t
+    be reduced or prevented in any way. Additionally, your Strength drops to 3, if it isn''t 3 or lower
+    already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light
+    activity, your remaining recovery time decreases by 2 days. Additionally, there is a 33 percent chance
+    that you are unable to cast will of the force ever again if you suffer this stress. Finally, if you
+    are reduced to 0 hit points as a result of this necrotic damage, or at any point before you have fully
+    recovered from the Strength reduction, you immediately die and cannot be resurrected as your body
+    fades away, absorbed into the living Force.'
+  casting_time: 1 action
+  range: Self
+  duration: Instantaneous
+  canon: n/a
+- name: Wound
+  level: 1st-level
+  side: dark side
+  text: You make a piercing gesture at a creature within range. Make a ranged force attack against the
+    target. On a hit, the target takes 2d8 necrotic damage and must make a Constitution saving throw.
+    On a failed save, it is also poisoned until the end of your next turn.
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: When you cast this power using a force slot of 2nd level or higher, the damage increases
+    by 1d8 for each slot level above 1st.
+  canon: n/a
+- name: Wrack
+  level: 6th-level
+  side: dark side
+  text: You wrack the body of a creature that you can see with a virulent, disease-like condition. The
+    target must make a Constitution saving throw. On a failed save, it takes 14d6 necrotic damage, or
+    half as much damage on a successful save. The damage can't reduce the target's hit points below 1.
+    If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal
+    to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum
+    to return to normal immediately.
+  prerequisite: Plague
+  casting_time: 1 action
+  range: 60 feet
+  duration: Instantaneous
+  force_potency: If you cast this power using a force slot of 7th level or higher, the power deals an
+    extra 2d6 damage for each slot level above 6th.
+  canon: n/a

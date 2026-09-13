@@ -26,6 +26,28 @@ it a resource, a meter, a cost, or fiction? How many powers, and what *shapes* a
 they — how many are automatic hits, immunities, undetectability, undo (the
 never-list)? What does the game do about lightsabers?
 
+**Droids.** A species, a class, a build, or equipment? SW5e makes the five Legends
+droid classes (I–V, from WEG's *Droids* sourcebook, 1988) into species; WEG stats
+droids like characters; Saga has droid *systems* bought like gear. Which taxonomy, and
+is there a droid *builder* — and does it share a procedure with the race builder?
+
+**Generators.** Three the game needs and every sci-fi OSR game has an answer to:
+a **planet** generator (Traveller's UWP is the ancestor; SWN's world tags are the
+modern standard; WEG's *Planets Collection* and *Galaxy Guide 8: Scouts* are the
+Star Wars ones), a **ship** builder (SWN, Traveller, WEG *Tramp Freighters* /
+*Starships of the Galaxy*, SW5e *Starships of the Galaxy*), and a **droid**
+builder (WEG *Cynabar's Fantastic Technology: Droids*, Saga *Scavenger's Guide to
+Droids*). The questions: what is the unit of build (hull + fittings? points?
+tables?), does it produce a stat block Core can fight with, and how long does it take.
+
+## Canon
+
+**Dan's working position: Star Crawler is Legends.** Every corpus record carries
+`canon:` — `legends`, `disney`, `both`, or `n/a` for a rule rather than a thing.
+WEG (1987–99) and WotC (2000–10) are Legends by definition. SW5e and anything
+post-2014 is tagged per record, in one lookup table per extractor so the judgement
+can be argued with. Nothing enters `content/` without the tag.
+
 ## Systems
 
 | System | Kind | Where | Status |
@@ -48,10 +70,14 @@ never-list)? What does the game do about lightsabers?
 
 | File | What it establishes |
 |---|---|
-| `weg_species.yaml` | Every WEG species, extracted: attribute dice, move, size, special abilities as text. The corpus. |
-| `weg_force.yaml` | Every WEG Force power: the CSA axis, difficulty, effect text. The corpus. |
+| `corpora/weg/species.yaml` | **done** — 449 WEG species, 831 special abilities, Legends |
+| `corpora/weg/force_powers.yaml` | **done** — 122 WEG Force powers by C/S/A axis and side, with provenance tiers (published / converted / fan) |
+| `corpora/sw5e/species.yaml` | **done** — 30 SW5e species incl. droid classes I–V, 360 traits, canon-tagged |
+| `corpora/sw5e/force_powers.yaml` | **done** — 200 SW5e Force powers by level and side |
 | `Race_Models_Compared.md` | Every system's race model against the race questions. Includes the builders. |
 | `Class_Models_Compared.md` | Every system's class model against the class questions. |
 | `Force_Models_Compared.md` | Every system's Force model. Counts of never-list violations per system. |
 | `Species_Shape_Fit.md` | WEG's 435 species' abilities mapped to the 55 shapes. Which do not fit, and why. |
+| `Droid_Models_Compared.md` | Droid as species / class / build across systems; the taxonomy candidates. |
+| `Generators_Compared.md` | Planet, ship and droid generators across systems: unit of build, output, time. |
 | `Synthesis.md` | What the evidence supports for Star Crawler. Draft positions, not decisions. |
