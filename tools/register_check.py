@@ -174,26 +174,46 @@ def add(corpus, where, scope, text):
         rows.append((corpus, where, scope, text))
 
 
-# WHICH YAML FIELDS ARE FLAVOUR is the game's schema, and until 2026-09-13
-# this file walked Mutant's - families/breeds/blurb, classes/picks - and
-# crashed on any other. Now: if the game ships `tools/game_schema.py` with a
-# `register_rows()` returning (corpus, where, scope, text) tuples, that is
-# the content walk. Without it, every YAML under content/ is walked blind:
-# a string under a key in FLAV_KEYS is flavour, under `text` it is a rule,
-# anything else is not prose and is not read. Blind is a floor, not the
-# check - a game whose flavour lives under a key not listed here is not
-# being read, and should say so in game_schema.py.
+# WHICH YAML FIELDS ARE PROSE. Until 2026-09-13 this file walked Mutant's
+# schema - families/breeds/blurb, classes/picks - and crashed on any other.
+# Now every YAML under content/ is walked blind: a string under a key in
+# FLAV_KEYS is flavour, under RULES_KEYS it is rules, anything else is not
+# prose and is not read. THE BLIND WALK IS THE DEFAULT AND THE WIDER ONE:
+# on Mutant it read 4670 fields where Mutant's own schema walk read 928, and
+# found seventeen faults in trait text the narrow walk had never opened
+# (mail #5). A game's `tools/game_schema.py` can adjust it, narrowing only
+# where a field is genuinely not prose:
+#
+#   FLAVOUR_KEYS = (...)   extra keys that are flavour   (added to FLAV_KEYS)
+#   RULES_KEYS   = (...)   extra keys that are rules     (added to RULES_KEYS)
+#   NOT_PROSE    = (...)   keys the walk must skip       (a table column, a slug)
+#   register_rows()        replaces the walk entirely. Rarely right: the game
+#                          that did this got its old, narrower coverage back.
 FLAV_KEYS = ("blurb", "flavour", "reads_as", "identity", "look", "description",
              "silhouette", "summary")
+RULES_KEYS = ("text",)
+NOT_PROSE = ()
+
+sys.path.insert(0, "tools")
+try:
+    import game_schema as SCHEMA
+except ImportError:
+    SCHEMA = None
+if SCHEMA is not None:
+    FLAV_KEYS = FLAV_KEYS + tuple(getattr(SCHEMA, "FLAVOUR_KEYS", ()))
+    RULES_KEYS = RULES_KEYS + tuple(getattr(SCHEMA, "RULES_KEYS", ()))
+    NOT_PROSE = tuple(getattr(SCHEMA, "NOT_PROSE", ()))
 
 
 def walk(node, corpus, name):
     if isinstance(node, dict):
         here = node.get("name") or node.get("id") or name
         for k, v in node.items():
+            if k in NOT_PROSE:
+                continue
             if isinstance(v, str):
-                if k == "text":
-                    add(corpus, "%s:%s" % (corpus, here), "rules", v)
+                if k in RULES_KEYS:
+                    add(corpus, "%s:%s/%s" % (corpus, here, k), "rules", v)
                 elif k in FLAV_KEYS:
                     add(corpus, "%s:%s/%s" % (corpus, here, k), "flavour", v)
             else:
@@ -202,12 +222,6 @@ def walk(node, corpus, name):
         for x in node:
             walk(x, corpus, name)
 
-
-sys.path.insert(0, "tools")
-try:
-    import game_schema as SCHEMA
-except ImportError:
-    SCHEMA = None
 
 if SCHEMA is not None and hasattr(SCHEMA, "register_rows"):
     for r in SCHEMA.register_rows():

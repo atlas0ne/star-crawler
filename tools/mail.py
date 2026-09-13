@@ -23,17 +23,49 @@ Usage (from Core or from any game that copied tools/):
 
 `send` with no --body reads the body from stdin. --from defaults to this
 repo's name (project.yaml `repository`, or "crawler-core" inside Core).
-Add --commit to git-commit the new file in Core in the same step.
+Add --commit to git-commit the new file in Core and push it in the same
+step (--no-push to skip the push). list/read/send pull Core first, so what
+you read is what the hub has; MAIL_NO_PULL=1 skips that when offline.
 
 Names: crawler-core, star-crawler, project-mutant, stone-and-spear, ccag.
 """
 import io, os, re, sys, glob, datetime, subprocess
+
+# Messages carry en dashes and a Unicode minus; a Windows console is cp1252
+# and `read` crashed on message #9 (mail #9, 2026-09-13).
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import corepath
 
 CORE = corepath.core_root()
 BOX = os.path.join(CORE, "mail")
+
+
+def pull():
+    """Core is read through git. A stale checkout is stale mail; pull first.
+    Quiet on success, one line on failure, never fatal (offline is allowed)."""
+    if os.environ.get("MAIL_NO_PULL"):
+        return
+    r = subprocess.run(["git", "-C", CORE, "pull", "-q", "--ff-only"],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        print("(could not pull Core: %s)" % (r.stderr.strip().split("\n")[-1] if r.stderr else "?"))
+
+
+def push():
+    r = subprocess.run(["git", "-C", CORE, "push", "-q"], capture_output=True, text=True)
+    if r.returncode != 0:
+        print("PUSH FAILED - the other sessions cannot see this until you push Core:")
+        print("   " + (r.stderr.strip().split("\n")[-1] if r.stderr else "?"))
+    else:
+        print("pushed")
+
+
+def open_for(name):
+    """Open messages addressed to `name`. Used by check.py so the gate says so."""
+    return [m for m in load() if m.get("status") == "open" and name in m["to"]]
 FM = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 
 
@@ -77,6 +109,7 @@ def write(meta, body):
 
 
 def cmd_list(args):
+    pull()
     msgs = load()
     want_open = "--open" in args
     to = opt(args, "--to")
@@ -100,6 +133,7 @@ def find(n):
 
 
 def cmd_read(args):
+    pull()
     m = find(args[0])
     print(io.open(m["path"], encoding="utf-8").read())
 
@@ -121,6 +155,7 @@ def cmd_send(args):
         else sys.stdin.read()
     if not body.strip():
         sys.exit("empty body")
+    pull()                      # so the id is the next one on the hub, not on a stale copy
     msgs = load()
     n = (msgs[-1]["id"] + 1) if msgs else 1
     tos = [x.strip() for x in to.split(",")]
@@ -144,13 +179,16 @@ def cmd_send(args):
         subprocess.check_call(["git", "-C", CORE, "add", "mail"])
         subprocess.check_call(["git", "-C", CORE, "commit", "-q", "-m",
                                "mail #%d: %s -> %s: %s" % (n, frm, ", ".join(tos), title)])
-        print("committed in %s (push it)" % CORE)
+        print("committed in %s" % CORE)
+        if "--no-push" not in args:
+            push()
     else:
         print("commit it in Core: git -C \"%s\" add mail && git -C \"%s\" commit"
               % (CORE, CORE))
 
 
 def cmd_close(args):
+    pull()
     m = find(args[0])
     m["status"] = "answered"
     write(m, m["body"])

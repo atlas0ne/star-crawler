@@ -1,0 +1,24 @@
+# WHICH CHECKS RUN, in order. This file is the game's; Core ships the runner
+# (tools/check.py) and reads this list. A name with no tools/<name>.py is
+# printed as "not yet written" and is not a failure - the gap stays visible.
+# Add a check here only once it has been proven to FAIL on a deliberate break.
+checks:
+  - pin_check           # engine/ copies match engine/VERSION; warns if behind (Core)
+  - lint_structure      # one H1, no skipped levels, front matter     (Core)
+  - citation_check      # every section cited exists                  (Core)
+  - register_check      # describe, do not evoke                      (Core)
+  - counts_check        # prose counts match content, via game_schema (Core)
+  # - validate          # not yet written
+  # - shape_check       # not yet written
+  # - xref              # not yet written
+
+# The fast structural subset: python tools/check.py --quick
+quick:
+  - pin_check
+  - lint_structure
+  - citation_check
+  - counts_check
+
+# Core-shipped tools this game has taken over. sync_core.py reports these
+# and never copies over them. skirmish.py and generate.py are always yours.
+keep: []

@@ -5,11 +5,14 @@ status: SCAFFOLD
 
 # DECISIONS
 
-Settled calls, with the reason. **Check here before relitigating anything.**
+**DRAFT STAGE. Nothing below is decided.** Dan, 2026-09-13: the game is still
+figuring out how to shape character creation. Every entry here is a *draft
+position* — a starting point written down so the alternative is argued against
+something rather than nothing. An entry becomes a decision only when Dan says so,
+and it is marked **[DECIDED]** with the date when that happens. Until then, do not
+cite any of it as settled, in this repo or in mail to Core.
 
-Format: what was decided, when, why, and what it blocks or unblocks. A decision
-marked *proposed* is a starting position awaiting Dan's call; it is written down
-so the alternative is argued against something, not against nothing.
+Format: what is proposed, when, why, and what it blocks or unblocks.
 
 ---
 
@@ -63,7 +66,7 @@ and before the rebellion was more than a rumour. The empire is the dungeon. The
 knights are dead, hunted, or hiding. Player characters are the people at the
 edge: smugglers, deserters, bounty hunters, the last apprentice.
 
-**The names are placeholders — Dan's call, 2026-09-13.** Star Wars names are
+**The names are placeholders — [DECIDED] Dan, 2026-09-13.** Star Wars names are
 used as-is while the game is built (the same ruling as Mutant's placeholder
 Class names: they read well and nothing is gained by inventing now). Dan's
 own names replace them before release. Every placeholder is logged in
@@ -104,7 +107,7 @@ is not a character in a game with a round.
 
 ## 2026-09-13 — Three Core tools were wrong on an empty book
 
-**Decided:** Fixed here, to be sent upstream to Crawler-Core.
+**[DECIDED]** (a bug fix, not design): Fixed here, to be sent upstream to Crawler-Core.
 
 * `citation_check.py` self-tested against the *real* book, expecting "Rests
   Rough" in section 6.5 — Project Mutant's content, baked into a Core tool. It
@@ -141,15 +144,15 @@ writing content first would have had a gate that never ran.
 
 ## 2026-09-13 — Repository structure and pin
 
-**Decided:** `engine/` pinned to Crawler-Core `9bd668a` (0.1.0-draft).
+**[DECIDED]** (mechanical, not design): `engine/` pinned to Crawler-Core `f372c1b` (0.1.0-draft).
 `book/`, `content/`, `tools/`, `decisions/` per the recipe. Version
 `0.1.0-scaffold` until played.
 
 ---
 
-## 2026-09-13 — Synced to Core `9bd668a`; two OPEN Core rules declared
+## 2026-09-13 — Synced to Core; two OPEN Core rules, draft positions
 
-**Decided:** Save target **fixed 15**; check ladder **7 / 9 / 11**. Both are
+**Draft position, not a ruling:** Save target **fixed 15**; check ladder **7 / 9 / 11**. Both are
 Mutant's, and for the same reason: this game imports Mutant's Classes and
 Strains unchanged, and their pricing assumes those numbers. Choosing S&S's
 sliding TN or 7-standard ladder would silently reprice 127 save-bonus traits

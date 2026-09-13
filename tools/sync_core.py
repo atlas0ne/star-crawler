@@ -28,10 +28,41 @@ CORE = corepath.core_root()
 if corepath.is_core(GAME):
     sys.exit("this is Crawler-Core; nothing to sync into")
 
+# SELF-UPDATE FIRST. A fix to this file cannot help a game whose copy
+# predates the fix (mail #8: the old copy overwrote check.py; the new one
+# knew not to, and no game had the new one). So: pull Core, refresh this
+# file and corepath.py from it, and if this file changed, re-run as the new
+# version before touching anything else.
+if "--no-self-update" not in sys.argv:
+    subprocess.run(["git", "-C", CORE, "pull", "-q", "--ff-only"],
+                   capture_output=True)
+    _me = os.path.abspath(__file__)
+    _changed = False
+    for _f in ("sync_core.py", "corepath.py"):
+        _src = os.path.join(CORE, "tools", _f)
+        _dst = os.path.join(GAME, "tools", _f)
+        if os.path.exists(_src) and not (os.path.exists(_dst)
+                                         and filecmp.cmp(_src, _dst, shallow=False)):
+            shutil.copyfile(_src, _dst)
+            print("  updated  tools/%s (from Core, before anything else)" % _f)
+            _changed = True
+    if _changed:
+        sys.exit(subprocess.call([sys.executable, _me, "--no-self-update"] + sys.argv[1:]))
+
 PAIRS = [(os.path.join(CORE, "ENGINE.md"), os.path.join(GAME, "engine", "ENGINE.md")),
          (os.path.join(CORE, "vocabulary", "vocabulary.yaml"),
           os.path.join(GAME, "engine", "vocabulary.yaml"))]
-CORE_ONLY = {"new_game.py"}          # runs inside Core; a game has no use for it
+CORE_ONLY = {"new_game.py", "fleet.py"}   # run inside Core; a game has no use for them
+
+# A game may keep its own copy of a Core-shipped tool. It says so in
+# tools/checks.yaml under `keep:`; those files are reported and never copied.
+# (mail #8: the sync overwrote Stone & Spear's check.py and skirmish.py.)
+KEEP = set()
+_cy = os.path.join(GAME, "tools", "checks.yaml")
+if os.path.exists(_cy):
+    import yaml
+    KEEP = set((yaml.safe_load(io.open(_cy, encoding="utf-8")) or {}).get("keep") or [])
+
 for f in sorted(glob.glob(os.path.join(CORE, "tools", "*.py"))):
     if os.path.basename(f) not in CORE_ONLY:
         PAIRS.append((f, os.path.join(GAME, "tools", os.path.basename(f))))
@@ -52,6 +83,9 @@ def main():
     for src, dst in PAIRS:
         rel = os.path.relpath(dst, GAME).replace("\\", "/")
         if os.path.exists(dst) and filecmp.cmp(src, dst, shallow=False):
+            continue
+        if os.path.basename(dst) in KEEP:
+            print("  %-8s %s  (game-owned per tools/checks.yaml; not copied)" % ("kept", rel))
             continue
         changed += 1
         print("  %-8s %s" % ("new" if not os.path.exists(dst) else "changed", rel))

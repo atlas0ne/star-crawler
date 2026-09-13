@@ -1,5 +1,7 @@
 # Star Crawler
 
+**Draft stage — nothing about character creation is decided.** See `decisions/DECISIONS.md`.
+
 **A space-opera OSR game on the [Crawler Core](https://github.com/atlas0ne/Crawler-Core)
 engine.** Blasters, starships, a fallen order of mystic knights and the empire that
 hunted them. Same rules as Stone & Spear and Project Mutant: a player who has rolled in

@@ -1,6 +1,6 @@
 # Crawler Core — the engine
 
-*Version 0.1.0-draft. The rules every game on this engine shares. A game copies this
+*Version 0.2.0-draft. The rules every game on this engine shares. A game copies this
 file verbatim and records anything it does differently in its `DIVERGENCES.md`.*
 
 *"The referee" below means whoever runs the game, by whatever name that game gives them.*
@@ -14,8 +14,8 @@ file verbatim and records anything it does differently in its `DIVERGENCES.md`.*
 | To resolve | Roll | Against |
 |---|---|---|
 | An attack | d20 + Attack Bonus + attribute modifier | Armour Class |
-| A saving throw | d20 + save bonus + attribute modifier | a target — **OPEN**, see Modules: Mutant fixes it at 15; S&S sets it by threat |
-| A check with no trait covering it | 2d6 + attribute modifier | a target — **OPEN**, see Modules: Mutant's ladder is 7 / 9 / 11 with 9 standard; S&S's is 4–12 with 7 standard |
+| A saving throw | d20 + save bonus + attribute modifier | a target — **OPEN**, see Modules: Mutant fixes it at 15; S&S sets it by threat; the author is deciding |
+| A check with no trait covering it | 2d6 + attribute modifier | **easy 7 / ordinary 9 / hard 11.** The referee names the row. Help, time and tools make a check easy |
 | A trait that states its own chance | what the trait says | usually **x-in-6** |
 
 **Most of the time there is no roll.** A trait that lets a character do something says
@@ -204,8 +204,8 @@ something worth stopping for is +2. When a party splits, this is per character.
 | **Advantage / Disadvantage** | Roll 3d6 and keep the best or worst two. Worth about ±1.5 on 2d6. **Never printed on a sheet** in any game: sheets carry flat modifiers. Optional in both. | settled as a Module |
 | **Treasure as XP** | B/X's reward loop. Optional in Project Mutant; declared off in Stone & Spear, which pays for hexes mapped instead. | settled as a Module |
 | **Bonus actions** | An extra action slot. Neither game has one; the round is "move and do one thing". Held as data — Stone & Spear tags every feature with what it costs in the round, and if the count asks for the slot, this row changes. | off |
-| **Save target** | **OPEN — the two audited games differ, and the first draft of this file wrongly said they agreed.** Project Mutant: a fixed 15, difficulty in the modifiers — chosen so that 127 save-bonus traits can be priced against one number. Stone & Spear: the TN set by the threat — 10 weak, 12 standard, 15 strong, 18 extreme — and every bestiary behaviour names its own. Crypt Crawler v3 (unaudited): 10 / 13 / 15. The author has not ruled. | open |
-| **The check ladder** | **OPEN — the two audited games differ.** Project Mutant: 7 easy / 9 ordinary / 11 hard, 9 standard, because the 2d6 check is a *fallback* — 683 traits resolve on their own x-in-6 and the general roll is for what nothing on the sheet covers. Stone & Spear: 4 / 5 / 7 / 9 / 11 / 12 with **7 standard**, because the check *is* the skill game. At +0 / +1 / +2: a 9 succeeds 28% / 42% / 58%; a 7 succeeds 58% / 72% / 83%. That is the whole feel of each game's skill roll, and it may be a legitimate Module rather than a Core rule. The author has not ruled. | open |
+| **Save target** | **OPEN — the author is deciding, and has asked for research first.** Project Mutant: a fixed 15, difficulty as a ± modifier on the source — chosen so that 127 save-bonus traits, and the sim's shell and venom prices, are priced against one number. Stone & Spear: the TN set by the threat — 10 weak, 12 standard, 15 strong, 18 extreme — and every one of 188 bestiary behaviours names its own; S&S has no priced save bonuses yet. Crypt Crawler v3 (unaudited): 10 / 13 / 15. **Votes:** Mutant, Star Crawler and X-Gen for 15, because they share priced content; S&S expects a ruling, not a divergence, and says switching costs it a re-pointing pass. **At the table the two are one roll with the same odds** ("save vs 18" is "save at −3 vs 15"); the difference is what the books print, and whether a save bonus means the same thing in every book. A middle position exists: 15 is the standard, a source may name 10 / 12 / 15 / 18, all bonuses priced against 15 — under which no game changes anything. **The author leans by-threat with a standard anchor** and wants it thought through. Research pointer: in B/X and OSE the save number lives on the character's table and a source only ever *adjusts* it ("save vs poison at −2") — the fixed-plus-modifier idiom; a per-source TN is the 5e idiom. (mail #2, #6, #7, #8, #9) | open |
+| **The check ladder** | **Core, ruled 2026-09-13: 7 easy / 9 ordinary / 11 hard, 9 standard.** The games had differed on what the check *is* — Mutant's is a fallback for what no trait covers, Stone & Spear's was the skill game itself on a 7-standard ladder — not on the arithmetic. The author ruled it for S&S after `skillsim.py` ran 3,000 days of survival checks: at 7 an ordinary person succeeds 60% and a level-1 band eats 99 days in 100; at 9, 31% and 82 in 100, which is the game S&S's own Chapter 1 describes. S&S 18.20.0 adopted 9; Star Crawler and X-Gen declared for it; Mutant had it. Four games, one ladder. A game may still say what the check is *for*; the numbers are Core. (mail #6, #7, #8, #9) | settled |
 | **Flanking** | For tables using a grid: two enemies in melee with the same target on opposite sides each attack at +1, no stacking. Both games optional. | settled as a Module |
 
 ---
