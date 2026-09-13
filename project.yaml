@@ -1,0 +1,60 @@
+# PROJECT METADATA — SINGLE SOURCE OF TRUTH
+#
+# Every generated document draws its front matter from this file. Change the
+# name, the site or the version here and it propagates everywhere on the next
+# build. Nothing downstream restates any of it.
+
+# --- identity -------------------------------------------------------------
+title: "Star Crawler"
+subtitle: "A space-opera OSR game on Crawler Core"
+short_title: "Star Crawler"
+tagline: "A galaxy, a blaster, and a d20."
+
+author:
+  name: "Dan Amos"
+  website: "https://cryptcrawler.quest"
+  handle: "atlas0ne"
+
+publisher: "Crypt Crawler"
+publisher_url: "https://cryptcrawler.quest"
+
+# --- edition --------------------------------------------------------------
+#   MAJOR  stays 0 until the game has been played.
+#   MINOR  bumped when a rule a playtester would have to re-learn changes.
+#   PATCH  bumped for content and clarity.
+# The -scaffold suffix stays until something has survived a table.
+version: "0.1.0-scaffold"
+status: SCAFFOLD
+language: en-GB
+rights: "© Dan Amos. All rights reserved."
+repository: "https://github.com/atlas0ne/star-crawler"
+
+# --- description ----------------------------------------------------------
+description: >
+  A space-opera roleplaying game on the Crawler Core engine. Blasters, starships,
+  a fallen order of mystic knights and the galaxy-spanning empire that hunted
+  them. Built on the same rules as Stone & Spear and Project Mutant: a player who
+  has rolled in one has rolled in all of them.
+
+keywords:
+  - OSR
+  - tabletop roleplaying
+  - space opera
+  - science fantasy
+  - B/X
+  - Old-School Essentials
+
+# --- lineage, stated plainly ---------------------------------------------
+influences:
+  engine: "Crawler Core"
+  power_system: "Project Mutant's Strains (mutations.yaml), re-read as the Force"
+  species_layer: "Project Mutant's Families"
+  class_structure: "Project Mutant's six attribute Classes"
+  trait_vocabulary: "Old-School Essentials"
+  tone: "the 1977 film, West End Games d6 (1987), the Dark Times"
+
+# --- how the confidence tiers work ---------------------------------------
+tiers:
+  TESTED: "Derived from primary sources and checked against them. Trustworthy."
+  REASONED: "A considered decision with rationale recorded. Sound, unplayed."
+  SCAFFOLD: "A starting position. Never cite as precedent for anything else."

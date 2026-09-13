@@ -1,0 +1,370 @@
+meta:
+  derived_from: book/appendix-b-trait-vocabulary.md
+  corpus: OSE Classic Fantasy (196 monsters, 547 special abilities), Advanced Fantasy and Carcass Crawler
+    races, class entries, SRD encounter rules.
+  source: Crawler-Core
+  note: The corpus-derived sections - shapes, aliases, never_list, banned_idiom, damage_tiers - are identical
+    in every game on this engine and are edited HERE. A game adds its own shapes under its own unsanctioned_shapes
+    / extensions block in its own repo, never here.
+shapes:
+  combat:
+    natural_attack:
+      count: 83
+      example: Att 2 x claw (1d4), 1 x bite (1d10) — Lion
+    attack_rider:
+      count: null
+      example: 1d8 + knock prone — Cooshee
+    grab_with_escape_save:
+      count: 8
+      example: Mutoid's Pincer, 1d3/round until save
+    crit_trigger:
+      count: 7
+      example: head severed on a 20 — Caterprism
+    control_without_damage:
+      count: 3
+      example: Horned Chameleon's tail knocks prone, no damage
+    drain:
+      count: 8
+      example: lose 1 STR per hit — Shadow
+    object_destruction:
+      count: 7
+      example: Rust Monster
+    conditional_to_hit:
+      count: null
+      example: +4 to hit human-sized or smaller — Elephant
+    conditional_damage_multiplier:
+      count: null
+      example: charge with a 20-yard run, double damage — Elephant
+    self_imposed_attack_penalty:
+      count: null
+      flaw: true
+      example: -2 on all hit rolls — Cyclops
+  defence:
+    ac_value:
+      count: null
+      example: +2 AC against anything larger than human-sized — Halfling
+    immunity:
+      count: 58
+      example: unaffected by ghoul paralysis — Elf
+      must_be_narrow: true
+    resistance:
+      count: 9
+      example: half damage from a named source — Tiefling
+    vulnerability:
+      count: 9
+      flaw: true
+      example: Tieflings and holy water
+    regeneration:
+      count: 7
+      example: Trolls
+    threshold_immunity:
+      count: null
+      example: no damage from the first 10' of any fall — Acrobat
+    save_bonus:
+      count: null
+      example: +2 versus illusions — Svirfneblin
+    save_penalty_imposed:
+      count: null
+      example: victims save at -2 — Assassin's poison
+  chance_and_perception:
+    x_in_6:
+      count: 15
+      example: 2-in-6 to detect sloping passages — Dwarf
+    conditional_rate_x_in_6:
+      count: null
+      example: 4-in-6 in gloom, 2-in-6 in good light — Svirfneblin
+    percentage:
+      count: 43
+      example: 70% to be mistaken for a rock — Rockfish
+    additive_percentage:
+      count: null
+      example: 25% added on top of a poison's own chance — Ratling
+    surprise_modifier:
+      count: 24
+      example: surprises on 1-3 — Bugbear
+      note: B/X's actual stealth mechanic
+    surprise_resistance:
+      count: null
+      example: only surprised on a 1 — Ranger
+    sense_with_range:
+      count: 67
+      example: Infravision 60'
+  numbers_and_scaling:
+    flat_modifier:
+      count: 55
+      example: +1 with missiles, +1 initiative — Halfling
+    ability_score_scaled:
+      count: null
+      example: Resilience reads off CON — Dwarf
+    level_scaled:
+      count: null
+      example: +1 AC at 4th, +2 at 6th — Barbarian
+    self_referential_scaling:
+      count: null
+      example: damage equal to half its own current hp — Dragonborn
+    ability_band_shift:
+      count: null
+      example: STR 12 opens doors as though 13-15 — Gargantua
+    save_or_suffer:
+      count: 50
+      example: save vs poison or be passive — Mycelian
+    banded_range_increments:
+      count: null
+      example: 1d6 at 5'-50' / 51'-100' — Gargantua
+  targeting_limits:
+    hd_cap:
+      count: null
+      example: only affects targets of 4+1 HD or lower
+    anatomy_requirement:
+      count: null
+      example: ineffective against anything lacking a discernible neck
+    size_requirement:
+      count: null
+      example: fails against anything larger than the hephaestan
+    target_state_requirement:
+      count: null
+      example: requires an attack against an unaware opponent — Back-Stab
+  movement_and_utility:
+    movement_rate_or_mode:
+      count: 21
+      example: MV 90' (30'), 240' (80') flying
+    burst_movement:
+      count: null
+      example: once per hour, sprint at 10x normal speed — Cooshee
+    terrain_permission:
+      count: null
+      example: full speed through broken lands and deserts — Camel
+    movement_restriction:
+      count: null
+      flaw: true
+      example: must remain within 60' of water
+    permission:
+      count: null
+      example: survives two weeks without water — Camel
+      note: cheapest shape in the game
+    carrying_capacity:
+      count: 17
+      example: 3,000 coins unencumbered — Camel
+    activity_restriction:
+      count: null
+      flaw: true
+      example: charge attacks impossible when mounted on a camel
+    upkeep_requirement:
+      count: null
+      flaw: true
+      example: 8 hours a day in moist earth or lose 1 hp — Mycelian
+    equipment_handling_upgrade:
+      count: null
+      example: wields two-handed weapons in one hand — Gargantua
+  social_and_group:
+    morale_modification:
+      count: 7
+      example: ML 7, 12 in melee — Driver Ant
+    reaction_modifier:
+      count: null
+      example: +1 on reaction rolls with spiders — Drow
+    reaction_threshold_unlock:
+      count: null
+      example: on a 9 or higher the wolf consents to being ridden — Goblin
+    party_wide_effect:
+      count: null
+      example: a party with a ranger forages at 2-in-6
+    ally_aura:
+      count: null
+      example: companions within 10' get +2 against fear — Knight
+    behaviour_note:
+      count: 105
+      example: 'Pursuit: always pursue prey that flees'
+      no_mechanic: true
+  resource:
+    frequency_limit:
+      count: 7
+      example: per round, encounter, day, or per day per level
+    activation_cost:
+      count: null
+      example: a full round of concentration, disruptable — Duergar
+    retry_restriction:
+      count: null
+      example: on a failure, not attempted again until next level — Thief
+  generation:
+    random_table:
+      count: null
+      example: Mutoid rolls twice on a d8 mutation table
+aliases:
+  sense: sense_with_range
+  natural_attack_upgrade: natural_attack
+  conditional_ac: ac_value
+  conditional_modifier: flat_modifier
+  conditional_damage: conditional_damage_multiplier
+  movement: movement_rate_or_mode
+  morale: morale_modification
+  save: save_bonus
+  surprise: surprise_modifier
+never_list:
+- id: automatic_hit_or_kill
+  patterns:
+  - automatically hit
+  - automatic kill
+  - no attack roll needed
+  - always hits
+- id: broad_immunity
+  patterns:
+  - immune to all
+  - immune to any
+  - immunity to a whole
+  - nothing physical can
+  - no physical attack
+  - cannot be harmed by
+  - unaffected by all
+  note: Narrow, named immunities are fine. Breadth is the violation.
+- id: permanent_undetectability
+  patterns:
+  - cannot be tracked
+  - cannot be found
+  - permanently undetectable
+  - never be detected
+- id: undo_effect
+  patterns:
+  - reroll a failed
+  - re-roll a failed
+  - may reroll
+  - may re-roll
+  - reroll one
+  - reroll any
+  - cancel a failed
+  - ignore a failed
+  - instead of dying
+  - survives a killing blow
+  - remain conscious at 0
+  - at 0 hp
+  - reduced to 0
+  - you are not dead
+  - come back from
+  - below 0
+  - to 0 instead
+  - leaves you at 1
+  - would kill you
+  - not die from
+  - still standing at 0
+  note: May be BOUGHT, never granted free, never more than once per session, priced near the top of a
+    pool. Return from 0 hp is governed by 6.4 Comes Back; a trait doing it must name the rule and take
+    its price from the delay table.
+banned_idiom:
+  advantage:
+    patterns:
+    - advantage on
+    - advantage to
+    - with advantage
+    - disadvantage on
+    - disadvantage to
+    - at disadvantage
+    why: A 5e idiom. This is a 2d6 engine. See Appendix A2 — it is an OPTIONAL swap for an existing flat
+      +2, never a way to write a trait.
+    rewrite_to:
+    - x_in_6
+    - flat_modifier
+    - surprise_modifier
+    - save_bonus
+  exhaustion:
+    patterns:
+    - exhaustion
+    - exhausted
+    why: Section 7.0 removed Exhaustion as a tracked resource. A trait cannot point at it.
+    rewrite_to:
+    - permission
+  out_of_turn_reaction:
+    patterns:
+    - as a reaction
+    - as an immediate
+    - out of turn
+    - when x happens to you, respond
+    why: 'Not in the bestiary, not in the races, not in the classes. Appendix B: do not invent one.'
+    rewrite_to:
+    - control_without_damage
+    - conditional_to_hit
+  once_per_session:
+    patterns:
+    - once per session
+    - once a session
+    - 1/session
+    why: OSE uses per-round, per-encounter, per-day and per-day-per-level. Never per-session.
+    rewrite_to:
+    - frequency_limit
+    severity: warn
+  ungated_knowledge:
+    patterns:
+    - you automatically know
+    - you always know exactly
+    - you know at a glance exactly
+    - automatically underestimates
+    - perfect recall
+    - you instantly know
+    why: Knowledge is never automatic. Gate it on a roll, usually with an activation cost (Svirfneblin's
+      Stone Murmurs).
+    rewrite_to:
+    - x_in_6
+  close_range:
+    patterns:
+    - close range
+    - at close quarters range
+    - medium range
+    - far range
+    why: Section 7.5 uses real measured distance, not abstract zones. Known content debt.
+    severity: warn
+damage_tiers:
+- tier: Minor
+  cost:
+  - 2
+  - 3
+  damage: 1d4
+- tier: Moderate
+  cost:
+  - 4
+  - 5
+  damage: 1d6
+- tier: Major
+  cost:
+  - 6
+  - 7
+  damage: 1d8
+- tier: Severe
+  cost:
+  - 8
+  - null
+  damage: 1d10
+shape_disposition:
+  retired:
+    percentage: '43 uses in the OSE corpus and none here, because this book converted every chance roll
+      to x_in_6. Kept in the vocabulary so imported material maps cleanly; never written to.
+
+      '
+    additive_percentage: 'The same notation one layer up. Retired with it.
+
+      '
+  used_by_rules_not_traits:
+    ability_score_scaled: 'Not a gap. Encumbrance reads off STR (7.2) and saving throws read off the better
+      of two attributes (7.13). The shape is load-bearing - it is simply not something a Family trait
+      says.
+
+      '
+  available_unused:
+    level_scaled: 'Class Picks are static by design and nothing needs to grow with level yet. Worth revisiting
+      if Picks ever feel flat at high level.
+
+      '
+    self_referential_scaling: 'Exotic. Nothing in the book wants "damage equal to half its own current
+      hit points" yet.
+
+      '
+    random_table: 'The Mutation pool is the obvious home and has not needed it.
+
+      '
+  adopted:
+    conditional_rate_x_in_6: 'ADOPTED 2026-09-05. A better tool than a flat rate for every dark-adapted
+      sense in the book, and 7.10 now gives the daylight half of the trade real teeth.
+
+      '
+    equipment_handling_upgrade: 'ADOPTED 2026-09-05. "Wields two-handed weapons in one hand" is most of
+      what being Large is for, and no Large Family had it.
+
+      '
