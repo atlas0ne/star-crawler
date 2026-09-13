@@ -165,7 +165,7 @@ def self_test():
 PASSED = self_test()
 
 
-# ------------------------------------------------------------ the four corpora
+# ------------------------------------------------------------------ the corpora
 rows = []          # (corpus, where, scope, text)
 
 
@@ -174,53 +174,50 @@ def add(corpus, where, scope, text):
         rows.append((corpus, where, scope, text))
 
 
-for f in sorted(glob.glob("content/families/*.yaml")):
-    g = yaml.safe_load(io.open(f, encoding="utf-8")) or {}
-    gid = g.get("id") or os.path.basename(f)
-    add("families", "%s/identity" % gid, "flavour", g.get("identity"))
-    add("families", "%s/silhouette" % gid, "flavour", g.get("silhouette"))
-    add("families", "%s/behaviour" % gid, "flavour",
-        (g.get("behaviour") or {}).get("text"))
-    for b in (g.get("breeds") or []):
-        add("families", "%s/%s/blurb" % (gid, b["name"]), "flavour", b.get("blurb"))
-        add("families", "%s/%s/look" % (gid, b["name"]), "flavour", b.get("look"))
+# WHICH YAML FIELDS ARE FLAVOUR is the game's schema, and until 2026-09-13
+# this file walked Mutant's - families/breeds/blurb, classes/picks - and
+# crashed on any other. Now: if the game ships `tools/game_schema.py` with a
+# `register_rows()` returning (corpus, where, scope, text) tuples, that is
+# the content walk. Without it, every YAML under content/ is walked blind:
+# a string under a key in FLAV_KEYS is flavour, under `text` it is a rule,
+# anything else is not prose and is not read. Blind is a floor, not the
+# check - a game whose flavour lives under a key not listed here is not
+# being read, and should say so in game_schema.py.
+FLAV_KEYS = ("blurb", "flavour", "reads_as", "identity", "look", "description",
+             "silhouette", "summary")
 
-for f in sorted(glob.glob("content/classes/*.yaml")):
-    d = yaml.safe_load(io.open(f, encoding="utf-8")) or {}
-    n = d.get("name") or os.path.basename(f)
-    for k in ("blurb", "identity", "summary", "description"):
-        add("classes", "%s/%s" % (n, k), "flavour", d.get(k))
-    for p in (d.get("picks") or []):
-        add("classes", "%s/%s" % (n, p["name"]), "rules", p.get("text"))
-        add("classes", "%s/%s.flavour" % (n, p["name"]), "flavour", p.get("flavour"))
 
-# Mutations and equipment: `text` is a rule, everything else is flavour.
-FLAV_KEYS = ("blurb", "flavour", "reads_as", "identity", "look", "description")
-# artefacts.yaml joined this list the day it was written, rather than
-# weeks later like the other three. A corpus this checker does not know
-# about is a corpus nobody is checking.
-for f in ("content/mutations.yaml", "content/powers.yaml",
-          "content/equipment.yaml", "content/artefacts.yaml"):
-    if not os.path.exists(f):
-        continue
-    base = os.path.basename(f)
+def walk(node, corpus, name):
+    if isinstance(node, dict):
+        here = node.get("name") or node.get("id") or name
+        for k, v in node.items():
+            if isinstance(v, str):
+                if k == "text":
+                    add(corpus, "%s:%s" % (corpus, here), "rules", v)
+                elif k in FLAV_KEYS:
+                    add(corpus, "%s:%s/%s" % (corpus, here, k), "flavour", v)
+            else:
+                walk(v, corpus, here)
+    elif isinstance(node, list):
+        for x in node:
+            walk(x, corpus, name)
 
-    def walk(node, name):
-        if isinstance(node, dict):
-            here = node.get("name") or name
-            for k, v in node.items():
-                if isinstance(v, str):
-                    if k == "text":
-                        add(base, "%s:%s" % (base, here), "rules", v)
-                    elif k in FLAV_KEYS:
-                        add(base, "%s:%s/%s" % (base, here, k), "flavour", v)
-                else:
-                    walk(v, here)
-        elif isinstance(node, list):
-            for x in node:
-                walk(x, name)
 
-    walk(yaml.safe_load(io.open(f, encoding="utf-8")), "top")
+sys.path.insert(0, "tools")
+try:
+    import game_schema as SCHEMA
+except ImportError:
+    SCHEMA = None
+
+if SCHEMA is not None and hasattr(SCHEMA, "register_rows"):
+    for r in SCHEMA.register_rows():
+        add(*r)
+else:
+    for f in sorted(glob.glob("content/**/*.yaml", recursive=True)):
+        rel = f.replace("\\", "/")[len("content/"):]
+        corpus = rel.split("/")[0]          # families/, classes/, powers.yaml
+        walk(yaml.safe_load(io.open(f, encoding="utf-8")),
+             corpus, os.path.basename(f))
 
 for f in sorted(glob.glob("book/*.md")):
     s = io.open(f, encoding="utf-8").read()

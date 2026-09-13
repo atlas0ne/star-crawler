@@ -141,6 +141,23 @@ writing content first would have had a gate that never ran.
 
 ## 2026-09-13 — Repository structure and pin
 
-**Decided:** `engine/` pinned to Crawler-Core `4c37d48` (0.1.0-draft).
+**Decided:** `engine/` pinned to Crawler-Core `9bd668a` (0.1.0-draft).
 `book/`, `content/`, `tools/`, `decisions/` per the recipe. Version
 `0.1.0-scaffold` until played.
+
+---
+
+## 2026-09-13 — Synced to Core `9bd668a`; two OPEN Core rules declared
+
+**Decided:** Save target **fixed 15**; check ladder **7 / 9 / 11**. Both are
+Mutant's, and for the same reason: this game imports Mutant's Classes and
+Strains unchanged, and their pricing assumes those numbers. Choosing S&S's
+sliding TN or 7-standard ladder would silently reprice 127 save-bonus traits
+and every x-in-6 chance this game did not write. If Core rules the other way,
+the cost is a repricing pass, and it goes in this file when it happens.
+
+**Also in this sync:** Core now owns no game's schema — `tools/game_schema.py`
+is the hook, and `counts_check` says "nothing to count" until this game writes
+one. That resolves the gap logged above. Inbox files are replaced by
+`mail/` in Core; `python tools/mail.py list --open` is how a session finds
+what is waiting.

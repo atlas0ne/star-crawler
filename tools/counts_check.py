@@ -10,42 +10,40 @@ Nothing caught any of them, because a wrong number is still valid YAML and
 still passes every structural check. The corpus grows; the sentences about it
 do not. That is a fault CLASS, so it gets a check rather than three fixes.
 
-WHAT IT DOES. Finds sentences that put a number next to a countable noun -
-Families, Breeds, Named Variants, paid-pool traits - and compares the number to
-what is actually in content/. A number inside a range, a price, a die or a
-section reference is not a count and is skipped.
+WHAT IT DOES. Finds sentences that put a number next to a countable noun and
+compares the number to what is actually in content/. A number inside a range,
+a price, a die or a section reference is not a count and is skipped.
+
+WHAT THE NOUNS ARE is the game's business, not Core's. Until 2026-09-13 this
+file carried Mutant's table - Families / Breeds / Variants / paid-pool traits -
+and walked Mutant's YAML to count them, which meant every other game counted
+nothing and said so silently. Now the game declares both in
+`tools/game_schema.py` (see playbook/STARTING_A_NEW_GAME.md):
+
+    NOUNS  = [(re.compile(r"\\bFamil(?:y|ies)\\b"), "family"), ...]
+    def counts(): return {"family": 84, ...}
+
+Without that file there is nothing to count. The check says so and passes;
+it does not pretend. The self-test runs against a fixture schema, so the
+mechanism is proven whether or not the game has declared anything.
 
 WHAT IT DELIBERATELY DOES NOT DO. It does not check every integer in the book.
 Most numbers are rules - damage, costs, tiers - and a checker that flagged them
 would be noise nobody reads, which is worse than no checker.
 """
-import io, glob, os, re, sys, yaml
+import io, glob, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
+sys.path.insert(0, "tools")
 
-def corpus():
-    G = [yaml.safe_load(io.open(f, encoding="utf-8")) or {}
-         for f in sorted(glob.glob("content/families/*.yaml"))]
-    return {
-        "family":  len(G),
-        "breed":   sum(len(g.get("breeds") or []) for g in G),
-        "variant": sum(len(b.get("variants") or [])
-                       for g in G for b in (g.get("breeds") or [])),
-        "trait":   sum(len(g.get("paid_pool") or []) for g in G),
-    }
+try:
+    import game_schema as SCHEMA
+except ImportError:
+    SCHEMA = None
 
-# the noun as it appears in prose -> which count it asserts
-NOUNS = [
-    (re.compile(r"\bpaid[- ]pool traits?\b", re.I), "trait"),
-    (re.compile(r"\bpool traits?\b", re.I),         "trait"),
-    (re.compile(r"\bNamed Variants?\b", re.I),      "variant"),
-    (re.compile(r"\bVariants?\b"),                  "variant"),
-    (re.compile(r"\bFamil(?:y|ies)\b"),             "family"),
-    (re.compile(r"\bBreeds?\b"),                    "breed"),
-]
-NUM = re.compile(r"(?<![\d.$\u2013\u2014-])(\d{2,4})"
-                 r"(?![\d.']|\s*(?:-|\u2013|\u2014)\s*\d)")
+NUM = re.compile(r"(?<![\d.$–—-])(\d{2,4})"
+                 r"(?![\d.']|\s*(?:-|–|—)\s*\d)")
 # a number that is plainly not a count of content
 # "19 Families OFFER Wing-Hands" counts a subset, not the corpus.
 SUBSET = re.compile(r"^\s*(?:of them |of these |in the book )?"
@@ -55,13 +53,13 @@ SKIP = re.compile(r"(\$|\bd\d|\bp\.|\bhp\b|\bft\b|\bkg\b|\bAC\b|\bXP\b"
                   r"|\bSection\b|\bAppendix\b|\bTier\b|\byear|\btonne|\bmetre)",
                   re.I)
 
-def scan(text, name, want, hits):
+def scan(text, name, nouns, want, hits):
     for i, line in enumerate(text.split("\n"), 1):
         if SKIP.search(line):
             continue
         if len(re.findall(r"\d+", line)) >= 3:
             continue  # a table row or a worked sum, not a claim about content
-        for pat, key in NOUNS:
+        for pat, key in nouns:
             m = pat.search(line)
             if not m:
                 continue
@@ -79,20 +77,31 @@ def scan(text, name, want, hits):
                                  " ".join(line.split())[:100]))
             break
 
-def run(extra=None):
-    want = corpus()
+def run(nouns, want, extra=None):
     hits = []
     files = sorted(glob.glob("book/*.md")) + sorted(glob.glob("content/**/*.yaml",
                                                               recursive=True))
     for f in files:
-        scan(io.open(f, encoding="utf-8").read(), f, want, hits)
+        scan(io.open(f, encoding="utf-8").read(), f, nouns, want, hits)
     if extra:
-        scan(extra, "<self-test>", want, hits)
-    return want, hits
+        scan(extra, "<self-test>", nouns, want, hits)
+    return hits
 
 # --------------------------------------------------------------- SELF-TEST
 # A check that never fails is not a check. These are the three real sentences
-# that got through, plus one that must NOT fire.
+# that got through, plus one that must NOT fire. They are Mutant's sentences
+# and they run against a FIXTURE of Mutant's schema, not the game's: the test
+# proves the number-next-to-noun mechanism, not any one game's table.
+FIXTURE_NOUNS = [
+    (re.compile(r"\bpaid[- ]pool traits?\b", re.I), "trait"),
+    (re.compile(r"\bpool traits?\b", re.I),         "trait"),
+    (re.compile(r"\bNamed Variants?\b", re.I),      "variant"),
+    (re.compile(r"\bVariants?\b"),                  "variant"),
+    (re.compile(r"\bFamil(?:y|ies)\b"),             "family"),
+    (re.compile(r"\bBreeds?\b"),                    "breed"),
+]
+FIXTURE_WANT = {"family": 84, "breed": 288, "variant": 100, "trait": 900}
+
 MUST_CATCH = [
     "* **Every trait carries a number.** 854 paid-pool traits across 83 Families,",
     "All six Class Pick lists, the 68-Family list, three worked Family drafts",
@@ -113,12 +122,16 @@ MUST_PASS = [
 
 def self_test():
     ok = True
+    def probe(s):
+        h = []
+        scan(s, "<self-test>", FIXTURE_NOUNS, FIXTURE_WANT, h)
+        return h
     for s in MUST_CATCH:
-        if not run(s)[1] or not any(h[0] == "<self-test>" for h in run(s)[1]):
+        if not probe(s):
             print("SELF-TEST FAILED - missed: %s" % s[:60])
             ok = False
     for s in MUST_PASS:
-        if any(h[0] == "<self-test>" for h in run(s)[1]):
+        if probe(s):
             print("SELF-TEST FAILED - false positive: %s" % s[:60])
             ok = False
     return ok
@@ -126,9 +139,14 @@ def self_test():
 if __name__ == "__main__":
     if not self_test():
         raise SystemExit("counts_check refuses to report: its own tests fail")
-    want, hits = run()
-    print("corpus: %(family)d Families, %(breed)d Breeds, %(variant)d Variants, "
-          "%(trait)d pool traits" % want)
+    if SCHEMA is None or not getattr(SCHEMA, "NOUNS", None):
+        print("no tools/game_schema.py declaring NOUNS: nothing to count "
+              "(see playbook/STARTING_A_NEW_GAME.md)")
+        sys.exit(0)
+    want = SCHEMA.counts()
+    hits = run(SCHEMA.NOUNS, want)
+    print("corpus: " + ", ".join("%d %s" % (want[k], k)
+                                 for k in sorted(want)))
     for f, i, got, key, exp, line in hits:
         print("  STALE  %-28s %4d  says %d %ss, corpus has %d\n         %s"
               % (f.replace("\\", "/"), i, got, key, exp, line))

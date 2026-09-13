@@ -14,8 +14,8 @@ file verbatim and records anything it does differently in its `DIVERGENCES.md`.*
 | To resolve | Roll | Against |
 |---|---|---|
 | An attack | d20 + Attack Bonus + attribute modifier | Armour Class |
-| A saving throw | d20 + save bonus + attribute modifier | **15**, fixed |
-| A check with no trait covering it | 2d6 + attribute modifier | a target: **9** ordinary, **7** easy, **11** hard |
+| A saving throw | d20 + save bonus + attribute modifier | a target — **OPEN**, see Modules: Mutant fixes it at 15; S&S sets it by threat |
+| A check with no trait covering it | 2d6 + attribute modifier | a target — **OPEN**, see Modules: Mutant's ladder is 7 / 9 / 11 with 9 standard; S&S's is 4–12 with 7 standard |
 | A trait that states its own chance | what the trait says | usually **x-in-6** |
 
 **Most of the time there is no roll.** A trait that lets a character do something says
@@ -204,7 +204,8 @@ something worth stopping for is +2. When a party splits, this is per character.
 | **Advantage / Disadvantage** | Roll 3d6 and keep the best or worst two. Worth about ±1.5 on 2d6. **Never printed on a sheet** in any game: sheets carry flat modifiers. Optional in both. | settled as a Module |
 | **Treasure as XP** | B/X's reward loop. Optional in Project Mutant; declared off in Stone & Spear, which pays for hexes mapped instead. | settled as a Module |
 | **Bonus actions** | An extra action slot. Neither game has one; the round is "move and do one thing". Held as data — Stone & Spear tags every feature with what it costs in the round, and if the count asks for the slot, this row changes. | off |
-| **Save target** | **Core: a fixed 15**, difficulty in the modifiers — the two audited games agree, and a fixed target is what lets save bonuses be priced against each other. Crypt Crawler v3 has a sliding DC (10 / 13 / 15), but v3 is an unaudited draft that predates the engine; that is a **pending divergence for its audit to resolve**, not an open Core question. | settled, one pending |
+| **Save target** | **OPEN — the two audited games differ, and the first draft of this file wrongly said they agreed.** Project Mutant: a fixed 15, difficulty in the modifiers — chosen so that 127 save-bonus traits can be priced against one number. Stone & Spear: the TN set by the threat — 10 weak, 12 standard, 15 strong, 18 extreme — and every bestiary behaviour names its own. Crypt Crawler v3 (unaudited): 10 / 13 / 15. The author has not ruled. | open |
+| **The check ladder** | **OPEN — the two audited games differ.** Project Mutant: 7 easy / 9 ordinary / 11 hard, 9 standard, because the 2d6 check is a *fallback* — 683 traits resolve on their own x-in-6 and the general roll is for what nothing on the sheet covers. Stone & Spear: 4 / 5 / 7 / 9 / 11 / 12 with **7 standard**, because the check *is* the skill game. At +0 / +1 / +2: a 9 succeeds 28% / 42% / 58%; a 7 succeeds 58% / 72% / 83%. That is the whole feel of each game's skill roll, and it may be a legitimate Module rather than a Core rule. The author has not ruled. | open |
 | **Flanking** | For tables using a grid: two enemies in melee with the same target on opposite sides each attack at +1, no stacking. Both games optional. | settled as a Module |
 
 ---
