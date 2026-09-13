@@ -137,6 +137,6 @@ writing content first would have had a gate that never ran.
 
 ## 2026-09-13 — Repository structure and pin
 
-**Decided:** `engine/` pinned to Crawler-Core `091c1f0` (0.1.0-draft).
+**Decided:** `engine/` pinned to Crawler-Core `4c37d48` (0.1.0-draft).
 `book/`, `content/`, `tools/`, `decisions/` per the recipe. Version
 `0.1.0-scaffold` until played.
