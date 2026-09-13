@@ -1,0 +1,2588 @@
+meta:
+  corpus: WEG Star Wars d6 Force powers
+  source_pdf: H:/RPG/Game Systems/Star Wars d6/rancorpit/Force_Powers.pdf
+  compiler: Cheshire, ed. Thiago S. Aranha (rancorpit 'Force Powers')
+  canon: legends
+  provenance_by_side:
+    Jedi Powers: WEG published (2e R&E, Tales of the Jedi Companion, etc.)
+    Dark Side Powers: WEG published (Dark Side Sourcebook and others)
+    Special Powers: WEG published, one-off
+    Converted Powers: fan conversions to d6 from other systems (WotC d20/Saga); Legends content, not WEG
+      rules text
+    Fan-Made Powers: fan inventions; no canon standing - keep, tag, never cite as source
+  extracted_by: research/tools/extract_weg_force.py
+  toc_entries: 122
+  extracted: 122
+powers:
+- name: Absorb/Dissipate Energy
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 6
+  control_difficulty: Very Easy for sunburn; Easy for intense sun; Moderate for solar wind; Difficult
+    for a radiation storm.  Characters may use this power for energy attacks such as blaster bolts and
+    Force lightning - the difficulty is Moderate plus the damage roll of the attack.
+  this_power_may_be_kept_up: as long as the source of the energy is constant.
+  effect: This power allows Jedi to absorb/ dissipate energy, including light, heat, radiation, and blaster
+    bolts.  If the user fails the roll, he takes full damage from the energy. This power may be used to
+    ward off sunburn, heat-stroke, and radiation exposure, as will as withstand intense heat.  This power
+    may also be used to absorb blaster bolts, as Darth Vader did on Cloud City. The character must activate
+    the power in the same round to absorb the blaster bolt or Force lightning -- the character must be
+    able to roll the power before the attack lands.  He can't use this power after the attack has hit.
+  example: A stormtrooper is shooting at Ana. Rather than dodge behind cover, she decides to use absorb/dissipate
+    energy to absorb the shot. The difficulty is Moderate plus the damage of the blaster bolt.  For the
+    Moderate difficulty, the gamemaster picks a difficulty number of 14.  Ana roll control and gets a
+    21. If the blaster's damage roll is less than seven, then Ana absorbs the blaster bolt and takes no
+    damage.   If the blaster's damage roll is seven or higher she takes full damage from the blaster shot.
+  skills_used:
+  - control
+- name: Accelerate Healing
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 6
+  control_difficulty: Easy for wounded characters, Moderate for incapacitated characters, Difficult for
+    mortally wounded characters.
+  time_to_use: One minute
+  effect: A Jedi who uses this power successfully may make two natural healing rolls for the current day
+    (12 hours apart) regardless of the severity of the injury.  The Jedi gets a +2 modifier to both Strength
+    rolls to heal.  Accelerate healing may only be attempted once per day.
+  example: Ana has been incapacitated; normally a full two weeks of rest are necessary before she can
+    roll to heal. She makes her Moderate control roll to activate accelerate healing.  She now gets to
+    make two Strength rolls to heal and gets to add +2 to both rolls. Since she's incapacitated, Ana needs
+    a total of 9 or better to improve to wounded. Ana's first Strength roll is an eight; adding the +2
+    gives her a total of 10.  She improves from incapacitated to wounded twice (she's at -2D to all actions).
+    Twelve hours later, Ana gets to make her second healing roll.  Since she's wounded, she only needs
+    a Strength total of 7 to improve from wounded twice (at -2D) to wounded (-1D to all actions).  Her
+    Strength roll is seven; the +2 gives her a total of nine.  She now heals to wounded.
+  skills_used:
+  - control
+- name: Concentration
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 6
+  control_difficulty: Easy if the Jedi is relaxed and at peace; Difficult if the Jedi is filled with aggression,
+    fear, or other negative emotions; Very Difficult if the Jedi is acting on the negative emotions.
+  effect: When using this power, Jedi clear Force Powers 5 all negative thoughts from their minds, feeling
+    the Force flowing through the universe and their own being. The individual Jedi concentrates on one
+    specific task at hand.  If the skill roll is successful, the Jedi may add +4D to any one action in
+    that round.  The Jedi may do nothing other than using the concentration power and using that one skill
+    for a single action.  The Jedi receives no bonus if anything else is done in that round, including
+    duplicate uses of the same skill or dodges or parries. This power may be used in conjunction with
+    Force Points and Character Points.  This power is only in effect for one round and may not be kept
+    up.
+  example: Luke is flying down the trench of the Death Star.  With Ben's urging, he clears his mind of
+    negative thoughts, and feels the Force flowing through him.  Using the Force, he concentrates on the
+    task at hand of firing a proton torpedo into the unshielded exhausst port.  Since he has cleared his
+    mind, the control difficulty is Easy. Luke's player declares that Luke is also spending a Force Point
+    to accomplish the task this round.  Luke's starship gunnery skill is 6D.  he looses -1D for doing
+    one other thing in the round (using the Force counts as an action), reducing his starship gunnery
+    skill to 5D.  Because he rolls successfully for his control, he receives the bonus of +4D, making
+    his effective skill for that round 9D.  Because he is spending a Force Point, his skill level is doubled
+    to 18D! If Luke attempted any other action in that round, including firing another proton torpedo
+    or blaster, or dodging enemy shots, he would receive no bonus.
+  skills_used:
+  - control
+- name: Contort/Escape
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 7
+  control_difficulty: Very Easy for loose bonds; Easy for hand binder; Moderate for serious restraints;
+    Difficult to Heroic for maximum security (varies at gamemaster's discretion, depending on security
+    measures)
+  required_powers: Concentration, control pain, enhance attribute
+  effect: The character may escape bonds by contorting in painful and difficult (but still physically
+    possible) ways.  By stretching, twisting, and dislocating joints a Jedi can escape almost any physical
+    restraining device.  While this is indeed a painful procedure, Jedi are trained to block out the pain
+    and focus on the task at hand.
+  skills_used:
+  - control
+- name: Control Disease
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 7
+  control_difficulty: Very Easy for a mild infection, Easy for modest illness (such as a fever or flu),
+    Moderate for a severe illness (gangrene or hive virus), Difficult for a life threatening disease,
+    Very Difficult for a massive, long standing disease, Heroic for a rapid-acting life-threatening disease.
+  required_powers: Accelerate healing
+  time_to_use: 30 Minutes to several uses over the course of weeks.
+  effect: Control disease allows the Jedi to direct and control the antibodies and healing resources of
+    her body to throw off an infection or to resist the diseases within the body.  Using the power requires
+    the Jedi to meditate for half an hour. If the infection is severe, the Jedi must make repeated skill
+    attempts over the course of several weeks or months to cure the disease entirely. (Gamemaster's discretion
+    as to how many rolls are needed and how often.)
+  skills_used:
+  - control
+- name: Control Pain
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 7
+  control_difficulty: Very Easy for wounded or stunned characters, Easy for incapacitated characters,
+    Difficult for mortally wounded characters. The power can be kept up, so the character can ignore the
+    pain of injuries for a long period of time.  However, whenever the character is injured again, the
+    Jedi must make a new control pain roll, with the difficulty being the new level of injury.
+  effect: 'An injured character who uses control pain can act as if he has not been wounded the next round
+    after he uses the skill.  The wound is not healed, but the character doesn''t suffer the penalties
+    of being wounded: a wounded Jedi doesn''t loose 1D from all actions; an incapacitated character can
+    still act normally, as can a mortally wounded character.  This power can also be used to shrug off
+    any stun results. However, the injury can still grow worse even if the character doesn''t feel the
+    pain.   For'
+  example: ', a character who''s been wounded twice and is wounded again would still become incapacitated.  Mortally
+    wounded users make the same rolls as other mortally wounded characters, even if they aren''t feeling
+    any pain.'
+  skills_used:
+  - control
+- name: Detoxify Poison
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 8
+  control_difficulty: Very Easy for a very mild poison (alcohol); Easy for mild poison; Moderate for an
+    average poison; Difficult for a virulent poison; Very Difficult to heroic for a neurotoxin.
+  time_to_use: Five minutes
+  effect: This power allows a Jedi to detoxify or eject poisons that have entered her body.  If the Jedi
+    makes the power roll, the poison doesn't affect her.
+  skills_used:
+  - control
+- name: Emptiness
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 8
+  control_difficulty: Moderate
+  note: Characters who are consumed by the dark side of the Force may not use this power.
+  required_powers: Hibernation trance
+  effect: 'The user empties his mind to allow the Force to flow through him.  Characters in emptiness
+    seem to be in deep meditation and are totally oblivious to their surroundings.  A character in emptiness
+    may not move or take any action except to try to disengage from the emptiness. While in emptiness,
+    a character is difficult to sense or affect with the Force.  When another character attempts to use
+    a Force power on the character in emptiness, add the meditating character''s emptiness roll to the
+    difficulty for the other character''s sense or control rolls (only the sense roll if the affected;
+    if the power doesn''t use the sense skill, then add the difficulty to the control roll).  This difficulty
+    is added regardless of whether or not the empty character would willingly receive the power''s effect.
+    Once a character gets out of emptiness, the character gets a +6 bonus modifier to all Force skill
+    rolls for a period equal to the amount of time the character spent in emptiness.  This bonus is reduced
+    by 1 for every Dark Side Point the character has. When in emptiness, characters dehydrate and hunger
+    normally - some initiates have died because they lacked enough control to bring themselves out of
+    emptiness. When the character enters into emptiness, the player must state for how long the character
+    will be in meditation.  A character must make a Difficult control skill roll to exit emptiness.  The
+    character may attempt to come out of meditation under the following circumstances: • When the stated
+    time has passed. • Once each hour beyond the original time limit. • The character''s body takes any
+    damage more serious than stun damage. Force Powers 7'
+  skills_used:
+  - control
+- name: Enhance Attribute
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 9
+  control_difficulty: Moderate
+  effect: A Jedi uses this power to increase a single attribute for a limited period.  An increased attribute
+    can help a Jedi jump higher, see better, and run faster.  All skills governed by the enhanced attribute
+    increase by the same amount for as long as the power remains in . An attribute increased by this power
+    remains enhanced for the duration listed below.   Duration and attribute increase are determined by
+    how much a character's control skill roll exceeds the difficulty number.  Duration can be extended
+    through the use of Character Points - for every Character Point a Jedi spends, the duration is increased
+    by one combat round.  The points can be spent at any time before the power fades. A Jedi can only
+    increase one attribute at a time.  If a character invokes the power to enhance a second attribute
+    while the first attribute is still enhanced, then the first enhancement fades and the second attribute
+    receives the increase. Skill Roll >  Attribute Difficulty By  Duration/Increase 0-13   +1D / 3 rounds
+    14-25   +2D / 2 rounds 26+   +3D / 1 round
+  skills_used:
+  - control
+- name: Force of Will
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 9
+  control_difficulty: Easy
+  this_power_may_be_kept_up: .
+  effect: By using Force of will, the character uses his or her own willpower skill to fight the s of
+    hostile Force powers.  If faced with a mind-based power, the Jedi's willpower skill roll may be added
+    to either the control or Perception code.  The control (or Perception) plus willpower total is referred
+    to as the "protection number." If the attack roll is less than the target's control (or Perception)
+    roll, the character suffers no ill effects.  If the attack roll is greater than the protection number,
+    the Jedi suffers the full effects of the attacking power.  If the attack roll is greater then the
+    control roll, but less than the protection number, the Jedi is protected from the power, but his willpower
+    is considered "battered." Subtract  -1D from the character's willpower skill.  The Jedi can still
+    continue to defend, but with the decreased willpower.  Reroll for a new protection number in this
+    case. If a Jedi's willpower skill ever reaches 0D, the Force of will  power is automatically dropped,
+    and the Jedi can only resist with control or Perception. It takes one day to recover 1D of damage
+    from a "battered will," or one hour in emptiness (or rage) for each 1D to recover.
+  note: Force of will  does not protect against Force lightning or Force storms or objects hurled by telekinesis.  These
+    are external rather than internal powers, in which case willpower would be useless. However, it works
+    on injure/kill, telekinetic kill, inflict pain, and other powers which directly use the Force to affect
+    the target.
+  example: Nomi is attacked by an alien being whose skills reach into the dark side.  With an Easy control
+    roll, Nomi initiates the force of will power.  The alien decides to use the telekinetic kill power
+    on Nomi.  The alien's control and sense rolls are successful, and he now rolls his alter skill against
+    Nomi's control skill of 6D.  Because Nomi is using the force of will  power, she adds her willpower
+    skill of 7D+2 to her control code for a protection number of 13D+2. If the alien rolls less than Nomi's
+    control skill, she would remain unaffected. If the alien rolls greater than the protection number,
+    Nomi would be struck by the full force of her opponent's attack.  The alien would make an additional
+    alter roll against Nomi's unaided control roll to determine damage. If the alien rolls greater than
+    Nomi's control skill, but less than her protection number, she would be fully protected from the hostile
+    Force power.  However, her will is considered to be battered, and her willpower skill drops -1D to
+    6D+2.  She must roll the 6D+2 to get a new (and presumably lower) protection number.  It will take
+    her either a full day of meditating, or one hour in emptiness to bring her willpower die code back
+    up to 7D+2.
+  skills_used:
+  - control
+- name: Hibernation Trance
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 10
+  control_difficulty: Difficult
+  this_power_may_be_kept_up: .
+  effect: 'The Jedi places himself into a deep trance, remarkably slowing all body functions. The Jedi''s
+    heartbeat slows, his breathing drops to barely perceivable levels, and he falls unconscious. When
+    a Jedi enters a hibernation trance, the character must declare how much time they will spend and/or
+    under what circumstances the character will awaken: after a specific amount of time, or what stimulus
+    needs to be present (noise, someone touching them, etc.).  A character can heal while in a hibernation
+    trance, but may not use any other skills or Force powers. Hibernation trance serves two purposes.
+    It allows a Jedi to "play dead."  It can be used to survive when food or air supplies are low.  A
+    character in hibernation uses only about a tenth as much as someone who is sleeping - he can hibernate
+    for a week in a dry climate, for up to a month in a wet climate before dying of thirst. Anyone who
+    sees a Jedi in hibernation assumes he is dead unless he makes a point to test him.  Another Jedi with
+    the sense skill or the life detection power will be able to detect the Force within the hibernating
+    character and realize that he is alive.'
+  skills_used:
+  - control
+- name: Instinctive Astrogation Control
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 10
+  control_difficulty: Very Difficult.  Modified by astrogation difficulty.
+  time_to_use: One minute
+  effect: 'Instinctive astrogation control is far more difficult than sense-based instinctive astrogation
+    power because rather than trying to feel the correct solutions to the hyperspace equations, the Jedi
+    calculates them in his head. This is quite possible and is often done as part of training exercises,
+    though the figures generated are rarely utilized because it is so easy even for a Jedi to make a mistake.
+    The difficulty is modified by how hard the task is with a nav computer. Task is: Modifier (add to
+    difficulty) Very Easy  0 Easy  +5 Moderate  +10 Difficult  +15 Very Difficult +20 Heroic  +30 If the
+    control roll is successful, a Very Easy astrogation roll is necessary to enter the correct routs into
+    the nav computer.  If the Jedi fails the attempt, she overlooks an obstacle, and sends the ship down
+    an inherently dangerous path, thereby making the astrogation difficulty Very Difficult.  If the control
+    roll is missed by five or more points, the astrogation difficulty increases to Heroic. This is a largely
+    unknown application of the control power that allows Jedi to plot astrogation paths instead of using
+    the more well-known sense-based instinctive astrogation power.  Instinctive astrogation control is
+    little more than a curiosity, studied only by a few Jedi theoreticians.'
+  skills_used:
+  - control
+- name: Reduce Injury
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 10
+  control_difficulty: Moderate for incapacitated characters, Difficult for mortally wounded characters,
+    Very Difficult for dead characters.
+  required_powers: Control pain
+  effect: By using this power, a Jedi may call upon the Force to reduce the amount of injury he suffers;
+    this power is normally only used in desperation because of its long-term repercussions. When the power
+    is successfully used, the Jedi loses a Force Point.  Any injury that is suffered is reduced to wounded.  If
+    the original injury would have killed the character, he must choose to suffer a permanent injury of
+    some kind.
+  note: Spending Force Points in this manner not at the beginning of the round - is allowed. Also, it
+    is not always a "selfish" act to save one's own life, so the character might be able to get the Force
+    Point back.  If the character was fighting to save others from doom and fails - and if he falls, they
+    certainly die - this would be considered a heroic action because it involves a great sacrifice.
+  skills_used:
+  - control
+- name: Remain Conscious
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 10
+  control_difficulty: Easy for stunned characters, Moderate for incapacitated characters, Difficult for
+    mortally wounded characters.
+  required_powers: Control pain
+  effect: Remain conscious allows a Jedi to remain conscious even when he has suffered injuries which
+    would knock him unconscious. In game terms, when a character with this power suffers this kind of
+    injury, they lose all of their actions for the rest of the round, but they are still conscious (normal
+    characters automatically Force Powers 9 pass out).  On the next round, the character may attempt to
+    activate the power - this must be the first action of that round; the Jedi cannot even dodge or parry.
+    If the role is unsuccessful, the Jedi passes out. If successful, the Jedi can do any one other action
+    declared for that round - often characters will attempt to control pain so that he will be able to
+    remain conscious.  Once this action is completed, the Jedi will lapse into unconsciousness, unless
+    control pain or something else is done to keep the character conscious.
+  example: Ana suffers several stuns and should be knocked unconscious ... but she has remain conscious.  Ana
+    loses her remaining actions for that round, but she is still awake. At the beginning of the next round,
+    Ana's player declares that she will try to activate remain conscious and control pain. The player
+    makes the Moderate control roll to activate remain conscious, so Ana stays awake for the rest of the
+    round. (If the roll had failed or Ana hadn't activated remain conscious, she would have passed out
+    at the beginning of the round.) Ana must now make a Very Easy control roll to activate control pain.
+    If she succeeds, she may now act normally; if the roll fails, Ana is overwhelmed by the pain and slips
+    into unconsciousness.
+  skills_used:
+  - control
+- name: Remove Fatigue
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 11
+  control_difficulty: Moderate.
+  this_power_may_be_kept_up: .
+  required_powers: Accelerate healing, control pain
+  effect: The character uses this power to combat the effects of strenuous work.  The Jedi manipulates
+    the Force, causing bodily toxins to be ejected much more efficiently, thus allowing for greater stamina.  While
+    kept up, the Jedi must make a stamina check once per day.  While using this power, a Jedi must fail
+    two stamina checks before he or she is fatigued.  The character still has to eat and drink normally.  If
+    the Jedi does fail two stamina checks and becomes fatigued, a penalty of -1D is applied to all attributes
+    and skills for 1D hours.
+  skills_used:
+  - control
+- name: Resist Stun
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 11
+  control_difficulty: Moderate
+  time_to_use: One minute
+  effect: Resist stun allows the Jedi to prepare his body to resist the effects of stun damage.  The power
+    must be activated before the character has suffered any damage. A successful result allows the Jedi
+    to resist all stun results (except for unconscious).  An unconscious result forces the Jedi to drop
+    the power and he is considered stunned.  Normal injuries (wounded, incapacitated, mortally wounded,
+    and killed) are treated normally.
+  example: Ana has a Strength of 3D; if she suffers three stun results, she is knocked unconscious. She
+    activates the resist stun power and decides to keep it "up". (Since the power is kept "up", she suffers
+    a -ID penalty to all actions.) In the first round of combat, Ana suffers two stun results ... but
+    since she is using the resist stun power, she is not affected by the stuns. When she suffers a third
+    stunned result, Ana must drop the resist stun power, but she is only considered stunned (-ID to actions).
+  skills_used:
+  - control
+- name: Short-Term Memory Enhancement
+  side: Jedi Powers
+  group: Control Powers
+  pdf_page: 11
+  control_difficulty: Difficult
+  required_powers: Hibernation trance
+  effect: When a Jedi uses this power, he or she can replay recent events in order to more carefully examine
+    images and peripheral occurrences.  Using the power, a Jedi can freeze images and even scan memory
+    tracks to recall details that were seen but not consciously registered at the time of observation.
+    In game terms, this power can be used to alert a Jedi to information, items, other characters, or
+    anything else that passed before his senses within a specific span of time.  In addition, if a gamemaster
+    provided clues or leads to clues that the players originally missed or ignored, this power can be
+    used to recall them.  When players get stuck on a puzzle or mystery within an adventure, this power
+    can alert them to possible solutions, if those solutions were observed earlier in the adventure. How
+    far back a Jedi can remember depends on the success of his control roll. Skill Roll >          Memory
+    Dificulty by         Extends Back 1-8              Through current episode 9-20            Through
+    last episode 21+           Through last two episodes
+  skills_used:
+  - control
+- name: Beast Languages
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 12
+  sense_difficulty: Easy if the animal is domesticated/friendly (such as a bantha); Moderate to Difficult
+    if the animal is wild, but non-predatory (such as an undomesticated tauntaun); Very Difficult to Heroic
+    if the animal is ferocious/predatory (such as a wild rancor).
+  this_power_may_be_kept_up: .
+  required_powers: Life sense, receptive telepathy, projective telepathy, translation
+  effect: This power allows the Jedi to translate a beast-language and allows the Jedi to speak it. As
+    creatures rarely have "true" languages, the Jedi is actually reading the differences in surface emotions
+    within grunts and growls and other cues of body language.  Note that the character may keep up this
+    power if the Jedi needs to continue picking up the emotional state of a creature.  For beasts that
+    can be ridden, subtract 2D from their orneriness code while this power is in effect.  A creature's
+    minimum orneriness code is 0D.
+  skills_used:
+  - sense
+- name: Combat Sense
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 12
+  sense_difficulty: Moderate for one opponent, modified by  +3 for each additional opponent the Jedi wishes
+    to defend against.
+  required_powers: Danger sense, life detection
+  effect: Combat sense allows a Jedi to focus on the battle at hand. Everything else becomes dulled and
+    muted as the Jedi's senses are all turned toward the combat occurring around him.  All targets become
+    mentally highlighted in the Jedi's mind, enhancing his ability to attack and defend.  In game terms,
+    the Jedi gains important advantages. First, the Jedi may choose when he wishes to act that round-no
+    initiative rolls are necessary while the power is in effect.  If more than one Jedi is using the power,
+    whoever rolled highest when invoking the power determines when he wishes to act. Second, the Jedi's
+    attack and defense rolls are increased by +2.  Combat sense lasts for ten combat rounds and doesn't
+    count as a "skill use' for determining die code penalties.
+  skills_used:
+  - sense
+- name: Danger Sense
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 12
+  sense_difficulty: Moderate or attacker's control roll
+  required_powers: Life detection This power can be "kept up".
+  effect: Danger sense allows a Jedi to extend his senses around himself like protective sensors creating
+    an early warning system for as long as the power remains in effect. When this power is used, the Jedi
+    detects any attacks the round before they are made. This gives the Jedi a round to decide how to react
+    to the danger. In game terms, if a character plans to attack the Jedi on the next round, she must
+    declare her action the round before.  Attacking characters with Force skills may roll their control
+    skill to increase the difficulty of using this power. Force Powers 11
+  skills_used:
+  - sense
+- name: Instinctive Astrogation
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 13
+  sense_difficulty: Moderate, modified by astrogation difficulty.
+  required_powers: Magnify senses
+  effect: 'This is the more well known ability of the Jedi to calculate astrogation routes without the
+    use of a nav computer.  The Jedi uses his sense skill to feel through the myriad of hyperspace routes
+    to determine the safest path. The difficulty is modified by the treacherousness of the path: Task
+    is:      Modifier (add to difficulty) Very Easy  0 Easy  0 Moderate  0 Difficult  +5 Very Difficult
+    +10 Heroic  +15 If the Jedi succeeds at charting the course, she needs only generate an Easy astrogation
+    total to plot a safe path.  If the Jedi fails the roll, the astrogation difficulty is automatically
+    Very Difficult; if the roll is missed by more than five points, increase the difficulty to Heroic.'
+  skills_used:
+  - sense
+- name: Life Detection
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 13
+  sense_difficulty: Very Easy if the subject has Force skills or is Force-sensitive; Moderate if not.
+    Modified by relationship.
+  this_power_may_be_kept_up: .
+  effect: This power allows the Jedi to detect the location of sentient beings who might otherwise remain
+    hidden from their normal senses.  When the power is activated, the Jedi knows the location of all
+    sentients within 10 meters - if the power is kept up, the Jedi may know whenever a sentient approaches
+    within 10 meters of them or vice versa. When the Jedi approaches or is approached by a sentient being,
+    the character makes a sense roll and each sentient creature makes an opposed control or Perception
+    roll to avoid detection.  Both actions are "free" actions and don't count as a skill use (and thus
+    there are no die code penalties except those caused by injury).  If a tie occurs, the Jedi detects
+    the creature in question. If Jedi beats the target's roll by 10 or more points, the Jedi is aware
+    if the person has Force skills (yes or no), is Force-sensitive (yes or no), or if they have met before
+    (yes or no), and if yes, what their identity is.
+  example: Ana has her life detection power "up." Bill, the gamemaster, knows that three Gamorreans are
+    approaching Ana from behind. She rolls her sense to see if she can detect the beings - she rolls a
+    22. The first Gamorrean's roll is a 9; Ana's roll beats his by 13 points. Ana knows the being is not
+    Force-sensitive, doesn't have Force skills; since Ana's never met the being before, she doesn't know
+    its identity, not even its species. The second Gamorrean rolls a 15 - Ana only knows about the existence
+    and location of the second being. Ana's roll beats the third Gamorrean's by 11 points, so she knows
+    that this being is also not Force-sensitive and doesn't have Force skills. However, Ana has met the
+    creature before-she knows the third being is Draughckt, a Gamorrean she met a few years earlier on
+    the planet Seltos.
+  skills_used:
+  - sense
+- name: Life Sense
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 13
+  sense_difficulty: 'Very Easy.  Modified by proximity and relationship. Required Ability: Life detection'
+  this_power_may_be_kept_up: to track a target.
+  effect: The user can sense the presence and identity of a specific person for whom he searches.  The
+    user can sense how badly wounded, diseased, or otherwise physically disturbed the target is. A target
+    may use the control skill to hide his identity from the Jedi uses life sense.  The character's control
+    skill is added to the senser's difficulty.
+  skills_used:
+  - sense
+- name: Life Web
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 14
+  sense_difficulty: 'See below: modified by proximity.'
+  note: The Force-user must choose one specific species as a specialization (see below).
+  required_powers: Life detection, life sense, sense Force
+  time_to_use: Two days (or more)
+  effect: 'This power is used to detect large concentrations of members of a specific species such as
+    humans, Rodians, or Chadra-Fan.   When the power is used successfully, the users sense the general
+    direction toward the population.  If the Jedi beats the difficulty by 10 or more, she knows the approximate
+    distance to the population (i.e., hundreds or thousands of kilometers, or single tens, hundreds, or
+    thousands of light-years). The base difficulty to use this power depends upon the size of the nearest
+    significant population: Very Easy - Population in tens of billions Easy - Population in billions Moderate
+    - Population in hundreds of millions Difficult - Populations in tens of millions Very Difficult -
+    Populations in millions Heroic - Population in hundreds of thousands This power may not be used to
+    detect populations smaller than 100,000 individuals. When this power is selected, the Force- user
+    must select a specific intelligent species to specialize in.  A Force-user may select more life web
+    species specializations at a cost of three Character Points per additional species.  The Force-user
+    must be familiar with the species- for example, Ulic Qel-Droma could specialize in life web: Twi''lek  since
+    he is familiar with Tott Doneeta''s unique "Force presence," but he would not be able to select life
+    web: Rodian until he spent time with a member of that species. This power may only be used to detect
+    species that the Force-user has specialized in. This power requires at least two days of continuous
+    concentration.  For each additional two days of concentration, the Force-user may add +1D to his or
+    her sense roll.'
+  skills_used:
+  - sense
+- name: Magnify Senses
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 14
+  sense_difficulty: Very Easy.  Modified by proximity.
+  time_to_use: Three rounds
+  effect: This power allows a Jedi to increase the effectiveness of his normal senses to perceive things
+    that are otherwise impossible without aid.  He can hear noises beyond his normal hearing due to distance
+    or softness - he can't hear or see beyond normal species frequencies. Likewise, he can see normal
+    visible things over distances that would normally require the use of macrobinoculars, and identify
+    scents and odors that are normally too faint for human olfactory senses.
+  skills_used:
+  - sense
+- name: Merge Senses
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 14
+  sense_difficulty: Moderate. Modified by proximity.
+  time_to_use: Three rounds.
+  required_powers: Magnify senses
+  effect: This power allows a Force user to perceive things through the senses of another creature, one
+    with animal intelligence or less. He can see through the eyes of the selected creature, enjoying the
+    benefits of being bound by the restrictions of the creature's vision. He can hear through the creature's
+    ears; smell was that creature smells; and physically feel whatever the creature is feeling. The Force
+    user does not control the creature, but can make suggestions. The simpler or less threatening the
+    request, the more likely it will be agreed to. If a suggestion goes against the nature of the creature
+    or would put it in an obviously hazardous situation, the Force user must make a sense roll against
+    the subject's willpower. Failure means the suggestion is ignored. While the Force user's senses are
+    merged with a creature's, the Force user's body is Force Powers 13 motionless, its senses unable to
+    function until, of course, the meld is broken. Releasing the target creature requires a Moderate roll.
+    The link with the creature is also broken by the death of either the creature of the Force user. If
+    the creature suffers damage or dies during a meld, the Force user suffers one-half the amount of damage.
+  skills_used:
+  - sense
+- name: Postcognition
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 15
+  sense_difficulty: Easy if seeing less than two hours into the past; Moderate if seeing two hours to
+    a week; Difficult if seeing a week to six months; Very Difficult if seeing six months to a year; Heroic
+    if seeing a year to two years; +10 for each additional year into the past.
+  required_powers: Hibernation trance, life detection, sense force
+  time_to_use: Five minutes, +10 to difficulty for each minute cut.  Minimum one minute.
+  effect: Postcognition allows a Jedi to investigate the tenuous imprints of the Force left on objects
+    when they are handled by living beings. The character must be able to handle the target object. The
+    Jedi must declare how far in the past is being reviewed prior to rolling postcognition. If the roll
+    is successful, the Jedi can determine who has handled or touched the object and what events have transpired
+    around it. The Jedi may "search" for specific incidents or simply review past events, somewhat like
+    viewing a hologram. If the postcognition roll is equal to or higher than three times the difficulty
+    number, the character can witness events when the object was present as if she were there herself.
+    If the postcognition roll is greater than or equal to twice the difficulty number, the Jedi gains
+    a good sensory impression of the event, but is limited in that the primary sense (the sense which
+    gives the most information, usually sight) is wavery or obscured; the other sensory impressions come
+    through clearly. If the postcognition roll is simply greater than the difficulty number, then all
+    sensory impressions are muffled, tactile sense is dulled, smells or tastes are indistinct or mixed.
+    The Jedi receives a vague sense of who handled the object and what events transpired around it.
+  example: Ana is going to use postcognition on a blaster to see if it was used to murder an Alliance
+    officer. She declares that she will search back a full year (a Very Difficult task) - her postcognition
+    total is 24, which just barely beats the difficulty number. Ana gets several sensory impressions -
+    blurry images of a woman grabbing the gun, a muffled scream as a man is shot and falls to the ground.
+    Unfortunately, the images are so indistinct that Ana can't tell exactly who is using the gun and who
+    was shot. If Ana had limited her postcognition viewing to less than two hours - an Easy task - her
+    roll of 24 would have been more than three times the difficulty. She would have seen any events with
+    crystal clear clarity.
+  skills_used:
+  - sense
+- name: Predict Natural Disaster
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 15
+  sense_difficulty: Easy if the Jedi has lived in the area for more than a year.  Moderate if the Jedi
+    has been living within the area between six and 12 months.  Difficult if the Jedi has been living
+    within the area between one and six months.  Very Difficult if the Jedi has been living within the
+    area less than one month.  Modified by severity of disaster (larger disasters are easier to predict)
+    and degree to which the disaster could reasonably be predicted (gamemasters may decide that disasters
+    are easier or harder to predict based on a multitude of factors).
+  required_powers: Danger sense, life detection, weather sense, magnify senses
+  time_to_use: 15 minutes.  May be reduced in five-minute increments by increasing difficulty one level
+    per five-minute increment (minimum is one minute).
+  effect: The Jedi can sense local meteorological and geological conditions and predict imminent disasters,
+    such as earthquakes, volcanic eruptions, floods, landslides, avalanches, cave- ins, tornadoes, hurricanes
+    (hurricanes can also can be predicted with weather sense), etc.  By opening his or her senses to the
+    environment, the Jedi can predict these disturbances, much as animals can seemingly sense an earthquake
+    hours or even days before it happens.  Like weather sense, this power does not lend itself to quick
+    predictions.  It customarily takes weeks for a Jedi to get to know local weather patterns and topography.  The
+    prediction is effective for 12 hours.  The difficulty increases by one level for each additional 12-hour
+    period by which the Jedi wishes to extend the prediction.
+  skills_used:
+  - sense
+- name: Receptive Telepathy
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 15
+  sense_difficulty: Very Easy for friendly, non-resisting targets.  If target resists, he makes a Perception
+    or control roll to determine the difficulty.  Modified by proximity and relationship.
+  required_powers: Life sense
+  this_power_may_be_kept_up: if the target is willing and the proximity modifier doesn't increase.
+  effect: If the Jedi makes the power roll, he can read the surface thoughts and emotions of the target.  The
+    Jedi "hears" what the target is thinking, but cannot probe for deeper information. When used on another
+    player, the gamemaster asks the player if he minds the power being used on him/her.  If used on a
+    gamemaster character the gamemaster decides if the target will resist. If the skill's roll is double
+    the difficulty, the Jedi can shift through memories up to 24 hours old, though this takes two rounds.  A
+    Jedi cannot sift through memories in the same round that contact is made - this process takes a full
+    round. A Jedi can read the minds of more than one person at a time, but each additional person counts
+    as an additional action, with separate rolls and multiple skill use penalties. This power may be used
+    on creatures and other sentient beings, although it cannot be used on droids.
+  skills_used:
+  - sense
+- name: Sense Force
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 16
+  sense_difficulty: Moderate for an area; Difficult for sensing details or specific objects within the
+    area.  Modified by proximity.
+  effect: This power is used to sense the ambient Force within a place.  It cannot be used to specifically
+    detect sentient beings, but there are many forms of life and many areas of the galaxy intertwined
+    with the Force which can be sensed with this power. Sense Force will tell a character the rough magnitude
+    of the Force in an area or object (rich, moderate or poor in the Force), the rough type and quantity
+    of life-forms ("many insects," "only microbes and bacteria," "teeming with plant and animal life,
+    including higher predators") and whether the area or object tends toward the dark side or the light
+    (for example, the tree on Dagobah which Luke Skywalker entered is a "dark side nexus" rich in the
+    negative energies of the dark side of the Force). An area rich in negative or positive energies may
+    indicate past events or the activities of past inhabitants. The Jedi may also receive "vague premonitions"
+    about the area, such as "I sense something wrong," or "I sense a great impending tragedy."
+  skills_used:
+  - sense
+- name: Sense Force Potential
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 16
+  sense_difficulty: Moderate for friendly, non-resisting targets.  Moderate plus target's Perception or
+    control roll (whichever is higher) to determine the difficulty of the probe on an unwilling subject.
+  required_powers: Life detection, life sense, receptive telepathy, sense Force
+  time_to_use: Six rounds
+  effect: This power allows a Jedi to probe the mind of a target, and determine whether that person has
+    the potential to be strong in the Force. The deep subconscious of a Force-sensitive person is shielded
+    by a protective barrier which prevents another Force wielder from penetrating his or her inner mind.  This
+    shield pushes violently back at an intruder, sending him or her stumbling back.  This "shield" is
+    an involuntary defense mechanism maintained by every Force-sensitive person.  It is one reliable way
+    to determine which people might have the potential to become a Jedi. The magnitude of the backlash
+    generated by the shield depends on the character's strength in the Force.  A person who is merely
+    Force sensitive will shove the intruder back several feet.  Someone with actual Force skills will
+    produce a more intense reaction.  Those with little training will send the intruder reeling back across
+    the room.  Someone who is well-trained, or who has a great deal of raw talent in the Force, might
+    actually send the intruder flying across the room. Force Powers 15
+  skills_used:
+  - sense
+- name: Sense Path
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 17
+  sense_difficulty: Moderate
+  required_powers: Emptiness, hibernation trance This power can be kept up.
+  effect: 'This power informs a character of the "path" he travels: whether his current actions are likely
+    to lead him to the dark side, and whether any specified future actions are likely to do so (this power
+    may be thought of as farseeing without control).  Bear in mind that without control, the Jedi does
+    not have the ability to decide whether he sees the past, present, or a possible future. The visions
+    he receives are more likely to be allegorical in nature to receive specific details, the farseeing
+    power must be used. When giving the results of this power, be honest but obscure if the character
+    has gained any Dark Side Points and is attempting to atone, this power will tell him how successful
+    he has been within a game context. The Jedi can choose to consciously use this power, or it can be
+    a plot device.  If the latter, at an appropriate point in the scenario, you may call for a roll on
+    this power, and give the Jedi a vision if he succeeds.  You may use this to tell the players how well
+    they are doing, or to give them a premonition of doom just before a critical encounter to heighten
+    the tension.  You may use it to warn them (by showing the future of their current course), to encourage
+    them (particularly when they have done the right thing but have no way of knowing), to provide hints,
+    or to foreshadow upcoming events. A vision from the Force should never be taken lightly by the players.  It
+    should give them something to think about, along with the attendant chances for good roleplaying.  Bear
+    in mind that different Jedi will tend to receive different renditions of the same scene, and consequently
+    you should tailor the details you give to the fit character concerned.  Instead, you might consider
+    altering the way you describe the scenery; for the dark side, you might always describe rocky and
+    barren terrain, or with a cold wind blowing, or it might always be night for the dark side and daytime
+    or dawn for the light side.  You can present these images in as contrary manner as you wish, provided
+    you are consistent with the descriptions. Another thing to bear in mind is that it is never easy to
+    tell which is the right course to take (although the path of darkness may be clear enough, the path
+    of the light may be far more elusive).  The Jedi must still be sure to follow the Jedi Code regardless
+    of what his visions seem to be telling him, otherwise his own desires will encourage a less truthful
+    vision and cause his downfall.  And it is quite possible for a skilled Dark Jedi to twist the readings
+    of this power to suit his own ends.'
+  example: 'Another narration: "You are scrambling through a rocky landscape at night. The only light
+    is a feeble flow ahead of you, coming from behind the next outcropping.  You are hurrying, trying
+    to arrive in time to avert… something.  When you pass the outcrop, the terrain falls away on all sides,
+    and you find yourself on the edge of a gigantic precipice, like the inner rim of a volcano.  Rock
+    walls loom high on the opposite side of the pit.  Standing, alone and vulnerable on a spike of rock
+    scarcely half a meter wide at the tip, is your companion Tetsu. He is scared and crying.  The column
+    he is on is nowhere connected to the rim where you are standing: there is no way to reach him.  A
+    wind begins to howl up from below." Another narration: "You are walking along a path: the route is
+    straight and wide… and as black as coal.  On your left is a second path, just as broad, just as straight,
+    and shining brilliant white.  You become aware of a presence walking along the second pathway matching
+    you pace for pace.  Ahead your paths cross, and the path that leads away from the point of intersection
+    is twice as wide as your own… and of indeterminate color."'
+  skills_used:
+  - sense
+- name: Shift Sense
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 17
+  sense_difficulty: Moderate for simple phenomena (such as heat or simple scents); Difficult for more
+    uncommon phenomena (such as comm frequencies, infrared radiation); Very Difficult for specific, complex
+    phenomena (such as setting olfactory nerves to detect the presence of Tibanna gas).
+  this_power_may_be_kept_up: .
+  required_powers: Magnify senses
+  effect: The character may shift his or her senses as to detect phenomena of a different type than normal.  Shifting
+    eyesight to the infrared spectrum, hearing frequencies above or below normal range for his or her
+    species, etc.  This power counts as a "skill use" for determining die code penalties. Please note
+    that this power is exceptionally useful in some aspects, but fairly limited in others.  For example,
+    a Jedi may detect comm frequencies, but that does not mean that the Jedi can listen in on the transmission.  The
+    Jedi will be able to detect that a transmission is present, but may not necessarily be able to locate
+    the signal's source, and certainly will not be able to decode the information carried by the transmission.
+  skills_used:
+  - sense
+- name: Translation
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 18
+  sense_difficulty: Moderate for humans or aliens.  Difficult for droids.  If the target is being purposely
+    cryptic add +5 to the difficulty, +20 if the language is written down.
+  this_power_may_be_kept_up: .
+  required_powers: Receptive telepathy, projective telepathy, life sense
+  effect: The character may translate a language and speak it.  The Jedi may decipher body language, explore
+    the spoken word, or translate ancient Sith texts, etc.  In order for this to work, the character must
+    first hear the target speak, or see the works in written form (such as an ancient text or document).  It
+    takes only one application of this power to "understand" a language.  As long as they all speak the
+    same language and the power is kept up, the character need not roll for each individual talking.  Also
+    because they also "speak" using beeps and whistles, droids may be communicated with using this power.
+  note: that the character does not really know the language.  Once this power is no longer in use, the
+    Jedi is once again unable to understand or speak the language.
+  skills_used:
+  - sense
+- name: Weather Sense
+  side: Jedi Powers
+  group: Sense Powers
+  pdf_page: 18
+  sense_difficulty: Easy if the Jedi has lived in the area for more than a year; Moderate if the Jedi
+    has lived in the area between six and twelve months; Difficult if the Jedi has lived in the area between
+    one and six months; Very Difficult if the Jedi has lived in the area less than one month. Modified
+    for proximity and local meteorological conditions.
+  required_powers: Magnify senses
+  this_power_may_be_kept_up: .
+  effect: This power allows the Jedi to attune himself to the workings of local weather patterns.  By
+    sensing the movements of clouds, winds, tides, and solar bodies, someone using this power can discern
+    patterns in the weather, and so make limited predictions regarding the behavior of atmospheric phenomenon.
+    This power does not lend itself to quick predictions, however.  It usually takes weeks for a Jedi
+    to become accustomed to local weather patterns and become familiar with unique features of the local
+    topography that is possible to obtain accurate readings. The prediction is effective for four hours.
+    The difficulty increases if the Jedi wishes to make more extended forecasts.
+  skills_used:
+  - sense
+- name: Telekinesis
+  side: Jedi Powers
+  group: Alter Powers
+  pdf_page: 18
+  alter_difficulty: 'Very Easy for objects weighing one kilogram or less; Easy for objects weighing one
+    to ten kilograms; Moderate for objects 11 to 100 kilograms; Difficult for 101 kilograms to one metric
+    ton; Very Difficult for 1,001 kilograms to ten metric tons; Heroic for 10,001 kilograms to 100 metric
+    tons. Objects may be moved at 10 meters per round; add +5 per additional 10 meters per round.  The
+    target must be in sight of the Jedi. Increased difficulty if the object isn''t moving in simple, straight-line
+    movement: +1 to +5 for gentle turns +6 to +10 for easy maneuvers +11 to +25 or more for complex maneuvers,
+    such as using a levitated lightsaber to attack. Modified by proximity. Force Powers 17 This power
+    can be kept up.'
+  effect: By using this power, a Jedi may levitate objects with mental power.  If used successfully, the
+    object moves as the Jedi desires. A Jedi can lift several objects simultaneously, but each additional
+    object requires the Jedi to make a new telekinesis roll. This power can be used to levitate oneself
+    or others.  It can be used as a primitive space drive in emergencies.  When levitating against someone's
+    will, the target will resist by adding his or her Perception or control roll to the difficulty number.
+    Levitated objects can be used to attack other characters, but this automatically gives the Jedi a
+    Dark Side Point.  Such objects do up to 1D damage if under one kilogram, 2D if one to ten kilos, 4D
+    if 11to100 kilos, 3D Speeder-scale if one to ten tons, 5D Starfighter-scale if 11 to 100 tons. Such
+    attacks require an additional control roll by the Jedi, which would be this hit roll against the target's
+    dodge.  If the character doesn't dodge the attack, the difficulty if Easy.
+  skills_used:
+  - alter
+- name: Farseeing
+  side: Jedi Powers
+  group: Control and Sense Powers
+  pdf_page: 19
+  control_difficulty: Very Easy, modified by proximity.  Add +5 to +20 to the difficulty if the character
+    wishes to see something in the past. Add +10 to +30 for the future.
+  sense_difficulty: Very Easy if the target is friendly and doesn't resist.  If the target resists, make
+    a control or Perception total for the difficulty.  Modified by relationship.
+  required_powers: Life sense
+  time_to_use: At least one minute.
+  effect: 'The Jedi may see the person or place he wishes to see in his mind as the situation currently
+    exists.  The power can also be used to see the future or the past.  The Jedi sees the immediate surroundings,
+    for example, when a friend is in danger, or what happened on his home planet in his absence. Farseeing
+    requires calm conditions and at least one minute, but often takes a few minutes. Farseeing cannot
+    be done in the face of danger. The Jedi''s vision may not be entirely accurate: Power   Sense    Past/Present
+    roll > difficulty Future 0-10 50%   10% 11-20  75%   25% 21-30  90%   50% The past and present are
+    set and it is merely a matter of the Jedi having correct perceptions. However, the future is always
+    fluid, always in motion, never set until it becomes the present - therefore it is much harder to predict.  The
+    percentages on the chart are a rough measure of how much correct information the character receives
+    in the vision. For example, 10% means that the character will only be able to make out the most basic
+    details of a situation, such as "My friends are in danger." 25% means that the Jedi gets a somewhat
+    accurate vision of what will transpire, but most major details will be missing from the vision.  50%
+    means that the character''s vision was about half right.  75% means that the character has an understanding
+    of the critical happenings, but the character still has missed a major detail or two, which, of course,
+    can complicate things. 90% means that the character has a very accurate and very detailed vision of
+    what has transpired or will transpire.  100% means that the character''s vision is even more accurate
+    and detailed, complete with minor, almost trivial details. When a character farsees into the future,
+    the gamemaster has to make an honest effort to correctly represent what will happen: if the characters
+    get a 75% result, the gamemaster must try to predict what he thinks the characters will do and what
+    the outcome will be.  Of course, since the future is so fluid, things are always subject to change.  Farseeing
+    is a great mechanic for the gamemaster to reveal part of the story - enough to tantalize the players,
+    without ruining the story.'
+  skills_used:
+  - control
+  - sense
+- name: Life Bond
+  side: Jedi Powers
+  group: Control and Sense Powers
+  pdf_page: 19
+  control_difficulty: Moderate
+  sense_difficulty: See below.  Modified by proximity.
+  required_powers: Life detection, life sense, magnify senses, receptive telepathy This power can be kept
+    up.
+  effect: 'A Jedi character may choose the life bond power to permanently form a mental link with one
+    other individual, normally a mate (although sometimes siblings, parent and child, or even very close
+    friends choose to life bond). Detailed information can be learned by activating the power.  If both
+    characters have the life bond power, reduce all sense difficulties by one level (although both characters
+    must still roll for life bond to achieve the benefits listed below).  The following benefits are only
+    in effect when the characters are actively using the life bond power. On an Easy sense roll, the Force-user
+    is aware of the other''s general location and general emotional state: whether the person is frightened,
+    in pain, injured, happy, or experiencing some other strong emotion. On a Moderate sense roll, the
+    Force-user experiences the other''s senses: he or she sees though the other''s eyes, hears what the
+    other hears, and smells, tastes, and feels what the other person is experiencing.  However, at this
+    level, the characters are affected by each other''s experiences - both characters share pain, and
+    if one character is injured, the other character suffers an injury one level lower. On a Difficult
+    sense roll, the Force-user is considered telepathically linked to the life bond partner and can read
+    the surface thoughts of the other if the other is willing to share those thoughts. On a Very Difficult
+    sense roll, the Force- user can send thoughts to the life-bonded partner (as per the projective telepathy
+    power), allowing the characters to carry on a telepathic conversation. As an added benefit, the two
+    characters can have premonitions about each other: for'
+  example: ', if one character is severely injured, his or her life bond partner will sense that something
+    bad has happened.  This aspect of the life bond power is modified by proximity only, as outlined below.  Sensing
+    premonitions is automatic of within 11,000 kilometers of each other.  If on the same planet but more
+    than 1,00 kilometers from each other, a Very Easy sense roll is necessary to sense premonitions.  If
+    not on the same planet but in the same star system, and Easy sense roll is necessary to sense premonitions.  If
+    not in the same star system but within 10 light-years, a Moderate sense roll is required.  If more
+    than 10 light-years but less than 100 light-years away, a Difficult sense roll is necessary.  If more
+    than 100 light-years away from each other, a Very Difficult sense roll is necessary. Life-bonded characters
+    may not share skills, attributes, Force Points, or Character Points. However, since the characters
+    do have such a close bond, the actions of one can affect the other.  If a life-bonded character commits
+    an evil action, the Jedi partner receives a Dark Side Point even though these actions were not the
+    Jedi''s fault.  Obviously, life bonding is an exceedingly serious commitment, and not to be taken
+    lightly. Both characters must agree to the life bond for the power to work and a character may only
+    life bond with one other individual.  Life bonding takes 1D weeks to complete (as the Jedi becomes
+    accustomed to the background Force presence of the life bond partner).  During that time, the Jedi''s
+    control is -1D.  The life bond power may not be activated until the bond is completely formed. Death
+    is the only means of severing the life bond.  If one member of the life-bonded couple is killed, the
+    surviving partner enters a near- catatonic state of shock for 1D days.  After re- awakening, the partner
+    grieves and readjusts to a solitary existence; all die codes are reduced by -1D for the same amount
+    of time it took to forge the life bond. Any attempt to forge a new life bond in the future requires
+    a much longer period of adjustment: 2D weeks for a second bond, 3D weeks for a third bond, and so
+    forth.'
+  skills_used:
+  - control
+  - sense
+- name: Lightsaber Combat
+  side: Jedi Powers
+  group: Control and Sense Powers
+  pdf_page: 20
+  control_difficulty: Moderate
+  sense_difficulty: Easy. This power may be "kept up".
+  effect: To use a lightsaber most effectively, a Jedi learns this power.  The Jedi uses this power both
+    to wield this elegant but difficult-to-control weapon while also sensing his opponent's actions through
+    his connection to the Force. This power is called upon at the start of a battle and remains up until
+    the Jedi is stunned or injured; a Jedi who has been injured or stunned may attempt to bring the power
+    back up. If the Jedi is successful in using this power, the Jedi adds his sense dice to his lightsaber
+    skill roll when trying to hit a target or parry, and he adds or subtracts up to the number of his
+    control dice to the lightsaber's 5D damage when it hits in combat.  Players must decide how many control
+    dice they are adding or subtracting before they roll damage. If the Jedi fails the power roll, he
+    must use the lightsaber with only his lightsaber skill to hit Force Powers 19 and the weapon's normal
+    damage in combat and he cannot attempt to use the power again for the duration of the combat. Finally,
+    the Jedi may use lightsaber combat to parry blaster bolts as a "reaction skill."  To do this, the
+    character must declare that he is parrying that round, using his lightsaber skill as normal. The Jedi
+    may also attempt to control where deflected blaster bolts go; this is a reaction skill and counts
+    as an additional action.  (The Jedi cannot full parry when trying to control deflected bolts.)  The
+    Jedi must declare which specific shot he is controlling.  Then, once the roll is made to see if the
+    blaster bolt was parried by the Jedi, the Jedi makes a control roll, with the difficulty being his
+    new target's dodge or the range (figured from the Jedi to his target).  The damage is that of the
+    original blaster bolt.
+  example: 'Ana is entering combat: she has a lightsaber skill of 4D, a control of 5D and a sense of 4D+2.  She
+    activates lightsaber combat by making her Moderate control roll and her Easy sense roll; she decides
+    to keep the power "up."  Since she is making both the control and sense rolls in the same round, each
+    suffers a -1D penalty. She adds her sense of 3D+2 (4D+2-1D) to her lightsaber skill roll of 4D, for
+    a total lightsaber of 7D+2.  She adds her control of 4D (5D-1D) to her lightsaber''s damage of 5D,
+    for a total of 9D. When Ana attacks in a round, that''s another action, for an additional -1D penalty
+    to all actions (total penalty of -2D); she''d only roll 6D+2 to attack and would roll 8D for damage.
+    Ana Decides to parry a blaster bolt and control where it goes.  This is two more actions in a round,
+    which means a total of four actions (don''t forget the control and sense to keep the power "up"),
+    for a penalty of -3D: Ana''s lightsaber skill is 5D+2, and her lightsaber''s damage is 7D. Ana''s
+    attacker is using a blaster pistol that causes 4D damage. First Ana makes her parry roll with her
+    lightsaber: her parry roll of 18 is higher than the attacker''s blaster roll of 13, so Ana parries
+    the bolt. Now, Ana tries to control the blaster bolt. Her target is 20 meters away - that''s a Moderate
+    difficulty for the blaster pistol.  Ana rolls a 14 with her control - just barely good enough to hit.  The
+    blaster bolt bounces off Ana''s lightsaber blade and hits another goon, causing 4D damage.'
+  skills_used:
+  - control
+  - sense
+- name: Projective Telepathy
+  side: Jedi Powers
+  group: Control and Sense Powers
+  pdf_page: 21
+  control_difficulty: Very Easy.  Increase difficulty by +5 to +10 if the Jedi cannot verbalize the thoughts
+    he is transmitting (he is gagged, doesn't want to make a sound).  Modified by proximity.
+  sense_difficulty: Very Easy if the target is friendly and doesn't resist.  If the target resists, the
+    difficulty is the target's Perception or control roll if target resists.  Modified by relationship.
+  required_powers: Receptive telepathy, life sense
+  effect: If the Jedi successfully projects his thoughts, the target "hears" his thoughts and "feels"
+    his emotions.  The Jedi can only broadcast feelings, emotions and perhaps a couple of words - this
+    power cannot be used to send sentences or to hold conversations. The target understand that the thoughts
+    and feelings he is experiencing are not his own and that they belong to the user of the power.  If
+    the Jedi doesn't "verbally" identify himself, the target doesn't know who is projecting thoughts to
+    him. This power can only be used to communicate with other minds, not control them.
+  skills_used:
+  - control
+  - sense
+- name: Accelerate Another's Healing
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 22
+  control_difficulty: Very Easy.  Modified by relationship
+  alter_difficulty: Very Easy
+  required_powers: Control another's pain, control pain
+  time_to_use: One minute
+  effect: This allows a Jedi to heal another character.  The target is allowed to make extra healing rolls,
+    as outlined in accelerate healing. The Jedi must be touching the character whenever he attempts a
+    healing roll
+  skills_used:
+  - control
+  - alter
+- name: Control Another's Disease
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 22
+  control_difficulty: Very Easy.  Modified by relationship.
+  alter_difficulty: Very Easy.
+  required_powers: Control another's pain , control pain.
+  time_to_use: One minute
+  effect: This power allows a Jedi to help another character control his or her disease. The target is
+    allowed to make extra healing rolls as outlined in accelerate healing.  The Jedi must be touching
+    the character whenever this power is activated.
+  skills_used:
+  - control
+  - alter
+- name: Control Another's Pain
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 22
+  control_difficulty: Very Easy, modified by relationship.
+  alter_difficulty: Easy for wounded characters; Moderate for incapacitated characters; Difficult for
+    mortally wounded characters.
+  required_powers: Control pain
+  effect: 'This power allows a Jedi to help another character control pain, under the same rules and conditions
+    outlined in the same rules and conditions outlined in the control pain power.  The Jedi must be touching
+    the character to use this power.  [Editor''s note: The Tales of the Jedi Companion removes the restriction
+    that the Jedi must be touching the character, and instead modifies the difficulty by proximity.]'
+  skills_used:
+  - control
+  - alter
+- name: Control Breathing
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 22
+  control_difficulty: Moderate
+  alter_difficulty: Very Difficult
+  required_powers: Concentration, hibernation trance, telekinesis This power may be "kept up".
+  effect: This power allows a Jedi to control the amount of oxygen flowing into his or her body.  The
+    Jedi takes control of the surrounding atmosphere, pulling oxygen molecules through the skin into the
+    lungs.  With this power the Jedi can effectively breathe underwater, and conversely, a water breather
+    could survive on land.  In game terms, this power negates the need for a breath mask, mechgill, or
+    any rebreather gear.  In the cold of space or a hard vacuum, however, this power would be of little
+    use.  Even if the Jedi could somehow survive the drastic changes in pressure or the extreme temperatures,
+    there is not enough oxygen in these environments for the Jedi to "grab." The power will remain up
+    until the character either takes incapacitating damage or willfully drops it.
+  skills_used:
+  - control
+  - alter
+- name: Detoxify Another's Poison
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 22
+  control_difficulty: Very Easy, modified by relationship.
+  alter_difficulty: Very Easy for a very mild poison (such as alcohol); Easy for a mild poison; Moderate
+    for an average poison; Difficult for a virulent poison; Very Difficult to Heroic for a neurotoxin.
+  required_powers: Accelerate healing, accelerate another's healing, control pain, control another's pain,
+    detoxify poison.
+  time_to_use: Five minutes Force Powers 21
+  effect: This power allows a Jedi to remove or detoxify poison from a patent's body faster than is normally
+    possible.  While using this power, the Jedi must remain in physical contact with the patient.  As
+    long as the Jedi is in contact with the target, that person is considered immune to the effects of
+    the poison.  Failure to make the required control and alter difficulty checks or breaking physical
+    contact during the use of the power causes the patient a wound.
+  skills_used:
+  - control
+  - alter
+- name: Place Another in Hibernation Trance
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 23
+  control_difficulty: Very Easy.  Modified by relationship
+  alter_difficulty: 'Very Easy.  Modified by proximity. is increased by +10. [Editor''s Note: Both the
+    Second Edition Revised and Expanded and the Tales of the Jedi Companion list the alter difficult as
+    modified by proximity while the effect description insists the user "must be in physical contact with
+    the power''s user."  I made no attempt to reconcile the contradiction.]'
+  required_powers: Hibernation trance
+  time_to_use: Five minutes
+  effect: This power allows a Jedi to put another character into a hibernation trance.  The affected character
+    must be in physical contact with the power's user and must agree to be "shut down" - this power cannot
+    be used as an attack to knock others unconscious. This power can be used to bring another character
+    out of a hibernation trance, but the
+  skills_used:
+  - control
+  - alter
+- name: Remove Another's Fatigue
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 23
+  control_difficulty: Easy
+  alter_difficulty: Moderate.  Modified by proximity and relationship.
+  required_powers: Accelerate healing, accelerate another's healing, control pain, control another's pain,
+    remove fatigue.
+  effect: This power allows the Jedi to remove the effects of effects of fatigue in another.  Unlike the
+    basic power, the Jedi must wait until the target is actually fatigued, before offering assistance.
+    Hence the penalties for failing a stamina check can be counteracted, but must be addressed as they
+    occur.
+  skills_used:
+  - control
+  - alter
+- name: Return Another to Consciousness
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 23
+  control_difficulty: Easy, modified by proximity and relationship.
+  alter_difficulty: Easy for incapacitated characters; Difficult for mortally wounded characters.
+  required_powers: Control pain, remain conscious
+  effect: The target returns to consciousness. The target has the same restrictions as imposed by the
+    remain conscious power.
+  skills_used:
+  - control
+  - alter
+- name: Transfer Force
+  side: Jedi Powers
+  group: Control and Alter Powers
+  pdf_page: 23
+  control_difficulty: Easy modified by relationship.
+  alter_difficulty: Moderate.
+  required_powers: Control pain, control another's pain
+  time_to_use: One minute
+  effect: This power will save a mortally wounded character from dying because the Jedi is transferring
+    her life force to the target. When a character has force transferred to him, he remains mortally wounded,
+    but he will not die provided he isn 't injured again.  The injured character is in hibernation and
+    will stay alive in this state for up to six weeks.  The Jedi must be touching the target character
+    when the power is activated. When this power is used, the user must spend a Force Point (this is the
+    life force that is transferred to the target).  This use is always considered heroic, so the character
+    will get the Force Point back at the end of the adventure. The recipient of this power must be willing.
+  skills_used:
+  - control
+  - alter
+- name: Dim Another's Senses
+  side: Jedi Powers
+  group: Sense and Alter Powers
+  pdf_page: 24
+  sense_difficulty: Easy, modified by proximity. for each additional target; the target with the highest
+    control or Perception rolls for the entire group.
+  alter_difficulty: Target's control or Perception. The attribute and skills are reduced as long as the
+    power is kept up.
+  effect: This power greatly reduces the Perception of the target character.  If successful, reduce the
+    character's Perception and all Perception skills, depending upon the result. Alter  greater than or
+    equal Reduce to control or Perception by Perception 0-5    -1 pip 6-10    -2 pips 11-15    -1D 16-20    -2D
+    21+    -3D The power may be used on more than one target at a time, with an increase of +3 to the
+  skills_used:
+  - sense
+  - alter
+- name: Lesser Force Shield
+  side: Jedi Powers
+  group: Sense and Alter Powers
+  pdf_page: 24
+  sense_difficulty: Easy
+  alter_difficulty: Moderate
+  required_powers: Absorb/dissipate energy, concentration, magnify senses, telekinesis.
+  this_power_may_be_kept_up: ''
+  effect: This power allows the Jedi to surround his body with a Force-generated shield.  The shield can
+    be used to repel energy and physical matter away from the Jedi's body, down to the molecular level.
+    The shield acts as STR+1D armor to all energy and physical attacks made against the Jedi including
+    non-directional attacks such as gas clouds and grenade blasts.  The shield is not particularly strong,
+    but can sometimes be just enough to protect the Jedi from serious injury.
+  skills_used:
+  - sense
+  - alter
+- name: Affect Mind
+  side: Jedi Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 24
+  control_difficulty: Very Easy for perceptions; Easy for memories; Moderate for conclusions. Modified
+    by proximity.
+  sense_difficulty: Target's control or Perception roll
+  alter_difficulty: Very Easy for slight, momentary misperceptions, minor changes to distant memories,
+    or if the character doesn't care one way or another.  Easy for brief visible phenomena, memories less
+    than a year old, or minor emotions regarding a coming conclusion. Moderate for short hallucinations,
+    memories less than a day old, or if the target has strict orders about the conclusion.  Difficult
+    slight disguise to facial features, hallucinations which can be sensed with two senses (sight and
+    sound, for example), memories less than a minute old, or if the matter involving the conclusion is
+    very important to the target.  Very Difficult for hallucinations that can be sensed with all five
+    senses, a major memory change, or if the logic is absolutely clear and coming to the wrong conclusion
+    is virtually impossible.
+  effect: This power is used to alter a character's perception so that he senses an illusion or fails
+    to see what the Jedi doesn't want him to see.  This power is used to permanently alter a character's
+    memories so that he remembers things incorrectly or fails to remember something.  This power can also
+    be used to alter a character's conclusions so that he comes to an incorrect conclusion. Before making
+    skill rolls, the character must describe exactly what he wants the effect to be. The power is normally
+    on one target; two or more targets can only be affected if the power is used two or more times. A
+    character believes he is affected by any successful illusions - a character who thinks he is struck
+    by an illusionary object would feel the blow.  If he thinks he was injured, pain would be felt, or
+    if he thought he was killed, he would become unconscious. The character does not suffer any true injury.
+    This power can't be used to affect droids and does not work through recording devices. Force Powers
+    23
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Battle Meditation
+  side: Jedi Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 25
+  control_difficulty: 'Varies based on the number of targeted individuals: Number of   Difficulty Individuals
+    1-2  Very Easy 3-20  Easy 21-100  Moderate 101-1,000 Difficult 1,001-10,000 Very Difficult 10,000+
+    Heroic'
+  sense_difficulty: 'Varies based on the number of targeted individuals: Number of   Difficulty Individuals
+    1-2  Very Easy 3-20  Easy 21-100  Moderate 101-1,000 Difficult 1,001-10,000 Very Difficult 10,000+
+    Heroic'
+  alter_difficulty: 'Varies based on the number of targeted individuals: Number of   Difficulty Individuals
+    1-2  Very Easy 3-20  Easy 21-100  Moderate 101-1,000 Difficult 1,001-10,000 Very Difficult 10,000+
+    Heroic This power can be kept up.'
+  time_to_use: Five minutes
+  effect: Battle meditation has two possible s.  The Jedi can force her adversaries to abandon their assault
+    and turn on each other, or she can alter the tide of the battle, strengthening her allies and at the
+    same time weakening her enemies.  Before initiating the power the Jedi must state which effect she
+    wishes to use. The targets of this power must have initiated combat for the effects to take hold.  In
+    game terms, a Jedi may only use this power effectively on or after the first round of combat, not
+    before. Enemies are defined as those who seek to oppose the Jedi's immediate goal (rescuing a prisoner,
+    defeating a group of dark siders, et cetera); allies are defined as those who seek to uphold and forward
+    the Jedi's goal. When attempting to turn attackers against each other, the Jedi's highest skill roll
+    ( control, sense, or alter) to activate the skill becomes the difficulty the targets must beat to
+    avoid the .  Otherwise they immediately see their allies as the "true" enemy and attack.  The Jedi
+    must maintain the effect each round for the combatants to continue fighting.  Once the power is dropped,
+    its effects wear off instantly. On a successful roll to change the balance of the battle in the Jedi's
+    allies' favor (the power 's second function), the Jedi's enemies lose 1D for every 4D she has in her
+    best Force skill, in an attribute determined by the Jedi (i.e., Strength, Dexterity, et cetera) to
+    a minimum of 1D, while her allies receive a bonus of the same value to an attribute of her choosing.
+  example: Nomi Sunrider and three of her Jedi Knight companions are battling a dozen Sith minion - followers
+    of Freedon Nadd. Seeing the tide of the engagement turning in the dark siders' favor, Nomi decides
+    to use her battle meditation power to help her allies overcome their enemies. Since she has a control
+    of 1D+1, a sense 2D+1, and an alter 1D, she may increase one attribute of all of her companions (she
+    chooses Dexterity in this case) by 2D+1 (the highest of the three), and decrease one attribute of
+    that of her opponents by 2D+1 (She chooses Strength), to a minimum of 1D, until she drops the power.  While
+    Nomi continues to maintain the power, her allies all have a 2D+1 bonus to Dexterity (and all of its
+    skills) and all her enemies have a 2D+1 penalty to Strength (and all of its skills).
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Enhanced Coordination
+  side: Jedi Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 25
+  control_difficulty: Moderate, as modified by proximity.
+  sense_difficulty: Difficult
+  alter_difficulty: 'Dependent upon the number of people affected by the power. Individuals Affected:   Difficulty:
+    1-10    Very Easy 11-100   Easy 101-500   Moderate 501-5,000  Difficult 5,001-50,000  Very Difficult
+    50,001-500,000  Heroic (31+)'
+  effect: This power allows the Jedi to coordinate a group at the subconscious level to perform certain
+    tasks more efficiently.  The Emperor often used this power to increase the fighting ability of his
+    troops, mentally driving them on and supplementing their will to fight. This power can only be used
+    on individuals who are in agreement with the intent of the Jedi, and it in no way grants the Jedi
+    mental control over the troops affected.  Instead, it links the troops on a subconscious level, allowing
+    them to fight more proficiently and with better organization. If the power is successfully called
+    upon, the Jedi picks three specific skills.  The skills must be the same for the entire group.  For
+    every 3D (round down) that individuals in the group have in those skills they receive a +1D bonus.
+    The power may be kept up, but if new troops join the battle, the Jedi must make a new roll. Likewise
+    the Jedi must make a new roll if the individuals' skills are affected or changed.  This power can
+    only affect Dexterity, Technical, and Strength skills.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Force Harmony
+  side: Jedi Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 26
+  control_difficulty: Difficult.  Modified by proximity.
+  sense_difficulty: Difficult.  Modified by relationship.
+  alter_difficulty: Moderate.
+  required_powers: Life detection, life sense, receptive telepathy, projective telepathy This power can
+    be kept up.
+  effect: This power allows several willing Jedi to manifest the power of the Light Side.  As long as
+    this power is operating, it bathes the users in the celestial illumination that is of the light side.  It
+    can act as a shield against the powers of the dark side, giving +5D for each Force user involved to
+    resist the effects of powers called upon by dark side servants.  This bonus is not as great as it
+    appears since a Jedi will receive a -2D penalty for calling on this power.  The number of Force-users
+    linked in this power is limited by the number of dice that the power's imitator has in her control
+    or sense skill, whichever is lower. For example, if Leia, who has a control of 5D+1 and a sense of
+    4D+2, used Force harmony she would be able to link only four people (including herself). When acting
+    as a shield against the Dark Side, if both control and sense rolls exceed the target's roll of the
+    dark side power used (if the power requires multiple rolls, then the highest roll), the dark side
+    power is interrupted.  All powers being kept up by the target are interrupted as if the user were
+    stunned.  It doesn't cancel out the presence of the dark side, but can distract its servants and make
+    their actions more difficult.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Projected Fighting
+  side: Jedi Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 26
+  control_difficulty: Difficult
+  sense_difficulty: Difficult
+  alter_difficulty: Moderate.  Modified by proximity.
+  required_powers: Concentration, telekinesis The target must be within the Jedi's line of sight.
+  effect: Projected fighting allows the user to strike at an opponent, inflicting damage without physically
+    touching the target.  Use of this power is more than a little risky; in many cases projected fighting
+    is simply using the Force for attack.  However, the Jedi attempting to use projected fighting can
+    elect to cause stun damage only, and even then should only attempt to use this power if it is to protect
+    innocent life from immediate danger.  A user who uses projected fighting for any other reason, or
+    causes anything more serious than stun damage, receives a Dark Side Point. After successfully using
+    the power, the user makes a brawling skill roll.  If attacking a Force- sensitive, the target may
+    use the brawling parry skill to avoid the attack.  Otherwise, the target cannot deflect the Jedi's
+    blows.  If the brawling roll is successful, the user rolls his or her full Strength versus the target's
+    Strength.  The user may target a specific portion of the body, but must subtract an additional -1D
+    from his brawling skill (See Star Wars, Revised and Expanded, page 96 or Star Wars, Second Edition,
+    page 63 for details). Be sure to add any armor bonuses that the target may have. This power can be
+    kept up as long as the distance between the user and the target remains the same.  Should the target
+    move significantly or the user wish to select a new target, the power must be rerolled. Force Powers
+    25
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Rage
+  side: Dark Side Powers
+  group: Control Powers
+  pdf_page: 27
+  control_difficulty: Difficult
+  required_powers: Hibernation trance
+  warning: A Jedi who uses this gains one Dark Side Point.
+  note: This power can only be used by characters who have been consumed by the dark side of the Force.
+  effect: Rage allows a character to feel the influence of the dark side.  It is a counterpart to emptiness.
+    The character must tense himself to allow the mindless rage of the dark side to posses them.  Any
+    character in rage will appear lifeless. The Force-user is amplifying the negative aspects of his personality,
+    leaving his face clenched in a rictus of horror and fear. A character must determine how long he wishes
+    to stay in the trance when he enters it. Barring an attack or arrival of a specific person (as explained
+    below) the Jedi remains in the trance for the duration.  Every four hours, the character must make
+    a Difficult control roll or he will come out of the trance. When the Jedi leaves this state, he receives
+    a +10 modifier to all Force skill rolls for a period equal to that spent in rage.  After the bonus
+    has subsided, the character takes one die of damage for every two hours he was in the trance. Like
+    emptiness, rage makes characters oblivious to their surroundings; they are rendered immobile.  Unlike
+    emptiness the character will strongly exude the dark side.  This internal focusing even provides some
+    protection against others using the Force to manipulate them in some way.  Add the rage control roll
+    to the difficulty of the Force power employed by the "attacking" character. Characters also dehydrate
+    and hunger twice as fast as normal in rage and are more susceptible to damage (-1D to Strength when
+    resisting damage from physical and energy attacks while in this state).  Characters who plan an extended
+    trance require intravenous nourishment. In rage, the character is less oblivious to his surroundings
+    than a Jedi in emptiness.  For
+  example: ', any physical contact by a living being is made may revive the character in rage (for which
+    the Jedi will need to make a Moderate control roll) and it will provoke an instant berserker-like
+    attack, regardless of who the other character is. The character then must make a Difficult control
+    to cease the attack before the "offending" character is killed. A character using rage can choose
+    to anticipate the arrival of a foe, using a Difficult sense roll (modified by relationship) with the
+    life sense power at the time they enter rage.  This will allow them to instantly awaken (an Easy control
+    roll) if the expected person comes within five meters of the person in rage. This power may be used
+    in a preparation ritual for the transfer life power.  When an enraged person uses transfer life, their
+    original body is completely consumed by the dark side, often bursting into blue flames.  For every
+    three points by which the control roll exceeded the rage difficulty, the body does 1D damage upon
+    the explosion (three-meter blast radius).'
+  skills_used:
+  - control
+- name: Bolt of Hatred
+  side: Dark Side Powers
+  group: Alter Powers
+  pdf_page: 27
+  alter_difficulty: Moderate
+  warning: Anyone who uses this power gains a Dark Side Point.
+  note: This power is a Sith discipline.
+  effect: The Force-user creates in his hand a radiant sphere of pure hatred which he can hurl at any
+    target within his line of sight.  After a successful alter roll to initiate the effect, the Force-wielder
+    makes a thrown weapons roll with a 2D bonus to launch the bolt of energy at his target. Characters
+    hit by the sphere suffer 6D damage and automatically loose a Character Point.
+  skills_used:
+  - alter
+- name: Dark Side Web
+  side: Dark Side Powers
+  group: Alter Powers
+  pdf_page: 28
+  alter_difficulty: Difficult
+  warning: Any character who uses this power gains a Dark Side Point.
+  this_power_may_be_kept_up: .
+  note: This power is a Sith discipline
+  effect: When successfully initiated, this power summons strands of dark side power that wrap around
+    the Force-user's target, ensnaring him in a mesh of brilliance.  The lattice of energy severs the
+    connection between the Force and the trapped individual and saps the strengths from his body. In game
+    terms, the target of the dark side web loses a number of Force skill dice up to the number of the
+    Force-wielder' s alter dice. For example, if King Ommin had 6D in alter, he could lower any on of
+    Master Arca's Force skills by six dice; or, he could break up those six dice across all three of Arca's
+    Force skills ( control, sense, and alter), lowering each skill each by 2D (or in any combination as
+    long as the total number of dice removed totals 6D). If the Force-user desires, he may include the
+    Strength attribute in the reduction, thereby given him the option of temporarily removing dice from
+    control, sense, alter, and Strength in any combination of dice that adds up to his alter skill.
+  skills_used:
+  - alter
+- name: Injure/Kill
+  side: Dark Side Powers
+  group: Alter Powers
+  pdf_page: 28
+  alter_difficulty: Targets opposing control or Perception roll
+  required_powers: Life sense
+  warning: A character who uses this power receives a Dark Side Point.
+  effect: An attacker must be touching the target to use this power.  In combat, this means making a successful
+    brawling attack in the same round that the power is to be used. When activated this user makes one
+    roll.  If it is higher than the character's resisting control or Perception total, figure damage as
+    if the power roll was a damage total and the control or Perception roll was a Strength roll to resist
+    damage.
+  example: A Dark Jedi grabs Ana by the shoulder and uses injure/kill on her. The Dark Jedi's alter roll
+    is 15; Ana's control roll is an 8. That's a difference of seven, which on the damage chart means Ana
+    is wounded. Ana falls to the ground, clutching her shoulder.
+  skills_used:
+  - alter
+- name: Aura of Uneasiness
+  side: Dark Side Powers
+  group: Control and Alter Powers
+  pdf_page: 28
+  control_difficulty: Easy.  Modified by proximity, but limited to line of sight.
+  alter_difficulty: Easy.
+  warning: Any character who uses this power gains a Dark Side Point.
+  note: This power is a Sith discipline
+  effect: This power allows a Sith to project a field of vague discomfort and unease around him, which
+    causes non-sentient creatures to avoid him.
+  skills_used:
+  - control
+  - alter
+- name: Electronic Manipulation
+  side: Dark Side Powers
+  group: Control and Alter Powers
+  pdf_page: 28
+  control_difficulty: Easy for non-sentient machines; Moderate for sentient machines; Difficult for sentient
+    machines hostile to Sith. Modified by proximity.
+  alter_difficulty: Easy for slight alteration; Moderate for significant changes in programming; Difficult
+    for major reprogramming.
+  required_powers: Absorb/dissipate energy, affect mind
+  warning: Any character who uses this power gains a Dark Side Point.
+  note: This power is a Sith discipline
+  effect: This power allows a Sith to channel his anger into the electronic circuits of a computer, droid,
+    or machine, and reprogram it by manipulating its physical and electrical components.  The reprogramming
+    can only restore original reprogramming which has been altered, not actually rewrite a computer's
+    programming. Since this Sith power can only be evoked in a state of rage, the Jedi have long avoided
+    using it.
+  skills_used:
+  - control
+  - alter
+- name: Feed on Dark Side
+  side: Dark Side Powers
+  group: Control and Alter Powers
+  pdf_page: 28
+  control_difficulty: Moderate when activated, Very Easy each round afterwards
+  alter_difficulty: Moderate when activated; no rolls required for subsequent rounds.
+  required_powers: Sense Force
+  warning: Any Jedi who activates this power automatically receives a Dark Side Point. This power can
+    be kept up. Avoid overusing this power, since it can severely disrupt game balance if not used in
+    moderation.
+  effect: This power allows a Jedi to feed on the fear, hatred, or other negative emotions of others to
+    make himself more powerful.  It does not matter to the dark side why the others are filled with dark
+    emotions; the feelings alone suffice. Force Powers 27 In game terms, in any round in which a character
+    using this power is in the presence of a light side Force-sensitive who gains a Dark Side Point, the
+    character gains a Dark Side Point and a Force Point.  If multiple characters gain Dark Side Points
+    in the same round, the character gains multiple Force Points.  These Force Points must be spent within
+    five minutes of being received. Dark Jedi use this power to gain power from the anger and hatred they
+    create in their foes.  For player characters who are quick to anger, it is impossible to die-roll
+    their way out of this situation.  The only way to stop a Jedi from gaining extra Force Points from
+    this power is to resist the dark side.  This can be extremely difficult, particularly since there
+    is nothing to prevent the Dark Jedi from doing everything in his power to provide these negative emotions.
+    This might include deception, the butchering of innocents, taunts, insults, threats against the characters,
+    their friends, families, home planets or bases, and anything else likely to make them call on the
+    dark side. Players who fail to devise a better way of defeating a Dark Jedi other than by brute force
+    are very likely to be destroyed if faced with this power.
+  skills_used:
+  - control
+  - alter
+- name: Force Lightning
+  side: Dark Side Powers
+  group: Control and Alter Powers
+  pdf_page: 29
+  control_difficulty: Difficult, modified by proximity, limited to line of sight.
+  alter_difficulty: Target's control or Perception roll
+  warning: A Jedi who uses this power for any reason immediately gains a Dark Side Point.
+  effect: 'This power is a corruption of the Force.  When used it produces bolts of white or blue energy
+    that fly from the user''s fingertips like sorcerous lightning.  The bolts tear through their target,
+    causing painful wounds.  Since this power is Force-generated it can be Force-repelled using absorb/dissipate
+    energy. Force lighting courses over and into its target, convulsing the target with serious pain,
+    and eventually killing him.  Armor does not protect a character from Force lightning.  Force lightning
+    causes 1D of damage for each 2D of alter the user has (rounded down: a character with an alter of
+    5D would cause 2D of damage).'
+  skills_used:
+  - control
+  - alter
+- name: Inflict Pain
+  side: Dark Side Powers
+  group: Control and Alter Powers
+  pdf_page: 29
+  control_difficulty: Very Easy.  Modified by proximity
+  alter_difficulty: Target's control or Perception
+  required_powers: Control pain, life sense
+  warning: A character who uses this power immediately receives a Dark Side Point.
+  effect: The target experiences intolerable pain.  The user causes damage by rolling her alter skill,
+    while the target resists damage with their control, Perception, or willpower.   The damage is figured
+    as a stun attack, although if the target suffers any damage at all, they are so crippled by pain that
+    they are incapable of acting for the rest of the round and the next round.
+  skills_used:
+  - control
+  - alter
+- name: Waves of Darkness
+  side: Dark Side Powers
+  group: Control and Alter Powers
+  pdf_page: 29
+  control_difficulty: 'Area of effect: Difficulty 1-2 meters  Moderate 3-10 meters Difficult 11-20 meters
+    Very Difficult 21-30 meters Heroic'
+  alter_difficulty: Area of Effect Difficulty 1-2 meters  Moderate 3-10 meters Difficult 11-20 meters
+    Very Difficult 21-30 meters Heroic
+  warning: Any character who uses this power gains a Dark Side Point.
+  this_power_may_be_kept_up: .
+  note: This power is a Sith discipline
+  effect: The user delves into the darkness of her own spirit and dredges up the feelings of hatred, jealousy,
+    greed, and rage that linger in the shadowed recesses. Using the Force as a power source, she expels
+    these vile emotions in waves of dark side energy that radiate outward in an expanding sphere.  Anyone
+    caught in the disturbance suffers immediate confusion, and a few seconds later, feels fear. In game
+    terms, those entering the area infested by the dark side waves must make a willpower or control roll
+    against the Force-user's control total for initiating the effect.  Anyone who fails the roll cannot
+    take his next action (in this combat round or the next) and must flee on the successive round.  Anyone
+    who succeeds becomes confused and can take no more than one action each combat round until he exits
+    the field of dark side energy.
+  skills_used:
+  - control
+  - alter
+- name: Force Wind
+  side: Dark Side Powers
+  group: Sense and Alter Powers
+  pdf_page: 30
+  sense_difficulty: Moderate
+  alter_difficulty: Moderate to affect 5 meters; Difficult to affect 10 meters; Very Difficult to affect
+    15 meters.
+  required_powers: Magnify senses, shift sense, telekinesis
+  this_power_may_be_kept_up: .
+  warning: Any character who uses this power gains a Dark Side Point.
+  note: This power is a Sith discipline
+  effect: This power allows the Sith to manipulate and channel air currents to form powerful and destructive
+    tornadoes that can lift people into the air and fling them about.  The cyclone does the Sith's alter
+    code in damage to all within its range.
+  skills_used:
+  - sense
+  - alter
+- name: Control Mind
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 30
+  warning: Any Jedi who uses this power automatically receives a Dark Side Point, plus an additional Dark
+    Side Point for every evil action she forces a victim of this power to undertake.
+  note: The difficulties of this power are significantly decreased for those who have fallen to the dark
+    side.
+  control_difficulty: Moderate, as modified by relationship.  Targets with an affinity for the Force (i.e.,
+    have Force skill or Force Points) may make an opposed control or Perception rolls, selecting either
+    their roll or the base difficulty to resist.
+  sense_difficulty: Easy for a Jedi who has turned to the dark side, as modified by proximity. Moderate
+    for a Jedi who is of the light side, as modified by proximity.
+  alter_difficulty: 'Variable, depending on the number of targets being controlled and whether or not
+    they are willing.  Force-sensitive targets may make opposed rolls, choosing either their roll or the
+    difficulty, whichever is higher. For a Jedi who has turned to the Dark Side: Number  Willing  Unwilling
+    1   Very Easy Easy 2   Easy   Moderate 3   Moderate  Difficult 4-5   Difficult  Very Difficult 6-8   Very
+    Difficult  Heroic (31+) For a Jedi who is of the light side: Number  Willing  Unwilling 1   Moderate  Difficult
+    2   Difficult  Very Difficult 3   Very Difficult  Heroic (31+)'
+  this_power_may_be_kept_up: .
+  effect: The use of this power allows a Jedi to take control of another person turning him into a puppet
+    who must obey the Jedi's will. When used successfully a Jedi can control the actions of others, making
+    them serve his will like automations.  The power may be kept up to allow the user to maintain control
+    of his target's mind - the Jedi must make a new roll if a new target is to be added. Characters versed
+    in the ways of the Force (with any Force skills) can actively resist by rolling a control or Perception
+    total.  A character with an inherent affinity for the Force may resist by rolling a Perception total.  The
+    character may choose either the difficulty for the power use or his own roll.  If the Jedi attempts
+    to control more than one such Force-sensitive character at the same time, for all characters beyond
+    the first, add +1 for each die code of Perception or control (as per "Combining Rules").  The Jedi
+    must make a new power roll whenever he attempts to take over a new target.  Targets may be released
+    without a roll. Control mind cannot be used to control droids or computers.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Create Force Storms
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 30
+  control_difficulty: Heroic
+  sense_difficulty: Heroic
+  alter_difficulty: 'Heroic modified by proximity. Modified by diameter of storm desired: +5 for 100 meters
+    or less; +10 for 100 meters to 1 kilometer; +15 for a base of 1 kilometer and +2 for every additional
+    kilometer.  Modified by damage: +5 per 1D of damage.  The user must make Heroic rolls each successive
+    round to control the storm.  She must also make a Very Force Powers 29 Difficult roll to dissipate
+    the storm.'
+  required_powers: Hibernation trance, life detection, life sense, magnify senses, receptive telepathy,
+    sense Force, telekinesis, farseeing, projective telepathy, instinctive astrogation, rage.
+  warning: Force Storms are immensely destructive and violate the laws of nature.  A Jedi using this power
+    automatically receives a Dark Side Point.
+  effect: This is one of the most destructive Force powers known.  It allows the Jedi to twist the space-time
+    continuum to create vast storms of Force.  The power also allows limited control of these storms.  Capable
+    of creating annihilating vortices, the storms can swallow whole fleets of spaceships or tear the surfaces
+    off worlds. This power requires an extreme focus of hate and anger to an almost palpable degree and
+    there is considerable danger involved.  Some are capable of creating Force storms, but fail at harnessing
+    what they have foolishly unleashed. Often, those who fail to control the storm are themselves consumed
+    and destroyed.  If the Force-user is destroyed, the storm dissipates within minutes. When creating
+    a Force Storm, the character must determine the diameter and amount of damage (on a capital scale.)  If
+    the Force user fails on any of her rolls, she successfully summons the storm with the desired damage,
+    but the storm attempts to consume the summoner. At a +10 difficulty, the summoner can use unusual
+    maneuvers with the storm, like creating a vortex to draw victims to a specified point.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Doppleganger
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 31
+  control_difficulty: Very Difficult
+  sense_difficulty: Very Difficult
+  alter_difficulty: Heroic.
+  required_powers: Control pain, emptiness, hibernation trance, life detection, life sense, mag- nify
+    senses, receptive telepathy, sense Force, teleki- nesis, projective telepath , control another's pain,
+    transfer Force, affect mind, dim another's senses This power must be "kept up".
+  warning: A character using this power receives a Dark Side Point.
+  time_to_use: Five minutes
+  effect: This power creates a doppelganger of the Force-user. Though the doppelganger is merely an illusion,
+    but it will interact with people and appear to be real.  The user can sense all normal senses through
+    the doppelganger, including a "feel" of normal substances.  Doppelgangers also register normally on
+    all droids' audio and video sensors.  Those with the doppelganger believe it to be a real person.  The
+    doppelganger acts with half the skill dice of the person that created it.  Every five minutes, the
+    user must roll again to maintain the doppelganger.  If the user stops using the doppelganger or it
+    is fatally injured, it simply fades into nonexistence.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Drain Life Energy
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 31
+  control_difficulty: Easy.
+  sense_difficulty: Easy.  Modified by proximity.
+  alter_difficulty: Easy.
+  this_power_may_be_kept_up: .
+  warning: A Jedi who uses this power gains a Dark Side Point.
+  note: This power is a Sith discipline
+  effect: This power allows a Sith to draw power from nearby non-sentient beings to boost his ability
+    to go without sleep.  As long as this power is kept up, the Sith will not fatigue or require sleep.  Use
+    of the power depends on a ready supply of nearby insects, small rodents, birds, and so on to draw
+    energy from.  This power may not be used to draw energy from sentient beings.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Drain Life Essence
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 31
+  control_difficulty: Very Difficult, inversely modified by relationship.  For example, a close relative
+    would add +30 to difficulty, while a total stranger of an alien species would add nothing.
+  sense_difficulty: 'Use chart below: Number of Victims  Difficulty 1 - 5    Very Easy 6 - 50    Easy
+    51 - 1000    Moderate 1,001 - 50,000   Difficult 50,001 - 1 million   Very Difficult 1 million to
+    10 million Heroic'
+  alter_difficulty: Easy for willing, worshipful subjects.  Difficult for ambivalent or apathetic individuals.  Heroic
+    for enemies.  Add +10 to the difficulty if individuals are imbued with the light side of the Force.
+  required_powers: Control pain, hibernation trance, life detection, life sense, magnify senses, receptive
+    telepathy, sense Force, telekinesis, farseeing, projective telepathy, control another's pain, transfer
+    Force, affect mind, control mind, dim another's senses
+  this_power_may_be_kept_up: .
+  warning: Any Jedi who uses this power gains a Dark Side Point.
+  effect: 'This power allows a Jedi to draw life energy from those around him and channel the negative
+    effects of the Dark Side into those victims. All living things are a part of and contribute to the
+    Force; even those with no awareness of the Force are affected by and are a part of it.  Many beings
+    go through their daily lives wasting much of their life energy.  This power draws that life energy
+    from beings, allowing a Jedi to use that energy to further his or her own ends. To draw this energy
+    the Jedi must roll this power once a day.  This power is considered up at all times and thus die penalties
+    apply. The amount of energy the Jedi draws depends on the number of individuals affected by the power
+    and the length of time they have been drained. For individuals who have been drained for less than
+    one week or longer than one month: 1-5 - one Force Point per week 6-50 - one Force Point per five
+    days 51-1,000 - one Force Point per three days 1,001-50,000 - one Force Point per two days 50,001-1million
+    - one Force Point per day 1 million to 10 million - Force Point per 12 hours For individuals who have
+    been drained longer than one week and less than one month: 1-5 - One Force Point per five days and
+    +1D to all Force skills. 6-50 - One Force Point per three days and +2D to all Force skills. 51-1000
+    - One Force Point per two days and +3 to all Force skills. 1001-50,000 - One Force Point per day and
+    +3D+2 to all Force skills. 50,001-1 million - One Point per 12 hours and +4D to all Force skills.
+    1 million to 10 million - One Point per 6 hours and +4D+2 to all Force skills.'
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Memory Wipe
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 32
+  control_difficulty: Moderate
+  sense_difficulty: Target's Perception or control roll.  Modified by relationship.
+  alter_difficulty: Target's Perception or control roll.  Modified by relationship.
+  required_powers: Control pain, hibernation trance, life detection, life sense, magnify senses, receptive
+    telepathy, sense Force, telekinesis, farseeing, projective telepathy, affect mind, control mind, dim
+    another's senses.
+  note: This power is a Sith discipline
+  warning: A character who uses this power immediately gets a Dark Side Point.
+  effect: This dreadful power allows a Sith to sift through a person's mind and destroy all knowledge
+    of specific events or learned skills. Use of the skill requires direct contact with the target, and
+    only one specified objective can be perused per session.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Telekinetic Kill
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 32
+  control_difficulty: Easy, modified by proximity
+  sense_difficulty: Easy, modified by proximity
+  alter_difficulty: Target's control or Perception roll
+  required_powers: Control pain, inflict pain, injure/kill, life sense
+  warning: A character who uses this power automatically receives a Dark Side Point.
+  effect: 'This power is used to telekinetically injure or kill a target.  The user makes his alter roll
+    against the target''s control or Perception total to determine damage.  The exact method used to kill
+    the target varies: collapse of the trachea, stir in the brain, squeeze the heart, or any number of
+    methods. Force Powers 31'
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Transfer Life
+  side: Dark Side Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 33
+  control_difficulty: Heroic, modified by relationship.  If the victim is unwilling, increase the difficulty
+    by +15.
+  sense_difficulty: Heroic, modified by proximity.  If the target is unwilling, increase the difficulty
+    by +15.
+  alter_difficulty: Variable, depending on willingness and Force affinity. Circumstances  Difficulty Specially
+    Prepared   Easy Clone Host Body Recently Dead Body  Moderate Live Willing Host   Very Difficult Live
+    Unwilling Host   Heroic Those that are Force sensitive may make an opposed alter or willpower roll,
+    selecting either the roll or the difficulty, whichever is higher.
+  required_powers: Absorb/dissipate energy, accelerate healing, control pain, emptiness, detoxify poison,
+    hibernation trance, reduce injury, remain conscious, resist stun, life detection, life sense, magnify
+    senses, receptive telepathy, sense Force, telekinesis, injure/ kill, farseeing, projective telepathy,
+    receptive telepathy, accelerate another's healing, control another's pain, feed on dark side, inflict
+    pain, return another to consciousness, dim another's senses, transfer Force, affect mind
+  warning: Any Jedi using this power receives two Dark Side Points.  If attempting to possess an unwilling
+    host, the Jedi receives four Dark Side Points.
+  effect: This power allows character to transfer his or her life energy into another body. The key to
+    immortality itself, this is one of the most difficult and evil of all dark side powers. To overcome
+    a spirit already residing in a body is nearly impossible.  This is why the power is nearly useless
+    without the ability to clone host bodies. Though theoretically possible, it is not yet known what
+    the effect on an unborn fetus would be. Fortunately, there is almost no history of this power being
+    used successfully.  It is believed that if the user's body perishes as an attempt fails, the user's
+    life energy is lost, dispersed to the void.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Force Scream
+  side: Special Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 33
+  note: This is an involuntary power that may be activated when a Dark Jedi loses control of her temper.
+  effect: 'The dark side of the Force is seductive, offering tremendous power to lure the weak- willed
+    into its grip.  Fear, anger, and jealousy are the ties that bind the servants of the dark side, and
+    by tapping into such emotions, the Dark Jedi are capable of unleashing untold devastation. The power
+    to destroy, however, does little to improve control of these abilities.  Dark Jedi who have become
+    angered sometimes lose control of their emotions.  This can trigger shock waves that ripple through
+    the Force, devastating the Dark Jedi and those unfortunate enough to be in close proximity. The Force
+    scream has been called "a wave of hatred amplified and fueled by the dark side, that is capable of
+    smashing through mental and physical defenses with ease."  A number of references to Dark Jedi in
+    Old Republic archives often mention the Dark Jedi losing control, violently, in the final moments
+    of battle with the Jedi of the light side of the Force. In game terms, a Force scream is a reflex,
+    usually occurring when Dark Jedi are provoked into losing their tempers.  A Dark Jedi must make a
+    Difficult willpower roll whenever angered to the point of rage; if the roll fails, the Jedi releases
+    the Force scream.  All of the Dark Jedi''s die codes are reduced by 2D for one hour, and he must rest
+    for one hour or suffer an additional -2D penalty until rested (penalties are cumulative). The Force
+    scream causes damage equal to the Dark Jedi''s alter skill to all beings within 50 meters, including
+    the Dark Jedi who unleashed this mental energy.  Force-sensitive characters roll their alter dice
+    to resist damage (those without the alter skill use Strength). [Editor''s note: All powers in this
+    section except those from the Hero''s Guide were converted by Gary Astleford and are available at
+    his website at http://www.verminary.com/ rebellion/.]'
+  skills_used: []
+- name: Burst of Speed
+  side: Converted Powers
+  group: Control Powers
+  pdf_page: 34
+  lead: 'Source: Revised Core Rulebook, page 107.'
+  control_difficulty: Moderate
+  required_powers: Enhance attribute
+  effect: 'A Jedi can use this power to enhance his Move rating, increasing his running and walking speeds
+    dramatically for a short period of time.  Both the duration and Move increase are determined by the
+    amount the Jedi''s control roll exceeds the difficulty.  The duration can be increased by spending
+    character points - for each character point spent, the duration is increased by one round.  These
+    points can be spent at any time before the power fades. Control Roll >      Move Difficulty By:      Increase
+    Duration 0-8      +5  4 Rounds 9-20      +10  3 Rounds 21+      +15  2 Rounds'
+  skills_used:
+  - control
+- name: Channel Rage
+  side: Converted Powers
+  group: Control Powers
+  pdf_page: 34
+  lead: 'Source: Dark Side Sourcebook, page 18.'
+  control_difficulty: Easy.
+  this_power_may_be_kept_up: .
+  warning: A character who uses this power automatically receives a Dark Side Point.
+  effect: This power, when used, channels the character's anger and rage into a berserk fury, which increases
+    his prowess in battle. Game effects include a temporary +2D bonus to Strength, and a -1D penalty to
+    all defensive skill rolls.  Raging characters are unable to perform any action or Force power that
+    requires patience and/or concentration. When use of channel rage ends, the user loses two pips from
+    his Strength die code for every round the power was kept up (reducing his Strength die code to a minimum
+    of 1D).
+  skills_used:
+  - control
+- name: Up the Walls
+  side: Converted Powers
+  group: Control Powers
+  pdf_page: 34
+  lead: 'Source: Hero''s Guide, pg 47'
+  control_difficulty: Difficult
+  required_powers: Enhance attribute, burst of speed
+  effect: You can use some or all of your mo - vement on a wall, as long as you begin and end your turn
+    on the floor.  The height you can achie- ve on the wall is limited only by your movement limit.  You
+    must use this power in conjunction with your running skill and movement rules as described in Star
+    Wars Ro - leplaying Game Revised and Ex - panded Second Edition p.101, mul- tiple action penal- ties
+    apply.  If you do not end your move on the flo - Force Powers 33 or or if you fail your running roll,
+    you fall prone, taking damage as appropriate for your height above the floor.  Treat the wall as normal
+    floor for the purposes of measu - ring your movement, but not for where you can begin or end your
+    move.  Shifting from a horizontal surface to a vertical surface (and vice-versa) costs 2 meters of
+    mo - vement.
+  skills_used:
+  - control
+- name: Force Shot
+  side: Converted Powers
+  group: Sense Powers
+  pdf_page: 35
+  lead: 'Source: Star Wars Gamer 9, page 92'
+  sense_difficulty: Moderate
+  this_power_may_be_kept_up: .
+  required_powers: Life detection, life sense, sense Force.
+  warning: Anyone who uses this power to harm a helpless character receives a Dark Side Point.
+  effect: This power is used to increase a character's accuracy with missile weapons against hidden or
+    concealed targets.  If successful, the Force-user may add his sense dice to his ranged attack rolls
+    against an organic/living target that is either fully or partially concealed, be it behind a wall,
+    through smoke, or in darkness or shadow.  At least some portion of the target must be concealed by
+    some degree of cover to be effective.  This power is called on at the start of a battle, and remains
+    up until the Jedi is stunned, wounded, or worse.  Any Jedi who has been stunned or wounded may attempt
+    to activate the power again.
+  skills_used:
+  - sense
+- name: Guided Attack
+  side: Converted Powers
+  group: Sense Powers
+  pdf_page: 35
+  lead: 'Source: Star Wars Gamer 9, page 92'
+  sense_difficulty: Target's control or Perception roll
+  this_power_may_be_kept_up: .
+  required_powers: Combat sense, danger sense, farseeing, life sense, life detection, sense Force.
+  warning: Anyone who uses this power to harm a helpless character receives a Dark Side Point.
+  effect: By successfully using this power and studying a single opponent for two full rounds, a character
+    can anticipate that opponent's reactions in combat.  This effectively reduces the opponent's defense
+    dice rolls made to evade the character's attacks by half for the duration of the combat, or until
+    the character using this power is stunned, wounded, or worse.
+  skills_used:
+  - sense
+- name: Nature Affinity
+  side: Converted Powers
+  group: Sense Powers
+  pdf_page: 35
+  lead: 'Source: Coruscant and the Core Worlds, page 45.'
+  sense_difficulty: Moderate or Difficult
+  required_powers: life detection, life sense, sense Force.
+  effect: With a Moderate difficulty, this power allows the user to detect and identify the specific kinds
+    of plant and animal life forms in a 200 meter radius.  Those not wishing to be found can resist by
+    rolling control or hide, and the result of this roll replaces the standard difficulty number. This
+    power may only be used once per hour. With a Difficult difficulty, the user can also sense the "health"
+    of an area, and this is expressed in a single word such as "harmonious," "threatened," or "dying."
+  skills_used:
+  - sense
+- name: Sense Surroundings
+  side: Converted Powers
+  group: Sense Powers
+  pdf_page: 35
+  lead: 'Source: Power of the Jedi Sourcebook, pg 29'
+  sense_difficulty: Easy.
+  this_power_may_be_kept_up: .
+  required_powers: Magnify senses, sense Force.
+  effect: Sense surroundings allows a Force- user to extend his senses through the Force, permitting him
+    to fight and make search checks despite darkness or obstruction.  This power doesn't duplicate the
+    magnify senses power, but it does allow a character to perceive things normally through the Force
+    instead of through a normal sense.  This power can only be used to counter either blindness or deafness.  In
+    order to counteract both lack of sight and sound, the power would need to be used twice (thus granting
+    a multiple action penalty).
+  skills_used:
+  - sense
+- name: Empower Force
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 36
+  lead: 'Source: Hero''s Guide, page 139.'
+  alter_difficulty: Very Difficult
+  effect: All Force powers that have a variable based on a die roll (for example damage for Force lightning,
+    or the benefits of enhance attribute) are increased by one-half (multiply by 1.5, rounded down).  This
+    power must be activated in the same round as the related power.  Multiple action penalties apply.  Once
+    the damage or benefit has been rolled, the result is multiplied by 1.5 (rounded down) and then added
+    to the total.  If the Jedi wants to affect more than one power, he must make separate empower Force
+    rolls. For example, a Force-user wishes to attack a target with Force lightning.  The Force-user's
+    alter die code is 7D.  If he successfully activates empower force before making his attack, he will
+    roll his 3D for damage.  He rolls a nine, but has a final result of 13.
+  skills_used:
+  - alter
+- name: Enlarge Force
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 36
+  lead: 'Source: Hero''s Guide, page 139.'
+  alter_difficulty: Difficult
+  effect: This power allows a Jedi to double the range of those Force powers that are limited by distance
+    (life bond, for example).  The Jedi must successfully activate enlarge Force in the same round as
+    the Force power it is meant to enlarge.  Force powers without range limitations are not affected.
+  skills_used:
+  - alter
+- name: Extend Force
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 36
+  lead: 'Source: Hero''s Guide, page 140.'
+  alter_difficulty: Difficult
+  effect: This power allows a Jedi to double the duration of those Force powers that has an affect that
+    expires after a certain time ( combat sense, or enhance attribute, for example).  The Jedi must successfully
+    activate extend Force in the same round as the Force power it is meant to extend.  Multiple action
+    penalties apply.  Force powers that are not affected by duration or an expiration time are not affected
+    by this power.
+  skills_used:
+  - alter
+- name: Force Flight
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 36
+  lead: 'Source: Revised Core Rulebook, page 108.'
+  alter_difficulty: Equal to the number of meters the Jedi wishes to move himself (20 meters maximum).
+  required_powers: Concentration, telekinesis
+  effect: Using this power instead of walking, a Force-user can physically move himself a number of meters
+    either horizontally or vertically.  The difficulty of the alter roll for this ability is equal to
+    the number of meters that the Jedi wishes to move himself, but under no circumstances can the distance
+    be greater than 20 meters.  If the Force-user has not landed by the end of the round, he may suffer
+    falling damage (at the gamemaster's discretion).
+  skills_used:
+  - alter
+- name: Force Light
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 36
+  lead: 'Source: Power of the Jedi Sourcebook, page 12.'
+  alter_difficulty: Very Easy.
+  required_powers: Force harmony, life detection, life sense, projective telepathy, receptive telepathy.
+  effect: 'This power allows a Jedi to channel the Force into blasts of light that can destroy dark side
+    spirits, as well as cleanse the taint of dark side locations.  This light side energy emanates out
+    to ten meters from the power''s user, affecting all dark side characters, creatures, spirits, or sites
+    within that area.  When activated, the player rolls his alter score and checks his success on the
+    following table: Alter Roll >   Character/  Dark Side  Dark Side Difficulty By:  Creature        Spirit          Site
+    0-10  Easy        2D+2       No Effect 11-20           Moderate          5D          No Effect 20-35            Difficult        7D+2       No
+    Effect 36+         Very Difficult      10D     Reduce Site Power Force Powers 35 In the case of dark
+    side characters and creatures, those within the effective range of the power must make a control or
+    willpower skill roll with the difficulty listed, or they will lose a Dark Side Point.  In the case
+    of dark side spirits, the damage listed is inflicted upon them.  If the target is a dark side site,
+    its power level may be reduced.'
+  skills_used:
+  - alter
+- name: Force Push
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 37
+  lead: 'Source: Core Rulebook, page 86.'
+  alter_difficulty: Target's control or Strength roll, +3 to difficulty for every 5 meters away from target,
+    line of sight only.
+  required_powers: Concentration, life detec- tion, telekinesis.
+  effect: 'With this power, a Jedi may use the Force to push several adjacent targets back - wards, knocking
+    them prone or banging them against a wall. Each target past the first incurs a -1D penalty on the
+    Jedi using the power (ie, 1 tar- get, no penalty; 2 targets, -1D penalty; 3 targets, -2D penalty;
+    4 targets, -3D penalty…). Each target makes either a control or Strength roll to resist, and the acting
+    Jedi''s alter roll result is compared to each result in turn to determine the effects. A target that
+    is knocked back into a wall or other solid object takes the listed damage. If a Jedi kills a living
+    being as a result of this power he immediately receives a Dark Side Point; as such, he may roll less
+    than his full alter score if he so chooses. Alter Roll >   Target pushed back/ Difficulty By:      Collision
+    damage 0-5  2 meters / 2D 6-10  3 meters / 3D 11-15  5 meters / 4D 16-20  10 meters / 5D 21+  15 meters
+    / 6D'
+  skills_used:
+  - alter
+- name: Inspire
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 37
+  lead: 'Source: Power of the Jedi Sourcebook, pg 13'
+  alter_difficulty: Very Difficult, modified for proximity.
+  this_power_may_be_kept_up: .
+  required_powers: Affect mind, battle meditation.
+  effect: 'With successful use of this power, a Jedi can instill great confidence in one or more of his
+    allies.  This inspiration is reflected in a +1D bonus to all ability and skill rolls made by an affected
+    ally, and last as long as the user desires to keep it up.  The number of allies who gain the bonus
+    is determined by the success level of the initiating alter roll: Alter Roll > Number Difficulty By:
+    of Targets 0-5  1-10 6-10  11-100 11-15  101-1,000 16+  1,001-10,000'
+  skills_used:
+  - alter
+- name: Kinetic Combat
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 37
+  lead: 'Source: Hero''s Guide, page 42.'
+  alter_difficulty: Difficult
+  required_powers: Telekinesis
+  effect: Once the Jedi has successfully activated this power, he may wield a melee weapon or lightsaber
+    with the power of the Force at a distance up to 10 meters, as though the weapon were in his hands
+    using his melee weapons or lightsaber skill respectively.  Multiple action penalties apply. The first
+    round, the Jedi can make only one attack.  As his control improves, he may attack with the weapon
+    as many times as possible (as determined by multiple action penalties).
+  skills_used:
+  - alter
+- name: Maximize Force
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 38
+  lead: 'Source: Hero''s Guide, page 140.'
+  alter_difficulty: Heroic
+  effect: This power allows a Force-user to maximize the effect (usually damage) of her Force abilities.  Instead
+    of rolling for damage or other variable result, the die rolls are automatically calculated as though
+    the she had achieved the maximum effect possible.  If the normal damage dice would have been 3D+2,
+    the result is automatically calculated as 20. This power must be activated in the same round as the
+    power it is attempting to maximize.  Multiple action penalties apply.  Force powers without random
+    variables based on die rolls are not affected by this power.
+  note: Gamemasters are highly advised to be cautious when using or awarding this power as it can disrupt
+    game balance.
+  skills_used:
+  - alter
+- name: Shadow Bomb
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 38
+  lead: 'Source: New Jedi Order Sourcebook, page 140-141'
+  alter_difficulty: Special (see below)
+  this_power_may_be_kept_up: .
+  required_powers: Telekinesis
+  effect: This power was developed in order to stealthily deliver non-propelled proton torpedoes to Yuuzhan
+    Vong targets. Using the Force, a starfighter pilot can release his missiles, guiding them to the target
+    with his thoughts alone.  The difficulty of this power is the difficulty to hit the target (based
+    on a range of 1/2/4), with the difficulty further increased based on the target's speed (Second Edition
+    Revised and Expanded, page 127).  The Force- user must keep this power up until the torpedo hits its
+    target.  A torpedo guided this manner that hits a Yuuzhan Vong target ignores any protection normally
+    afforded by its dovin basal shields.
+  skills_used:
+  - alter
+- name: Split Force
+  side: Converted Powers
+  group: Alter Powers
+  pdf_page: 38
+  lead: 'Source: Hero''s Guide, page 140.'
+  alter_difficulty: Difficult
+  effect: This power allows the Jedi to add one additional target to his or her Force power during that
+    round.  For example, he or she may select one additional object for telekinesis, or one additional
+    person for return another to consciousness.  Powers that already target more than one person or object
+    are not affected. Likewise, powers that only target only the user are not affected.  Split Force must
+    be activated in the same round as the power it is meant to split.
+  skills_used:
+  - alter
+- name: Battle Meld
+  side: Converted Powers
+  group: Control and Sense Powers
+  pdf_page: 38
+  lead: 'Source: New Jedi Order Sourcebook, pg 146'
+  control_difficulty: Easy, +2 for each person to be included in the link.  Modified by relationship.
+  sense_difficulty: Easy, modified by proximity.
+  this_power_may_be_kept_up: .
+  required_powers: Life detection, life sense, projective telepathy, receptive telepathy.
+  effect: This power may be used to include any other Force-sensitive characters in a telepathic link.  A
+    person involved in the meld can add a +1 pip bonus to any attribute or skill rolls made for every
+    two people that are linked together in this way.  Note that only the highest modifiers for relationship
+    and proximity are applied to this power's difficulties when it is activated.  For each round the meld
+    remains active, each participant must succeed at a Moderate willpower or control roll, or be forced
+    out of the meld.  If the Force- user who initiated the meld fails this roll, the entire link fails.  The
+    bonus granted by the battle meld applies to this willpower or control roll. Force Powers 37
+  skills_used:
+  - control
+  - sense
+- name: Shield Gauntlet Defense
+  side: Converted Powers
+  group: Control and Sense Powers
+  pdf_page: 39
+  lead: 'Source: Rebellion Era Sourcebook, page 49.'
+  control_difficulty: Moderate.
+  sense_difficulty: Easy.
+  this_power_may_be_kept_up: .
+  effect: This power works in a manner similar to that of the lightsaber combat power, but centers on
+    defense.  If a character successfully uses this power, he adds his Sense rating to his brawling parry
+    and melee parry skill rolls while using a Shield Gauntlet.  Additionally, blaster bolts can be deflected
+    using the melee parry skill, and the system is the same as the one listed for lightsaber combat.
+  skills_used:
+  - control
+  - sense
+- name: Sith Sorcery
+  side: Converted Powers
+  group: Control and Sense Powers
+  pdf_page: 39
+  lead: 'Source: Dark Side Sourcebook, page 18.'
+  control_difficulty: Difficult.
+  sense_difficulty: Moderate.
+  required_powers: Enhance attribute, feed on dark side, life detection, life sense, sense Force.
+  warning: A character who uses this power automatically receives a Dark Side Point.
+  effect: 'Sith sorcery is used to channel the spirits of dead Sith lords into a character''s body, augmenting
+    his own natural abilities at the risk of possession.  If successful, this power grants bonuses to
+    attacks, resistance rolls, Strength (to resist damage only), and any use of dark side Force powers
+    (ie, any powers that give Dark Side Points when used).  The extent of the bonus and the power''s duration
+    are determined by the amount the Jedi''s control roll exceeds the difficulty.  The duration can be
+    increased by spending character points - for each character point spent, the duration is increased
+    by one round.  These points can be spent at any time before the power fades. Control Roll > Difficulty
+    By:      Bonus Duration 0-6          +2 4 rounds 7-12          +1D 4 rounds 12-18        +1D+1 3 rounds
+    19-24        +1D+2 3 rounds 24+          +2D 2 rounds Special: Whenever Sith sorcery is used, in addition
+    to receiving a Dark Side Point, the character opens himself up to possession by Sith spirits.  He
+    must immediately succeed in a Moderate willpower skill check, with the difficulty increased by the
+    amount of the bonus received.  For example, a Dark Jedi beats his control roll difficulty by 8 points,
+    gaining a +1D bonus.  When the power fades, he must make a willpower roll with a difficulty of Moderate
+    +1D.  If the skill roll succeeds, there are no complications.  If it fails, however, the character
+    is possessed by a dark side spirit.'
+  skills_used:
+  - control
+  - sense
+- name: Sith Sword Combat
+  side: Converted Powers
+  group: Control and Sense Powers
+  pdf_page: 39
+  lead: 'Source: Adapted from Sith Sword Defense, Dark Side Sourcebook, page 18-19.'
+  control_difficulty: Moderate.
+  sense_difficulty: Easy.
+  this_power_may_be_kept_up: .
+  effect: This power works in a manner similar to that of the lightsaber combat power, but centers on
+    defense.  If a character successfully uses this power, he adds his sense rating to his melee parry
+    skill rolls while using a Sith Sword, and is able to add (but not subtract) part or all of his control
+    dice to the Sith Sword's damage. Additionally, blaster bolts can be deflected, and the system is the
+    same as the one listed in lightsaber combat.
+  skills_used:
+  - control
+  - sense
+- name: Create Force Talisman
+  side: Converted Powers
+  group: Control and Alter Powers
+  pdf_page: 40
+  lead: 'Source: Adapted from the Force Adept ability in the Revised Core Rulebook, pages 55-56.'
+  control_difficulty: Moderate.
+  alter_difficulty: Difficult.
+  required_powers: Concentration, control another's pain, control pain, Force weapon, transfer Force.
+  effect: 'By using this power and spending a Force Point, a Force user can imbue an item of personal
+    significance with Force energy, thereby creating a Force Talisman.  A Force Talisman grants its possessor
+    a bonus to resist Force powers, adding this bonus to any rolls made to resist hostile Force powers.  A
+    Force user can only possess one talisman at a time.  The bonus granted by the talisman depends on
+    the amount by which the Force user succeeds at his alter skill roll. Alter Roll > Resistance Difficulty
+    By: Bonus 0-8  +2 pips 9-16  +1D 17+  +1D+1'
+  skills_used:
+  - control
+  - alter
+- name: Drain Energy
+  side: Converted Powers
+  group: Control and Alter Powers
+  pdf_page: 40
+  lead: 'Source: Dark Side Sourcebook, page 14-15.'
+  control_difficulty: Very Easy for simple devices (datapads, holorecorders, droid callers); Easy for
+    power packs (such as blasters); Moderate for energy cells (lightsabers, force pikes, vibro weapons);
+    Difficult for portable generators (E- Web repeating blasters, droids).
+  alter_difficulty: Easy if the target is a non- sentient piece of equipment.  If the target is a droid,
+    the alter difficulty is the droid's Strength roll.
+  required_powers: Absorb/dissipate energy.
+  warning: A character who uses this power automatically receives a Dark Side Point.
+  effect: Use of this power allows a Jedi to drain the energy from power packs, energy cells, and similar
+    power sources.  This can render powered and electric equipment useless until the power source is replaced
+    or recharged.  Power generators larger than a portable generator, such as a fusion generator (used
+    in power droids, vehicles, and ships) are too large to be drained by this ability.  Using this power
+    takes a full round. It can affect a single target within the character's line of sight up to 10 meters
+    away.  Due to the fact that this power uses dark side energy to siphon power, it grants the user a
+    Dark Side Point.
+  skills_used:
+  - control
+  - alter
+- name: Enhance Another's Attribute
+  side: Converted Powers
+  group: Control and Alter Powers
+  pdf_page: 40
+  lead: 'Source: Adapted from Force Mind in the Revised Core Rulebook, page 108-109.'
+  control_difficulty: Easy, modified by relationship.
+  alter_difficulty: Moderate.
+  required_powers: Enhance attribute, control pain, control another's pain, transfer Force
+  effect: 'A Jedi can use this power to enhance a single attribute for one being for a limited amount
+    of time.  All skills covered by the attribute are increased by the same amount for as long as the
+    power remains in effect.  An attribute increased by this power remains enhanced for the duration listed
+    below.  Both duration and attribute increase are determined by the amount the Jedi''s Alter roll exceeds
+    the difficulty.  Duration can be increased by spending character points - for each character point
+    spent, the duration increases by one combat round.  These points can be spent at any time before the
+    power fades. A Jedi can only increase on attribute at a time. If a character attempts to enhance a
+    second attribute, the first enhancement fades and the second is increased. Alter Roll >          Attribute
+    Difficulty By:        Increase          Duration 0-13  +1D           3 Rounds 14-25  +2D           2
+    Rounds 26+  +3D           1 Round'
+  skills_used:
+  - control
+  - alter
+- name: Force Weapon
+  side: Converted Powers
+  group: Control and Alter Powers
+  pdf_page: 40
+  lead: 'Source: Adapted from the Force Adept ability in the Revised Core Rulebook, pages 55-56.'
+  control_difficulty: Equal to the melee weapon's base difficulty (ie, a knife is Very Easy).
+  alter_difficulty: Moderate.
+  required_powers: Concentration
+  warning: A character who uses this power in order to injure or kill a helpless being immediately gains
+    a Dark Side Point.
+  effect: 'A Force user with this power can temporarily imbue a non-powered melee weapon (such as a club,
+    knife, staff, etc.) with the Force.  This power can only be used on the Force user''s personal weapon,
+    and only while Force Powers 39 he uses the weapon himself.  The power lasts for five rounds, after
+    which time it must be activated again.  The amount by which the alter skill roll exceeds the difficulty
+    determines how much extra damage the weapon inflicts on a successful hit.  Note that this damage will
+    allow a weapon to exceed its listed maximum damage (if any). Alter Roll > Damage Difficulty By: Increase
+    0-8  +1 pip 9-16  +2 pips 17-24  +1D 25+  +1D+1'
+  skills_used:
+  - control
+  - alter
+- name: Hatred
+  side: Converted Powers
+  group: Control and Alter Powers
+  pdf_page: 41
+  lead: 'Source: Dark Side Sourcebook, page 18.'
+  control_difficulty: Moderate.
+  alter_difficulty: Target's control or Perception.
+  required_powers: Control pain, inflict pain, injure/kill, life detection, life sense, hibernation trance,
+    rage, waves of darkness.
+  warning: A character who uses this power automatically receives a Dark Side Point.
+  effect: This power is similar to Force scream, but is used voluntarily.  The character using this power
+    releases his hatred into a blast of Force energy.  Successful use of this power deals 3D damage to
+    all targets within ten meters of the character, and gives each one a -1D penalty to all rolls for
+    the remainder of the round.  The s of this power last a single round, though the duration can be increased
+    by spending character points - for each character point spent, the duration is increased by one round.
+    These points can be spent at any time before the power fades.
+  skills_used:
+  - control
+  - alter
+- name: Morichro
+  side: Converted Powers
+  group: Control and Alter Powers
+  pdf_page: 41
+  lead: 'Source: Power of the Jedi Sourcebook, pg 16'
+  control_difficulty: Moderate, modified by proximity.
+  alter_difficulty: Perception or control roll of the target.
+  required_powers: Accelerate another' s healing, control another's pain, control pain, hibernation trance,
+    injure/kill, life detection, life sense, place another in hibernation trance.
+  note: A character with more than two Dark Side Points cannot utilize the power.
+  warning: If the target of this power dies for any reason while being under its influence, the Force-user
+    who initiated the power gains a Dark Side Point.
+  effect: This power is an offensive variation of place another in hibernation trance.  It allows a Force-user
+    to put someone into a trance-like state.  If the target fails his Perception or control roll to resist
+    this power, in addition to rolling a "1" on the Wild Die, the target immediately dies and the user
+    of the power gains one Dark Side Point.  The target can spent a Force Point in order to escape immediate
+    death.  When used against a living being, morichro has a maximum range of 10 meters.  The effects
+    are otherwise identical to the place another in hibernation trance power.
+  skills_used:
+  - control
+  - alter
+- name: Plant Surge
+  side: Converted Powers
+  group: Control and Alter Powers
+  pdf_page: 41
+  lead: 'Source: Power of the Jedi Sourcebook, pg 14'
+  control_difficulty: Varies.  See chart below.
+  alter_difficulty: Target's control or bra- wling parry roll.
+  required_powers: Concentration, telekinesis
+  effect: 'When used, this power causes plants (grasses, weeds, bushes, trees, etc.) to entangle target
+    creatures, holding them fast or slowing them down.  The control difficulty depends on the area that
+    the Force user wishes to affect: Radius               Control Difficulty 2-meter radius    Easy 4-meter
+    radius    Moderate 6-meter radius    Difficult 8-meter radius    Very Difficult The alter difficulty
+    is the control or brawling parry roll(s) of the target(s).  If the Force-user succeeds in his use
+    of the power, the targets are considered to be entangled.  Entangled creatures suffer a -1D penalty
+    to all attack rolls, a -2D penalty to their Dexterity scores, and can only move at half of their normal
+    Movement scores.  Entangled characters can attempt to escape, but this requires a Difficult Strength
+    check to accomplish.'
+  skills_used:
+  - control
+  - alter
+- name: Friendship
+  side: Converted Powers
+  group: Sense and Alter Powers
+  pdf_page: 42
+  lead: 'Source: Revised Core Rulebook, page 89.'
+  sense_difficulty: Target's control or Perception roll.
+  alter_difficulty: Very Easy against a person or animal that has no reason to mistrust you, or who wants
+    something from you (an eager salesman, for example); Easy against a person or an animal who is neutral
+    or indifferent to you; Moderate against a wild animal, or a person who has a societal reason to dislike
+    you (i.e., prejudice); Difficult against a hungry predator, or a person who has a personal reason
+    to dislike or hate you; Very Difficult against a person who is a sworn enemy, or an animal who is
+    starving, angry, or wounded.
+  effect: 'Proper application of this power can calm a hostile person or animal.  Use of friendship employs
+    calming emotions that can cause enemies to re-think their motives, or open them up to discussion and
+    parley.  Friendship does not make them forget past events (such as when you tried to kill them), but
+    it might give you a chance to bring about a peaceful solution to a disagreement.  The target of friendship
+    will remain calm until a situation occurs that alters that state.  A bonus granted to all bargain,
+    command, con, or persuasion rolls made against the target following the use of friendship is based
+    on the amount by which the sense roll exceeds the target''s control or Perception roll. Sense Roll
+    > Skill Difficulty By: Bonus 0-5  +2 6-10  +1D 11-15  +1D+1 16-20  +1D+2 21+  +2D'
+  skills_used:
+  - sense
+  - alter
+- name: Malacia
+  side: Converted Powers
+  group: Sense and Alter Powers
+  pdf_page: 42
+  lead: 'Source: Power of the Jedi Sourcebook, pg 13'
+  sense_difficulty: Moderate.
+  alter_difficulty: Target's control or Strength roll.
+  required_powers: Enhance another's attribute, enhance attribute, control pain, control another's pain,
+    transfer force.
+  effect: This power causes extreme dizziness and nausea in a single target within the user's line of
+    sight.  A target affected by this power is considered to be stunned for 2D rounds, and cannot take
+    any actions during that time.
+  skills_used:
+  - sense
+  - alter
+- name: Alchemy
+  side: Converted Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 42
+  lead: 'Source: Dark Side Sourcebook, page 13.'
+  control_difficulty: Moderate.
+  sense_difficulty: Moderate.
+  alter_difficulty: Varies (see below).
+  required_powers: Accelerate another's healing, control another's pain, control pain, enhance attribute,
+    enhance another's attribute, feed on the dark side, hibernation trance, injure/ kill, life detection,
+    life sense, place another in hibernation trance, sense Force, Sith sorcery, transfer Force.
+  warning: A character who uses this power automatically receives a Dark Side Point.
+  effect: Using ancient Sith equipment and arcane formulae, a character with this Force power can alter
+    the molecular composition of living beings, creating dark side mutants. All changes made to a being
+    with this power create horrific physical mutations.  Altering multiple aspects requires multiple rolls,
+    with each roll taking one minute and granting an additional Dark Side Point.  To use this power successfully
+    requires thousands of credits worth of alchemical equipment and raw materials (as well as a subject).  Each
+    alteration made inflicts 4D damage against the subject.  This power can also be used to reshape inanimate
+    matter. Force Powers 41 Alteration   Alter Difficulty Add Claws or Fangs (strength +2 damage)  Difficult
+    Add Horns (strength +1D damage) Difficult Add Natural Armor (+1D versus energy)*  Heroic Add Natural
+    Armor (+1D versus physical)* Very Difficult Alter Physical Appearance (+1D to Intimidation)* Moderate
+    Grant Darkvision (20')  Very Difficult Increase Attribute (+1 pip) Heroic Increase/Decrease Size By
+    Half*   Heroic Increase Move Score +2 (up to twice original score) Very Difficult Make Target Obedient
+    (-1D to Willpower)  Very Difficult *Each additional use of this alteration on the same target increases
+    the alter difficulty by 5 points and grants an additional Dark Side point.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Illusion
+  side: Converted Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 43
+  lead: 'Source: Dark Side Sourcebook, pgs 15-16.'
+  control_difficulty: Moderate, modified by proximity.
+  sense_difficulty: Moderate, modified by proximity.
+  alter_difficulty: Target's control or Perception.
+  required_powers: Affect mind, dim another's senses, life detection, life sense, projective telepathy,
+    receptive telepathy, sense Force.
+  this_power_may_be_kept_up: .
+  effect: Characters with the power of Illusion can manifest images that seem completely real to those
+    who perceive them.  These illusions cannot cause physical harm, though they might cause others to
+    make mistakes if they do not realize their true nature.  Maximum range for an illusion is 10,000 meters
+    from the user.  Maintaining an illusion takes complete concentration.
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Sever Force
+  side: Converted Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 43
+  lead: 'Source: Power of the Jedi, page 14.'
+  control_difficulty: Difficult.
+  sense_difficulty: 'Varies (see below). depends on the number of Dark Side Points possessed by the target.  The
+    sense difficulty is Difficult if the target has four or more Dark Side points, and is Moderate if
+    the target has seven or more Dark Side Points.  The amount by which the character using sever force
+    makes his alter skill roll determines how effective this power is at severing his target''s connection
+    to the Force.  If successful, the target of this power must roll a control check each time he attempts
+    to use a Force power.  The base difficulty of this roll is detailed on the following chart: Alter
+    Roll > Force Use Difficulty By: Difficulty 0-10  Moderate 11-20  Difficult 21-35  Very Difficult 36-50  Heroic
+    51+  Heroic +5 The base difficulty for the target to use Force powers is further modified by the number
+    of Dark Side Points he possesses.  If the target reduces his Dark Side Point total below three, he
+    no longer needs to make this roll.'
+  alter_difficulty: 'Target''s control or willpower. Special: Anyone using this power must spend one Force
+    Point.'
+  required_powers: Affect mind, battle meditation, concentration, hibernation trance, emptiness, force
+    harmony, force of will, life detection, life sense, projective telepathy, receptive telepathy, sense
+    Force, sense Force potential.
+  note: This power seems to be extremely unbalancing, as written in the d20 rules.  The author has made
+    an attempt to adapt it, while maintaining the flavor of the power.  Individual gamemasters may not
+    wish to allow players access to this power, for obvious reasons.
+  effect: This power severs a dark sider's ties to the Force, preventing him from using any Force skills.  It
+    is not effective against a character who has less than four Dark Side Points, and anyone with more
+    than three Dark Side points cannot use this power at all.  The effects of Sever Force are permanent,
+    and the only way for a target to reverse the effects are to reduce the number of Dark Side Points
+    he has below four.  The power's
+  skills_used:
+  - control
+  - sense
+  - alter
+- name: Control Temperature
+  side: Fan-Made Powers
+  group: Control Powers
+  pdf_page: 44
+  control_difficulty: Easy
+  required_powers: Hibernation trance, absorb/dissipate energy
+  this_power_may_be_kept_up: ''
+  effect: 'When successfully activated, this power allows the Jedi a stricter control over her body temperature.
+    By speeding or slowing her metabolism she is able to change her core temperature, thereby allowing
+    her to be more resilient to environmental changes. Whether these changes are due to malfunctioning
+    life support systems, or harsh wilderness temperatures, the Force user can withstand greater heat
+    and cold than most beings. Furthermore, the Jedi can also choose to control her surface body temperature
+    to hide herself from heat-based sensors or hide from species that use heat detection as a primary
+    sense. In game terms control temperature allows the Jedi to add bonus dice to her survival or stamina
+    skill rolls to live in much harsher environments than she would normally be able to. Alternatively,
+    the Jedi may choose to control their skin temperature to add to their sneak skill roll to avoid being
+    detected by heat sensors. In either usage, the amount of bonus dice depends on the Jedi''s skill roll.  Using
+    the power for both purposes in the same round requires an additional action with a +5 to the difficulty
+    for each roll. Roll beats          Survival/stamina difficulty by:     or Sneak skill bonus: 0-5  +3D
+    6-14  +4D 15-21  +5D 25+  +6D'
+  skills_used:
+  - control
+- name: Direction Sense
+  side: Fan-Made Powers
+  group: Sense Powers
+  pdf_page: 44
+  sense_difficulty: Easy; modified by Proximity This power can be kept up.
+  effect: 'Direction sense allows a Jedi to be guided by the Force toward a particular goal or destination.  It
+    could be an object of importance, the north pole of a planet, the nearest cantina, etc., but this
+    power does not sense life forms. Alternatively a Jedi may use the Force for guidance through a maze-like
+    cavern.  If the Jedi meets the required sense difficulty, she just knows the general direction the
+    object or location is in: left, right, forward, behind, above, below.  If she succeeds by 10 or more,
+    the Jedi knows exactly in what direction and how far away the location is from her current position.'
+  skills_used:
+  - sense
+- name: Aquatic Force
+  side: Fan-Made Powers
+  group: Alter Powers
+  pdf_page: 44
+  alter_difficulty: Easy for a bubble 1-2 meters in diameter (character scale); Moderate for a bubble
+    3-5 meters in diameter (character scale); Difficult for a bubble 6-9 meters in diameter (speeder scale);
+    Very Difficult for a bubble 10-14 in diameter (speeder scale); Heroic for a bubble 15-20 meters in
+    diameter (walker scale). Force Powers 43
+  required_powers: Telekinesis
+  warning: If a character uses this power to harm a living being, he or she gains an immediate Dark Side
+    Point.
+  effect: This power was originally developed by Kit Fisto during the Old Republic.  The original intent
+    of the power was to clear out sub aquatic passages and submerged lava tubes.  Kit Fisto was able to
+    summon the power of the Force to create a great a sphere of surface tension that he could hurl in
+    a direct line.  The useful effect was that it cleared away all debris and loose material so the passage
+    could be utilized for other purposes. There have been reports that Kit Fisto may have used this power
+    against droid soldiers and vehicles during the Clone Wars.  However, these rumors have yet to be solidly
+    confirmed. In game terms, a Jedi using this power must be underwater to use this power.  Using the
+    power of the Force he creates surface tension that is under his limited control.  He may hurl the
+    sphere in the direction that he chooses.  If the Jedi wishes to throw the aquatic force at a particular
+    object, the gamemaster chooses the Strength of the structure or debris (the default strength of an
+    object is 2D unless otherwise declared).  The aquatic force does 4D damage, though the scale varies
+    depending on the size of the aquatic Force.
+  skills_used:
+  - alter
+- name: Lifemerge
+  side: Fan-Made Powers
+  group: Control and Sense Powers
+  pdf_page: 45
+  control_difficulty: Difficult
+  sense_difficulty: Difficult
+  effect: A Jedi may attempt to activate this power at the moment of his death.  At the moment the Jedi
+    knows death is imminent (just after a fatal wound, or just before it), the Jedi calms his mind and
+    body (Difficult control roll), preparing to surrender his mortal shell.  The Jedi then reaches out
+    with his mind, tracing the ebb and flow of the Force around him and through him (Difficult sense roll).  Upon
+    succeeding at both rolls, the Jedi's spirit exits his body and becomes one with the Force, while still
+    retaining his original identity.  His body fades into nothingness, but the Jedi who passes in this
+    fashion will not completely die.  The Jedi can make a number of visitations to his close friends and
+    associates equal to the number of Force Points he had upon death.  In this fashion, a player who knows
+    his character is about to die can ensure that death will mean something, as he can manifest to important
+    persons in later sessions and warn them of impending disaster, or offer wisdom and teaching.  At the
+    gamemaster's discretion, and based on the power level of the Jedi when he died, only Force-sensitive
+    characters may witness the visitation. After death, the Jedi cannot influence the material world in
+    any way.
+  skills_used:
+  - control
+  - sense
+- name: Disable Droid
+  side: Fan-Made Powers
+  group: Control and Alter Powers
+  pdf_page: 45
+  control_difficulty: Moderate, limited to line of sight. Modified by proximity.
+  alter_difficulty: Target's opposed Strength roll.
+  required_powers: Absorb/dissipate energy, sense Force, telekinesis
+  effect: This power allows the Jedi to harness energy through the Force and causing it to focus on a
+    single droid. The energy surges within the target causing it to short out, and possibly overload.
+    Because the Jedi causes the energy to well up inside the droid, disable droid ignores all armor bonuses,
+    and the droid must roll its Strength attribute alone. If the Jedi succeeds in activating the power,
+    the droid is disabled, and considered out of commission for 2D rounds. If the alter roll succeeds
+    by 10 or more, disable droid will overload the droid's circuitry, and the droid takes 4D damage (no
+    armor bonus to resist). This power does not affect organic life forms. This power may also be used
+    to disable other electronics, such as weapons, comlinks, and even individual computer terminals. (This
+    power cannot be used to disrupt entire computer networks, or large and very complicated devices such
+    as a capital scale hyperdrive or shield generator.) The targeted device must be operational for this
+    power to work, i.e. you can't affect a droid or datapad that's shut off or a blaster that's not being
+    fired. Unless otherwise stated, these devices have a Strength of 2D. Targeting small electronics with
+    this power, such as a comlink or hand weapon, adds +5 to the alter difficulty. Targeting devices that
+    operate on short bursts, such as blasters, adds +15 to the alter difficulty. If a Force sensitive
+    character is holding the piece of equipment the Jedi is attempting to disable, the opponent may add
+    his control dice to the alter difficulty.
+  skills_used:
+  - control
+  - alter
+- name: Force Jump
+  side: Fan-Made Powers
+  group: Control and Alter Powers
+  pdf_page: 46
+  control_difficulty: 'Easy Control Roll >  Jumping Difficulty by:  Increase 1-3   +1D 4-8   +2D 9-15   +3D
+    16-25  +4D 26-37   +5D 38+  +6D'
+  alter_difficulty: Easy
+  required_powers: Enhance attribute, telekinesis
+  effect: A Jedi uses this power to increase his jumping ability in order to perform impossibly high leaps.
+    If both Force skill rolls are successful, the character uses his normal climbing/jumping skill to
+    perform the jump, but he uses the special table below to determine difficulties. If the control roll
+    exceeds the difficulty, the character gains an immediate bonus to his climbing/ jumping roll. If the
+    Jedi fails any Force skill roll, the power is not activated and the character is left to use his normal
+    jumping ability (and there are certain situations where you can't back out of a jump because your
+    power failed). At the gamemaster's discretion, a failed climbing/ jumping roll might mean the Jedi
+    fails to achieve the desired height or distance, fails to properly cushion his landing and suffers
+    normal falling damage, or both. Multiple action penalties apply. The climbing/jumping roll is a third
+    action in that round, whether the power is successful or not. Height Jumped Jumping Difficulty 0 -
+    1 meter   Very Easy 1 - 2 meters  Easy 3 - 4 meters  Moderate 5 - 8 meters  Difficult 9 - 15 meters
+    Very Difficult 16 - 20 meters Heroic Add +5 to the difficulty for every additional 5 meters. If the
+    character is simply jumping downwards, with no upwards movement, reduce jumping difficulty by one
+    level. Add +1 to the difficulty per meter of horizontal distance jumped.
+  example: Ambelled Daru has a control skill of 5D, alter of 3D+2, and a climbing/jumping skill of 4D,
+    and wants to perform a Force jump across a chasm to a ledge above. He rolls 1D+2 for alter (3D+2 subtracting
+    -2D for multiple action penalties), and gets a 7, making his alter difficulty.  Next he rolls his
+    control of 3D, and gets a 11 (which exceeds the difficulty by 4).  This adds +2D to his climbing/jumping
+    roll, cancelling out the multiple action penalty. The ledge on which he wants to jump is 4 meters
+    up and the chasm is 3 meters across, thus the difficulty is Moderate+3. Ambelled Daru rolls his 4D
+    climbing/jumping (4D -2D +2D), and gets a 16, making the difficulty and using the Force to leap safely
+    on top of the ledge.
+  skills_used:
+  - control
+  - alter
+- name: Mind Numbing
+  side: Fan-Made Powers
+  group: Control and Alter Powers
+  pdf_page: 46
+  control_difficulty: Moderate.
+  alter_difficulty: 'Perception or control roll of the target. Alter Roll > Difficulty by: Effect: 1-4   Target
+    feels relaxed and calm 5-8   Target is dizzy (-1D for all actions) for 1D rounds 9-12  Target is dazed
+    (-2D for all actions) for 2D rounds 13-16  Target is lethargic (-3D for all actions) for 1D minutes
+    17+ Target falls unconscious for 2D minutes'
+  required_powers: Accelerate another's healing, control another's pain, life detection, life sense, return
+    another to consciousness. Force Powers 45
+  effect: The Jedi must be touching the target to use this power. In combat, this means making a successful
+    brawling roll in the same round that the power is to be used. If the power is successfully activated,
+    the target's thought processes are numbed, making him calm and relaxed. He is not, however, under
+    any sort of mind control and will eventually build up his anxieties or anger again if he sees reason
+    for it and the Jedi cannot keep him calm. In addition to this effect, additional success in the alter
+    roll further numbs the target's mind, making him sluggish and possibly knocking him out. Before rolling,
+    the Jedi may choose to use less than his full alter score if he fears "overdoing" the power.
+  skills_used:
+  - control
+  - alter
+- name: Redirect Energy
+  side: Fan-Made Powers
+  group: Control and Alter Powers
+  pdf_page: 47
+  control_difficulty: Difficult
+  alter_difficulty: Very Difficulty or target's dodge or roll
+  required_powers: Absorb/dissipate energy
+  effect: If the Jedi is the target of a Force energy attack (such as force lightning or bolt of hatred)
+    he may attempt to send the energy back at the attacker.  After the Jedi has successfully absorbed
+    the Force energy attack using absorb/ dissipate energy; he may hold the energy (Difficult control
+    roll), and then redirect the energy in the direction he chooses (Very Difficult alter roll).  If the
+    Jedi fails the alter roll, then the energy will be sent wildly off target (as determined by the grenade
+    scatter diagram).  If the bolt hits any sentient being other than the original attacker, the Jedi
+    receives one Dark Side Point. The energy is not sent off target if it is merely dodged.
+  skills_used:
+  - control
+  - alter
+- name: Force Blinding
+  side: Fan-Made Powers
+  group: Sense and Alter Powers
+  pdf_page: 47
+  sense_difficulty: Easy, modified by proximity
+  alter_difficulty: Difficult, or target's Perception or control roll.
+  required_powers: Dim another's senses
+  effect: This power allows the Jedi to temporarily blind a target.  Using the Force, the Jedi overloads
+    the target's vision, causing them to see little but a brilliant blinding light.  All of the target's
+    skills that require vision are reduced to 1D for three rounds.  The effects of Force blinding can
+    be counteracted by sense surroundings, or a blindfighting special ability or skill.
+  skills_used:
+  - sense
+  - alter
+- name: Force Breach
+  side: Fan-Made Powers
+  group: Sense and Alter Powers
+  pdf_page: 47
+  sense_difficulty: Easy
+  alter_difficulty: Target's opposed control roll.
+  required_powers: Affect mind, dim another's senses, sense Force
+  effect: If this power is successfully activated, it allows the Jedi to select a single opponent and
+    bring down any Force powers the target currently has up.  The target may attempt to activate their
+    Force powers the following round with no penalties.  This power does not affect Force powers such
+    as Force lightning, or bolt of hatred that have a single, instantaneous effect.
+  example: Ambelled Daru finds himself in combat with the Sith Lord, Darth Arius.  Darth Arius.  Darth
+    Arius is currently keeping lightsaber combat and control pain up. Ambelled rolls his sense dice and
+    gets a 12, easily making the difficulty.  Ambelled makes his alter roll and receives an 18.  Darth
+    Arius now makes his control roll, and receives an 11.  Darth Arius now drops his lightsaber combat
+    and control pain.  Though he may attempt to activate them again next round.
+  skills_used:
+  - sense
+  - alter
+- name: Greater Force Shield
+  side: Fan-Made Powers
+  group: Sense and Alter Powers
+  pdf_page: 48
+  sense_difficulty: Difficult
+  alter_difficulty: Very Difficult
+  this_power_may_be_kept_up: .
+  required_powers: Absorb/dissipate energy, concentration, magnify senses, telekinesis, lesser force shield
+  effect: When a Jedi successfully activates this power, he creates a protective shield around his body.  This
+    shield is effective against both energy and physical attacks.  The strength of the shield is equal
+    the character's alter roll divided by three, rounded down.  For example, if the Jedi has 9D in alter,
+    he may add 3D to his Strength roll to resist damage.  If the Jedi exceeds the alter difficulty by
+    +10, he may extend the greater force shield to another character if he has direct contact with that
+    character.
+  skills_used:
+  - sense
+  - alter
+- name: Drain Life
+  side: Fan-Made Powers
+  group: Control, Sense and Alter Powers
+  pdf_page: 48
+  control_difficulty: Target's Perception or control roll.
+  sense_difficulty: Difficult
+  alter_difficulty: Target's Strength roll
+  warning: A character that activates this power automatically gains a Dark Side Point.
+  required_powers: Drain life essence, control pain, hibernation trance, life detection, life sense, magnify
+    senses, receptive telepathy, sense Force, telekinesis, farseeing, projective telepathy, control another's
+    pain, transfer Force, affect mind, control mind, dim another's senses, accelerated healing, accelerate
+    another's healing, injure/kill
+  effect: 'When the Force user has suffered a wound, the Dark Side offers a swift way to preserve her
+    life at the expense of another.  The Force user draws the life force from a victim to have a surge
+    of power to aid her own body.  In game terms, a character that has a wounded status or worse may attempt
+    to use this power to move up one more wound levels.  First, if in combat, the Force user must make
+    a successful brawling roll to make contact.  Next, the Force user must make a control roll against
+    the target''s Perception or control roll.  If the roll succeeds, the Force user rolls her alter skill
+    as damage.  If the Force user inflicts a wound then she may recover one wound status; if she manages
+    to inflict a damage of incapacitated then she may recover two wound status levels, and so on. The
+    character may not draw life away from the target unless the character is at least wounded. While using
+    this power, the character must be in physical contact with the target. Force Powers 47 Proximity Modifiers:
+    User and the target are:         Add to difficulty: Touching            +0 Line of sight (not touching)          +2
+    Not line of site, at 1-100 meters          +5 101 meters, to 10 kilometers          +7 11 to 1,000
+    kilometers           +10 Same planet more than 1,000 kilometers      +15 Same star system, different
+    planet         +20 Not in same star system          +20 Relationship Modifiers: User and the target
+    are:         Add to difficulty: Close relatives (married, siblings, parent and child, etc)   +0 Close
+    friends           +2 Friends            +5 Acquaintances           +7 Slight acquaintances          +10
+    Met once           +12 Never met, but know each other by reputation         +15 Complete strangers          +20
+    Complete strangers and not of the same species         +30 Appendix Absorb/Dissipate Energy - 4 Accelerate
+    Another''s Healing - 20 Accelerate Healing - 4 Affect Mind - 22 Alchemy - 40 Aquatic Force - 42 Aura
+    of Uneasiness - 26 Battle Meditation - 23 Battle Meld - 36 Beast Languages - 10 Bolt of Hatred - 25
+    Burst of Speed - 32 Channel Rage - 32 Combat Sense - 10 Concentration - 4 Contort/Escape - 5 Control
+    Another''s Disease - 20 Control Another''s Pain - 20 Control Breathing - 20 Control Disease - 5 Control
+    Mind - 28 Control Pain - 5 Control Temperature - 42 Create Force Storms - 28 Create Force Talisman
+    - 38 Danger Sense - 10 Dark Side Web - 26 Detoxify Another''s Poison - 20 Detoxify Poison - 6 Dim
+    Another''s Senses - 22 Direction Sense - 42 Disable Droid - 43 Doppleganger - 29 Drain Energy - 38
+    Drain Life - 46 Drain Life Energy - 29 Drain Life Essence - 29 Electronic Manipulation - 26 Empower
+    Force - 34 Emptiness - 6 Enhance Another''s Attribute - 38 Enhance Attribute - 7 Enhanced Coordination
+    - 23 Enlarge Force - 34 Extend Force - 34 Farseeing - 17 Feed on Dark Side - 26 Force Blinding - 45
+    Force Breach - 45 Force Flight - 34 Force Harmony - 24 Force Jump - 44 Force Light - 34 Force Lightning
+    - 27 Force of Will - 7 Force Push - 35 Force Scream - 31 Force Shot - 33 Force Weapon - 38 Force Wind  -
+    28 Friendship - 40 Greater Force Shield - 46 Guided Attack - 33 Hatred - 39 Hibernation Trance - 8
+    Illusion - 41 Inflict Pain - 27 Injure/Kill - 26 Inspire - 35 Instinctive Astrogation - 11 Instinctive
+    Astrogation Control - 8 Kinetic Combat - 35 Lesser Force Shield - 22 Life Bond - 17 Life Detection
+    - 11 Life Sense - 11 Life Web - 12 Lifemerge - 43 Lightsaber Combat - 18 Magnify Senses - 12 Malacia
+    - 40 Maximize Force - 36 Memory Wipe - 30 Merge Senses - 12 Mind Numbing - 44 Morichro - 39 Nature
+    Affinity - 33 Place Another in Hibernation Trance - 21 Plant Surge - 39 Postcognition - 13 Predict
+    Natural Disaster - 13 Projected Fighting - 24 Projective Telepathy - 19 Rage - 25 Receptive Telepathy
+    - 13 Redirect Energy - 45 Reduce Injury - 8 Remain Conscious  - 8 Remove Another''s Fatigue - 21 Remove
+    Fatigue - 9 Resist Stun  - 9 Return Another to Consciousness - 21 Sense Force - 14 Sense Force Potential  -
+    14 Sense Path - 15 Sense Surroundings - 33 Sever Force - 41 Shadow Bomb - 36 Shield Gauntlet Defense
+    - 37 Shift Sense  - 15 Short-Term Memory Enhancement - 9 Sith Sorcery - 37 Sith Sword Combat - 37
+    Split Force - 36 Telekinesis - 16 Telekinetic Kill - 30 Transfer Force - 21 Transfer Life - 31 Translation
+    - 16 Up the Walls - 32 Waves of Darkness  - 27 Weather Sense - 16 Alphabetical Index'
+  skills_used:
+  - control
+  - sense
+  - alter
