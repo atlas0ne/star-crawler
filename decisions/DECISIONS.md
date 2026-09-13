@@ -63,11 +63,15 @@ and before the rebellion was more than a rumour. The empire is the dungeon. The
 knights are dead, hunted, or hiding. Player characters are the people at the
 edge: smugglers, deserters, bounty hunters, the last apprentice.
 
-**The names are ours.** The genre is Star Wars; the text is not. No trademarked
-name appears in a printed field. Every species, world and organisation gets its
-own name in content, with `reads_as` carrying the private mapping (Mutant's
-field, built for this). This is not caution, it is the Mutant lesson: content
-that names its source refuses to be anything else.
+**The names are placeholders — Dan's call, 2026-09-13.** Star Wars names are
+used as-is while the game is built (the same ruling as Mutant's placeholder
+Class names: they read well and nothing is gained by inventing now). Dan's
+own names replace them before release. Every placeholder is logged in
+`content/placeholders.yaml` on first use so the rename is a lookup, not a
+hunt; the check that fails on any placeholder in a printed field is written
+now and switched on at the rename pass. Mutant's `reads_as` field runs the
+other way here: it will carry the *original* placeholder once the real name
+lands, so a reader who knows the source can still find the thing.
 
 **Why this era:** it is the one where OSR lethality, scarce magic, and a
 crawl-shaped structure (an imperial facility *is* a dungeon) all fit without

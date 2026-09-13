@@ -59,11 +59,14 @@ the commit message says "N checks pass" and it should be true.
 
 ## The IP rule
 
-The genre is Star Wars. The text is not. Nothing in `book/` or a printed field
-names a trademarked character, planet, species, organisation or object. The
-setting's own names live in the content; `reads_as` carries the private
-"this is the thing you think it is" and is never printed. `register_check` is
-the place to enforce this once the never-print list is written.
+The genre is Star Wars. The published text will not be. **Star Wars names are
+placeholders** — Wookiee, Jedi, Empire, lightsaber — used freely in `book/` and
+`content/` while the game is being built, because writing "the big hairy one"
+for six months helps nobody. Dan's own names replace them before anything
+leaves the repo. Every placeholder goes in `content/placeholders.yaml` as it is
+first used, with its eventual `reads_as` blank until the real name exists;
+the check that reads that list and fails on any placeholder in a printed
+field is the release gate, and it is switched off until the rename pass.
 
 ## Player-facing vs internal text
 
