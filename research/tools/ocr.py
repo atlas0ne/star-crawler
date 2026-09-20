@@ -51,7 +51,14 @@ def ocr_book(slug, pdf):
         p = os.path.join(d, "p%04d.txt" % (i + 1))
         if os.path.exists(p):
             continue
-        pix = doc[i].get_pixmap(dpi=300)
+        pix = None
+        for dpi in (300, 200, 120):                   # a huge scanned page trips
+            try:                                      # MuPDF's pixmap limit
+                pix = doc[i].get_pixmap(dpi=dpi); break
+            except Exception as e:
+                print("  %s p%d: %s at %d dpi, retrying lower" % (slug, i + 1, type(e).__name__, dpi), flush=True)
+        if pix is None:
+            io.open(p, "w", encoding="utf-8").write(""); continue
         img = Image.open(io.BytesIO(pix.tobytes("png")))
         txt = pytesseract.image_to_string(img, config="--psm 1")
         with io.open(p + ".tmp", "w", encoding="utf-8", newline="\n") as f:
