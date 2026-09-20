@@ -50,7 +50,23 @@ Paths in `research/tools/paths.py`. Chapters I need, and why:
 | **Starships & Spacemen 2e** | `O-S-R archive/Starships & Spacemen/` | Classes, Races, Ships | Trek-shaped, but a Labyrinth Lord-based race and ship model |
 | **Star Dogs**, **Space Dungeon**, **BX-Space**, **Machinations of the Space Princess** | `O-S-R archive/` | skim: races and psionics chapters | the long tail; each gets a line in the comparison, not a section |
 
-## C. Not free — need Dan to source
+## B2. Arrived in `99_INBOX`, 2026-09-20
+
+| Book | File | Text layer | Chapters I need |
+|---|---|---|---|
+| **FFG Force and Destiny** | `Force_and_Destiny.pdf` | **scan — needs OCR** | ch. 8 The Force; Morality and Conflict |
+| **FFG Edge of the Empire** | `Edge_of_the_Empire.pdf` | **scan — needs OCR** | ch. 2 Character Creation (species, careers); ch. 7 Starships; ch. 8 The Force |
+| **d20 Revised Core Rulebook** | `d20_star_wars-revised_core_rulebook.pdf` | **scan — needs OCR** | ch. 2 Species; ch. 9 The Force |
+| **Ultimate Alien Anthology** | `d20_star_wars-ultimate_alien_anthology.pdf` | **scan — needs OCR** | the whole species list — second-largest corpus after WEG |
+| **Saga: Scum and Villainy** | `d20_star_wars-scum_and_villainy.pdf` | yes | ch. 1 Character Options (species, talents) |
+
+**OCR:** no engine on this machine. Cheapest route is `pip install winocr` (uses the
+OCR built into Windows 10, no system install); best quality is Tesseract via
+`winget install UB-Mannheim.TesseractOCR`. Either is Dan's call. Until then the four
+scans can be read page-by-page as images, which is fine for a rules chapter and not
+fine for a 180-species corpus.
+
+## C. Not free — still to source
 
 Ordered by how much the research depends on them.
 
@@ -60,9 +76,6 @@ Ordered by how much the research depends on them.
 | 2 | **Saga: The Unknown Regions** | the Near-Human species builder; Creating New Beasts; **Creating New Worlds** | Saga's only race builder and its planet generator, in one book |
 | 3 | **Saga: Scavenger's Guide to Droids** | Droid construction; systems and accessories | the fullest droid builder in any Star Wars game |
 | 4 | **Saga: Starships of the Galaxy** | Starship construction; modifications | the Saga ship builder |
-| 5 | **Star Wars Revised Core Rulebook** (WotC 2002) + **Ultimate Alien Anthology** | RCR ch. 2 Species, ch. 9 The Force (Force skills + feats, Force Points); UAA the species format and its ~180 species | RCR's Force is a *skill* model (Alter/Control/Sense as skills), the other d20 answer; UAA is the second-largest species corpus after WEG |
-| 6 | **FFG Edge of the Empire core** | ch. 2 Character Creation (species format, careers, specialisations); ch. 8 The Force (Force rating, Force powers as trees); ch. 7 Starships and Vehicles | species as characteristic spreads with XP; the Force as a *dice pool + purchased trees*; the only licensed game where a non-Force character is the design centre |
-| 7 | **FFG Force and Destiny core** | ch. 8 The Force; Morality and Conflict | the most developed dark-side-as-resource model; lightsaber forms as talents |
 | 8 | **Scum and Villainy** (Evil Hat, FitD) | Playbooks; Ship playbooks | the modern SW knockoff; ship-as-character is worth seeing even though the engine is different |
 | 8b | **Mothership 1e Player's Survival Guide** (free from Tuesday Knight) | Classes | four classes, one is the robot: "droid as class" — the only free item still missing |
 | 9 | **WEG Galaxy Guide 4: Alien Races, 1e** (40041) — only if 40094 scan is unreadable | species creation guidance | backup |

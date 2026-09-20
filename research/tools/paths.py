@@ -45,6 +45,15 @@ SPACE_DUNGEON_1 = OSR_ARCHIVE + "/Space Dungeon/Space Dungeon Book I Starsailors
 MOTSP = OSR_ARCHIVE + "/Machinations of the Space Princess/Machinations of the Space Princess Print.pdf"
 BX_SPACE = OSR_ARCHIVE + "/BX-Space/BX-Space [alpha].pdf"
 
+# 99_INBOX arrivals, 2026-09-20. Move these under 01_GAME_SYSTEMS/Star Wars/{d20,FFG}
+# when Dan files them and update here. Four are image-only scans (need OCR).
+INBOX = "H:/RPG_NEW/99_INBOX"
+FFG_FORCE_DESTINY = INBOX + "/Force_and_Destiny.pdf"          # scan, no text
+FFG_EDGE = INBOX + "/Edge_of_the_Empire.pdf"                  # scan, no text
+D20_RCR = INBOX + "/d20_star_wars-revised_core_rulebook.pdf"  # scan, no text
+D20_UAA = INBOX + "/d20_star_wars-ultimate_alien_anthology.pdf"  # scan, no text
+SAGA_SCUM = INBOX + "/d20_star_wars-scum_and_villainy.pdf"    # Saga Edition; has text
+
 
 def check():
     """Print which known sources exist. Run: python research/tools/paths.py"""
