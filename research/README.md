@@ -78,7 +78,7 @@ can be argued with. Nothing enters `content/` without the tag.
 | `corpora/uaa/species.yaml` | **done** — 161 UAA species (d20 RCR format), 1,033 traits, from OCR; Legends |
 | `Race_Models_Compared.md` | **first draft** — WEG measured; Star Adventurer, White Star, SWN read; Saga/RCR/FFG pending |
 | `Class_Models_Compared.md` | Every system's class model against the class questions. |
-| `Force_Models_Compared.md` | Every system's Force model. Counts of never-list violations per system. |
+| `Force_Models_Compared.md` | **first draft** — WEG measured (60/76 fixed-difficulty, 13 opposed), RCR, SW5e, Star Adventurer, White Star; Saga/FFG pending |
 | `Species_Shape_Fit.md` | WEG's 435 species' abilities mapped to the 55 shapes. Which do not fit, and why. |
 | `Droid_Models_Compared.md` | Droid as species / class / build across systems; the taxonomy candidates. |
 | `Generators_Compared.md` | Planet, ship and droid generators across systems: unit of build, output, time. |
