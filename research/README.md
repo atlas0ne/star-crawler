@@ -74,6 +74,7 @@ can be argued with. Nothing enters `content/` without the tag.
 | `corpora/weg/force_powers.yaml` | **done** — 122 WEG Force powers by C/S/A axis and side, with provenance tiers (published / converted / fan) |
 | `corpora/sw5e/species.yaml` | **done** — 30 SW5e species incl. droid classes I–V, 360 traits, canon-tagged |
 | `corpora/sw5e/force_powers.yaml` | **done** — 200 SW5e Force powers by level and side |
+| `corpora/weg/droids.yaml` | **done** — 319 WEG droids with the Degree → category taxonomy (5 Degrees, 26 categories) |
 | `corpora/uaa/species.yaml` | **done** — 161 UAA species (d20 RCR format), 1,033 traits, from OCR; Legends |
 | `Race_Models_Compared.md` | **first draft** — WEG measured; Star Adventurer, White Star, SWN read; Saga/RCR/FFG pending |
 | `Class_Models_Compared.md` | Every system's class model against the class questions. |

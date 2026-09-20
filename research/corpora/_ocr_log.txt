@@ -26,3 +26,4 @@ uaa: 225 pages -> uaa.txt (225 new this run, 16 min)
 rcr: 387 pages -> rcr.txt (387 new this run, 26 min)
   ffg_eote 25/457  8.5s/page  ~61 min left
   ffg_eote 50/457  8.8s/page  ~59 min left
+  ffg_eote 75/457  8.9s/page  ~56 min left

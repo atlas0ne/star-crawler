@@ -21,7 +21,7 @@ codes resolved against the WEG catalogue; scans without a text layer are marked
 | Force — the rules | **Tales of the Jedi Companion** (40082) | `companions and sourcebooks/WEG40082.pdf` | the Force chapter: learning, Force Points, Dark Side Points |
 | Force — the rules | REUP | `REUP.pdf` | the Force chapter |
 | Force — dark side | GG14 The Dark Side (fan) | `Galaxy Guides/gg14tds.pdf` | skim; fan work, tag as such |
-| Droids — corpus | rancorpit *Droids Stats* | `The Rancor Pit/Droids_Stats.pdf` | to extract; TOC is by **Degree** (1st–5th) = the WEG taxonomy |
+| Droids — corpus | rancorpit *Droids Stats* | `The Rancor Pit/Droids_Stats.pdf` | **extracted**: 319 droids, Degree → category preserved |
 | Droids — builder | **Cynabar's Fantastic Technology: Droids** (40116) | `supplements/WEG40116.pdf` | the droid construction / modification chapter |
 | Planets — generator | **Galaxy Guide 8: Scouts** (40061) | `Galaxy Guides/WEG40061.pdf` (scan) | the world-generation system, the whole thing |
 | Planets — examples | **The Planets Collection** (40100) | `supplements/WEG40100.pdf` | the planet template format only |
