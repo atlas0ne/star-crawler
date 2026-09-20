@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Extract species and Force powers from the SW5e Player's Handbook.
 
-Source: H:/RPG/Game Systems/Star Wars 5e/SW5e - Player's Handbook.pdf
+Source: <library>/Star Wars/5e/ (see paths.py) SW5e - Player's Handbook.pdf
         (fan-made 5e conversion, sw5e.com; the PDF's own outline gives the
         page of every species and chapter).
 
@@ -21,10 +21,12 @@ or "disney" where the thing exists in only one. Unknown stays "untagged".
 
 Usage:  python research/tools/extract_sw5e.py
 """
-import io, os, re, subprocess, yaml
+import io, os, re, subprocess, sys, yaml
 import pypdf
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paths
 
-PDF = "H:/RPG/Game Systems/Star Wars 5e/SW5e - Player's Handbook.pdf"
+PDF = paths.SW5E_PHB
 OUTDIR = os.path.join(os.path.dirname(__file__), "..", "corpora", "sw5e")
 
 

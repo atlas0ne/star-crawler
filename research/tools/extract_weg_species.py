@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Extract every WEG d6 species from the rancorpit Aliens_Stats compilation.
 
-Source: H:/RPG/Game Systems/Star Wars d6/rancorpit/Aliens_Stats.pdf
+Source: <library>/Star Wars/d6/The Rancor Pit/ (see paths.py) Aliens_Stats.pdf
         ("Aliens Stats" by Thiago S. Aranha - a fan compilation of every
         species statted for WEG Star Wars d6, each entry citing its own
         original book and page in a "Source:" line where known).
@@ -15,8 +15,10 @@ Usage:  python research/tools/extract_weg_species.py
 """
 import io, os, re, sys, yaml
 import pypdf
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paths
 
-PDF = "H:/RPG/Game Systems/Star Wars d6/rancorpit/Aliens_Stats.pdf"
+PDF = paths.WEG_ALIENS
 OUT = os.path.join(os.path.dirname(__file__), "..", "corpora", "weg", "species.yaml")
 
 ATTRS = ["DEXTERITY", "KNOWLEDGE", "MECHANICAL", "PERCEPTION", "STRENGTH", "TECHNICAL"]

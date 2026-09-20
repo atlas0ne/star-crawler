@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Extract every WEG d6 Force power from the rancorpit Force_Powers compilation.
 
-Source: H:/RPG/Game Systems/Star Wars d6/rancorpit/Force_Powers.pdf
+Source: <library>/Star Wars/d6/The Rancor Pit/ (see paths.py) Force_Powers.pdf
         (compiled by Cheshire, edited by Thiago S. Aranha - every Force
         power published for WEG Star Wars d6, grouped by the Control / Sense /
         Alter axis and by light / dark side).
@@ -13,10 +13,12 @@ Output: research/corpora/weg/force_powers.yaml - one record per power:
 
 Usage:  python research/tools/extract_weg_force.py
 """
-import io, os, re, yaml
+import io, os, re, sys, yaml
 import pypdf
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paths
 
-PDF = "H:/RPG/Game Systems/Star Wars d6/rancorpit/Force_Powers.pdf"
+PDF = paths.WEG_FORCE
 OUT = os.path.join(os.path.dirname(__file__), "..", "corpora", "weg", "force_powers.yaml")
 
 GROUPS = ["Control Powers", "Sense Powers", "Alter Powers", "Control and Sense Powers",

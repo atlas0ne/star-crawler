@@ -1,6 +1,6 @@
 meta:
   corpus: SW5e Player's Handbook
-  source_pdf: H:/RPG/Game Systems/Star Wars 5e/SW5e - Player's Handbook.pdf
+  source_pdf: H:/RPG_NEW/01_GAME_SYSTEMS/Star Wars/5e/SW5e - Player's Handbook.pdf
   publisher: sw5e.com (fan, 5e SRD-based)
   extracted_by: research/tools/extract_sw5e.py (pdftotext)
   canon: mixed - see per-record canon field; droid classes I-V are the Legends droid classification (Droids
