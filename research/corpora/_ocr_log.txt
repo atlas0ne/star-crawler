@@ -1,0 +1,28 @@
+  uaa 25/225  4.3s/page  ~14 min left
+  uaa 50/225  4.3s/page  ~12 min left
+  uaa 75/225  4.4s/page  ~10 min left
+  uaa 100/225  4.3s/page  ~9 min left
+  uaa 125/225  4.3s/page  ~7 min left
+  uaa 150/225  4.4s/page  ~5 min left
+  uaa 175/225  4.4s/page  ~3 min left
+  uaa 200/225  4.3s/page  ~1 min left
+  uaa 225/225  4.3s/page  ~0 min left
+uaa: 225 pages -> uaa.txt (225 new this run, 16 min)
+  rcr 25/387  3.7s/page  ~22 min left
+  rcr 50/387  3.5s/page  ~19 min left
+  rcr 75/387  3.4s/page  ~17 min left
+  rcr 100/387  3.6s/page  ~17 min left
+  rcr 125/387  3.6s/page  ~15 min left
+  rcr 150/387  3.7s/page  ~14 min left
+  rcr 175/387  3.7s/page  ~13 min left
+  rcr 200/387  3.8s/page  ~11 min left
+  rcr 225/387  3.9s/page  ~10 min left
+  rcr 250/387  3.9s/page  ~8 min left
+  rcr 275/387  3.9s/page  ~7 min left
+  rcr 300/387  3.9s/page  ~5 min left
+  rcr 325/387  3.9s/page  ~4 min left
+  rcr 350/387  4.0s/page  ~2 min left
+  rcr 375/387  4.0s/page  ~0 min left
+rcr: 387 pages -> rcr.txt (387 new this run, 26 min)
+  ffg_eote 25/457  8.5s/page  ~61 min left
+  ffg_eote 50/457  8.8s/page  ~59 min left
