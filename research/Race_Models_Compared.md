@@ -131,14 +131,33 @@ trait has a shape and a price; every Family a behaviour note; free traits at 3 o
 under; Signatures may exceed if pre-paid. **The most built model on this list**,
 and the one whose tooling this game inherits.
 
-### Saga Edition · RCR + UAA · FFG — *placeholders*
+### Saga Edition core (2007) — *read from OCR*
 
-Saga: fixed packages, priced against a human baseline (bonus feat + bonus skill);
-*Unknown Regions* has the **Near-Human builder** (swap human's bonus feat/skill
-for a near-human trait from a table) and *Creating New Beasts*. UAA: ~180
-species in the RCR format. FFG: species as characteristic spreads (1–4 across
-six) + wound/strain thresholds + starting XP + one special ability. **Sections
-written when the OCR text is in.**
+| | |
+|---|---|
+| How many | **14** in the core (Human, Bothan, Cerean, Duros, Ewok, Gamorrean, Gungan, Ithorian, Kel Dor, Mon Calamari, Quarren, Rodian, Sullustan, Trandoshan, Twi'lek, Wookiee, Zabrak); campaign guides add ~10 each; *Threats* and *Unknown Regions* more |
+| Fixed or built | fixed |
+| What it gives | Ability Modifiers (Wookiee +4 STR +2 CON −2 DEX −2 WIS −2 CHA) · Size · Speed · 2–4 specials (Extraordinary Recuperation; Rage — once/day, +2 melee, then −1 persistent condition step; Weapon Familiarity) · **Skills** (take 10 on Climb; reroll Persuasion to intimidate) · Automatic Languages. Human: bonus feat + bonus trained skill — **the baseline every species is priced against** |
+| Race builder | *Unknown Regions* **Near-Humans**: "substantially the same as Humans … one or more differences" — swap the human bonus feat or bonus skill for one near-human trait from a table (extra arms, darkvision, quick healing …), plus a physical-variation table. A one-trait builder on a human chassis. Also *Creating New Beasts* for monsters |
+| Pricing | against the human's feat + skill; a species' package is "worth" about those two |
+| Shape fit | ability shifts, natural healing rate, a once-a-day surge with a hangover, take-10 and reroll (which are 3.5 skill mechanics Core lacks) |
+| Droids | ch. 12: droid heroes with a standard score package; the five Degrees named in prose; Scavenger's Guide makes the chassis a species |
+
+### UAA (d20 RCR format) — *corpus: 161 species, 1,033 traits*
+
+Every entry: Ability Modifiers (152 of 161) · size (Medium 109, Small 23, Large 12)
+· Speed (147) · Free Language Skills (140) · then 1–5 specials. Modal specials:
+Bonus Feat 54 · Natural Armor 32 · Skill Bonus(es) 52 · Natural Weapon(s) 23 ·
+Low-Light Vision 14 · Darkvision 10 · Extra Limbs 10 · Breathe Underwater 8 ·
+Damage Reduction 6 · **Primitive** 15 (a drawback: no proficiency with modern gear)
+· Xenophobic 4. Median 5–6 traits, of which three are the boilerplate (mods, size,
+speed, languages) — so **2–3 real abilities per species**, one more than WEG's
+1–2, with d20's bonus feat doing the work WEG's skill bonus did.
+
+### FFG — *OCR done; section to write*
+
+Species as characteristic spreads (1–4 across six) + wound/strain thresholds +
+starting XP + one special ability. Section next.
 
 ## Side by side
 

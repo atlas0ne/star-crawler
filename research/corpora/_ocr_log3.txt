@@ -4,3 +4,36 @@
   saga_core 100/295  2.9s/page  ~9 min left
   saga_core 125/295  2.9s/page  ~8 min left
   saga_core 150/295  2.9s/page  ~7 min left
+  saga_core 175/295  3.0s/page  ~5 min left
+  saga_core 200/295  3.0s/page  ~4 min left
+  saga_core 225/295  3.0s/page  ~3 min left
+  saga_core 250/295  3.0s/page  ~2 min left
+  saga_core 275/295  3.0s/page  ~0 min left
+saga_core: 295 pages -> saga_core.txt (295 new this run, 15 min)
+  saga_starships 25/162  3.5s/page  ~8 min left
+  saga_starships 50/162  3.6s/page  ~6 min left
+  saga_starships 75/162  3.4s/page  ~4 min left
+  saga_starships 100/162  3.3s/page  ~3 min left
+  saga_starships 125/162  3.3s/page  ~2 min left
+  saga_starships 150/162  3.3s/page  ~0 min left
+saga_starships: 162 pages -> saga_starships.txt (162 new this run, 9 min)
+  saga_jedi_academy 25/162  3.7s/page  ~8 min left
+  saga_jedi_academy 50/162  3.8s/page  ~7 min left
+  saga_jedi_academy 75/162  3.9s/page  ~5 min left
+  saga_jedi_academy 100/162  4.1s/page  ~4 min left
+  saga_jedi_academy 125/162  4.1s/page  ~2 min left
+  saga_jedi_academy 150/162  4.1s/page  ~0 min left
+Traceback (most recent call last):
+  File "H:\star-crawler\research\tools\ocr.py", line 77, in <module>
+    ocr_book(s, BOOKS[s])
+  File "H:\star-crawler\research\tools\ocr.py", line 54, in ocr_book
+    pix = doc[i].get_pixmap(dpi=300)
+  File "C:\Users\Dan\AppData\Local\Programs\Python\Python310\lib\site-packages\pymupdf\__init__.py", line 12040, in get_pixmap
+    pix = dl.get_pixmap(matrix=matrix, colorspace=colorspace, alpha=alpha, clip=clip)
+  File "C:\Users\Dan\AppData\Local\Programs\Python\Python310\lib\site-packages\pymupdf\__init__.py", line 2794, in get_pixmap
+    val = JM_pixmap_from_display_list(self.this, matrix, colorspace, alpha, clip, None)
+  File "C:\Users\Dan\AppData\Local\Programs\Python\Python310\lib\site-packages\pymupdf\__init__.py", line 21322, in JM_pixmap_from_display_list
+    pix = mupdf.fz_new_pixmap_with_bbox(cs, irect, seps, alpha)
+  File "C:\Users\Dan\AppData\Local\Programs\Python\Python310\lib\site-packages\pymupdf\mupdf.py", line 52828, in fz_new_pixmap_with_bbox
+    return _mupdf.fz_new_pixmap_with_bbox(colorspace, bbox, seps, alpha)
+pymupdf.mupdf.FzErrorLimit: code=5: Overly large image

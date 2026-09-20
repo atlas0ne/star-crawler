@@ -96,14 +96,27 @@ it looks like. No use cost, no pool; the price is on the character permanently.
 Audited against the never-list; passes. This is the system the draft proposes to
 re-read as the Force.
 
-### Saga Edition · FFG — *placeholders*
+### Saga Edition (2007) — *read from OCR*
 
-Saga: *Force Sensitivity* feat → *Use the Force* skill → *Force Training* feat gives
-a power **suite** (1 + WIS mod powers, chosen from the list), each power spent when
-used and **recovered by resting or a Force Point**; Dark Side Score vs Wisdom; Force
-Points as a d6. FFG: **Force rating** dice pool; powers are **talent trees bought
-with XP**; light/dark pips on the Force dice; Morality / Conflict as the meter.
-**Sections written when OCR text is in.**
+| | |
+|---|---|
+| Model | **a feat, a skill, and a hand of cards.** *Force Sensitivity* (any class) → the *Use the Force* skill (CHA) → each *Force Training* feat adds **1 + WIS modifier** powers to your **suite**; "using a Force power is like playing a card and putting it in a discard pile" |
+| Acquired | chosen from the list per Force Training; a permanent WIS change adds or removes powers |
+| Cost to use | the card. **Regain all after 1 minute's rest out of combat**, or on a natural 20 on Use the Force, or one per Force Point spent as a reaction |
+| Resolution | a Use the Force check against a DC ladder printed on the power, or against a target's Defense |
+| Dark side | **Dark Side Score**, max = Wisdom; +1 per major transgression — which *includes* using any power with the [dark side] descriptor (Force Lightning, Dark Rage); at Score = WIS the character is the GM's. Plus Force Points (5 + ½ level per level, lost if unspent) |
+| Never-list | powers are DC-laddered and mostly "vs Will/Fortitude Defense"; *Sever Force* blocks a Force-user's access — a shutdown, not an undo |
+| Lightsaber | **Block / Deflect** talents: a reaction, Use the Force check vs the attack roll, **cumulative −5 per use since your last turn**; *Lightsaber Defense*: +1 Reflex as a swift action — a priced resistance, escalating |
+
+**What it adds to the picture:** Saga is the licensed game that made the Force a
+*layer on any class* and made its resource a **short-rest** one (1 minute), which is
+the least bookkeeping of the four licensed games. Its Block/Deflect is Star
+Adventurer's deflection with −5 instead of −2.
+
+### FFG — *OCR done; section to write*
+
+**Force rating** dice pool; powers are **talent trees bought with XP**; light/dark
+pips on the Force dice; Morality / Conflict as the meter. Section next.
 
 ## Side by side
 

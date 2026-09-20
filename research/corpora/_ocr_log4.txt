@@ -1,0 +1,4 @@
+  saga_jedi_academy p161: FzErrorLimit at 300 dpi, retrying lower
+  saga_jedi_academy p161: FzErrorLimit at 200 dpi, retrying lower
+  saga_jedi_academy p161: FzErrorLimit at 120 dpi, retrying lower
+saga_jedi_academy: 162 pages -> saga_jedi_academy.txt (1 new this run, 0 min)

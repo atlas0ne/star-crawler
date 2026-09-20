@@ -47,14 +47,17 @@ closest thing in any Star Wars game to Mutant's "Family page".
 | Non-Force relevance | the 3.0 answer — skills and feats; the Force skills cost vitality, so a Jedi is a caster who bleeds |
 | Skills | 3.0 skill list with ranks; Force skills are skills |
 
-### Saga Edition (2007) — *core OCR pending; from the Scum & Villainy text and memory*
+### Saga Edition (2007) — *read from OCR*
 
 **Five** heroic classes — Jedi, Noble, Scoundrel, Scout, Soldier — each with
-**talent trees**; every odd level a talent, every even level a feat; the Jedi's
-trees are Consular / Guardian / Sentinel / Lightsaber Combat. **Force Sensitivity
-is a feat any class can take**, so a Force-using Scoundrel exists. Prestige classes
-at 7th (Jedi Knight, Ace Pilot, Bounty Hunter…). *Section written when core text
-is in.*
+**talent trees** (the Jedi's: Consular, Guardian, Sentinel, **Lightsaber Combat**
+— where Block, Deflect and Lightsaber Defense live); a talent at every odd level,
+a feat at every even. **Force Sensitivity is a feat any class can take**; Force
+Training (1 + WIS powers) likewise; so a Force-using Scoundrel is a first-level
+build, and the Jedi *class* is the one with the lightsaber talents and a Force
+Point boost ("5 + one-half character level"). Prestige classes at 7th (Jedi Knight,
+Ace Pilot, Bounty Hunter, Crime Lord…). Humans: a bonus feat and a bonus trained
+skill. Droid heroes: ch. 12, any class, a "standard score package".
 
 ### SW5e — *PHB ch. 3, outline read*
 
