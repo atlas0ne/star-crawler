@@ -54,6 +54,16 @@ D20_RCR = INBOX + "/d20_star_wars-revised_core_rulebook.pdf"  # scan, no text
 D20_UAA = INBOX + "/d20_star_wars-ultimate_alien_anthology.pdf"  # scan, no text
 SAGA_SCUM = INBOX + "/d20_star_wars-scum_and_villainy.pdf"    # Saga Edition; has text
 
+# Saga Edition line, torrent completed 2026-09-20. Move under 01_GAME_SYSTEMS/Star Wars/Saga
+# when Dan files it. Only Scavenger's Guide and Unknown Regions have text layers.
+SAGA = "D:/RPG DOWNLOAD/Star Wars Saga Edition"
+SAGA_CORE = SAGA + "/1 - SAGA EDITION - Star Wars Roleplaying Game.pdf"      # scan
+SAGA_STARSHIPS = SAGA + "/2 - SAGA EDITION - Starships of the Galaxy.pdf"     # scan
+SAGA_THREATS = SAGA + "/3 - SAGA EDITION - Threats of the Galaxy.pdf"         # scan; ch. 3 Droids
+SAGA_SCAVENGER = SAGA + "/14 - SAGA EDITION - Scavenger's Guide to Droids.pdf"  # text
+SAGA_UNKNOWN_REGIONS = SAGA + "/16 - SAGA EDITION - Unknown Regions.pdf"      # text
+SAGA_JEDI_ACADEMY = SAGA + "/11 - SAGA EDITION - Jedi Academy Training Manual.pdf"  # scan; Force
+
 
 def check():
     """Print which known sources exist. Run: python research/tools/paths.py"""

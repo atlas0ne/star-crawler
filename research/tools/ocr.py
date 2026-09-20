@@ -28,6 +28,15 @@ BOOKS = {
     "rcr": paths.D20_RCR,
     "ffg_eote": paths.FFG_EDGE,
     "ffg_fad": paths.FFG_FORCE_DESTINY,
+    # WEG scans without a text layer
+    "gg4_alien_races": paths.WEG_GG + "/WEG40094.pdf",
+    "gg8_scouts": paths.WEG_GG + "/WEG40061.pdf",
+    "gg6_tramp_freighters": paths.WEG_GG + "/WEG40095.pdf",
+    "alien_encounters": paths.WEG_SUPP + "/WEG40166.pdf",
+    # Saga Edition scans
+    "saga_core": paths.SAGA_CORE,
+    "saga_starships": paths.SAGA_STARSHIPS,
+    "saga_jedi_academy": paths.SAGA_JEDI_ACADEMY,
 }
 
 
