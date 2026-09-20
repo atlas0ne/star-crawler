@@ -76,9 +76,9 @@ can be argued with. Nothing enters `content/` without the tag.
 | `corpora/sw5e/force_powers.yaml` | **done** — 200 SW5e Force powers by level and side |
 | `corpora/weg/droids.yaml` | **done** — 319 WEG droids with the Degree → category taxonomy (5 Degrees, 26 categories) |
 | `corpora/uaa/species.yaml` | **done** — 161 UAA species (d20 RCR format), 1,033 traits, from OCR; Legends |
-| `Race_Models_Compared.md` | **first draft** — WEG measured; Star Adventurer, White Star, SWN read; Saga/RCR/FFG pending |
-| `Class_Models_Compared.md` | **first draft** — eleven systems; WEG templates, RCR nine classes, Star Adventurer, White Star, SWN; Saga pending |
-| `Force_Models_Compared.md` | **first draft** — WEG measured (60/76 fixed-difficulty, 13 opposed), RCR, SW5e, Star Adventurer, White Star; Saga/FFG pending |
+| `Race_Models_Compared.md` | **drafted, all systems** — WEG measured + its builder (Alien Encounters), UAA measured, Saga, FFG, Star Adventurer, White Star, SWN |
+| `Class_Models_Compared.md` | **drafted, all systems** — WEG templates, RCR, Saga, SW5e, Star Adventurer, White Star, SWN, Mutant |
+| `Force_Models_Compared.md` | **drafted, all systems** — WEG measured (60/76 fixed, 13 opposed), RCR, Saga (suite), FFG (rating + trees), SW5e, Star Adventurer, White Star |
 | `Species_Shape_Fit.md` | WEG's 435 species' abilities mapped to the 55 shapes. Which do not fit, and why. |
 | `Droid_Models_Compared.md` | **first draft** — WEG corpus, SW5e, Saga Scavenger's (chassis-as-species), White Star, SWN |
 | `Generators_Compared.md` | **first draft** — planets (Traveller, SWN, GG8, Saga UR), ships (Traveller, SWN, GG6, White Star), droids cross-ref |

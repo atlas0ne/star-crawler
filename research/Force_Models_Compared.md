@@ -113,10 +113,21 @@ re-read as the Force.
 the least bookkeeping of the four licensed games. Its Block/Deflect is Star
 Adventurer's deflection with −5 instead of −2.
 
-### FFG — *OCR done; section to write*
+### FFG Force and Destiny (2015) — *read from OCR; structure confirmed, tables are graphics*
 
-**Force rating** dice pool; powers are **talent trees bought with XP**; light/dark
-pips on the Force dice; Morality / Conflict as the meter. Section next.
+| | |
+|---|---|
+| Model | **a rating and a shop.** A Force-sensitive character has **Force rating 1** (from a career or the Force Sensitive Exile/Emergent specialisation); each Force power is a **tree**: a basic power bought with XP, then upgrades (Range, Magnitude, Strength, Duration, Control…) bought down the tree |
+| Acquired | XP, like everything else; a Force user *spends their talent XP on powers* — the non-Force character's relevance is that they spent the same XP on talents |
+| Cost to use | **roll Force dice** equal to rating; the pips you get are the budget for that use; light-side pips are free, **dark-side pips cost strain and Conflict** to use |
+| Resolution | the pips; no target number, no save — the power does what the pips buy, and a target may get an opposed check for some |
+| Dark side | **Morality**: a 0–100 score; **Conflict** accrues per session from dark-pip use and bad acts, rolled against at session end; below 30 the character is dark side and the dice read the other way |
+| Never-list | Move (telekinesis) scales to starships with enough pips; *Influence* is a mind trick with a Discipline opposed check; nothing is automatic — everything is bought with pips the dice may not give |
+| Lightsaber | a skill (Lightsaber, keyed to Brawn or by form talent to Agility/Intellect/Cunning/Willpower/Presence); **Reflect / Parry** talents spend strain to reduce damage — a resistance priced in strain |
+
+**What it adds:** FFG's is the only Force where *the same XP* buys a Jedi's powers
+and a smuggler's talents — relevance by construction. And its Morality is the only
+dark-side meter that is *rolled against* rather than counted up.
 
 ## Side by side
 
@@ -130,7 +141,7 @@ pips on the Force dice; Morality / Conflict as the meter. Section next.
 | SWN | disciplines + techniques | bought | Effort pool | skill check | none | — |
 | Mutant | Strains, 240 perks | **rolled** | none; permanent d4 cost | per shape | the d4 cost | — |
 | Saga | feat → suite | chosen | spent till rest | Use the Force vs Defense | Dark Side Score | weapon + talents |
-| FFG | rating + trees | XP | Force dice | dice pool | Morality | weapon + talents |
+| FFG | rating + trees | XP | Force dice; dark pips cost strain + Conflict | pips buy the effect | **Morality**, rolled | Reflect/Parry (strain) |
 
 ## What the evidence points at (readings, not rulings)
 

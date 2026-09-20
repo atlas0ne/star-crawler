@@ -154,10 +154,17 @@ Damage Reduction 6 · **Primitive** 15 (a drawback: no proficiency with modern g
 speed, languages) — so **2–3 real abilities per species**, one more than WEG's
 1–2, with d20's bonus feat doing the work WEG's skill bonus did.
 
-### FFG — *OCR done; section to write*
+### FFG Edge of the Empire (2013) — *read from OCR; characteristic values are icons and did not OCR*
 
-Species as characteristic spreads (1–4 across six) + wound/strain thresholds +
-starting XP + one special ability. Section next.
+| | |
+|---|---|
+| How many | 8 in the EotE core (Bothan, Droid, Gand, Human, Rodian, Trandoshan, Twi'lek, Wookiee); ~50 across the three lines |
+| Fixed or built | fixed |
+| What it gives | a **characteristic spread** (Brawn, Agility, Intellect, Cunning, Willpower, Presence — 1 to 3, Human all 2) · Wound Threshold 10 + Brawn · Strain Threshold 10 + Willpower · **Starting XP** (Rodian 100, Human 110, **Droid 175**) · **Special Abilities**: one line — a free skill rank (Rodian: Survival) and/or one talent (Expert Tracker); Human: two free skill ranks |
+| Race builder | none published; the format is a template |
+| Pricing | **explicit** — starting XP *is* the price: a strong spread costs XP up front (Wookiee 90), a weak one refunds it (Droid 175, all characteristics 1). The only licensed game where the species price is a number on the sheet |
+| Shape fit | attribute spread, a skill rank, a talent — all Core-shaped; the FFG species is the *smallest* package of any licensed game: a spread and one line |
+| Droids | **a species**, with all-1 characteristics and 175 XP to spend — the race builder's menu applied to a robot |
 
 ## Side by side
 
@@ -173,7 +180,9 @@ starting XP + one special ability. Section next.
 | Star Frontiers | 4 | species | fixed | none | parity by eye | none |
 | OSE | 21 | class / species | fixed | none | two free traits | — |
 | Mutant | 84 | species | **bought** | the whole system | Biogen | — |
-| Saga / RCR / FFG | — | species | fixed | Near-Human | vs human baseline | Saga: species+systems |
+| Saga | 14+ | species | fixed | Near-Human (1 trait) | vs human's feat + skill | chassis-as-species |
+| RCR / UAA | 161+ | species | fixed | none | implicit | — |
+| FFG | ~50 | species | fixed | none | **starting XP** | **species**, 175 XP |
 
 ## What the evidence points at (readings, not rulings)
 
