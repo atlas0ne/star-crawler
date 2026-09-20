@@ -56,8 +56,8 @@ Paths in `research/tools/paths.py`. Chapters I need, and why:
 |---|---|---|---|
 | **FFG Force and Destiny** | `Force_and_Destiny.pdf` | **scan — needs OCR** | ch. 8 The Force; Morality and Conflict |
 | **FFG Edge of the Empire** | `Edge_of_the_Empire.pdf` | **scan — needs OCR** | ch. 2 Character Creation (species, careers); ch. 7 Starships; ch. 8 The Force |
-| **d20 Revised Core Rulebook** | `d20_star_wars-revised_core_rulebook.pdf` | **scan — needs OCR** | ch. 2 Species; ch. 9 The Force |
-| **Ultimate Alien Anthology** | `d20_star_wars-ultimate_alien_anthology.pdf` | **scan — needs OCR** | the whole species list — second-largest corpus after WEG |
+| **d20 Revised Core Rulebook** | `d20_star_wars-revised_core_rulebook.pdf` | OCR'd 2026-09-20 | ch. 2 Species; ch. 9 The Force |
+| **Ultimate Alien Anthology** | `d20_star_wars-ultimate_alien_anthology.pdf` | OCR'd 2026-09-20 | **extracted**: 161 species, 1,033 traits → `corpora/uaa/species.yaml` |
 | **Saga: Scum and Villainy** | `d20_star_wars-scum_and_villainy.pdf` | yes | ch. 1 Character Options (species, talents) |
 
 **OCR:** no engine on this machine. Cheapest route is `pip install winocr` (uses the

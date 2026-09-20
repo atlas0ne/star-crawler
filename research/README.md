@@ -74,7 +74,8 @@ can be argued with. Nothing enters `content/` without the tag.
 | `corpora/weg/force_powers.yaml` | **done** — 122 WEG Force powers by C/S/A axis and side, with provenance tiers (published / converted / fan) |
 | `corpora/sw5e/species.yaml` | **done** — 30 SW5e species incl. droid classes I–V, 360 traits, canon-tagged |
 | `corpora/sw5e/force_powers.yaml` | **done** — 200 SW5e Force powers by level and side |
-| `Race_Models_Compared.md` | Every system's race model against the race questions. Includes the builders. |
+| `corpora/uaa/species.yaml` | **done** — 161 UAA species (d20 RCR format), 1,033 traits, from OCR; Legends |
+| `Race_Models_Compared.md` | **first draft** — WEG measured; Star Adventurer, White Star, SWN read; Saga/RCR/FFG pending |
 | `Class_Models_Compared.md` | Every system's class model against the class questions. |
 | `Force_Models_Compared.md` | Every system's Force model. Counts of never-list violations per system. |
 | `Species_Shape_Fit.md` | WEG's 435 species' abilities mapped to the 55 shapes. Which do not fit, and why. |
