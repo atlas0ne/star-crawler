@@ -77,7 +77,7 @@ can be argued with. Nothing enters `content/` without the tag.
 | `corpora/weg/droids.yaml` | **done** — 319 WEG droids with the Degree → category taxonomy (5 Degrees, 26 categories) |
 | `corpora/uaa/species.yaml` | **done** — 161 UAA species (d20 RCR format), 1,033 traits, from OCR; Legends |
 | `Race_Models_Compared.md` | **first draft** — WEG measured; Star Adventurer, White Star, SWN read; Saga/RCR/FFG pending |
-| `Class_Models_Compared.md` | Every system's class model against the class questions. |
+| `Class_Models_Compared.md` | **first draft** — eleven systems; WEG templates, RCR nine classes, Star Adventurer, White Star, SWN; Saga pending |
 | `Force_Models_Compared.md` | **first draft** — WEG measured (60/76 fixed-difficulty, 13 opposed), RCR, SW5e, Star Adventurer, White Star; Saga/FFG pending |
 | `Species_Shape_Fit.md` | WEG's 435 species' abilities mapped to the 55 shapes. Which do not fit, and why. |
 | `Droid_Models_Compared.md` | **first draft** — WEG corpus, SW5e, Saga Scavenger's (chassis-as-species), White Star, SWN |
