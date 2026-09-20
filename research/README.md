@@ -80,6 +80,6 @@ can be argued with. Nothing enters `content/` without the tag.
 | `Class_Models_Compared.md` | Every system's class model against the class questions. |
 | `Force_Models_Compared.md` | **first draft** — WEG measured (60/76 fixed-difficulty, 13 opposed), RCR, SW5e, Star Adventurer, White Star; Saga/FFG pending |
 | `Species_Shape_Fit.md` | WEG's 435 species' abilities mapped to the 55 shapes. Which do not fit, and why. |
-| `Droid_Models_Compared.md` | Droid as species / class / build across systems; the taxonomy candidates. |
-| `Generators_Compared.md` | Planet, ship and droid generators across systems: unit of build, output, time. |
+| `Droid_Models_Compared.md` | **first draft** — WEG corpus, SW5e, Saga Scavenger's (chassis-as-species), White Star, SWN |
+| `Generators_Compared.md` | **first draft** — planets (Traveller, SWN, GG8, Saga UR), ships (Traveller, SWN, GG6, White Star), droids cross-ref |
 | `Synthesis.md` | What the evidence supports for Star Crawler. Draft positions, not decisions. |

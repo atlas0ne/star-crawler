@@ -1,1 +1,4 @@
   saga_core 25/295  2.6s/page  ~11 min left
+  saga_core 50/295  2.8s/page  ~11 min left
+  saga_core 75/295  2.8s/page  ~10 min left
+  saga_core 100/295  2.9s/page  ~9 min left
