@@ -31,7 +31,7 @@ placeholders until their text is in.*
 | Species or archetype | species, named, with homeworld |
 | Fixed or built | **fixed** — but the fixed thing is a *range*, not a number |
 | What it gives | **Attribute Dice** (total, 333 of 421 at 12D) and per-attribute **min/max** (e.g. STR 2D/4D); 0–6 **Special Abilities** (median 1–2; 72 species have none); **Story Factors** (201 of 421 — a named line with no mechanic or a soft one); Move; Size; occasionally **Special Skills** (40) |
-| Race builder | GG4 has creation guidance (scan, to read); the *format* is the builder — attribute ranges + 1–2 abilities + story factor is a template anyone can fill |
+| Race builder | **Yes — Alien Encounters ch. 1 (1998), "loosely based on GG8 ch. 7"**, read from OCR. A table-driven template, rollable or chosen: environment (2D: barren … exotic) → biological origin (2D, weighted to mammal/reptile/insect) → diet, senses, size, tech level (nomadic … space) → **attribute dice** (12D average; sum of minimums ≤ total, sum of maximums ≥ total + 6D) → per-attribute range (3D table, 1D/2D at 3 up to 4D/6D at 18) → special skills (optional; "the majority of aliens in this book lack special skills") → **number of special abilities: 3D → 0 (15–18) / 1 (10–14) / 2 (7–9) / 3 (4–6) / 4 (3)** → natural weapons (1D: claws, fangs, tail, tusks… all STR+1D), natural armour (1D: +1 to +2D physical), skill bonus table (3D: +2D to a skill), beginning-character abilities, constant abilities (glide, see in dark, breathe water) → **penalty abilities** (delicate build, breath mask, technological ignorance, light gravity, poor vision, voice box) → story factors → move/size (3D table). GG4 2e has no procedure, only the format definition. |
 | Pricing | none stated; the attribute total is the only lever, and 79% of species sit at 12D — priced by *not moving the total* |
 | Shape fit | of 831 abilities: skill bonus +xD 183 · natural weapon 166 · sense 118 · movement 36 · communication 34 · armour/resistance 33 · environment/immunity 16 · Force-related 15 · other 227. Skill bonuses are the modal shape and Core has no skills — that is the translation problem. |
 | Droids | statted as characters in `Droids_Stats` (corpus to extract); the Degree taxonomy (1st–5th) is WEG's |
@@ -39,7 +39,13 @@ placeholders until their text is in.*
 **What the corpus says:** a WEG species is *narrow*. The attribute range is the
 body; one or two abilities are the hook; the Story Factor is the culture. Most of
 what a Wookiee *is* in play lives in the range (STR 3D/6D) and the Story Factor,
-not in a list of powers.
+not in a list of powers. **And the builder says the same thing on purpose:** its
+number-of-abilities roll is weighted so that 1–2 is the modal result (18 of 36 on
+3D), 0 is common (10 of 36) and 4 is a 1-in-216. The corpus median of 1–2 is not an
+accident of authorship; it is the design's stated intent. The builder also states
+the one balance rule WEG has: "be reluctant to go above 6D … players will start
+with 6D in every skill under that attribute" — the cap is on the *maximum*, not
+the total.
 
 ### SW5e (fan, 5e) — *corpus: 30 species, 360 traits*
 
@@ -153,9 +159,12 @@ written when the OCR text is in.**
 ## What the evidence points at (readings, not rulings)
 
 1. **Every game that lets the referee make a race does it one of two ways:** a
-   *menu* (SWN: pick two perks) or a *template* (WEG: fill the format; Star
-   Adventurer: pick an archetype and name it). Nobody uses a point-buy at the race
-   level except Mutant, and Mutant's is per-character.
+   *menu* (SWN: pick two perks) or a *template with tables* (WEG Alien Encounters:
+   roll or pick down a fixed sequence of tables; Star Adventurer: pick an archetype
+   and name it). WEG's is the most complete in the genre, and it is explicitly
+   both — "we recommend using the system as a guideline … though it is set up to
+   produce random results." Nobody uses a point-buy at the race level except
+   Mutant, and Mutant's is per-character.
 2. **The measured WEG species is small.** 1–2 abilities, one Story Factor, a
    range. Star Adventurer independently lands at the same size (+1/−1, one quirk).
    SWN's "two perks" is the same size again. Three unrelated designs agree that a
@@ -182,7 +191,7 @@ written when the OCR text is in.**
 ## Still to do in this file
 
 - Saga, RCR/UAA, FFG sections from OCR text; UAA extracted as a corpus.
-- GG4 Alien Races creation guidance (scan; OCR next).
+- ~~GG4~~ done: GG4 has only the format; the builder is Alien Encounters ch. 1 / GG8 ch. 7.
 - Star Frontiers verified from the book.
 - `Species_Shape_Fit.md`: the 831 WEG abilities mapped to the 55 shapes, properly,
   by a script with a reviewed mapping table — the crude families above are a

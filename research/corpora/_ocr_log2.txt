@@ -1,0 +1,20 @@
+  gg4_alien_races 25/98  4.4s/page  ~5 min left
+  gg4_alien_races 50/98  4.5s/page  ~3 min left
+  gg4_alien_races 75/98  4.5s/page  ~1 min left
+gg4_alien_races: 98 pages -> gg4_alien_races.txt (98 new this run, 7 min)
+  gg8_scouts 25/97  4.7s/page  ~5 min left
+  gg8_scouts 50/97  4.4s/page  ~3 min left
+  gg8_scouts 75/97  4.4s/page  ~1 min left
+gg8_scouts: 97 pages -> gg8_scouts.txt (97 new this run, 7 min)
+  gg6_tramp_freighters 25/97  4.1s/page  ~4 min left
+  gg6_tramp_freighters 50/97  4.1s/page  ~3 min left
+  gg6_tramp_freighters 75/97  4.3s/page  ~1 min left
+gg6_tramp_freighters: 97 pages -> gg6_tramp_freighters.txt (97 new this run, 7 min)
+  alien_encounters 25/186  3.7s/page  ~9 min left
+  alien_encounters 50/186  3.8s/page  ~8 min left
+  alien_encounters 75/186  3.9s/page  ~7 min left
+  alien_encounters 100/186  3.9s/page  ~5 min left
+  alien_encounters 125/186  3.9s/page  ~3 min left
+  alien_encounters 150/186  3.9s/page  ~2 min left
+  alien_encounters 175/186  3.8s/page  ~0 min left
+alien_encounters: 186 pages -> alien_encounters.txt (186 new this run, 12 min)

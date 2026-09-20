@@ -27,3 +27,38 @@ rcr: 387 pages -> rcr.txt (387 new this run, 26 min)
   ffg_eote 25/457  8.5s/page  ~61 min left
   ffg_eote 50/457  8.8s/page  ~59 min left
   ffg_eote 75/457  8.9s/page  ~56 min left
+  ffg_eote 100/457  8.9s/page  ~52 min left
+  ffg_eote 125/457  8.9s/page  ~49 min left
+  ffg_eote 150/457  9.1s/page  ~46 min left
+  ffg_eote 175/457  9.1s/page  ~42 min left
+  ffg_eote 200/457  9.2s/page  ~39 min left
+  ffg_eote 225/457  9.2s/page  ~35 min left
+  ffg_eote 250/457  9.2s/page  ~31 min left
+  ffg_eote 275/457  9.2s/page  ~28 min left
+  ffg_eote 300/457  9.2s/page  ~24 min left
+  ffg_eote 325/457  9.2s/page  ~20 min left
+  ffg_eote 350/457  9.1s/page  ~16 min left
+  ffg_eote 375/457  9.1s/page  ~12 min left
+  ffg_eote 400/457  9.2s/page  ~8 min left
+  ffg_eote 425/457  9.2s/page  ~4 min left
+  ffg_eote 450/457  9.2s/page  ~1 min left
+ffg_eote: 457 pages -> ffg_eote.txt (457 new this run, 70 min)
+  ffg_fad 25/452  8.0s/page  ~56 min left
+  ffg_fad 50/452  8.2s/page  ~55 min left
+  ffg_fad 75/452  8.5s/page  ~53 min left
+  ffg_fad 100/452  8.7s/page  ~51 min left
+  ffg_fad 125/452  8.9s/page  ~48 min left
+  ffg_fad 150/452  8.9s/page  ~44 min left
+  ffg_fad 175/452  8.8s/page  ~40 min left
+  ffg_fad 200/452  9.0s/page  ~37 min left
+  ffg_fad 225/452  9.0s/page  ~34 min left
+  ffg_fad 250/452  9.1s/page  ~30 min left
+  ffg_fad 275/452  9.1s/page  ~26 min left
+  ffg_fad 300/452  9.3s/page  ~23 min left
+  ffg_fad 325/452  9.5s/page  ~20 min left
+  ffg_fad 350/452  9.6s/page  ~16 min left
+  ffg_fad 375/452  9.7s/page  ~12 min left
+  ffg_fad 400/452  9.8s/page  ~8 min left
+  ffg_fad 425/452  9.8s/page  ~4 min left
+  ffg_fad 450/452  9.9s/page  ~0 min left
+ffg_fad: 452 pages -> ffg_fad.txt (452 new this run, 74 min)
