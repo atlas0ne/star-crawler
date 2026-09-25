@@ -7,8 +7,7 @@ status: SCAFFOLD
 
 *How eleven games build a playable species, asked the same questions. Draft stage:
 this file produces evidence, not rulings. Numbers come from `corpora/`; a claim with
-no number behind it is a reading. Written 2026-09-20; FFG, Saga and UAA sections are
-placeholders until their text is in.*
+no number behind it is a reading. Written 2026-09-20, all systems covered 2026-09-26.*
 
 ## The questions
 

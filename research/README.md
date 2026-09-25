@@ -52,10 +52,10 @@ can be argued with. Nothing enters `content/` without the tag.
 
 | System | Kind | Where | Status |
 |---|---|---|---|
-| WEG Star Wars d6 (REUP, 2e R&E) | licensed, 1987–99 | `H:\RPG\Game Systems\Star Wars d6\` — REUP.pdf, rancorpit `Aliens_Stats.pdf` (435 species), `Force_Powers.pdf` (133 powers), Galaxy Guides, `WEG40065` (Tales of the Jedi Companion — Force) | on disk |
-| WotC Star Wars RCR (d20, 2002) + Ultimate Alien Anthology | licensed | web | to find |
-| WotC Saga Edition (2007) | licensed | web | to find |
-| FFG Edge / Age / Force & Destiny (2013–) | licensed | web | to find |
+| WEG Star Wars d6 (REUP, 2e R&E) | licensed, 1987–99 | `<library>/Star Wars/d6/` — REUP, The Rancor Pit compilations, Galaxy Guides, supplements (paths in `tools/paths.py`) | **read; 3 corpora extracted** |
+| WotC Star Wars RCR (d20, 2002) + Ultimate Alien Anthology | licensed | `99_INBOX` (scans, OCR'd) | **read; UAA extracted** |
+| WotC Saga Edition (2007) + Unknown Regions, Scavenger's Guide | licensed | `D:/RPG DOWNLOAD/Star Wars Saga Edition` (OCR'd) | **read** |
+| FFG Edge of the Empire / Force and Destiny | licensed | `99_INBOX` (scans, OCR'd) | **read** |
 | SW5e (fan, 5e) | fan | `H:\RPG\Game Systems\Star Wars 5e\` — PHB, Scum & Villainy | on disk |
 | White Star (S&W-based) | OSR knockoff | web | to find |
 | Stars Without Number (rev.) | OSR sci-fi, psionics | web | to find |
@@ -79,7 +79,8 @@ can be argued with. Nothing enters `content/` without the tag.
 | `Race_Models_Compared.md` | **drafted, all systems** — WEG measured + its builder (Alien Encounters), UAA measured, Saga, FFG, Star Adventurer, White Star, SWN |
 | `Class_Models_Compared.md` | **drafted, all systems** — WEG templates, RCR, Saga, SW5e, Star Adventurer, White Star, SWN, Mutant |
 | `Force_Models_Compared.md` | **drafted, all systems** — WEG measured (60/76 fixed, 13 opposed), RCR, Saga (suite), FFG (rating + trees), SW5e, Star Adventurer, White Star |
-| `Species_Shape_Fit.md` | WEG's 435 species' abilities mapped to the 55 shapes. Which do not fit, and why. |
-| `Droid_Models_Compared.md` | **first draft** — WEG corpus, SW5e, Saga Scavenger's (chassis-as-species), White Star, SWN |
-| `Generators_Compared.md` | **first draft** — planets (Traveller, SWN, GG8, Saga UR), ships (Traveller, SWN, GG6, White Star), droids cross-ref |
-| `Synthesis.md` | What the evidence supports for Star Crawler. Draft positions, not decisions. |
+| `Species_Shape_Fit.md` | **next** — WEG's 831 + UAA's 1,033 species abilities mapped to the 55 shapes. Which do not fit, and why. |
+| `Droid_Models_Compared.md` | **drafted, all systems** — WEG corpus, SW5e, Saga Scavenger's (chassis-as-species), White Star, SWN |
+| `Generators_Compared.md` | **drafted** — planets (Traveller, SWN, GG8, Saga UR), ships (Traveller, SWN, GG6, White Star), droids cross-ref |
+| `RESEARCH.md` | **generated** — all five comparisons as one reading copy (`tools/build_research.py`) |
+| `Synthesis.md` | **after `Species_Shape_Fit`** — what the evidence supports for Star Crawler. Draft positions, not decisions. |
